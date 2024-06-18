@@ -1,7 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
 <TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
-    
+    <teiHeader>
+        <fileDesc>
+         <titleStmt>
+          <title>
+            La Rassegna Settimanale (vol.1, fascicolo 21): versione elettronica
+          </title>
+          <respStmt>
+            <resp>Conversione TEI P5 a cura di</resp>
+            <name>Matilde Contestabile</name>
+            <name>Leonardo Pasquale</name>
+          </respStmt>
+          <sponsor>Università di Pisa</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Pisa</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <date>2024</date>
+            <availability status="free">
+                <p>L'edizione digitale è consultabile liberamente al seguente link:"https://github.com/matildeec/CdT_2024"</p>
+            </availability>
+         </publicationStmt>   	
+         <seriesStmt>
+            <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
+            <respStmt>
+                <resp>supervisionato da</resp>
+                <name>Angelo Mario Del Grosso</name>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct type="article">
+                <monogr>
+                    <title level="j">La Rassegna Settimanale</title>
+                    <respStmt>
+                        <resp>fondata da</resp>
+                        <name>Leopoldo Franchetti</name>
+                        <name>Sydney Sonnino</name>
+                    </respStmt>
+                    <imprint>
+                     <pubPlace>Firenze</pubPlace>
+                     <publisher>Casa editrice Barbera</publisher>
+                     <date when="1878-05-26">26 maggio 1878</date>
+                    </imprint>
+                    <biblScope unit="volume">1</biblScope>
+                    <biblScope unit="issue">21</biblScope>
+                    <biblScope unit="page">386-387, 393-397, 403-404</biblScope>
+                </monogr>
+            </biblStruct>
+         </sourceDesc>
+        </fileDesc>
+       </teiHeader>
 </TEI>
