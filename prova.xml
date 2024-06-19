@@ -95,5 +95,56 @@
             <zone ulx="824" uly="1302" lrx="1488" lry="1617" />
             <zone ulx="824" uly="1623" lrx="1491" lry="2050" />
         </surface>
+
+        <surface>
+            <graphic url='Vol1-1878-1-S1-F21_7.png' width='1532px' height='2245px' />
+            
+            <zone ulx="72" uly="156" lrx="744" lry="635" />
+            <zone ulx="75" uly="643" lrx="747" lry="954" />
+            <zone ulx="80" uly="962" lrx="750" lry="1186" />
+            <zone ulx="81" uly="1191" lrx="750" lry="1466" />
+            <zone ulx="84" uly="1481" lrx="751" lry="1732" />
+            <zone ulx="87" uly="1740" lrx="750" lry="1989" />
+            <zone ulx="89" uly="1995" lrx="758" lry="2081" />
+            <zone ulx="765" uly="158" lrx="1434" lry="212" />
+            <zone ulx="767" uly="221" lrx="1433" lry="642" />
+            <zone ulx="768" uly="647" lrx="1436" lry="785" />
+            <zone ulx="769" uly="792" lrx="1442" lry="1043" />
+            <zone ulx="771" uly="1047" lrx="1442" lry="1296" />
+            <zone ulx="774" uly="1303" lrx="1443" lry="1789" />
+        </surface>
+
+        <surface>
+            <graphic url='Vol1-1878-1-S1-F21_8.png' width='1542px' height='2252px' />
+
+            <zone ulx="297" uly="1313" lrx="523" lry="1339" />
+            <zone ulx="74" uly="1343" lrx="752" lry="1403" />
+            <zone ulx="77" uly="1406" lrx="750" lry="1826" />
+            <zone ulx="80" uly="1836" lrx="750" lry="2062" />
+            <zone ulx="768" uly="150" lrx="1441" lry="199" />
+            <zone ulx="772" uly="209" lrx="1447" lry="1082" />
+            <zone ulx="770" uly="1091" lrx="1444" lry="1510" />
+            <zone ulx="771" uly="1516" lrx="1448" lry="1630" />
+            <zone ulx="774" uly="1634" lrx="1445" lry="1832" />
+            <zone ulx="973" uly="1850" lrx="1242" lry="1880" />
+            <zone ulx="768" uly="1887" lrx="1447" lry="1944" />
+            <zone ulx="770" uly="1951" lrx="1447" lry="2062" />
+        </surface>
+
+        <surface>
+            <graphic url='Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
+
+            <zone ulx="112" uly="141" lrx="789" lry="202" />
+            <zone ulx="115" uly="209" lrx="786" lry="351" />
+            <zone ulx="119" uly="356" lrx="785" lry="775" />
+            <zone ulx="118" uly="779" lrx="787" lry="1063" />
+            <zone ulx="1068" uly="988" lrx="1209" lry="1016" />
+            <zone ulx="805" uly="1022" lrx="1476" lry="1172" />
+            <zone ulx="805" uly="1179" lrx="1474" lry="1301" />
+            <zone ulx="804" uly="1308" lrx="1470" lry="1482" />
+            <zone ulx="804" uly="1487" lrx="1471" lry="1759" />
+            <zone ulx="992" uly="1768" lrx="1443" lry="1790" />
+            <zone ulx="800" uly="1808" lrx="1471" lry="1935" />
+        </surface>
        </facsimile>
 </TEI>
