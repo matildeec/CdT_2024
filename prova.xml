@@ -86,14 +86,14 @@
         <surface xml:id="p386" start="#pb386" n="1">
 
             <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
-            <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="par386_title"/>
-            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" corresp="p386_par1"/>
-            <zone ulx="133" uly="1016" lrx="802" lry="1502" />
-            <zone ulx="126" uly="1506" lrx="801" lry="2045" />
-            <zone ulx="816" uly="136" lrx="1487" lry="816" />
-            <zone ulx="818" uly="820" lrx="1490" lry="1293" />
-            <zone ulx="824" uly="1302" lrx="1488" lry="1617" />
-            <zone ulx="824" uly="1623" lrx="1491" lry="2050" />
+            <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="#par386_title"/>
+            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" corresp="#p386_par1"/>
+            <zone ulx="133" uly="1016" lrx="802" lry="1502" xml:id="p386_p2" corresp="#p386_par2"/>
+            <zone ulx="126" uly="1506" lrx="801" lry="2045" xml:id="p386_p3" corresp="#p386_par3"/>
+            <zone ulx="816" uly="136" lrx="1487" lry="816" xml:id="p386_p3_cb" corresp="#p386_par3_cb"/>
+            <zone ulx="818" uly="820" lrx="1490" lry="1293" xml:id="p386_p4" corresp="#p386_par4"/>
+            <zone ulx="824" uly="1302" lrx="1488" lry="1617" xml:id="p386_p5" corresp="#p386_par5"/>
+            <zone ulx="824" uly="1623" lrx="1491" lry="2050" xml:id="p386_p6" corresp="#p386_par6"/>
 
         </surface>
         <surface>
@@ -198,7 +198,7 @@
                     <cb n="1"/>
                     <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
                     <p facs="#p386_p1" xml:id="p386_par1">
-                        <lb />L' <roleName>on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
+                        <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
                         <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di
                         <lb />segno di legge per le scuole secondarie del <orgName>Regno</orgName>, che si
                         <lb />fondava principalmente su questo concetto: dare agli uo
@@ -214,11 +214,124 @@
                         <lb />forse questa discussione si potrebbe sospendere di fronte
                         <lb />ad una osservazione molto più semplice: qualunque cosa
                         <lb />si voglia, le nostre scuole femminili sono insufficenti a
-                        <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="matcont leopasq">l</unclear>e e miglio
+                        <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="#matcont #leopasq">l</unclear>e e miglio
                         <lb />rarle.
                     </p>
-                    <p>
+                    <p facs="#p386_p2" xml:id="p386_par2">
+                        <lb />In generale può dirsi che, mentre noi cerchiamo di dare
+                        <lb />all' uomo una istruzione che ne sviluppi e fortifichi l' intel
+                        <lb />ligenza, ne accresca la cultura, alla donna vogliam dare
+                        <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne
+                        <lb />viene, come è naturale, una grande superficialità e legge
+                        <lb />rezza in tutto. Ma noi allora, con una logica molto singo
+                        <lb />lare, ci serviamo di questi che sono i resultati naturali del
+                        <lb />nostro metodo, per giustificarlo. Se da una istruzione su
+                        <lb />perficiale e leggera risulta una intelligenza leggera e su
+                        <lb />perficiale, invece di mutar metodo, diciamo: Vedete come
+                        <lb />la donna è incapace di studi severi; essa non si pieghe
+                        <lb />rebbe mai ad un metodo rigoroso. Non viene mai in mente
+                        <lb />di pensare che una istruzione come quella che le diamo,
+                        <lb />porterebbe i medesimi resultati anche in un uomo. E non
+                        <lb />viene neppure in mente, che la superficialità e la legge
+                        <lb />rezza non giovano nè alla letterata, nè alla non letterata,
+                        <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
+                    </p>
+                    <p facs="#p386_p3" xml:id="p386_par3">
+                        <lb />Ma c' è di peggio ancora. Uno dei guai d'<placeName><country type="nation">Italia</country></placeName> sono i
+                        <lb />nostri convitti. I soli che diano qualche utile resultato sono
+                        <lb />i convitti militari, perchè in essi è entrato quello spirito di
+                        <lb />disciplina, d'indipendenza morale e di onore cavalleresco, che
+                        <lb />costituiscono la forza e la gloria del nostro esercito. I convitti
+                        <lb />diretti dai frati sono.... convitti di frati; i laici lasciano
+                        <lb />molto, ma molto a desiderare. Tuttavia la educazione degli
+                        <lb />uomini si forma in gran parte nella università e nella società;
+                        <lb />la vita di convitto ha per essi una influenza meno defini
+                        <lb />tiva che per le donne. Queste se vanno al convitto, ne escono
+                        <lb />assai spesso per andare a marito, ed il loro carattere allora
+                        <lb />è già formato per sempre. Ad una istruzione superficiale i
+                        <lb />convitti femminili uniscono una educazione, secondo noi,
+                        <lb />falsissima, perchè mira a sopprimere ogni sentimento di
+                        <lb />responsabilità e d'indipendenza morale. In molti di essi, an
+                        <lb />che fra i migliori, si crede, per esempio, massima indiscuti
+                        <lb />bile, che le ragazze debbano andare il meno possibile nella
+                        <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può
+                        <lb />scrivere alla figlia, nè questa alla madre, senza che la di
+
+                        <cb n="2"  facs="#p386_p3_cb" xml:id="p386_par3_cb"/>
                         
+                        <lb />rettrice apra e legga le lettere. Un fratello non può visi
+                        <lb />tare la sorella nel convitto, per non far nascere scandali.
+                        <lb />La conseguenza naturale di tutto ciò è che in molti con
+                        <lb />vitti femminili tra le ragazze non si parìa d'altro che
+                        <lb />di amori; si cercano e si trovano tutti i mezzi per fare
+                        <lb />uscire ed entrare lettere d' ogni sorta, senza che la diret
+                        <lb />trice lo sappia. Abbiamo conosciuta una signorina in
+                        <lb />glese, chiamata ad insegnare la sua lingua in un con
+                        <lb />vitto, nel quale doveva dimorare. Quando essa ricevette
+                        <lb />aperta la sua prima lettera, andò in furia ; quando le
+                        <lb />fu detto che il Regolamento lo imponeva, trovò subito
+                        <lb />il modo di far come facevano le alunne. In sostanza i col
+                        <lb />legi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle mo
+                        <lb />nache; dove non ci sono più le monache, c' è restato il 
+                        <lb />loro metodo di educare. Queste non sono asserzioni gra
+                        <lb />tuite. Potremmo rimandare il lettore a molte relazioni fatte
+                        <lb />da <roleName type="office">Ispettori</roleName> e <roleName type="office">Provveditori del Ministero</roleName>. Ora, che utili re
+                        <lb />sultati possono dare, a chi possono giovare una cultura su
+                        <lb />perficiale ed una educazione che separa dalla famiglia e
+                        <lb />dalla società, che tende a s<damage agent="inkblot" degree="low">o</damage>pprimere ogni morale respon
+                        <lb />sabilità, ogni indipendenza di carattere, che spinge senza
+                        <lb />saperlo ai sotterfugi ed alla finzione? Fortunatamente i
+                        <lb />convitti non sono molti ; ma da un altro lato le scuole sono
+                        <lb />poche ed insufficenti.
+                    </p>
+                    <p facs="#p386_p4" xml:id="p386_par4">
+                        <lb />Per queste ragioni è molto naturale quella impazienza
+                        <lb />che vediamo crescere ogni giorno, e quelle domande che
+                        <lb />sorgono da ogni lato perchè l' educazione e l'istruzione
+                        <lb />della donna si migliorino e si sollevino. E una questione
+                        <lb />che s' agita ora in tutta l'<placeName><bloc>Europa</bloc></placeName>, e molto più deve agi
+                        <lb />tarsi fra di noi, che in questa più che in ogni altra cosa
+                        <lb />stiamo alla coda dei popoli civili. Chi non conosce l'azione
+                        <lb />che la donna esercita sulla società intera? Chi non sa che
+                        <lb />noi tutti, riceviamo la prima educazione dalla madre?
+                        <lb />L'ignoranza della donna la esclude da ogni seria conversa
+                        <lb />zione cogli uomini, i quali da ciò non cavano nessunissimo
+                        <lb />vantaggio; e sopprime nella nostra società una classe di
+                        <lb />persone che presso altri popoli legge assai più degli uo
+                        <lb />mini, occupati sempre negli affari o negli studi speciali.
+                        <lb />Questa forse non è l'ultima fra le cagioni per cui i nostri
+                        <lb />libri diventano noiosi, aridi, tecnici, e sono scritti troppo
+                        <lb />spesso solamente per gli uomini del mestiere.
+                    </p>
+                    <p facs="#p386_p5" xml:id="p386_par5">
+                        <lb />Per ora il nostro sistema scolastico femminile si riduce
+                        <lb />alle scuole elementari, ed alle scuole normali che formano
+                        <lb />le maestre elementari. Le sei o forse sette scuole femmi
+                        <lb />nili, che si chiamano superiori, sono certo una lodevole ec
+                        <lb />cezione; ma poche di numero e con poche alunne non pos
+                        <lb />sono mutare il carattere generale del sistema. Esse non
+                        <lb />sono altro che scuole tecniche, quelle cioè che rappresen
+                        <lb />tano l'infimo scalino della istruzione secondaria dell' uomo,
+                        <lb />e per le donne invece rappresentano lo scalino più alto.
+                        <lb />Nondimeno già sentiamo che si parla di sopprimere quella
+                        <lb />che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
+                    </p>
+                    <p facs="#p386_p6" xml:id="p386_par6">
+                        <lb />Molto dunque ci sarebbe da fare, se si volesse comin
+                        <lb />ciare veramente a dare un impulso serio alla istruzione
+                        <lb />della donna. Bisognerebbe innanzi tutto ordinare meglio,
+                        <lb />e promuovere in ognuna delle nostre grandi città la fon
+                        <lb />dazione delle scuole superiori; aprire corsi pubblici di le
+                        <lb />zioni per le donne che hanno già passata l'età per andare
+                        <lb />alle scuole superiori, e pur vogliono in qualche modo com
+                        <lb />piere la loro istruzione. Ma noi non abbiamo qui lo spazio
+                        <lb />necessario per esporre tutte le nostre idee, sulle quali
+                        <lb />torneremo altra volta. Vogliamo per ora fermarci sopra
+                        <lb />una sola quistione, che par molto e forse troppo speciale;
+                        <lb />ma che pure crediamo assai importante, specialmente se
+                        <lb />si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, fre
+                        <lb />quentano quelle scuole solamente, che danno loro un di
+                        <lb />ploma il quale sia praticamente utile a qualche cosa.
                     </p>
                 </div>
             </body>
