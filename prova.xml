@@ -83,6 +83,17 @@
        </teiHeader>
 
        <facsimile>
-        
+        <surface>
+            <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
+
+            <zone ulx="223" uly="461" lrx="697" lry="490" />
+            <zone ulx="133" uly="500" lrx="800" lry="1010" />
+            <zone ulx="133" uly="1016" lrx="802" lry="1502" />
+            <zone ulx="126" uly="1506" lrx="801" lry="2045" />
+            <zone ulx="816" uly="136" lrx="1487" lry="816" />
+            <zone ulx="818" uly="820" lrx="1490" lry="1293" />
+            <zone ulx="824" uly="1302" lrx="1488" lry="1617" />
+            <zone ulx="824" uly="1623" lrx="1491" lry="2050" />
+        </surface>
        </facsimile>
 </TEI>
