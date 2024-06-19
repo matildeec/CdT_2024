@@ -87,7 +87,7 @@
 
             <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
             <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="par386_title"/>
-            <zone ulx="133" uly="500" lrx="800" lry="1010" />
+            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" corresp="p386_par1"/>
             <zone ulx="133" uly="1016" lrx="802" lry="1502" />
             <zone ulx="126" uly="1506" lrx="801" lry="2045" />
             <zone ulx="816" uly="136" lrx="1487" lry="816" />
@@ -197,7 +197,25 @@
                     <pb n="1" facs="#p386" xml:id="pb386"/>
                     <cb n="1"/>
                     <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
-                    <p>
+                    <p facs="#p386_p1" xml:id="p386_par1">
+                        <lb />L' on. Coppino, poco prima di abbandonare il Ministero 
+                        <lb />della Pubblica Istruzione, aveva formulato un nuovo di
+                        <lb />segno di legge per le scuole secondarie del Regno, che si
+                        <lb />fondava principalmente su questo concetto: dare agli uo
+                        <lb />minied alle donne la stessa istruzione secondaria. Quindi
+                        <lb />proponeva un doppio ordine di licei e ginnasi, di scuole
+                        <lb />ed istituti tecnici. Questo disegno di legge discusso ed ap
+                        <lb />provato da una Commissione, non fu neppure presentato
+                        <lb />al Parlamento, ed ora è con moltissimi altri sepolto. Intanto
+                        <lb />sono usciti opuscoli, libri, articoli di giornali sull' istru
+                        <lb />zione della donna. Chi vuole il greco ed il latino, e chi
+                        <lb />non lo vuole; chi vuole la donna istruita ed ha paura della
+                        <lb />donna letterata, e chi vuol solo la madre di famiglia. Ma
+                        <lb />forse questa discussione si potrebbe sospendere di fronte
+                        <lb />ad una osservazione molto più semplice: qualunque cosa
+                        <lb />si voglia, le nostre scuole femminili sono insufficenti a
+                        <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio
+                        <lb />rarle.
                     </p>
                 </div>
             </body>
