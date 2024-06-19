@@ -84,8 +84,8 @@
 
        <facsimile>
         <surface>
-            <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
 
+            <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
             <zone ulx="223" uly="461" lrx="697" lry="490" />
             <zone ulx="133" uly="500" lrx="800" lry="1010" />
             <zone ulx="133" uly="1016" lrx="802" lry="1502" />
@@ -94,6 +94,47 @@
             <zone ulx="818" uly="820" lrx="1490" lry="1293" />
             <zone ulx="824" uly="1302" lrx="1488" lry="1617" />
             <zone ulx="824" uly="1623" lrx="1491" lry="2050" />
+
+        </surface>
+        <surface>
+
+            <graphic url='Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
+            <zone ulx="69" uly="150" lrx="738" lry="781" />
+            <zone ulx="69" uly="788" lrx="737" lry="1382" />
+            <zone ulx="70" uly="1391" lrx="737" lry="1701" />
+            <zone ulx="70" uly="1707" lrx="739" lry="2070" />
+            <zone ulx="753" uly="153" lrx="1422" lry="446" />
+            
+        </surface>
+        <surface>
+
+            <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
+            <zone ulx="830" uly="1088" lrx="1424" lry="1122" />
+            <zone ulx="794" uly="1130" lrx="1458" lry="2013" />
+                
+        </surface>
+        <surface>
+
+            <graphic url='Vol1-1878-1-S1-F21_4.png' width='1516.4px' height='2240.4px' />
+            <zone ulx="74" uly="158" lrx="745" lry="2045" />
+            <zone ulx="75" uly="2052" lrx="745" lry="2079" />
+            <zone ulx="762" uly="160" lrx="1431" lry="933" />
+            <zone ulx="764" uly="940" lrx="1432" lry="2082" />
+            
+        </surface>
+        <surface>
+
+            <graphic url='Vol1-1878-1-S1-F21_5.png' width='1545.4px' height='2255.4px' />
+            <zone ulx="86" uly="166" lrx="759" lry="2088" />
+            <zone ulx="463" uly="2065" lrx="721" lry="2090" />
+            
+        </surface>
+        <surface>
+
+            <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
+            <zone ulx="847" uly="511" lrx="1385" lry="572" />
+            <zone ulx="777" uly="585" lrx="1459" lry="2082" />
+                
         </surface>
 
         <surface>
