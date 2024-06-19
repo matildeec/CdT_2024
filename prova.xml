@@ -11,8 +11,8 @@
           </title>
           <respStmt>
             <resp>Conversione TEI P5 a cura di</resp>
-            <name>Matilde Contestabile</name>
-            <name>Leonardo Pasquale</name>
+            <name xml:id="mcont">Matilde Contestabile</name>
+            <name xml:id="leopasq">Leonardo Pasquale</name>
           </respStmt>
           <sponsor>Università di Pisa</sponsor>
          </titleStmt>
@@ -198,15 +198,15 @@
                     <cb n="1"/>
                     <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
                     <p facs="#p386_p1" xml:id="p386_par1">
-                        <lb />L' on. Coppino, poco prima di abbandonare il Ministero 
-                        <lb />della Pubblica Istruzione, aveva formulato un nuovo di
-                        <lb />segno di legge per le scuole secondarie del Regno, che si
+                        <lb />L' <roleName>on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
+                        <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di
+                        <lb />segno di legge per le scuole secondarie del <orgName>Regno</orgName>, che si
                         <lb />fondava principalmente su questo concetto: dare agli uo
-                        <lb />minied alle donne la stessa istruzione secondaria. Quindi
+                        <lb />mini ed alle donne la stessa istruzione secondaria. Quindi
                         <lb />proponeva un doppio ordine di licei e ginnasi, di scuole
                         <lb />ed istituti tecnici. Questo disegno di legge discusso ed ap
                         <lb />provato da una Commissione, non fu neppure presentato
-                        <lb />al Parlamento, ed ora è con moltissimi altri sepolto. Intanto
+                        <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto
                         <lb />sono usciti opuscoli, libri, articoli di giornali sull' istru
                         <lb />zione della donna. Chi vuole il greco ed il latino, e chi
                         <lb />non lo vuole; chi vuole la donna istruita ed ha paura della
@@ -214,8 +214,11 @@
                         <lb />forse questa discussione si potrebbe sospendere di fronte
                         <lb />ad una osservazione molto più semplice: qualunque cosa
                         <lb />si voglia, le nostre scuole femminili sono insufficenti a
-                        <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio
+                        <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="matcont leopasq">l</unclear>e e miglio
                         <lb />rarle.
+                    </p>
+                    <p>
+                        
                     </p>
                 </div>
             </body>
