@@ -96,14 +96,14 @@
             <zone ulx="824" uly="1623" lrx="1491" lry="2050" />
 
         </surface>
-        <surface>
+        <surface xml:id="p387" start="#pb387" n="2">
 
             <graphic url='Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
-            <zone ulx="69" uly="150" lrx="738" lry="781" />
-            <zone ulx="69" uly="788" lrx="737" lry="1382" />
-            <zone ulx="70" uly="1391" lrx="737" lry="1701" />
-            <zone ulx="70" uly="1707" lrx="739" lry="2070" />
-            <zone ulx="753" uly="153" lrx="1422" lry="446" />
+            <zone ulx="69" uly="150" lrx="738" lry="781" xml:id="p387_p7" corresp="p387_par7" />
+            <zone ulx="69" uly="788" lrx="737" lry="1382" xml:id="p387_p8" corresp="p387_par8" />
+            <zone ulx="70" uly="1391" lrx="737" lry="1701" xml:id="p387_p9" corresp="p387_par9" />
+            <zone ulx="70" uly="1707" lrx="739" lry="2070" xml:id="p387_p10" corresp="p387_par10" />
+            <zone ulx="753" uly="153" lrx="1422" lry="446" xml:id="p387_p10_cb" corresp="p387_par10_cb"/>
             
         </surface>
         <surface>
@@ -220,6 +220,102 @@
                     <p>
                         
                     </p>
+
+                    <pb n="2" facs="#p387" xml:id="pb387"/>
+                    <cb n="1"/>
+                    <p facs="#p387_p7" xml:id="p387_par7">
+                        <lb />Nello stato presente delle cose i soli istituti femminili
+                        <lb />che cominciano a dare utili <choice><sic>resultati</sic><corr>risultati</corr></choice> e vanno migliorando
+                        <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
+                        <lb />generalmente parlando, i soli istituti superiori per le donne,
+                        <lb />quelli che danno la regola e la norma a tutti gli altri. L’in
+                        <lb />segnamento di molti convitti si modella infatti su di esse,
+                        <lb />nè quello delle poche scuole femminili, che portano il nome
+                        <lb />di superiori differisce gran fatto da esse. È stata la ne
+                        <lb />cessità di avere le maestre elementari quella che portò
+                        <lb />alla formazione delle scuole normali, le quali costituiscono
+                        <lb />un vero progresso nell’istruzione delle donne, ed hanno co
+                        <lb />minciato ad aprir loro la via ad un ufficio col quale molte
+                        <lb />sostentano la propria vita, altre aiutano le famiglie. E qui
+                        <lb />non è forse inopportuno l’osservare, che queste scuole
+                        <lb />normali femminili riescono, secondo il giudizio concorde di
+                        <lb />tutte le autorità scolastiche, meglio assai che le maschili,
+                        <lb />superiorità che naturalmente si riscontra anche nelle scuole
+                        <lb />elementari. Senza volere da ciò cavare conseguenze troppo
+                        <lb />generali, è pur forza affermare, che il primo esperimento
+                        <lb />col quale si è veramente dato alla donna ed all’uomo una
+                        <lb />medesima istruzione, ha provato con evidenza che la donna
+                        <lb />non riesce punto inferiore all’uomo.
+                    </p>
+
+                    <p facs="#p387_p8" xml:id="p387_par8">
+                        <lb />Ma c’è una ragione al mondo, per la quale ad essa
+                        <lb />non si debba dare altra istruzione che quella strettamente
+                        <lb />necessaria a farne una buona maestra elementare? È qui
+                        <lb />appunto che si presenta la <choice><sic>quistione</sic><corr>questione</corr></choice> pratica, di «pui vo
+                        <lb />gliamo parlare. Nelle scuole normali e nei convitti insegnano
+                        <lb />spesso anche le donne, e queste non sono o almeno non do
+                        <lb />vrebbero essere semplici maestre elementari, perchè tengono
+                        <lb />lo stesso ufficio dei professori di scuole normali maschili, che
+                        <lb />per gli uomini è equiparato a quello di professori di liceo
+                        <lb />o ginnasio, e richiede un diploma universitario. Ora, se
+                        <lb />alla donna si dà un ufficio di pari grado non è giusto darle
+                        <lb />anche le cognizioni necessarie per adempierlo bene ? In
+                        <lb />tanto, vere scuole normali superiori che le diano l’insegna
+                        <lb />mento richiesto, ed abbiano facoltà di concedere il diploma
+                        <lb />non ne abbiamo. Profittare delle Università, come fanno gli
+                        <lb />uomini, è presto detto, ma le donne non possono, perchè do
+                        <lb />vrebbero prendere la licenza liceale. Ora nè il governo, <unclear reason="faded" resp="matcont leopasq">n</unclear>è
+                        <lb />le province, nè i municipi hanno fondato licei e ginnasi
+                        <lb />femminili, e non crediamo che, almeno per ora, sia davvero
+                        <lb />indispensabile la licenza liceale alle maestre di scuole nor
+                        <lb />mali.
+                    </p>
+
+                    <p facs="#p387_p9" xml:id="p387_par9">
+                        <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se
+                        <lb />la donna è incapace di essere niente di più che una sem
+                        <lb />plice maestra elementare, perchè si chiama dal governo,
+                        <lb />dai municipi, dai privati, ad insegnare nelle scuole nor
+                        <lb />mali, nei convitti e in tutte le scuole che hanno un grado
+                        <lb />quasi uguale alle normali? Se poi ha la capacità, perchè
+                        <lb />non si fondano le scuole indispensabili a darle la istruzione
+                        <lb />che, nel caso identico, così largamente e così generosamente
+                        <lb />si concede agli uomini? Perchè non le si apre la via per
+                        <lb />ottenere legalmente un diploma, e non le si offrono i ne
+                        <lb />cessari aiuti?
+                    </p>
+
+                    <p facs="#p387_p10" xml:id="p387_par10">
+                        <lb />A noi pare davvero che se la donna cominciasse un’agi
+                        <lb />tazione su questo terreno, la sua posizione legale e la sua
+                        <lb />posizione morale sarebbero innanzi al pubblico, al governo
+                        <lb />ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè
+                        <lb />di metodi, nè di materie d’insegnamento, nè di alcuna teo
+                        <lb />ria. Dovrebbe dir solamente : <said direct="true" aloud="false">Voi ci chiamate ad insegnare
+                        <lb />nelle scuole normali ; ebbene, non ci nominate come fate
+                        <lb />ora, senza che abbiamo il diploma, solo per favore o per
+                        <lb />raccomandazioni. Determinate le cognizioni che dobbiamo
+                        <lb />avere, gli esami a cui dobbiamo sottoporci, e aprite per noi,
+                        <lb />come fate per gli uomini, le scuole necessarie ; dateci i me
+                        <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
+                        <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
+                    
+
+                        <cb n="2" facs="#p387_p10_cb" xml:id="p387_par10_cb"/>
+                    
+                        <lb />trovare il modo di dare alla donna, sotto una forma o sotto
+                        <lb />un’altra, un insegnamento superiore di fatto e non di
+                        <lb />nome solamente. Noi crediamo che questo bisogno sia uni
+                        <lb />versalmente riconosciuto, anche da coloro che non son molto
+                        <lb />favorevoli alla generale cultura della donna. E siamo certi
+                        <lb />che una volta aperte e bene ordinate le <orgName>scuole Normali
+                        <lb />Superiori</orgName>, vi andrebbero moltissime anche di quelle donne
+                        <lb />che non vogliono insegnare, e i convitti e le altre scuole
+                        <lb />secondarie femminili sentirebbero la necessità di rendere i
+                        <lb />loro corsi di studio più seri e meno superficiali.
+                    </p>
+
                 </div>
             </body>
         </text>
