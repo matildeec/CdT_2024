@@ -131,9 +131,9 @@
         </surface>
         <surface>
 
-                <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
-                <zone ulx="847" uly="511" lrx="1385" lry="572" />
-                <zone ulx="777" uly="585" lrx="1459" lry="2082" />
+            <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
+            <zone ulx="847" uly="511" lrx="1385" lry="572" />
+            <zone ulx="777" uly="585" lrx="1459" lry="2082" />
                 
         </surface>
        </facsimile>
