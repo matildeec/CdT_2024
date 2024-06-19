@@ -109,9 +109,10 @@
         <surface>
 
             <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
-            <zone ulx="830" uly="1088" lrx="1424" lry="1122" />
-            <zone ulx="794" uly="1130" lrx="1458" lry="2013" />
-                
+            <zone ulx="834" uly="1085" lrx="1434" lry="1119" />
+            <zone ulx="792" uly="1127" lrx="1462" lry="2014" />
+            <zone ulx="796" uly="2029" lrx="1461" lry="2075" />
+            
         </surface>
         <surface>
 
@@ -188,4 +189,8 @@
             <zone ulx="800" uly="1808" lrx="1471" lry="1935" />
         </surface>
        </facsimile>
+
+       <group>
+
+       </group>
 </TEI>
