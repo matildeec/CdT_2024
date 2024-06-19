@@ -38,7 +38,7 @@
          <sourceDesc>
                 <biblStruct type="article">
                     <analytic xml:id="ART_1">
-                        <title level="a">L'istruzione della donna</title>
+                        <title level="a">L'Istruzione della Donna</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <analytic xml:id="ART_2">
@@ -48,11 +48,11 @@
                             <forename>Comparetti</forename>
                           </persName>
                         </author>
-                        <title level="a">Le religioni dell'Asia Orientale</title>
+                        <title level="a">Le Religioni dell'Asia Orientale</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <analytic xml:id="ART_3">
-                        <title level="a">Dell'influenza germanica sulla musica italiana</title>
+                        <title level="a">Dell'Influenza Germanica sulla Musica Italiana</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <monogr>
@@ -83,10 +83,10 @@
        </teiHeader>
 
        <facsimile>
-        <surface>
+        <surface xml:id="p386" start="#pb386" n="1">
 
             <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
-            <zone ulx="223" uly="461" lrx="697" lry="490" />
+            <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="par386_title"/>
             <zone ulx="133" uly="500" lrx="800" lry="1010" />
             <zone ulx="133" uly="1016" lrx="802" lry="1502" />
             <zone ulx="126" uly="1506" lrx="801" lry="2045" />
@@ -191,6 +191,16 @@
        </facsimile>
 
        <group>
-
+        <text xml:lang="it" source="#ART_1">
+            <body>
+                <div type="article" n="1">
+                    <pb n="1" facs="#p386" xml:id="pb386"/>
+                    <cb n="1"/>
+                    <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
+                    <p>
+                    </p>
+                </div>
+            </body>
+        </text>
        </group>
 </TEI>
