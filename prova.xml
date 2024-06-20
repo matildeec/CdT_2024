@@ -884,8 +884,8 @@
                     <place xml:id="fi" type="city">
                         <placeName>Firenze</placeName>
                         <location>
-                            <bloc>EU</bloc>
                             <country>Italia</country>
+                            <bloc>EU</bloc>
                         </location>
                     </place>
                 </listPlace>
