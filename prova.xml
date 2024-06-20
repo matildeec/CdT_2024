@@ -87,30 +87,30 @@
 
             <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
             <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="#par386_title"/>
-            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" corresp="#p386_par1"/>
-            <zone ulx="133" uly="1016" lrx="802" lry="1502" xml:id="p386_p2" corresp="#p386_par2"/>
-            <zone ulx="126" uly="1506" lrx="801" lry="2045" xml:id="p386_p3" corresp="#p386_par3"/>
-            <zone ulx="816" uly="136" lrx="1487" lry="816" xml:id="p386_p3_cb" corresp="#p386_par3_cb"/>
-            <zone ulx="818" uly="820" lrx="1490" lry="1293" xml:id="p386_p4" corresp="#p386_par4"/>
-            <zone ulx="824" uly="1302" lrx="1488" lry="1617" xml:id="p386_p5" corresp="#p386_par5"/>
-            <zone ulx="824" uly="1623" lrx="1491" lry="2050" xml:id="p386_p6" corresp="#p386_par6"/>
+            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" start="#p386_par1"/>
+            <zone ulx="133" uly="1016" lrx="802" lry="1502" xml:id="p386_p2" start="#p386_par2"/>
+            <zone ulx="126" uly="1506" lrx="801" lry="2045" xml:id="p386_p3" start="#p386_par3"/>
+            <zone ulx="816" uly="136" lrx="1487" lry="816" xml:id="p386_p3_cb" start="#p386_par3_cb"/>
+            <zone ulx="818" uly="820" lrx="1490" lry="1293" xml:id="p386_p4" start="#p386_par4"/>
+            <zone ulx="824" uly="1302" lrx="1488" lry="1617" xml:id="p386_p5" start="#p386_par5"/>
+            <zone ulx="824" uly="1623" lrx="1491" lry="2050" xml:id="p386_p6" start="#p386_par6"/>
 
         </surface>
         <surface xml:id="p387" start="#pb387" n="2">
 
             <graphic url='Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
-            <zone ulx="69" uly="150" lrx="738" lry="781" xml:id="p387_p7" corresp="p387_par7" />
-            <zone ulx="69" uly="788" lrx="737" lry="1382" xml:id="p387_p8" corresp="p387_par8" />
-            <zone ulx="70" uly="1391" lrx="737" lry="1701" xml:id="p387_p9" corresp="p387_par9" />
-            <zone ulx="70" uly="1707" lrx="739" lry="2070" xml:id="p387_p10" corresp="p387_par10" />
-            <zone ulx="753" uly="153" lrx="1422" lry="446" xml:id="p387_p10_cb" corresp="p387_par10_cb"/>
+            <zone ulx="69" uly="150" lrx="738" lry="781" xml:id="p387_p7" start="p387_par7" />
+            <zone ulx="69" uly="788" lrx="737" lry="1382" xml:id="p387_p8" start="p387_par8" />
+            <zone ulx="70" uly="1391" lrx="737" lry="1701" xml:id="p387_p9" start="p387_par9" />
+            <zone ulx="70" uly="1707" lrx="739" lry="2070" xml:id="p387_p10" start="p387_par10" />
+            <zone ulx="753" uly="153" lrx="1422" lry="446" xml:id="p387_p10_cb" start="p387_par10_cb"/>
             
         </surface>
         <surface xml:id="p393" start="#pb393" n="3">
 
             <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
             <zone ulx="834" uly="1085" lrx="1434" lry="1119" xml:id="p393_title" corresp="#par393_title"/>
-            <zone ulx="792" uly="1127" lrx="1462" lry="2014" />
+            <zone ulx="792" uly="1127" lrx="1462" lry="2014" xml:id="p393_p1" start="#p393_par1"/>
             <zone ulx="796" uly="2029" lrx="1461" lry="2075" />
             
         </surface>
@@ -438,6 +438,9 @@
                         <pb n="1" facs="#p393" xml:id="pb393"/>
                         <cb n="2"/>
                         <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">Le Religioni dell'Asia Orientale</head>
+                        <p facs="#p393_p1" xml:id="p393_par1">
+                            
+                        </p>
                     </div>
                 </body>
 
