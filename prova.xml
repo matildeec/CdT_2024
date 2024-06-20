@@ -199,15 +199,15 @@
                         <cb n="1"/>
                         <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
                         <p facs="#p386_p1" xml:id="p386_par1">
-                            <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
-                            <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di
-                            <lb />segno di legge per le scuole secondarie del <orgName><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></orgName>, che si
+                            <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
+                            <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
+                            <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
                             <lb />fondava principalmente su questo concetto: dare agli uo
                             <lb />mini ed alle donne la stessa istruzione secondaria. Quindi
                             <lb />proponeva un doppio ordine di licei e ginnasi, di scuole
                             <lb />ed istituti tecnici. Questo disegno di legge discusso ed ap
                             <lb />provato da una Commissione, non fu neppure presentato
-                            <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto
+                            <lb />al <name type="org" ref="#PAR">Parlamento</name>, ed ora è con moltissimi altri sepolto. Intanto
                             <lb />sono usciti opuscoli, libri, articoli di giornali sull' istru
                             <lb />zione della donna. Chi vuole il greco ed il latino, e chi
                             <lb />non lo vuole; chi vuole la donna istruita ed ha paura della
@@ -238,7 +238,7 @@
                             <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                         </p>
                         <p facs="#p386_p3" xml:id="p386_par3">
-                            <lb />Ma c' è di peggio ancora. Uno dei guai d'<placeName><country type="nation">Italia</country></placeName> sono i
+                            <lb />Ma c' è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                             <lb />nostri convitti. I soli che diano qualche utile resultato sono
                             <lb />i convitti militari, perchè in essi è entrato quello spirito di
                             <lb />disciplina, d'indipendenza morale e di onore cavalleresco, che
@@ -272,7 +272,7 @@
                             <lb />aperta la sua prima lettera, andò in furia ; quando le
                             <lb />fu detto che il Regolamento lo imponeva, trovò subito
                             <lb />il modo di far come facevano le alunne. In sostanza i col
-                            <lb />legi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle mo
+                            <lb />legi femminili furono e sono in <name type="place" ref="#it">Italia</name> nelle mani delle mo
                             <lb />nache; dove non ci sono più le monache, c'è restato il 
                             <lb />loro metodo di educare. Queste non sono asserzioni gra
                             <lb />tuite. Potremmo rimandare il lettore a molte relazioni fatte
@@ -290,7 +290,7 @@
                             <lb />che vediamo crescere ogni giorno, e quelle domande che
                             <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
                             <lb />della donna si migliorino e si sollevino. E una questione
-                            <lb />che s'agita ora in tutta l'<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agi
+                            <lb />che s'agita ora in tutta l'<name type="place" ref="#eu">Europa</name>, e molto più deve agi
                             <lb />tarsi fra di noi, che in questa più che in ogni altra cosa
                             <lb />stiamo alla coda dei popoli civili. Chi non conosce l'azione
                             <lb />che la donna esercita sulla società intera? Chi non sa che
@@ -315,7 +315,7 @@
                             <lb />tano l'infimo scalino della istruzione secondaria dell'uomo,
                             <lb />e per le donne invece rappresentano lo scalino più alto.
                             <lb />Nondimeno già sentiamo che si parla di sopprimere quella
-                            <lb />che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
+                            <lb />che fu istituita in <name type="place" ref="fi">Firenze</name>.
                         </p>
                         <p facs="#p386_p6" xml:id="p386_par6">
                             <lb />Molto dunque ci sarebbe da fare, se si volesse comin
@@ -330,7 +330,7 @@
                             <lb />torneremo altra volta. Vogliamo per ora fermarci sopra
                             <lb />una sola quistione, che par molto e forse troppo speciale;
                             <lb />ma che pure crediamo assai importante, specialmente se
-                            <lb />si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, fre
+                            <lb />si considera che in <name type="place" ref="#it">Italia</name> ormai tutti, uomini e donne, fre
                             <lb />quentano quelle scuole solamente, che danno loro un di
                             <lb />ploma il quale sia praticamente utile a qualche cosa.
                         </p>
@@ -404,7 +404,7 @@
                             <lb />A noi pare davvero che se la donna cominciasse un'agi
                             <lb />tazione su questo terreno, la sua posizione legale e la sua
                             <lb />posizione morale sarebbero innanzi al pubblico, al governo
-                            <lb />ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè
+                            <lb />ed al <name type="org" ref="#PAR">Parlamento</name> inespugnabili. Non dovrebbe discutere nè
                             <lb />di metodi, nè di materie d'insegnamento, nè di alcuna teo
                             <lb />ria. Dovrebbe dir solamente : <said direct="true" aloud="false">Voi ci chiamate ad insegnare
                             <lb />nelle scuole normali ; ebbene, non ci nominate come fate
@@ -719,5 +719,71 @@
 
             </text>
         </group>
+        <back>
+            <div>
+                <listPerson>
+                    <head>Elenco persone:</head>
+                    <person xml:id="coppino">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Michele_Coppino"/>
+                            <forename>Michele</forename>
+                            <surname>Coppino</surname>
+                        </persName>
+                        <birth>
+                            <date>01/04/1822</date>
+                        </birth>
+                        <death>
+                            <date>25/08/1901</date>
+                        </death>
+                        <occupation>Politico</occupation>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <head>Elenco luoghi:</head>
+                    <place xml:id="it" type="nation">
+                        <placeName>Italia</placeName>
+                        <location>
+                            <bloc>EU</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="eu" type="continent">
+                        <placeName>Europa</placeName>
+                    </place>
+                    <place xml:id="fi" type="city">
+                        <placeName>Firenze</placeName>
+                        <location>
+                            <bloc>EU</bloc>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="MPI">
+                        <orgName>
+                            <name>Ministero della pubblica Istruzione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_dell%27istruzione_e_del_merito"/>
+                        </orgName>
+                        <state type="governance" from="1861"></state>
+                    </org>
+                    <org xml:id="RI">
+                        <orgName>
+                            <name>Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="governance" from="1861" to="1946"></state>
+                    </org>
+                    <org xml:id="PAR">
+                        <orgName>
+                            <name>Parlamento italiano</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento_italiano"/>
+                        </orgName>
+                        <state type="governance" from="1848"></state>
+                    </org>
+                </listOrg>
+            </div>
+            
+        </back>
        </text>
 </TEI>
