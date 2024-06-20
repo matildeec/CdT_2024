@@ -191,10 +191,10 @@
        </facsimile>
 
        <text>
-       <group>
-            <text xml:lang="it" source="#ART_1">
+        <group>
+            <text n="1" xml:lang="it" source="#ART_1">
                 <body>
-                    <div type="article" n="1">
+                    <div type="article">
                         <pb n="1" facs="#p386" xml:id="pb386"/>
                         <cb n="1"/>
                         <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
