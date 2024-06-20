@@ -111,7 +111,7 @@
             <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
             <zone ulx="834" uly="1085" lrx="1434" lry="1119" xml:id="p393_title" corresp="#par393_title"/>
             <zone ulx="792" uly="1127" lrx="1462" lry="2014" xml:id="p393_p1" start="#p393_par1"/>
-            <zone ulx="796" uly="2029" lrx="1461" lry="2075" />
+            <zone ulx="796" uly="2029" lrx="1461" lry="2075" xml:id="p393_bibl" corresp="#puini78"/>
             
         </surface>
         <surface>
@@ -201,7 +201,7 @@
                         <p facs="#p386_p1" xml:id="p386_par1">
                             <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
                             <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di
-                            <lb />segno di legge per le scuole secondarie del <orgName>Regno</orgName>, che si
+                            <lb />segno di legge per le scuole secondarie del <orgName><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></orgName>, che si
                             <lb />fondava principalmente su questo concetto: dare agli uo
                             <lb />mini ed alle donne la stessa istruzione secondaria. Quindi
                             <lb />proponeva un doppio ordine di licei e ginnasi, di scuole
@@ -290,7 +290,7 @@
                             <lb />che vediamo crescere ogni giorno, e quelle domande che
                             <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
                             <lb />della donna si migliorino e si sollevino. E una questione
-                            <lb />che s'agita ora in tutta l'<placeName><bloc>Europa</bloc></placeName>, e molto più deve agi
+                            <lb />che s'agita ora in tutta l'<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agi
                             <lb />tarsi fra di noi, che in questa più che in ogni altra cosa
                             <lb />stiamo alla coda dei popoli civili. Chi non conosce l'azione
                             <lb />che la donna esercita sulla società intera? Chi non sa che
@@ -439,8 +439,51 @@
                         <cb n="2"/>
                         <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">Le Religioni dell'Asia Orientale</head>
                         <p facs="#p393_p1" xml:id="p393_par1">
-                            
+                            <lb />È venuto a luce da non molto un libro che è il primo
+                            <lb />del suo genere in <placeName><country type="nation">Italia</country></placeName>, e risponde ad un vivo desiderio
+                            <lb />nostro.*<ptr type="bibliog" target="#puini78"/> Benché il soggetto, in quanto ha di più speciale,
+                            <lb />superi il campo delle nostre competenze e quello pure di
+                            <lb />questa <orgName rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></orgName>, pure esso ha un lato di natura e d'im
+                            <lb />portanza più generale, che, secondo gl'intendimenti dell' <choice><abbr>A.</abbr><expan>Autore</expan></choice>
+                            <lb />stesso, lo rende accessibile a tutti e utile oggetto di atten
+                            <lb />zione per ogni persona colta. Il <persName><roleName type="honorific">professor</roleName><surname>Puini</surname></persName> è il primo
+                            <lb />che, colla serietà e l' autorità di chi è munito di tutti gli
+                            <lb />studi necessari e sa ispirarsi unicamente alle ragioni della
+                            <lb />scienza, offre agli Italiani un quadro delle religioni del
+                            <lb />l'<bloc type="continent">Asia Orientale</bloc>, che sono tre principali, cioè il <name type="religion">Buddhismo</name>,
+                            <lb />dall' <country type="nation">India</country> importato in vastissime regioni dell' <bloc type="sub-continent">estremo
+                            <lb />Oriente</bloc>, e i due sistemi schiettamente cinesi di <persName>Confucio</persName>
+                            <lb />e di <persName>Lao-tse</persName>; brevemente poi discorre il <persName><surname>Puini</surname></persName> di una
+                            <lb />quarta religione, anche men conosciuta delle altre, che è
+                            <lb />l' antica religione indigena e nazionale dei Giapponesi, il
+                            <lb /><name type="religion">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
+                            <lb />Tutto questo gruppo di fatti religiosi bene scelti e bene
+                            <lb />esposti è estremamente interessante. Niuno può ormai più
+                            <lb />negarlo; la coscienza di tutti i popoli di civiltà Europea
+                            <lb />è scossa e agitata; fra essa e molte idee resele familiari e
+                            <lb />quasi necessarie dalla educazione e da quanto v'ha di tra
+                            <lb />dizionale e stabilito nella vita, è accaduto uno spostamento
+                            <lb />che la rende irrequieta e bramosa di trovare in nuove de
+                            <lb />finizioni un nuovo punto di equilibro. È sempre così;
+                            <lb />v'hanno vocaboli di grandissima importanza che l'uomo
+                            <lb />crea inconsapevolmente e nell'innocenza dell'anima sua, i
+                            <lb />quali poi lo seguono e anche lo dominano nei suoi svolgi
+                            <lb />menti storici. Nei vari periodi di evoluzione del suo spirito,
+                            <lb />queste creature sue gli s'impongono sempre, e gli si pre
                         </p>
+                        <bibl facs="#p393_bibl" xml:id="puini78">
+                            <author>
+                                <name>
+                                    <forename>Carlo</forename>
+                                    <surname>Puini</surname>
+                                </name>
+                            </author>,
+                            <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
+                                alle religioni dell'Asia orientale</title>.
+                            <pubPlace>Firenze</pubPlace>,
+                            <publisher>Sansoni</publisher>, 
+                            <date when="1878">1878</date>
+                        </bibl>
                     </div>
                 </body>
 
