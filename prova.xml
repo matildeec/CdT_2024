@@ -199,15 +199,15 @@
                         <cb n="1"/>
                         <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
                         <p facs="#p386_p1" xml:id="p386_par1">
-                            <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person">Coppino</name>, poco prima di abbandonare il <orgName>Ministero 
-                            <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di
-                            <lb />segno di legge per le scuole secondarie del <orgName><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></orgName>, che si
+                            <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
+                            <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
+                            <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
                             <lb />fondava principalmente su questo concetto: dare agli uo
                             <lb />mini ed alle donne la stessa istruzione secondaria. Quindi
                             <lb />proponeva un doppio ordine di licei e ginnasi, di scuole
                             <lb />ed istituti tecnici. Questo disegno di legge discusso ed ap
                             <lb />provato da una Commissione, non fu neppure presentato
-                            <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto
+                            <lb />al <name type="org" ref="#PAR">Parlamento</name>, ed ora è con moltissimi altri sepolto. Intanto
                             <lb />sono usciti opuscoli, libri, articoli di giornali sull' istru
                             <lb />zione della donna. Chi vuole il greco ed il latino, e chi
                             <lb />non lo vuole; chi vuole la donna istruita ed ha paura della
@@ -238,7 +238,7 @@
                             <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                         </p>
                         <p facs="#p386_p3" xml:id="p386_par3">
-                            <lb />Ma c' è di peggio ancora. Uno dei guai d'<placeName><country type="nation">Italia</country></placeName> sono i
+                            <lb />Ma c' è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                             <lb />nostri convitti. I soli che diano qualche utile resultato sono
                             <lb />i convitti militari, perchè in essi è entrato quello spirito di
                             <lb />disciplina, d'indipendenza morale e di onore cavalleresco, che
@@ -272,7 +272,7 @@
                             <lb />aperta la sua prima lettera, andò in furia ; quando le
                             <lb />fu detto che il Regolamento lo imponeva, trovò subito
                             <lb />il modo di far come facevano le alunne. In sostanza i col
-                            <lb />legi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle mo
+                            <lb />legi femminili furono e sono in <name type="place" ref="#it">Italia</name> nelle mani delle mo
                             <lb />nache; dove non ci sono più le monache, c'è restato il 
                             <lb />loro metodo di educare. Queste non sono asserzioni gra
                             <lb />tuite. Potremmo rimandare il lettore a molte relazioni fatte
@@ -290,7 +290,7 @@
                             <lb />che vediamo crescere ogni giorno, e quelle domande che
                             <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
                             <lb />della donna si migliorino e si sollevino. E una questione
-                            <lb />che s'agita ora in tutta l'<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agi
+                            <lb />che s'agita ora in tutta l'<name type="place" ref="#eu">Europa</name>, e molto più deve agi
                             <lb />tarsi fra di noi, che in questa più che in ogni altra cosa
                             <lb />stiamo alla coda dei popoli civili. Chi non conosce l'azione
                             <lb />che la donna esercita sulla società intera? Chi non sa che
@@ -315,7 +315,7 @@
                             <lb />tano l'infimo scalino della istruzione secondaria dell'uomo,
                             <lb />e per le donne invece rappresentano lo scalino più alto.
                             <lb />Nondimeno già sentiamo che si parla di sopprimere quella
-                            <lb />che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
+                            <lb />che fu istituita in <name type="place" ref="fi">Firenze</name>.
                         </p>
                         <p facs="#p386_p6" xml:id="p386_par6">
                             <lb />Molto dunque ci sarebbe da fare, se si volesse comin
@@ -330,7 +330,7 @@
                             <lb />torneremo altra volta. Vogliamo per ora fermarci sopra
                             <lb />una sola quistione, che par molto e forse troppo speciale;
                             <lb />ma che pure crediamo assai importante, specialmente se
-                            <lb />si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, fre
+                            <lb />si considera che in <name type="place" ref="#it">Italia</name> ormai tutti, uomini e donne, fre
                             <lb />quentano quelle scuole solamente, che danno loro un di
                             <lb />ploma il quale sia praticamente utile a qualche cosa.
                         </p>
@@ -404,7 +404,7 @@
                             <lb />A noi pare davvero che se la donna cominciasse un'agi
                             <lb />tazione su questo terreno, la sua posizione legale e la sua
                             <lb />posizione morale sarebbero innanzi al pubblico, al governo
-                            <lb />ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè
+                            <lb />ed al <name type="org" ref="#PAR">Parlamento</name> inespugnabili. Non dovrebbe discutere nè
                             <lb />di metodi, nè di materie d'insegnamento, nè di alcuna teo
                             <lb />ria. Dovrebbe dir solamente : <said direct="true" aloud="false">Voi ci chiamate ad insegnare
                             <lb />nelle scuole normali ; ebbene, non ci nominate come fate
@@ -441,7 +441,7 @@
                         <p facs="#p393_p1" xml:id="p393_par1">
                             <lb />È venuto a luce da non molto un libro che è il <num type="ordinal" value="1">primo</num>
                             <lb />del suo genere in <placeName><country type="nation">Italia</country></placeName>, e risponde ad un vivo desiderio
-                            <lb />nostro.*<ptr type="bibliog" target="#puini78"/> Benché il soggetto, in quanto ha di più speciale,
+                            <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
                             <lb />superi il campo delle nostre competenze e quello pure di
                             <lb />questa <orgName rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></orgName>, pure esso ha un lato di natura e d'im
                             <lb />portanza più generale, che, secondo gl'intendimenti dell' <choice><abbr>A.</abbr><expan>Autore</expan></choice>
@@ -583,7 +583,7 @@
                             <lb />quei libri che per vicende molteplici e molto diverse, ar
                             <lb />rivarono ad esser considerati come sacri. Se un cinese af
                             <lb />fermasse dinanzi a noi di conoscere il nostro <name type="religion">Cristianesimo</name>
-                            <lb />per aver letto il Vangelo, ci farebbe ridere. A noi sembra
+                            <lb />per aver letto il <objectName type="book">Vangelo</objectName>, ci farebbe ridere. A noi sembra
                             <lb />che in un altro volume di non maggiore mole di quello del
                             <lb /><roleName>prof.</roleName><name>Puini</name>, potrebbesi dar notizie sul <name type="religion">Brahmanismo</name>, il <name type="religion">Zo
                             <lb />roastrismo</name> e l'<name type="religion">Islamismo</name>, come il <name>Puini</name> ha fatto per le altre
@@ -659,52 +659,53 @@
                             <lb />di religioni per la sua realtà storica tuttora evidentissima
                             <lb />benché lontana di venticinque secoli, non offuscata da leg
                             <lb />genda, non contornata da alcuna aureola mistica, non in
-                            <lb />grandita a proporzioni teratologiche, non divinizzata benché
-                            <lb />venerata. Niuna religione può vantarsi di tanta disinvoltura,
-                            <lb />niuna filosofìa può vantarsi di aver raggiunto tanto
+                            <lb />grandita a proporzioni teratologiche, non divinizzata ben
+                            <lb />ché venerata. Niuna religione può vantarsi di tanta disin
+                            <lb />voltura, niuna filosofìa può vantarsi di aver raggiunto tanto
                             <lb />valor nazionale e tanta importanza nella vita morale del suo
-                            <lb />paese nativo. Si può dire che i Cinesi per questa deficienza di
+                            <lb />paese nativo. Si può dire che i <orgName>Cinesi</orgName> per questa deficienza di
                             <lb />ragion poetica e prevalenza di ragion pratica tengono rimpetto
-                            <lb />al pensiero Europeo quel posto che tengono i romani rimpetto
-                            <lb />ai greci. Forse una via simile avrebbero tenuta i Romani se
+                            <lb />al pensiero Europeo quel posto che tengono i <orgName>romani</orgName> rimpetto
+                            <lb />ai <orgName>greci</orgName>. Forse una via simile avrebbero tenuta i <orgName>Romani</orgName> se
                             <lb />il loro svolgimento storico non fosse stato per questa parte
-                            <lb />perturbato dalla influenza greca, della quale però non possiamo
-                            <lb />lamentarci. Comunque sia, il parallelismo cronologico
+                            <lb />perturbato dalla influenza greca, della quale però non pos
+                            <lb />siamo lamentarci. Comunque sia, il parallelismo cronologico
                             <lb />si ravvisa ancora in modo sorprendente quando troviamo
                             <lb />che quasi affatto contemporaneamente due religioni nate in
                             <lb />suolo straniero, con profondissima influenza s' infiltrano
-                            <lb />l'una in Europa, l'altra in Cina. Quando nel primo secolo
-                            <lb />dell'èra volgare il giudaismo cristiano, allora nato in Palestina,
-                            <lb />s'introduceva in Europa per associarsi colla civiltà
-                            <lb />greco-romana e divenir quindi il cristianesimo cattolico,
+                            <lb />l'una in <placeName><bloc type="continent">Europa</bloc></placeName>, l'altra in <placeName><country type="nation">Cina</country></placeName>. Quando nel <date from="0" to="99">primo secolo
+                            <lb />dell'èra volgare</date> il <name type="religion">giudaismo cristiano</name>, allora nato in <placeName><country type="nation">Pale
+                            <lb />stina</country></placeName>, s'introduceva in <placeName><bloc type="continent">Europa</bloc></placeName> per associarsi colla <orgName>civiltà
+                            <lb />greco-romana</orgName> e divenir quindi il <name type="religion">cristianesimo cattolico</name>,
                             <lb />appunto allora un'altra religione non molto dissimile nei
-                            <lb />suoi intendimenti, non meno pessimista, non meno proselitista
-                            <lb />e non meno sfortunata nel suo luogo nativo, il Buddismo,
-                            <lb />s'introduceva in Cina. Sono pur mirabili queste
+                            <lb />suoi intendimenti, non meno pessimista, non meno proseli
+                            <lb />tista e non meno sfortunata nel suo luogo nativo, il <name type="religion">Bud
+                            <lb />dismo</name>, s'introduceva in <placeName><country type="nation">Cina</country></placeName>. Sono pur mirabili queste
                             <lb />coincidenze nella evoluzione storica di due grandi porzioni
-                            <lb />dell'umanità civile, remota l'una dall' altra e senza contatti
-                            <lb />immediati. Par di ravvisare una legge storica che si
+                            <lb />dell'umanità civile, remota l'una dall' altra e senza con
+                            <lb />tatti immediati. Par di ravvisare una legge storica che si
                             <lb />effettua in regioni diverse con eguale esattezza : come due
                             <lb />orologi regolati per uno stesso meridiano, lontani l'uno
                             <lb />dall'altro battono contemporaneamente l'ora medesima. E
                             <lb />tutte queste religioni o filosofie che siano o fossero delle
                             <lb />quali abbiam parlato, hanno poi un carattere comune che
                             <lb />le distingue da altre religioni più antiche : dei due termini
-                            <lb />estremi fra i quali oscilla l'idea religiosa, Dio e uomo, quest'
-                            <lb />ultimo è quello che prevale in esse, mentre più esclusivamente
-                            <lb />pregne dell' idea Dio sono le più antiche. Ma se
+                            <lb />estremi fra i quali oscilla l'idea religiosa, Dio e uomo, que
+                            <lb />st'ultimo è quello che prevale in esse, mentre più esclusi
+                            <lb />vamente pregne dell'idea Dio sono le più antiche. Ma se
                             <lb />si considerino gli ulteriori svolgimenti nelle regioni e nelle
                             <lb />religioni poste qui a confronto troviamo che il parallelismo
                             <lb />e le coincidenze cessano. L'orologio europeo dopo aver
                             <lb />suonate le lunghe ore della notte buia e dell'assopimento
-                            <lb />morale, ha suonato già l'ora del risveglio e il genio europeo,
-                            <lb />che è 1' antico genio pagano, ridestatosi e fatto di nuovo
+                            <lb />morale, ha suonato già l'ora del risveglio e il genio euro
+                            <lb />peo, che è l'antico genio pagano, ridestatosi e fatto di nuovo
                             <lb />eguale a sé stesso richiama all'antica libertà le coscienze
                             <lb />individuali e tutti gli elementi sociali, e librandosi sulle
                             <lb />forti ali della ragione e della scienza repudia la vecchia
-                            <lb />straniera fola che a lungo lo allucinò. Pei popoli dell' Asia
-                            <lb />orientale quest' ora non è suonata nè l'ottimo libro del
-                            <lb />prof. Puini ci addita alcuna speranza che sia mai per suonare.
+                            <lb />straniera fola che a lungo lo allucinò. Pei popoli dell'<placeName><bloc type="continent">Asia 
+                            <lb />orientale</bloc></placeName>quest' ora non è suonata nè l'ottimo <ref target="#puini78" resp="leopasq">libro</ref> del
+                            <lb /><persName><roleName type="honorific">prof</roleName><surname>Puini</surname></persName> ci addita alcuna speranza che sia mai per suo
+                            <lb />nare.
                         </p>
                     </div>
                 </body>
@@ -714,78 +715,6 @@
                             <forename>Domenico</forename><surname>Comparetti</surname>
                         </persName>
                     </docAuthor>
-                    
-                    <listPerson>
-                        <head>Elenco Persone</head>
-                        <person xml:id="puini">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Carlo_Puini" />
-                                <forename>Carlo</forename>
-                                <surname>Puini</surname>
-                            </persName>
-                            <occupation>Orientalista</occupation>
-                            <birth>
-                                <date when="1839-05-29">29/05/1839</date>
-                            </birth>
-                            <death>
-                                <date when="1924-06-04">03/06/1924</date>
-                            </death>
-                        </person>
-                        <person xml:id="muller">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Max_M%C3%BCller" />
-                                <forename>Friedrich Maximilian (Max)</forename>
-                                <surname>Müller</surname>
-                            </persName>
-                            <occupation>Storico delle religioni</occupation>
-                            <birth>
-                                <date when="1839-05-29">06/12/1823</date>
-                            </birth>
-                            <death>
-                                <date when="1924-06-04">28/10/1900</date>
-                            </death>
-                        </person>
-                        <person xml:id="confucio">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Confucio" />
-                                <surname>Confucio</surname>
-                            </persName>
-                            <occupation>Filosofo</occupation>
-                            <birth>
-                                <date when="-0551">551 A.C.</date>
-                            </birth>
-                            <death>
-                                <date when="-0479">479 A.C.</date>
-                            </death>
-                        </person>
-                        <person xml:id="laotse">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Laozi" />
-                                <surname>Lao-tse</surname>
-                            </persName>
-                            <occupation>Filosofo</occupation>
-                            <birth>
-                                <date from="-599" to="-500">VI secolo A.C.</date>
-                            </birth>
-                            <death>
-                                <date from="-599" to="-500">VI secolo A.C.</date>
-                            </death>
-                        </person>
-                        <person xml:id="faraday">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Michael_Faraday"/>
-                                <forename>Michael</forename>
-                                <surname>Faraday</surname>
-                            </persName>
-                            <occupation>Fisico</occupation>
-                            <birth>
-                                <date when="1791-09-22">22/09/1791</date>
-                            </birth>
-                            <death>
-                                <date when="1867-08-25">25/08/1867</date>
-                            </death>
-                        </person>
-                    </listPerson>
                 </back>
 
             </text>
@@ -853,5 +782,139 @@
                 </body>
             </text>
         </group>
+        <back>
+            <div>
+                <listPerson>
+                    <head>Elenco persone:</head>
+                    <person xml:id="coppino">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Michele_Coppino"/>
+                            <forename>Michele</forename>
+                            <surname>Coppino</surname>
+                        </persName>
+                        <birth>
+                            <date>01/04/1822</date>
+                        </birth>
+                        <death>
+                            <date>25/08/1901</date>
+                        </death>
+                        <occupation>Politico</occupation>
+                    </person>
+                    <person xml:id="puini">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Carlo_Puini" />
+                            <forename>Carlo</forename>
+                            <surname>Puini</surname>
+                        </persName>
+                        <occupation>Orientalista</occupation>
+                        <birth>
+                            <date when="1839-05-29">29/05/1839</date>
+                        </birth>
+                        <death>
+                            <date when="1924-06-04">03/06/1924</date>
+                        </death>
+                    </person>
+                    <person xml:id="muller">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Max_M%C3%BCller" />
+                            <forename>Friedrich Maximilian (Max)</forename>
+                            <surname>Müller</surname>
+                        </persName>
+                        <occupation>Storico delle religioni</occupation>
+                        <birth>
+                            <date when="1839-05-29">06/12/1823</date>
+                        </birth>
+                        <death>
+                            <date when="1924-06-04">28/10/1900</date>
+                        </death>
+                    </person>
+                    <person xml:id="confucio">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Confucio" />
+                            <surname>Confucio</surname>
+                        </persName>
+                        <occupation>Filosofo</occupation>
+                        <birth>
+                            <date when="-0551">551 A.C.</date>
+                        </birth>
+                        <death>
+                            <date when="-0479">479 A.C.</date>
+                        </death>
+                    </person>
+                    <person xml:id="laotse">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Laozi" />
+                            <surname>Lao-tse</surname>
+                        </persName>
+                        <occupation>Filosofo</occupation>
+                        <birth>
+                            <date from="-599" to="-500">VI secolo A.C.</date>
+                        </birth>
+                        <death>
+                            <date from="-599" to="-500">VI secolo A.C.</date>
+                        </death>
+                    </person>
+                    <person xml:id="faraday">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Michael_Faraday"/>
+                            <forename>Michael</forename>
+                            <surname>Faraday</surname>
+                        </persName>
+                        <occupation>Fisico</occupation>
+                        <birth>
+                            <date when="1791-09-22">22/09/1791</date>
+                        </birth>
+                        <death>
+                            <date when="1867-08-25">25/08/1867</date>
+                        </death>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <head>Elenco luoghi:</head>
+                    <place xml:id="it" type="nation">
+                        <placeName>Italia</placeName>
+                        <location>
+                            <bloc>EU</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="eu" type="continent">
+                        <placeName>Europa</placeName>
+                    </place>
+                    <place xml:id="fi" type="city">
+                        <placeName>Firenze</placeName>
+                        <location>
+                            <bloc>EU</bloc>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="MPI">
+                        <orgName>
+                            <name>Ministero della pubblica Istruzione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_dell%27istruzione_e_del_merito"/>
+                        </orgName>
+                        <state type="governance" from="1861"></state>
+                    </org>
+                    <org xml:id="RI">
+                        <orgName>
+                            <name>Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="governance" from="1861" to="1946"></state>
+                    </org>
+                    <org xml:id="PAR">
+                        <orgName>
+                            <name>Parlamento italiano</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento_italiano"/>
+                        </orgName>
+                        <state type="governance" from="1848"></state>
+                    </org>
+                </listOrg>
+            </div>
+            
+        </back>
        </text>
 </TEI>
