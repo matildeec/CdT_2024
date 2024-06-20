@@ -123,11 +123,11 @@
             <zone ulx="764" uly="940" lrx="1432" lry="2082" xml:id="p394_p4" start="#p394_par4" />
             
         </surface>
-        <surface>
+        <surface xml:id="p395" start="#pb395" n="5">
 
             <graphic url='Vol1-1878-1-S1-F21_5.png' width='1545.4px' height='2255.4px' />
-            <zone ulx="86" uly="166" lrx="759" lry="2088" />
-            <zone ulx="463" uly="2065" lrx="721" lry="2090" />
+            <zone ulx="86" uly="166" lrx="759" lry="2088" xml:id="p395_p4" start="#p395_par4" />
+            <zone ulx="463" uly="2065" lrx="721" lry="2090" xml:id="p395_firm" corresp="#p395_author"/>
             
         </surface>
         <surface>
@@ -454,6 +454,9 @@
                             <lb />dall' <country type="nation">India</country> importato in vastissime regioni dell' <bloc type="sub-continent">estremo
                             <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <persName>Confucio</persName>
                             <lb />e di <persName>Lao-tse</persName>; brevemente poi discorre il <persName><surname>Puini</surname></persName> di una
+                            <lb />quarta religione, anche men conosciuta delle altre, che è
+                            <lb />l' antica religione indigena e nazionale dei Giapponesi, il
+                            <lb /><name rend="italic" type="religion">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
                             <lb /><num type="ordinal" value="4"></num>quarta religione, anche men conosciuta delle altre, che è
                             <lb />l'antica religione indigena e nazionale dei <orgName>Giapponesi</orgName>, il
                             <lb /><name type="religion">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
@@ -485,7 +488,6 @@
                             <date when="1878">1878</date>
                         </bibl>
 
-                        <!--Pagina 2-->
                         <pb n="2" facs="#p394" xml:id="pb394"/>
                         <cb n="1" />
                         <p facs="#p394_p1" xml:id="p394_par1">
@@ -632,8 +634,87 @@
                             <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                             <lb />sto che la speculazione quantunque si spingesse fra i <orgName>greci</orgName>
                         </p>
+
+                        <pb n="3" facs="#p395" xml:id="pb395"/>
+                        <cb n="1"/>
+
+                        <p facs="#p395_p4" xml:id="p395_par4">
+                            <lb />fino all'idea di Dio e la purificasse e arrivasse a un concetto
+                            <lb />monoteistico ben diverso da quello offerto dalla religione
+                            <lb />nazionale, nondimeno rimase pura e razionale e laica sempre,
+                            <lb />non tralignando mai in religione. I Cinesi sono arrivati
+                            <lb />più in là. Essi hanno saputo dare a Confucio e alla
+                            <lb />sua dottrina quel posto nella vita morale della nazione che
+                            <lb />altrove è tenuto da religioni e dai loro fondatori. Perciò
+                            <lb />quella dottrina e quella regola di vita pare una religione
+                            <lb />ed è comunemente annoverata fra le religioni, benché a
+                            <lb />chi la guardi nei libri del fondatore essa appaia piuttosto
+                            <lb />come una filosofia di ragion pratica, che come una religione
+                            <lb />di vero nome. Benché combinata colle antiche credenze
+                            <lb />nazionali della Cina, questa religione dei così detti
+                            <lb />Letterati cinesi è veramente la meno irrazionale fra le religioni,
+                            <lb />singolarmente nella morale che prescinde da qualsivoglia
+                            <lb />idea di esistenza ultramondana. E la persona stessa
+                            <lb />del fondatore si distingue da quella di tutti gli altri capi
+                            <lb />di religioni per la sua realtà storica tuttora evidentissima
+                            <lb />benché lontana di venticinque secoli, non offuscata da leggenda,
+                            <lb />non contornata da alcuna aureola mistica, non ingrandita
+                            <lb />a proporzioni teratologiche, non divinizzata benché
+                            <lb />venerata. Niuna religione può vantarsi di tanta disinvoltura,
+                            <lb />niuna filosofìa può vantarsi di aver raggiunto tanto
+                            <lb />valor nazionale e tanta importanza nella vita morale del suo
+                            <lb />paese nativo. Si può dire che i Cinesi per questa deficienza di
+                            <lb />ragion poetica e prevalenza di ragion pratica tengono rimpetto
+                            <lb />al pensiero Europeo quel posto che tengono i romani rimpetto
+                            <lb />ai greci. Forse una via simile avrebbero tenuta i Romani se
+                            <lb />il loro svolgimento storico non fosse stato per questa parte
+                            <lb />perturbato dalla influenza greca, della quale però non possiamo
+                            <lb />lamentarci. Comunque sia, il parallelismo cronologico
+                            <lb />si ravvisa ancora in modo sorprendente quando troviamo
+                            <lb />che quasi affatto contemporaneamente due religioni nate in
+                            <lb />suolo straniero, con profondissima influenza s' infiltrano
+                            <lb />l'una in Europa, l'altra in Cina. Quando nel primo secolo
+                            <lb />dell'èra volgare il giudaismo cristiano, allora nato in Palestina,
+                            <lb />s'introduceva in Europa per associarsi colla civiltà
+                            <lb />greco-romana e divenir quindi il cristianesimo cattolico,
+                            <lb />appunto allora un'altra religione non molto dissimile nei
+                            <lb />suoi intendimenti, non meno pessimista, non meno proselitista
+                            <lb />e non meno sfortunata nel suo luogo nativo, il Buddismo,
+                            <lb />s'introduceva in Cina. Sono pur mirabili queste
+                            <lb />coincidenze nella evoluzione storica di due grandi porzioni
+                            <lb />dell'umanità civile, remota l'una dall' altra e senza contatti
+                            <lb />immediati. Par di ravvisare una legge storica che si
+                            <lb />effettua in regioni diverse con eguale esattezza : come due
+                            <lb />orologi regolati per uno stesso meridiano, lontani l'uno
+                            <lb />dall'altro battono contemporaneamente l'ora medesima. E
+                            <lb />tutte queste religioni o filosofie che siano o fossero delle
+                            <lb />quali abbiam parlato, hanno poi un carattere comune che
+                            <lb />le distingue da altre religioni più antiche : dei due termini
+                            <lb />estremi fra i quali oscilla l'idea religiosa, Dio e uomo, quest'
+                            <lb />ultimo è quello che prevale in esse, mentre più esclusivamente
+                            <lb />pregne dell' idea Dio sono le più antiche. Ma se
+                            <lb />si considerino gli ulteriori svolgimenti nelle regioni e nelle
+                            <lb />religioni poste qui a confronto troviamo che il parallelismo
+                            <lb />e le coincidenze cessano. L'orologio europeo dopo aver
+                            <lb />suonate le lunghe ore della notte buia e dell'assopimento
+                            <lb />morale, ha suonato già l'ora del risveglio e il genio europeo,
+                            <lb />che è 1' antico genio pagano, ridestatosi e fatto di nuovo
+                            <lb />eguale a sé stesso richiama all'antica libertà le coscienze
+                            <lb />individuali e tutti gli elementi sociali, e librandosi sulle
+                            <lb />forti ali della ragione e della scienza repudia la vecchia
+                            <lb />straniera fola che a lungo lo allucinò. Pei popoli dell' Asia
+                            <lb />orientale quest' ora non è suonata nè l'ottimo libro del
+                            <lb />prof. Puini ci addita alcuna speranza che sia mai per suonare.
+                        </p>
                     </div>
                 </body>
+                <back>
+                    <docAuthor facs="#p395_firm" xml:id="p395_author">
+                        <persName>
+                            <forename>Domenico</forename><surname>Comparetti</surname>
+                        </persName>
+                    </docAuthor>
+                </back>
 
             </text>
         </group>
