@@ -130,11 +130,11 @@
             <zone ulx="463" uly="2065" lrx="721" lry="2090" xml:id="p395_firm" corresp="#p395_author"/>
             
         </surface>
-        <surface>
+        <surface xml:id="p396" start="#pb396" n="6">
 
             <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
-            <zone ulx="847" uly="511" lrx="1385" lry="572" />
-            <zone ulx="777" uly="585" lrx="1459" lry="2082" />
+            <zone ulx="847" uly="511" lrx="1385" lry="572" xml:id="p396_title" start="#p396_title" />
+            <zone ulx="777" uly="585" lrx="1459" lry="2082" xml:id="p396_p1" start="#p396_par1" />
                 
         </surface>
 
@@ -446,14 +446,14 @@
                             <lb />questa <orgName rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></orgName>, pure esso ha un lato di natura e d'im
                             <lb />portanza più generale, che, secondo gl'intendimenti dell' <choice><abbr>A.</abbr><expan>Autore</expan></choice>
                             <lb />stesso, lo rende accessibile a tutti e utile oggetto di atten
-                            <lb />zione per ogni persona colta. Il <persName><roleName type="honorific">professor</roleName><surname>Puini</surname></persName> è il primo
+                            <lb />zione per ogni persona colta. Il <roleName type="honorific">professor</roleName><name type="person" ref="puini">Puini</name> è il primo
                             <lb />che, colla serietà e l'autorità di chi è munito di tutti gli
                             <lb />studi necessari e sa ispirarsi unicamente alle ragioni della
                             <lb />scienza, offre agli <orgName>Italiani</orgName> un quadro delle religioni del
                             <lb />l'<bloc type="continent">Asia Orientale</bloc>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="religion">Buddhismo</name>,
                             <lb />dall' <country type="nation">India</country> importato in vastissime regioni dell' <bloc type="sub-continent">estremo
-                            <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <persName>Confucio</persName>
-                            <lb />e di <persName>Lao-tse</persName>; brevemente poi discorre il <persName><surname>Puini</surname></persName> di una
+                            <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <name type="person" ref="confucio">Confucio</name>
+                            <lb />e di <name type="person" ref="laotse">Lao-tse</name>; brevemente poi discorre il <name><surname>Puini</surname></name> di una
                             <lb />quarta religione, anche men conosciuta delle altre, che è
                             <lb />l' antica religione indigena e nazionale dei Giapponesi, il
                             <lb /><name rend="italic" type="religion">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
@@ -500,7 +500,7 @@
                             <lb />non ebbero un vocabolo che esprimesse <emph rend="italic">religione</emph> nel senso
                             <lb />odierno della parola. Si parlava di Dei greci, di Dei fenici,
                             <lb />egizi, ec. ma la religione era una; le varietà modali erano
-                            <lb /><persName>Confucio</persName> e di <persName>Lao-tse</persName>, ambedue filosofici e di ragione pro
+                            <lb /><name type="person" ref="confucio">Confucio</name> e di <name type="person" ref="laotse">Lao-tse</name>, ambedue filosofici e di ragione pro
                             <lb />vocavano antagonismi, nè odii, nè guerre. Il monoteismo
                             <lb />ruppe l'accordo e l'armonia fondamentale che nell'ordine
                             <lb />religioso, in mezzo alla moltiplicità de'nomi e delle forme,
@@ -531,12 +531,12 @@
                             <lb />non esiste, nè (vista la vastità e la varietà delle discipline
                             <lb />di cui sàrebbe la sintesi) la crediamo possibile; se pure poi
                             <lb />fosse possibile, sarebbe una scienza <foreign xml:lang="la">in fieri</foreign>, e, a dirla schiet
-                            <lb />tamente, se noi abbiamo ammirato il <persName><surname>Faraday</surname></persName>, quando po
+                            <lb />tamente, se noi abbiamo ammirato il <name type="person" ref="faraday">Faraday</name>, quando po
                             <lb />polarizzava la scienza fatta, non possiamo ammirare chi
                             <lb />pretende popolarizzare la scienza da farsi e si compiace
                             <lb />di dare pubblico spettacolo dell' indagine scientifica nel
                             <lb />suo stato il più immaturo. Peggio poi quando vediamo
-                            <lb />il <persName><forename>Max</forename><surname>Müller</surname></persName> venir fuori, a proposito di religione, con
+                            <lb />il <name type="person" ref="muller">Max Müller</name> venir fuori, a proposito di religione, con
                             <lb />vuote e vane formulo qual'è la sua ormai celebre <emph rend="italic">perce
                             <lb />zione dell'infinito</emph>, un pegaso di puro sangue germanico
                             <lb />sul quale il valente indianista di <orgName>Oxford</orgName> potrà facilmente
@@ -551,7 +551,7 @@
                             <lb />i fatti con serietà, con calma, con fedeltà scientifica senza
                             <lb />cedere alla smania di teorizzare prematuramente, è il mi
                             <lb />glior servizio che i dotti possano rendere al pubblico avido
-                            <lb />di istruirsi di queste materie. Il <persName><roleName>professor</roleName><surname>Puini</surname></persName> può van
+                            <lb />di istruirsi di queste materie. Il <roleName>professor</roleName><name type="person" ref="puini">Puini</name> può van
                             <lb />tarsi di aver bene inteso questa missione, ed il suo libro
                             <lb />limitato alla esposizione coscienziosa dei fatti, scritto senza
                             <lb />pretensioni trascendentali e senza febbri metafisiche in
@@ -559,7 +559,7 @@
                             <lb />nità dell'ingegno italiano.
                         </p>
                         <p facs="#p394_p2" xml:id="p394_par2">
-                            <lb />Il <persName><roleName>professor</roleName><forename>Max</forename><surname>Müller</surname></persName> ha pensato invero anch'egli a
+                            <lb />Il <roleName>professor</roleName><name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                         </p>
 
                         <cb n="2"/>
@@ -571,7 +571,7 @@
                             <lb />libri sacri delle principali religioni, tradotti in inglese. Il
                             <lb />sei delle otto religioni così dette positive, cioè del <name type="religion">Brahma
                             <lb />nismo</name>, del <name type="religion">Buddismo</name>, dello <name type="religion">Zoroastrismo</name>, dell'<name type="religion">Islamismo</name> e
-                            <lb />dei due sistemi cinesi di <persName>Confucio</persName> e <persName>Lao-tse</persName>. Non neghiamo
+                            <lb />dei due sistemi cinesi di <name type="person" ref="confucio">Confucio</name> e <name type="person" ref="laotse">Lao-tse</name>. Non neghiamo
                             <lb />che una raccolta tale sarebbe utile in qualche modo, ma
                             <lb />non crediamo che lo sarebbe quanto e come crede l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> Sa
                             <lb />rebbero <num type="cardinal">24</num> volumi per sole <num type="cardinal" value="6">sei</num> religioni; e di alcuni codici
@@ -585,8 +585,8 @@
                             <lb />fermasse dinanzi a noi di conoscere il nostro <name type="religion">Cristianesimo</name>
                             <lb />per aver letto il Vangelo, ci farebbe ridere. A noi sembra
                             <lb />che in un altro volume di non maggiore mole di quello del
-                            <lb /><persName><roleName>prof.</roleName><surname>Puini</surname></persName>, potrebbesi dar notizie sul <name type="religion">Brahmanismo</name>, il <name type="religion">Zo
-                            <lb />roastrismo</name> e l'<name type="religion">Islamismo</name>, come il <persName><surname>Puini</surname></persName> ha fatto per le altre
+                            <lb /><roleName>prof.</roleName><name>Puini</name>, potrebbesi dar notizie sul <name type="religion">Brahmanismo</name>, il <name type="religion">Zo
+                            <lb />roastrismo</name> e l'<name type="religion">Islamismo</name>, come il <name>Puini</name> ha fatto per le altre
                             <lb />tre principali religioni dell'<bloc>Oriente</bloc>, e questi <num type="cardinal" value="2">due</num> volumi riu
                             <lb />scirebbero di un'utilità assai più completa e generale che
                             <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
@@ -594,15 +594,15 @@
                         </p>
                         <p facs="#p394_p4" xml:id="p394_par4">
                             <lb />Le <num type="cardinal" value="3">tre</num> religioni a cui è principalmente consacrato il li
-                            <lb />bro del <persName><surname>Puini</surname></persName> sono del numero di quelle che sogliono di
+                            <lb />bro del <name>Puini</name> sono del numero di quelle che sogliono di
                             <lb />stinguersi col nome di positive; cioè fondate sull'autorità
                             <lb />di un libro, sono tutte <num type="cardinal" value="3">tre</num> personali ossia precedenti da
                             <lb />un fondatore conosciuto, tutte <num type="cardinal" value="3">tre</num> nate in tempi storici
                             <lb />ed anche quasi del tutto contemporaneamente. <num type="cardinal" value="2">Due</num> sono
                             <lb />di origine schiettamente nazionale Cinese, i <num type="cardinal" value="2">due</num> sistemi
-                            <lb />cioè di <persName>Confucio</persName> e di <persName>Lao-tse</persName>; l'altra, il <name type="religion">Buddismo</name>, nacque
-                            <lb />in <placeName><country>India</country></placeName> nello stesso tempo in cui vivevano in <placeName><country>Cina</country></placeName> <persName>Con
-                            <lb />fucio</persName> e <persName>Lao-tse</persName> cioè nel <date from="-0599" to="-0500">sesto secolo prima dell'èra volgare</date>.
+                            <lb />cioè di <name type="person" ref="confucio">Confucio</name> e di <name type="person" ref="laotse">Lao-tse</name>; l'altra, il <name type="religion">Buddismo</name>, nacque
+                            <lb />in <placeName><country>India</country></placeName> nello stesso tempo in cui vivevano in <placeName><country>Cina</country></placeName> <name>Con
+                            <lb />fucio</name> e <name type="person" ref="laotse">Lao-tse</name> cioè nel <date from="-0599" to="-0500">sesto secolo prima dell'èra volgare</date>.
                             <lb />Alla <placeName><country>Cina</country></placeName> accadeva qualche cosa di simile ciò che accadde
                             <lb />all'<placeName><bloc type="continent">Europa</bloc></placeName>. Da un paganesimo originario di carattere na
                             <lb />turalistico ma assai diverso da quello degli <orgName>Arii</orgName>, poiché, forse
@@ -614,14 +614,14 @@
                             <lb />zionale, governava la speculazione e la pratica della vita ad
                             <lb />un tempo. La sintesi di questo movimento di lunga durata
                             <lb />e l'ultima sua risultante possono dirsi i due sistemi di
-                            <lb /><persName>Confucio</persName> e di <persName>Lao-tse</persName>, ambedue filosofici e di ragione pra
+                            <lb /><name type="person" ref="confucio">Confucio</name> e di <name type="person" ref="laotse">Lao-tse</name>, ambedue filosofici e di ragione pra
                             <lb />tica, ma più puro e più intieramente razionale il primo,
                             <lb />l'altro meno elevato e di più bassa lega come quello che
                             <lb />racchiude la favola e il miracolo e il soprannaturale e si
                             <lb />assomiglia quindi più ad una religione. Se volgiamo lo
                             <lb />sguardo all'<placeName><bloc type="continent">Europa</bloc></placeName> troviamo con sorpresa che in quello
-                            <lb />stesso secolo in cui nasceva <persName>Buddha</persName> in <placeName><country>India</country></placeName>, <persName>Confucio</persName> e
-                            <lb /><persName>Lao-tse</persName> in <placeName><country>Cina</country></placeName>, incomincia il grande moviemnto filosofico
+                            <lb />stesso secolo in cui nasceva <persName>Buddha</persName> in <placeName><country>India</country></placeName>, <name type="person" ref="confucio">Confucio</name> e
+                            <lb /><name type="person" ref="laotse">Lao-tse</name> in <placeName><country>Cina</country></placeName>, incomincia il grande moviemnto filosofico
                             <lb />in <placeName><country>Grecia</country></placeName> e accanto a suole puramente speculative nasce
                             <lb />il <name type="philosophy">Pitagorismo</name>, che è quello fra i sistemi filosofici greci che
                             <lb />più si accosta ad una religione. Come in <placeName><country>Cina</country></placeName> ed anche in
@@ -630,7 +630,7 @@
                             <lb />cosa filosofica e laica e prescinda affatto dall'idea di Dio,
                             <lb />pure pe gli antecedenti suoi e per l'ambiente in cui na
                             <lb />sce, degenera (come il <name type="religion">Cristianesimo</name>) in una religione vera
-                            <lb />e propria. Non così la dottrina di <persName>Confucio</persName> nè la filosofia
+                            <lb />e propria. Non così la dottrina di <name type="person" ref="confucio">Confucio</name> nè la filosofia
                             <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                             <lb />sto che la speculazione quantunque si spingesse fra i <orgName>greci</orgName>
                         </p>
@@ -643,7 +643,7 @@
                             <lb />monoteistico ben diverso da quello offerto dalla religione
                             <lb />nazionale, nondimeno rimase pura e razionale e laica sem
                             <lb />pre, non tralignando mai in religione. I <orgName>Cinesi</orgName> sono arri
-                            <lb />vati più in là. Essi hanno saputo dare a <persName>Confucio</persName> e alla
+                            <lb />vati più in là. Essi hanno saputo dare a <name type="person" ref="confucio">Confucio</name> e alla
                             <lb />sua dottrina quel posto nella vita morale della nazione che
                             <lb />altrove è tenuto da religioni e dai loro fondatori. Perciò
                             <lb />quella dottrina e quella regola di vita pare una religione
@@ -714,8 +714,143 @@
                             <forename>Domenico</forename><surname>Comparetti</surname>
                         </persName>
                     </docAuthor>
+                    
+                    <listPerson>
+                        <head>Elenco Persone</head>
+                        <person xml:id="puini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carlo_Puini" />
+                                <forename>Carlo</forename>
+                                <surname>Puini</surname>
+                            </persName>
+                            <occupation>Orientalista</occupation>
+                            <birth>
+                                <date when="1839-05-29">29/05/1839</date>
+                            </birth>
+                            <death>
+                                <date when="1924-06-04">03/06/1924</date>
+                            </death>
+                        </person>
+                        <person xml:id="muller">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Max_M%C3%BCller" />
+                                <forename>Friedrich Maximilian (Max)</forename>
+                                <surname>Müller</surname>
+                            </persName>
+                            <occupation>Storico delle religioni</occupation>
+                            <birth>
+                                <date when="1839-05-29">06/12/1823</date>
+                            </birth>
+                            <death>
+                                <date when="1924-06-04">28/10/1900</date>
+                            </death>
+                        </person>
+                        <person xml:id="confucio">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Confucio" />
+                                <surname>Confucio</surname>
+                            </persName>
+                            <occupation>Filosofo</occupation>
+                            <birth>
+                                <date when="-0551">551 A.C.</date>
+                            </birth>
+                            <death>
+                                <date when="-0479">479 A.C.</date>
+                            </death>
+                        </person>
+                        <person xml:id="laotse">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Laozi" />
+                                <surname>Lao-tse</surname>
+                            </persName>
+                            <occupation>Filosofo</occupation>
+                            <birth>
+                                <date from="-599" to="-500">VI secolo A.C.</date>
+                            </birth>
+                            <death>
+                                <date from="-599" to="-500">VI secolo A.C.</date>
+                            </death>
+                        </person>
+                        <person xml:id="faraday">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Michael_Faraday"/>
+                                <forename>Michael</forename>
+                                <surname>Faraday</surname>
+                            </persName>
+                            <occupation>Fisico</occupation>
+                            <birth>
+                                <date when="1791-09-22">22/09/1791</date>
+                            </birth>
+                            <death>
+                                <date when="1867-08-25">25/08/1867</date>
+                            </death>
+                        </person>
+                    </listPerson>
                 </back>
 
+            </text>
+            <text n="3" xml:lang="it" source="#ART_3">
+                <body>
+                    <div type="article">
+                        <pb n="1" facs="#p396" xml:id="pb396"/>
+                        <cb n="2"/>
+                        <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">Dell'Influenza Germanica sulla Musica Italiana</head>
+                        <p facs="#p396_p1" xml:id="p396_par1">
+                            <lb />Checché ne dicano quelli che vedono tutto nero, spira
+                            <lb />in <placeName><country type="nation">Italia</country></placeName> da qualche anno in qua un nuovo soffio di vita
+                            <lb />musicale, che promette di ringagliardire e fecondare le no
+                            <lb />stre menti. Questo soffio però sembra venirci d'oltralpe e
+                            <lb />segnatamente dalla <placeName><country type="nation">Germania</country></placeName>. Alcuni, facendo pompa di
+                            <lb />una eccessiva e malintesa italianità, accusano i nuovi tempi
+                            <lb />di ammirare e imitare servilmente tutto ciò ch'è straniero;
+                            <lb />e, deplorando le tendenze musicali de'giovani e il travia
+                            <lb />mento del gusto, ne danno tutta la colpa alla scuola tede
+                            <lb />sca, che, secondo essi, scese fra noi come un torrente fatale,
+                            <lb />che nessuna forza può arrestare. Qualche cosa di vero c'è;
+                            <lb />ma, a nostro avviso, l'influenza tedesca, ci può fare molto
+                            <lb />più bene che male, purché sappiamo valercene. Del rivolgi
+                            <lb />mento musicale, che ci viene d'oltralpe, i maggiori cam
+                            <lb />pioni (benché di genere diverso fra loro) sono : <persName><surname>Chopin</surname></persName>,
+                            <lb /><persName><surname>Schumann</surname></persName>, <persName><surname>Liszt</surname></persName>, <persName><surname>Berlioz</surname></persName>, <persName><forename>Raff</forename><surname>Brahms</surname></persName>, e, più possente di
+                            <lb />tutti, il <persName><surname>Wagner</surname></persName>. Una poesia vaporosa, un'idealità trascen
+                            <lb />dente, una ricerca di nuovi orizzonti : ecco la nota carat
+                            <lb />teristica di quegli arditi ingegni la cui bandiera ha per
+                            <lb />motto l'oraziano: <quote xml:lang="la" source="Orazio">odi profanum vulgus et arceo</quote>. Ma tali
+                            <lb />autori sono modelli, pericolosissimi per tutti, e massime
+                            <lb />per i giovani di mente fantastica e un po' malata ; come
+                            <lb />(in modo diverso) sono pericolosi modelli di poesia <persName><surname>Byron</surname></persName>,
+                            <lb /><persName><surname>Heine</surname></persName>, <persName><forename>Alfred</forename><surname>de Musset</surname></persName> e <persName><surname>Leopardi</surname></persName>. Oltre a ciò chi non
+                            <lb />ha le loro ali, avventurandosi in quell'atmosfera, fa il volo
+                            <lb />d'<persName>Icaro</persName>; e sgraziatamente sono spesso gl' impotenti e
+                            <lb />gl'ignoranti quelli che si camuffano da apostoli incom
+                            <lb />presi di tale o tal'altra scuola, e trovano chi li piglia sul
+                            <lb />serio. Del resto, nella storia dell'arte, è vecchio il fatto che
+                            <lb />anco i grandi maestri producono talvolta cattivi scolari ed
+                            <lb />hanno un'influenza non sempre benefica : il <surname></surname>Petrarca fece
+                            <lb />i Petrarchisti, e il Tasso diede forse, inconsciamente, una
+                            <lb />spinta al barocchismo del seicento. Non neghiamo dunque es
+                            <lb />sere pericoloso il fascino' che esercita la musica trascenden
+                            <lb />tale sulla giovane generazione ; ma ci sembra che i tedeschi
+                            <lb />stessi ci additino i mezzi di ovviare al pericolo, ed ecco in che
+                            <lb />cosa ci possono essere utilissimi. Anzi tutto gli stranieri, e in
+                            <lb />ispecie i tedeschi, non ci danno solo gli autori moderni sun
+                            <lb />nominati, ma bensì una schiera di grandi musicisti capita
+                            <lb />nati dai sommi Bach e Beethoven ; e questa è la loro scuola
+                            <lb />classica, fonte inesauribile dei più salutari insegnamenti, a
+                            <lb />cui tutte le nazioni possono attingere con immenso profitto.
+                            <lb />Poi i tedeschi c'insegnano una cosa importantissima: a stu
+                            <lb />diare seriamente, e ad onorare la grande arte classica ita
+                            <lb />liana, che ci lasciò tante gloriose tradizioni. Dovrebbe es
+                            <lb />sere una dolorosa lezione per noi italiani il vedere come i
+                            <lb />nostri classici siano conosciuti, studiati e celebrati di fuori,
+                            <lb />mentre fra noi (eccetto che da pochi musicisti) non se ne
+                            <lb />conoscono non solo le opere, ma di parecchi neppure i
+                            <lb />nomi. Non ha molto il maestro Giulio Roberti, scrivendo
+                            <lb />della musica italiana a Lipsia, toglieva dai programmi
+                            <lb />de'concerti diretti dal prof. Carl Riedel l'elenco delle com
+                        </p>
+                    </div>
+                </body>
             </text>
         </group>
        </text>
