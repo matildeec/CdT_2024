@@ -225,21 +225,21 @@
                             <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne
                             <lb />viene, come è naturale, una grande superficialità e legge
                             <lb />rezza in tutto. Ma noi allora, con una logica molto singo
-                            <lb />lare, ci serviamo di questi che sono i <choice><sic>resultati</sic><corr>risultati</corr></choice> naturali del
+                            <lb />lare, ci serviamo di questi che sono i resultati naturali del
                             <lb />nostro metodo, per giustificarlo. Se da una istruzione su
                             <lb />perficiale e leggera risulta una intelligenza leggera e su
                             <lb />perficiale, invece di <choice><expan>mutar<ex>e</ex></expan></choice> metodo, diciamo: <said direct="true" aloud="false">Vedete come
                             <lb />la donna è incapace di studi severi; essa non si pieghe
                             <lb />rebbe mai ad un metodo rigoroso</said>. Non viene mai in mente
                             <lb />di pensare che una istruzione come quella che le diamo,
-                            <lb />porterebbe i medesimi <choice><sic>resultati</sic><corr>risultati</corr></choice> anche in un uomo. E non
+                            <lb />porterebbe i medesimi resultati anche in un uomo. E non
                             <lb />viene neppure in mente, che la superficialità e la legge
                             <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                             <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                         </p>
                         <p facs="#p386_p3" xml:id="p386_par3">
                             <lb />Ma c' è di peggio ancora. Uno dei guai d'<placeName><country type="nation">Italia</country></placeName> sono i
-                            <lb />nostri convitti. I soli che diano qualche utile <choice><sic>resultato</sic><corr>risultato</corr></choice> sono
+                            <lb />nostri convitti. I soli che diano qualche utile resultato sono
                             <lb />i convitti militari, perchè in essi è entrato quello spirito di
                             <lb />disciplina, d'indipendenza morale e di onore cavalleresco, che
                             <lb />costituiscono la forza e la gloria del nostro esercito. I convitti
@@ -422,8 +422,8 @@
                             <lb />nome solamente. Noi crediamo che questo bisogno sia uni
                             <lb />versalmente riconosciuto, anche da coloro che non <choice><expan>son<ex>o</ex></expan></choice> molto
                             <lb />favorevoli alla generale cultura della donna. E siamo certi
-                            <lb />che una volta aperte e bene ordinate le <orgName>scuole Normali
-                            <lb />Superiori</orgName>, vi andrebbero moltissime anche di quelle donne
+                            <lb />che una volta aperte e bene ordinate le scuole Normali
+                            <lb />Superiori, vi andrebbero moltissime anche di quelle donne
                             <lb />che non vogliono insegnare, e i convitti e le altre scuole
                             <lb />secondarie femminili sentirebbero la necessità di rendere i
                             <lb />loro corsi di studio più seri e meno superficiali.
@@ -431,6 +431,9 @@
 
                     </div>
                 </body>
+            </text>
+            <text n="2" xml:lang="it" source="#ART_2">
+                
             </text>
         </group>
        </text>
