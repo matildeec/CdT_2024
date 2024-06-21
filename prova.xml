@@ -2233,7 +2233,7 @@
                             <ref target="https://it.wikipedia.org/wiki/Giudeo-cristianesimo"/>
                         </orgName>
                     </org>
-                    <org xml:id="giud_cris" type="cris_cat">
+                    <org xml:id="cris_cat" type="religione">
                         <orgName>
                             <name>Cattolicesimo</name>
                             <ref target="https://it.wikipedia.org/wiki/Chiesa_cattolica"/>
