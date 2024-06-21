@@ -648,7 +648,7 @@
                             <cb n="1"/>
 
                             <p facs="#p395_p4" xml:id="p395_par4">
-                                <lb />fino all'idea di <name>Dio</name> e la purificasse e arrivasse a un concetto
+                                <lb />fino all'idea di <name type="god">Dio</name> e la purificasse e arrivasse a un concetto
                                 <lb />monoteistico ben diverso da quello offerto dalla religione
                                 <lb />nazionale, nondimeno rimase pura e razionale e laica sem
                                 <lb />pre, non tralignando mai in religione. I Cinesi sono arri
@@ -724,7 +724,7 @@
                 </div>
 
                 <!-- ARTICOLO 3 -->
-                <div type="article" n="3" xml:lang="it" source="#ART_3">
+                <div type="article" n="8" xml:lang="it" source="#ART_3">
                     <pb n="1" facs="#p396" xml:id="pb396"/>
                     <cb n="2"/>
                     <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">Dell'Influenza Germanica sulla Musica Italiana</head>
