@@ -1758,14 +1758,6 @@
                             </death>
                             <occupation>Compositore e musicista</occupation>
                         </person>
-                        <person xml:id="lotti">
-                            <persName>
-                                <ref target="https://it.wikipedia.org/wiki/Antonio_Lotti"/>
-                                <forename>Antonio</forename>
-                                <surname>Lotti</surname>
-                            </persName>
-                            <occupation>Compositore e musicista</occupation>
-                        </person>
                         
                         <person xml:id="porpora">
                             <persName>
