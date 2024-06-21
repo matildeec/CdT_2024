@@ -819,7 +819,7 @@
                         <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
                         <lb />trali, che appartengono invece ad uno solo fra i tanti rami
                         <lb />dell'arte. Sarebbe come tutta la letteratura si limitasse
-                        <lb />a' lavori drammatici che si rappresentano ne' teatri.
+                        <lb /><choice><abbr>a'</abbr><expan>ai</expan></choice>lavori drammatici che si rappresentano <choice><abbr>ne'</abbr><expan>nei</expan></choice>teatri.
                     </ab>
 
                     <ab>
@@ -829,8 +829,8 @@
                         <lb />gono a <name type="person" ref="#rossini">Rossini</name>, <name type="person" ref="#bellini">Bellini</name>, <name type="person" ref="#donizetti">Donizetti</name> e qualche altro. Appena
                         <lb />da pochi anni furono diseppelliti <name type="person" ref="#cimarosa">Cimarosa</name> e <name type="person" ref="#spontini">Spontini</name> che
                         <lb />illustrano pur tanto la musica di teatro; e quanti sono che
-                        <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la Medea, e le due
-                        <lb />giornate?
+                        <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la <name type="bibl" ref="#medea" rend="italic">Medea</name>, e le <name type="bibl" ref="#dueg" rend="italic">due
+                        <lb />giornate</name>?
                     </ab>
 
                     <ab>
@@ -838,18 +838,18 @@
                         <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
                         <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
                         <lb />mirati dai nostri pubblici. E lo stesso <name type="person" ref="#verdi">Verdi</name> nelle sue ultime
-                        <lb />opere Don Carlos e Aida, pur rimanendo italiano, cercò di
-                        <lb />piegarsi a' nuovi intendimenti artistici che ci vengono d'ol
-                        <lb />tralpe ; e dimostrò d' avere studiato, facendone suo pro, il
+                        <lb />opere <name type="bibl" ref="#doncarlos">Don Carlos</name> e <name type="bibl" ref="#aida">Aida</name>, pur rimanendo italiano, cercò di
+                        <lb />piegarsi <choice><abbr>a'</abbr><expan>ai</expan></choice> nuovi intendimenti artistici che ci vengono d'ol
+                        <lb />tralpe; e dimostrò d' avere studiato, facendone suo pro, il
                         <lb />sapiente progresso della musica teatrale tedesca, nonostante
-                        <lb />il suo celebre <quote xml:lang="it">«tornate all'antico,»</quote> sentenza savia del resto
+                        <lb />il suo celebre «<quote xml:lang="it" rend="italic">tornate all'antico</quote>,» sentenza savia del resto
                         <lb />purché non frantesa.
                     </ab>
 
                     <ab>
                         <lb />Ora se l'opera teatrale è solamente uno fra i molti
                         <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
-                        <lb />nobile e più grande,, benché in generale si possa dirlo forse
+                        <lb />nobile e più grande, benché in generale si possa dirlo forse
                         <lb />il più accessibile alla maggior parte del pubblico. Molti vi
                         <lb />preferiscono la musica strumentale e corale dei grandi clas
                         <lb />sici, e fra questi chi antepone la musica sacra, chi la pro
@@ -859,15 +859,15 @@
                     </ab>
 
                     <ab>
-                        <lb />Certo a chi ha sentito le più maravigliose fra le sin
-                        <lb />fonie di Beethoven pare impossibile che un cervello umano
-                        <lb />abbia potuto creare questi edilìzi monumentali, e trova che
+                        <lb />Certo a chi ha sentito le più <choice><orig>maravigliose</orig><reg>meravigliose</reg></choice> fra le sin
+                        <lb />fonie di <name type="person" ref="#beethoven">Beethoven</name> pare impossibile che un cervello umano
+                        <lb />abbia potuto creare questi edifìzi monumentali, e trova che
                         <lb />non si possa fare nulla di più grande. E il pubblico che
                         <lb />di fresco assistette in <name type="place" ref="#mi">Milano</name> alla esecuzione eccellente della
-                        <lb />Nuova Sinfonia, (che per la prima volta si dava intera in
-                        <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz"></name> che
-                        <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'infatigable Titan, le géant de la mu
-                        <lb />sique.
+                        <lb /><name type="bibl" ref="#nonasin" rend="italic">Nuova Sinfonia</name>, (che per la prima volta si dava intera in
+                        <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz">Berlioz</name> che
+                        <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'<quote source="#berlioz" rend="italic">infatigable Titan, le géant de la mu
+                        <lb />sique</quote>.
                     </ab>
 
                     <ab>
@@ -883,18 +883,18 @@
 
                     <ab>
                         <lb />Del resto che lo studio dell'arte classica straniera (da
-                        <lb />non confondersi colle spropositate imitazioni del servum
-                        <lb />pecus) congiunto a quello dell'arte classica italiana possa
+                        <lb />non confondersi colle spropositate imitazioni del <quote xml:lang="la" source="#epistole" rend="italic">servum
+                        <lb />pecus</quote>) congiunto a quello dell'arte classica italiana possa
                         <lb />avere una salutare influenza, è cosa evidente per chi non
                         <lb />voglia negare la luce del sole. Ne citerò un esempio: quello
                         <lb />di <name type="person" ref="#bazzini">Antonio Bazzini</name>, compositore e violinista. Egli coll'in
-                        <lb />gegno, collo studio profondo de'capolavori di tutti i tem
+                        <lb />gegno, collo studio profondo <choice><abbr>de'</abbr><expan>dei</expan></choice>capolavori di tutti i tem
                         <lb />pi, di tutte le scuole, di tutti i paesi, pervenne a tener
                         <lb />alta la fama del nome italiano anche fuori d'<name type="place" ref="#it">Italia</name> scri
                         <lb />vendo un genere di musica in cui i tedeschi sono incon
-                        <lb />trastabilmente principi. I suoi Quartetti, il Quintetto, i
-                        <lb />Salmi, la Sinfonia cantata, le ouvertures del Saul e del Tie
-                        <lb />Lear (eseguite di continuo in <name type="place" ref="#it">Italia</name> e fuori) sono dapper
+                        <lb />trastabilmente principi. I suoi <name type="bibl" ref="#bazzini_comp">Quartetti</name>, il <name type="bibl" ref="#bazzini_comp">Quintetto</name>, i
+                        <lb /><name type="bibl" ref="#bazzini_comp">Salmi</name>, la <name type="bibl" ref="#bazzini_comp">Sinfonia cantata</name>, le <name type="bibl" rend="italic" ref="#bazzini_comp">ouvertures del Saul e del Re
+                        <lb />Lear</name> (eseguite di continuo in <name type="place" ref="#it" >Italia</name> e fuori) sono dapper
                         <lb />tutto e massime in <name type="place" ref="#de">Germania</name>, lodate dal pubblico e dalla
                         <lb />critica. Pure egli si mantenne italiano.
                     </ab>
@@ -920,7 +920,7 @@
                     </ab>
 
                     <ab>
-                        <lb />Nonpertanto sarebbe d'uopo che il loro esempio e i loro
+                        <lb />Nonpertanto sarebbe <choice><orig>d'uopo</orig><reg>necessario</reg></choice> che il loro esempio e i loro
                         <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
                         <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
                         <lb />si eseguisse frequentemente la musica sacra de' grandi clas
@@ -945,7 +945,7 @@
                         <lb />st'arte ancor bambina agli italiani, fu dagli italiani con
                         <lb />dotta a una grandezza imperitura : e fu in <name type="place" ref="#it">Italia</name> e pre
                         <lb />cisamente a <name type="place" ref="#ve">Venezia</name> che <name type="person" ref="#hassler">Leo Hassler</name> e <name type="person" ref="#schutz">Heinrich Schütz</name>,
-                        <lb />detto Sagittarius e considerato come il fondatore della mu
+                        <lb />detto <soCalled rend="italic">Sagittarius</soCalled> e considerato come il fondatore della mu
                         <lb />sica tedesca, impararono l'uno da <name type="person" ref="#a_gabrieli">Andrea</name>, l'altro da <name type="person" ref="#g_gabrieli">Gio
                         <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
                         <lb />rono dipoi in <name type="place" ref="#de">Germania</name>.
@@ -2426,6 +2426,12 @@
                         <date>23-13 a.C.</date>
                         <ref target="https://it.wikipedia.org/wiki/Odi_(Orazio)" />
                     </bibl>
+                    <bibl xml:id="epitole">
+                        <title>Epistole</title>
+                        <author>Quinto Orazio Flacco</author>
+                        <date>20 a.C.</date>
+                        <ref target="https://it.wikipedia.org/wiki/Epistole_(Orazio)" />
+                    </bibl>
                     <bibl xml:id="scienza_rel">
                         <title>Scienza delle Religioni</title>
                         <author ref="#muller">Max Müller</author>
@@ -2449,6 +2455,42 @@
                         <editor>Casa editrice Barbera</editor>
                         <date from="1878-01-06" to="1882-01-29">1878-1882</date>
                         <ref target="https://it.wikipedia.org/wiki/Rassegna_settimanale"></ref>
+                    </bibl>
+                    <bibl xml:id="medea">
+                        <title>Medea</title>
+                        <author ref="#cherubini">Cherubini</author>
+                        <date>1797 (prima rappr.)</date>
+                        <ref target="https://it.wikipedia.org/wiki/Medea_(Cherubini)"></ref>
+                    </bibl>
+                    <bibl xml:id="dueg">
+                        <title>Due Giornate</title>
+                        <author ref="#cherubini">Cherubini</author>
+                        <date>1800 (prima rappr.)</date>
+                        <ref target="https://it.wikipedia.org/wiki/Les_deux_journ%C3%A9es"></ref>
+                    </bibl>
+                    <bibl xml:id="doncarlos">
+                        <title>Don Carlos</title>
+                        <author ref="#verdi">Verdi</author>
+                        <date>1867 (prima rappr.)</date>
+                        <ref target="https://it.wikipedia.org/wiki/Don_Carlo"></ref>
+                    </bibl>
+                    <bibl xml:id="aida">
+                        <title>Aida</title>
+                        <author ref="#verdi">Verdi</author>
+                        <date>1872 (prima rappr.)</date>
+                        <ref target="https://it.wikipedia.org/wiki/Aida"></ref>
+                    </bibl>
+                    <bibl xml:id="nonasin">
+                        <title>Sinfonia n. 9 </title>
+                        <author ref="#beethoven">Ludwig van Beethoven</author>
+                        <date>1878 (prima rappr. it.)</date>
+                        <ref target="https://it.wikipedia.org/wiki/Sinfonia_n._9_(Beethoven)"></ref>
+                    </bibl>
+                    <bibl xml:id="bazzini_comp">
+                        <title>Composizioni </title>
+                        <author ref="#bazzini">Antonio Bazzini</author>
+                        <date>1867-1897</date>
+                        <ref target="https://it.wikipedia.org/wiki/Antonio_Bazzini#Composizioni"></ref>
                     </bibl>
                 </listBibl>
             </div>
