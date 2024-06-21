@@ -195,9 +195,11 @@
 
        <text>
         <body>
-            <div type="journal" org="composite">
+            <div type="journal" org="composite" part="Y">
+
+                <!-- ARTICOLO 1 -->
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
-                    <pb n="1" facs="#p386" xml:id="pb386"/>
+                    <pb n="2" facs="#p386" xml:id="pb386"/>
                             <cb n="1"/>
                             <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
                             <p facs="#p386_p1" xml:id="p386_par1">
@@ -433,7 +435,7 @@
                 </div>
 
                 <!-- ARTICOLO 2 -->
-                <div type="article" n="2" xml:lang="it" source="#ART_2">
+                <div type="article" n="7" xml:lang="it" source="#ART_2">
                     <pb n="1" facs="#p393" xml:id="pb393"/>
                             <cb n="2"/>
                             <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">Le Religioni dell'Asia Orientale</head>
@@ -707,7 +709,7 @@
                                 <lb />nare.
                             </p>
                             <closer facs="#p395_firm" xml:id="p395_author">
-                                <signed>
+                                <signed rend="align(right) case(allcaps)">
                                     <name type="person" ref="#comparetti">Domenico Comparetti</name>
                                 </signed>
                             </closer>
