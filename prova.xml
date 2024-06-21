@@ -452,14 +452,14 @@
                                 <lb />del suo genere in <name type="place" ref="#it">Italia</name>, e risponde ad un vivo desiderio
                                 <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
                                 <lb />superi il campo delle nostre competenze e quello pure di
-                                <lb />questa <orgName rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></orgName>, pure esso ha un lato di natura e d'im
+                                <lb />questa <name type="bibl" ref="#ras_set" rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></name>, pure esso ha un lato di natura e d'im
                                 <lb />portanza più generale, che, secondo gl'intendimenti dell' <choice><abbr>A.</abbr><expan>Autore</expan></choice>
                                 <lb />stesso, lo rende accessibile a tutti e utile oggetto di atten
                                 <lb />zione per ogni persona colta. Il <roleName type="honorific">professor</roleName><name type="person" ref="#puini">Puini</name> è il primo
                                 <lb />che, colla serietà e l'autorità di chi è munito di tutti gli
                                 <lb />studi necessari e sa ispirarsi unicamente alle ragioni della
                                 <lb />scienza, offre agli Italiani un quadro delle religioni del
-                                <lb />l'<bloc type="continent">Asia Orientale</bloc>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="religion" ref="#BUDD">Buddhismo</name>,
+                                <lb />l'<name type="place" ref="#asor">Asia Orientale</name>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="religion" ref="#BUDD">Buddhismo</name>,
                                 <lb />dall'<name type="place" ref="#ind">India</name> importato in vastissime regioni dell' <bloc type="sub-continent">estremo
                                 <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <name type="person" ref="#confucio">Confucio</name>
                                 <lb />e di <name type="person" ref="#laotse">Lao-tse</name>; brevemente poi discorre il <name><surname>Puini</surname></name> di una
@@ -502,22 +502,22 @@
                             <p facs="#p394_p1" xml:id="p394_par1">
                                 <lb />sentano come problemi che hanno poi per soluzione una
                                 <lb />definizione nuova di una parola antica. Questo è avvenuto
-                                <lb />per molti nomi di gran significato, quali <emph rend="italic">Dio</emph>, <emph rend="italic">anima</emph>, <emph rend="italic">vita</emph>,
-                                <lb /><emph rend="italic">natura</emph>, ec. nè ci possiamo maravigliare se oggi pure dopo
+                                <lb />per molti nomi di gran significato, quali <term type="verbum" rend="italic">Dio</term>, <term type="verbum" rend="italic">anima</term>, <term type="verbum" rend="italic">vita</term>,
+                                <lb /><term type="verbum" rend="italic">natura</term>, ec. nè ci possiamo maravigliare se oggi pure dopo
                                 <lb />secoli e secoli di vita religiosa siam qui a domandarci: che
                                 <lb />cos'è la Religione? Gli antichi popoli politeisti e pagani
-                                <lb />non ebbero un vocabolo che esprimesse <emph rend="italic">religione</emph> nel senso
+                                <lb />non ebbero un vocabolo che esprimesse <term rend="italic">religione</term> nel senso
                                 <lb />odierno della parola. Si parlava di Dei greci, di Dei fenici,
                                 <lb />egizi, ec. ma la religione era una; le varietà modali erano
-                                <lb /><name type="person" ref="#confucio">Confucio</name> e di <name type="person" ref="#laotse">Lao-tse</name>, ambedue filosofici e di ragione pro
+                                <lb />considerate e sentite come distintivi nazionali e non pro
                                 <lb />vocavano antagonismi, nè odii, nè guerre. Il monoteismo
                                 <lb />ruppe l'accordo e l'armonia fondamentale che nell'ordine
                                 <lb />religioso, in mezzo alla moltiplicità de'nomi e delle forme,
                                 <lb />regnava nelle coscienze antiche, e se ridusse il numero
                                 <lb />degli Dei, moltiplicò quello delle religioni diverse e nemi
                                 <lb />che con grande svantaggio della tranquillità sociale e della
-                                <lb />fraternità umana. Ed allora si comincia a parlare di <emph rend="italic">reli
-                                <lb />gione</emph> e di <emph rend="italic">religioni</emph>; nè mai plurale fu più pregno di con
+                                <lb />fraternità umana. Ed allora si comincia a parlare di <term rend="italic">reli
+                                <lb />gione</term> e di <term rend="italic">religioni</term>; nè mai plurale fu più pregno di con
                                 <lb />seguenze pel valore e il significato del suo singolare. La
                                 <lb />coscienza moderna illuminata dal sapere molto progredito
                                 <lb />e dalla conoscenza sempre più facilitata di popoli diversi
@@ -534,7 +534,7 @@
                                 <lb />guardiamo ai passi che hanno fatto alcuni nella via della
                                 <lb />popolarizzazione per queste materie, dobbiam confessare
                                 <lb />che siamo assai restii dall'approvarli. Si comincia già male
-                                <lb />col titolo specioso di <emph rend="italic">Scienza della religione</emph>, che pare fatto
+                                <lb />col titolo specioso di <name type="bibl" ref="#scienza_rel" rend="italic">Scienza della religione</name>, che pare fatto
                                 <lb />espressamente per istimolare la curiosità degli uditori di
                                 <lb />un <foreign xml:lang="en">lecturer</foreign>, ma che non è un titolo serio. Una scienza tale
                                 <lb />non esiste, nè (vista la vastità e la varietà delle discipline
@@ -546,11 +546,11 @@
                                 <lb />di dare pubblico spettacolo dell' indagine scientifica nel
                                 <lb />suo stato il più immaturo. Peggio poi quando vediamo
                                 <lb />il <name type="person" ref="#muller">Max Müller</name> venir fuori, a proposito di religione, con
-                                <lb />vuote e vane formulo qual'è la sua ormai celebre <emph rend="italic">perce
-                                <lb />zione dell'infinito</emph>, un pegaso di puro sangue germanico
-                                <lb />sul quale il valente indianista di <orgName>Oxford</orgName> potrà facilmente
+                                <lb />vuote e vane formule qual'è la sua ormai celebre <quote source="#scienza_rel" rend="italic">perce
+                                <lb />zione dell'infinito</quote>, un pegaso di puro sangue germanico
+                                <lb />sul quale il valente indianista di <name type="org" ref="#OXF">Oxford</name> potrà facilmente
                                 <lb />percorrere molto spazio, ma sempre in aria. Ciò che ve
-                                <lb />ramente esiste, non è la <emph rend="italic">scienza della religione</emph>, ma lo stu
+                                <lb />ramente esiste, non è la <quote source="#scienza_rel" rend="italic">scienza della religione</quote>, ma lo stu
                                 <lb />dio della religione e delle religioni fatto da un punto di
                                 <lb />vista puramente scientifico e come parte delle scienze sto
                                 <lb />riche o filosofiche o etnologiche. Questo che è veramente
@@ -592,7 +592,7 @@
                                 <lb />quei libri che per vicende molteplici e molto diverse, ar
                                 <lb />rivarono ad esser considerati come sacri. Se un cinese af
                                 <lb />fermasse dinanzi a noi di conoscere il nostro <name type="religion" ref="#CRIST">Cristianesimo</name>
-                                <lb />per aver letto il <objectName type="book">Vangelo</objectName>, ci farebbe ridere. A noi sembra
+                                <lb />per aver letto il <name type="bibl" ref="#van">Vangelo</name>, ci farebbe ridere. A noi sembra
                                 <lb />che in un altro volume di non maggiore mole di quello del
                                 <lb /><roleName>prof.</roleName><name type="person" ref="#puini">Puini</name>, potrebbesi dar notizie sul <name type="religion" ref="#BRAHM">Brahmanismo</name>, il <name type="religion">Zo
                                 <lb />roastrismo</name> e l'<name type="religion" ref="#ISLAM">Islamismo</name>, come il <name type="person" ref="#puini">Puini</name> ha fatto per le altre
@@ -614,7 +614,7 @@
                                 <lb />fucio</name> e <name type="person" ref="#laotse">Lao-tse</name> cioè nel <date from="-0599" to="-0500">sesto secolo prima dell'èra volgare</date>.
                                 <lb />Alla <name type="place" ref="#ci">Cina</name> accadeva qualche cosa di simile ciò che accadde
                                 <lb />all'<name type="place" ref="#eu">Europa</name>. Da un paganesimo originario di carattere na
-                                <lb />turalistico ma assai diverso da quello degli <orgName>Arii</orgName>, poiché, forse
+                                <lb />turalistico ma assai diverso da quello degli Arii, poiché, forse
                                 <lb />pel modo diverso di contemplare o di derinire la natura e le
                                 <lb />sue forze, più ricco di astrazione che di elementi plastici,
                                 <lb />poetici, e personificatori, la <name type="place" ref="#ci">Cina</name> da tempi antichissimi rivol
@@ -682,13 +682,13 @@
                                 <lb />si ravvisa ancora in modo sorprendente quando troviamo
                                 <lb />che quasi affatto contemporaneamente due religioni nate in
                                 <lb />suolo straniero, con profondissima influenza s' infiltrano
-                                <lb />l'una in <placeName><bloc type="continent">Europa</bloc></placeName>, l'altra in <name type="place" ref="#ci">Cina</name>. Quando nel <date from="0" to="99">primo secolo
-                                <lb />dell'èra volgare</date> il <name type="religion">giudaismo cristiano</name>, allora nato in <placeName><country type="nation">Pale
-                                <lb />stina</country></placeName>, s'introduceva in <placeName><bloc type="continent">Europa</bloc></placeName> per associarsi colla <orgName>civiltà
-                                <lb />greco-romana</orgName> e divenir quindi il <name type="religion">cristianesimo cattolico</name>,
+                                <lb />l'una in <name type="place" ref="#eu">Europa</name>, l'altra in <name type="place" ref="#ci">Cina</name>. Quando nel <date from="0" to="99">primo secolo
+                                <lb />dell'èra volgare</date> il <name type="org" ref="#giud_cris">giudaismo cristiano</name>, allora nato in <name type="place" ref="#pal">Pale
+                                <lb />stina</name>, s'introduceva in <name type="place" ref="#eu">Europa</name> per associarsi colla civiltà
+                                <lb />greco-romana e divenir quindi il <name type="org" ref="#cris_catt">cristianesimo cattolico</name>,
                                 <lb />appunto allora un'altra religione non molto dissimile nei
                                 <lb />suoi intendimenti, non meno pessimista, non meno proseli
-                                <lb />tista e non meno sfortunata nel suo luogo nativo, il <name type="religion">Bud
+                                <lb />tista e non meno sfortunata nel suo luogo nativo, il <name type="org" ref="#BUDD">Bud
                                 <lb />dismo</name>, s'introduceva in <name type="place" ref="#ci">Cina</name>. Sono pur mirabili queste
                                 <lb />coincidenze nella evoluzione storica di due grandi porzioni
                                 <lb />dell'umanità civile, remota l'una dall' altra e senza con
@@ -699,9 +699,9 @@
                                 <lb />tutte queste religioni o filosofie che siano o fossero delle
                                 <lb />quali abbiam parlato, hanno poi un carattere comune che
                                 <lb />le distingue da altre religioni più antiche : dei due termini
-                                <lb />estremi fra i quali oscilla l'idea religiosa, Dio e uomo, que
+                                <lb />estremi fra i quali oscilla l'idea religiosa, <term type="verbum">Dio</term> e <term type="verbum">uomo</term>, que
                                 <lb />st'ultimo è quello che prevale in esse, mentre più esclusi
-                                <lb />vamente pregne dell'idea Dio sono le più antiche. Ma se
+                                <lb />vamente pregne dell'<term type="verbum">idea Dio</term> sono le più antiche. Ma se
                                 <lb />si considerino gli ulteriori svolgimenti nelle regioni e nelle
                                 <lb />religioni poste qui a confronto troviamo che il parallelismo
                                 <lb />e le coincidenze cessano. L'orologio europeo dopo aver
@@ -1111,6 +1111,18 @@
                             <bloc>Europa</bloc>
                         </location>
                     </place>
+                    <place xml:id="pal" type="nation">
+                        <placeName>Palestina</placeName>
+                        <location>
+                            <bloc>Medio Oriente</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="asor" type="continent">
+                        <placeName>Asia Orientale</placeName>
+                        <location>
+                            <bloc>Asia</bloc>
+                        </location>
+                    </place>
                 </listPlace>
 
                 <listOrg>
@@ -1177,7 +1189,51 @@
                             <ref target="https://it.wikipedia.org/wiki/Islam"/>
                         </orgName>
                     </org>
+                    <org xml:id="OXF" type="university">
+                        <orgName>
+                            <name>Università di Oxford</name>
+                            <ref target="https://it.wikipedia.org/wiki/Università_di_Oxford"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="giud_cris" type="religion">
+                        <orgName>
+                            <name>Giudeo-cristianesimo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Giudeo-cristianesimo"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="giud_cris" type="cris_cat">
+                        <orgName>
+                            <name>Cattolicesimo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Chiesa_cattolica"/>
+                        </orgName>
+                    </org>
                 </listOrg>
+                <listBibl>
+                    <bibl xml:id="scienza_rel">
+                        <title>Scienza delle Religioni</title>
+                        <author ref="#muller">Max Müller</author>
+                        <editor>G.C. Sansoni</editor>
+                        <date>1874</date>
+                        <ref target="https://books.google.it/books/about/Quattro_letture_d_introduzione_alla_scie.html?id=fx4HAAAAQAAJ&redir_esc=y"></ref>
+                    </bibl>
+                    <bibl xml:id="van">
+                        <title>Vangelo</title>
+                        <author>Vari</author>
+                        <date>I secolo d.C.</date>
+                        <ref target="https://it.wikipedia.org/wiki/Vangelo"></ref>
+                    </bibl>
+                    <bibl xml:id="ras_set">
+                        <title>La Rassegna Settimanale</title>
+                        <respStmt>
+                            <resp>fondata da</resp>
+                            <name>Leopoldo Franchetti</name>
+                            <name>Sydney Sonnino</name>
+                        </respStmt>
+                        <editor>Casa editrice Barbera</editor>
+                        <date from="1878-01-06" to="1882-01-29">1878-1882</date>
+                        <ref target="https://it.wikipedia.org/wiki/Rassegna_settimanale"></ref>
+                    </bibl>
+                </listBibl>
             </div>
             
         </back>
