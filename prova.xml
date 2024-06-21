@@ -23,7 +23,7 @@
             <availability status="free">
                 <p>L'edizione digitale è consultabile liberamente al seguente link:"https://github.com/matildeec/CdT_2024"</p>
             </availability>
-         </publicationStmt>   	
+         </publicationStmt>
          <seriesStmt>
             <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
             <respStmt>
@@ -210,8 +210,8 @@
                     <pb n="2" facs="#p386" xml:id="pb386"/>
                             <cb n="1"/>
                             <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
-                            <p facs="#p386_p1" xml:id="p386_par1">
-                                <lb />L' <roleName type="office">on.</roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
+                            <ab facs="#p386_p1" xml:id="p386_par1">
+                                <lb />L' <roleName type="office"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
                                 <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
                                 <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
                                 <lb />fondava principalmente su questo concetto: dare agli uo
@@ -229,8 +229,8 @@
                                 <lb />si voglia, le nostre scuole femminili sono insufficenti a
                                 <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="#matcont #leopasq">l</unclear>e e miglio
                                 <lb />rarle.
-                            </p>
-                            <p facs="#p386_p2" xml:id="p386_par2">
+                            </ab>
+                            <ab facs="#p386_p2" xml:id="p386_par2">
                                 <lb />In generale può dirsi che, mentre noi cerchiamo di dare
                                 <lb />all' uomo una istruzione che ne sviluppi e fortifichi l' intel
                                 <lb />ligenza, ne accresca la cultura, alla donna <choice><expan>vogliam<ex>o</ex></expan></choice> dare
@@ -248,8 +248,8 @@
                                 <lb />viene neppure in mente, che la superficialità e la legge
                                 <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                                 <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
-                            </p>
-                            <p facs="#p386_p3" xml:id="p386_par3">
+                            </ab>
+                            <ab facs="#p386_p3" xml:id="p386_par3">
                                 <lb />Ma c' è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                                 <lb />nostri convitti. I soli che diano qualche utile resultato sono
                                 <lb />i convitti militari, perchè in essi è entrato quello spirito di
@@ -288,7 +288,7 @@
                                 <lb />nache; dove non ci sono più le monache, c'è restato il 
                                 <lb />loro metodo di educare. Queste non sono asserzioni gra
                                 <lb />tuite. Potremmo rimandare il lettore a molte relazioni fatte
-                                <lb />da <roleName type="office">Ispettori</roleName> e <roleName type="office">Provveditori del Ministero</roleName>. Ora, che utili re
+                                <lb />da <name type="role">Ispettori</name> e <name type="role">Provveditori del Ministero</name>. Ora, che utili re
                                 <lb />sultati possono dare, a chi possono giovare una cultura su
                                 <lb />perficiale ed una educazione che separa dalla famiglia e
                                 <lb />dalla società, che tende a s<damage agent="inkblot" degree="low">o</damage>pprimere ogni morale respon
@@ -296,8 +296,8 @@
                                 <lb />saperlo ai sotterfugi ed alla finzione? Fortunatamente i
                                 <lb />convitti non sono molti ; ma da un altro lato le scuole sono
                                 <lb />poche ed insufficenti.
-                            </p>
-                            <p facs="#p386_p4" xml:id="p386_par4">
+                            </ab>
+                            <ab facs="#p386_p4" xml:id="p386_par4">
                                 <lb />Per queste ragioni è molto naturale quella impazienza
                                 <lb />che vediamo crescere ogni giorno, e quelle domande che
                                 <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
@@ -315,8 +315,8 @@
                                 <lb />Questa forse non è l'ultima fra le cagioni per cui i nostri
                                 <lb />libri diventano noiosi, aridi, tecnici, e sono scritti troppo
                                 <lb />spesso solamente per gli uomini del mestiere.
-                            </p>
-                            <p facs="#p386_p5" xml:id="p386_par5">
+                            </ab>
+                            <ab facs="#p386_p5" xml:id="p386_par5">
                                 <lb />Per ora il nostro sistema scolastico femminile si riduce
                                 <lb />alle scuole elementari, ed alle scuole normali che formano
                                 <lb />le maestre elementari. Le sei o forse sette scuole femmi
@@ -328,8 +328,8 @@
                                 <lb />e per le donne invece rappresentano lo scalino più alto.
                                 <lb />Nondimeno già sentiamo che si parla di sopprimere quella
                                 <lb />che fu istituita in <name type="place" ref="fi">Firenze</name>.
-                            </p>
-                            <p facs="#p386_p6" xml:id="p386_par6">
+                            </ab>
+                            <ab facs="#p386_p6" xml:id="p386_par6">
                                 <lb />Molto dunque ci sarebbe da fare, se si volesse comin
                                 <lb />ciare veramente a dare un impulso serio alla istruzione
                                 <lb />della donna. Bisognerebbe innanzi tutto ordinare meglio,
@@ -345,11 +345,11 @@
                                 <lb />si considera che in <name type="place" ref="#it">Italia</name> ormai tutti, uomini e donne, fre
                                 <lb />quentano quelle scuole solamente, che danno loro un di
                                 <lb />ploma il quale sia praticamente utile a qualche cosa.
-                            </p>
+                            </ab>
 
                             <pb n="2" facs="#p387" xml:id="pb387"/>
                             <cb n="1"/>
-                            <p facs="#p387_p7" xml:id="p387_par7">
+                            <ab facs="#p387_p7" xml:id="p387_par7">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
                                 <lb />che cominciano a dare utili <choice><sic>resultati</sic><corr>risultati</corr></choice> e vanno migliorando
                                 <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
@@ -372,9 +372,9 @@
                                 <lb />col quale si è veramente dato alla donna ed all'uomo una
                                 <lb />medesima istruzione, ha provato con evidenza che la donna
                                 <lb />non riesce punto inferiore all'uomo.
-                            </p>
+                            </ab>
 
-                            <p facs="#p387_p8" xml:id="p387_par8">
+                            <ab facs="#p387_p8" xml:id="p387_par8">
                                 <lb />Ma c'è una ragione al mondo, per la quale ad essa
                                 <lb />non si debba dare altra istruzione che quella strettamente
                                 <lb />necessaria a farne una buona maestra elementare? È qui
@@ -396,9 +396,9 @@
                                 <lb />femminili, e non crediamo che, almeno per ora, sia davvero
                                 <lb />indispensabile la licenza liceale alle maestre di scuole nor
                                 <lb />mali.
-                            </p>
+                            </ab>
 
-                            <p facs="#p387_p9" xml:id="p387_par9">
+                            <ab facs="#p387_p9" xml:id="p387_par9">
                                 <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se
                                 <lb />la donna è incapace di essere niente di più che una sem
                                 <lb />plice maestra elementare, perchè si chiama dal governo,
@@ -410,9 +410,9 @@
                                 <lb />si concede agli uomini? Perchè non le si apre la via per
                                 <lb />ottenere legalmente un diploma, e non le si offrono i ne
                                 <lb />cessari aiuti?
-                            </p>
+                            </ab>
 
-                            <p facs="#p387_p10" xml:id="p387_par10">
+                            <ab facs="#p387_p10" xml:id="p387_par10">
                                 <lb />A noi pare davvero che se la donna cominciasse un'agi
                                 <lb />tazione su questo terreno, la sua posizione legale e la sua
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
@@ -439,7 +439,7 @@
                                 <lb />che non vogliono insegnare, e i convitti e le altre scuole
                                 <lb />secondarie femminili sentirebbero la necessità di rendere i
                                 <lb />loro corsi di studio più seri e meno superficiali.
-                            </p>
+                            </ab>
                 </div>
 
                 <!-- ARTICOLO 2 -->
@@ -447,7 +447,7 @@
                     <pb n="1" facs="#p393" xml:id="pb393"/>
                             <cb n="2"/>
                             <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">Le Religioni dell'Asia Orientale</head>
-                            <p facs="#p393_p1" xml:id="p393_par1">
+                            <ab facs="#p393_p1" xml:id="p393_par1">
                                 <lb />È venuto a luce da non molto un libro che è il <num type="ordinal" value="1">primo</num>
                                 <lb />del suo genere in <name type="place" ref="#it">Italia</name>, e risponde ad un vivo desiderio
                                 <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
@@ -482,7 +482,7 @@
                                 <lb />quali poi lo seguono e anche lo dominano nei suoi svolgi
                                 <lb />menti storici. Nei vari periodi di evoluzione del suo spirito,
                                 <lb />queste creature sue gli s'impongono sempre, e gli si pre
-                            </p>
+                            </ab>
                             <bibl facs="#p393_bibl" xml:id="puini78">
                                 <author>
                                     <name>
@@ -499,7 +499,7 @@
 
                             <pb n="2" facs="#p394" xml:id="pb394"/>
                             <cb n="1" />
-                            <p facs="#p394_p1" xml:id="p394_par1">
+                            <ab facs="#p394_p1" xml:id="p394_par1">
                                 <lb />sentano come problemi che hanno poi per soluzione una
                                 <lb />definizione nuova di una parola antica. Questo è avvenuto
                                 <lb />per molti nomi di gran significato, quali <term type="verbum" rend="italic">Dio</term>, <term type="verbum" rend="italic">anima</term>, <term type="verbum" rend="italic">vita</term>,
@@ -566,14 +566,14 @@
                                 <lb />pretensioni trascendentali e senza febbri metafisiche in
                                 <lb />semplice, chiaro ed onesto stile, fa onore alla lucida sere
                                 <lb />nità dell'ingegno italiano.
-                            </p>
-                            <p facs="#p394_p2" xml:id="p394_par2">
+                            </ab>
+                            <ab facs="#p394_p2" xml:id="p394_par2">
                                 <lb />Il <roleName>professor</roleName><name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
-                            </p>
+                            </ab>
 
                             <cb n="2"/>
 
-                            <p facs="#p394_p3" xml:id="p394_par3">
+                            <ab facs="#p394_p3" xml:id="p394_par3">
                                 <lb />basare sulla conoscenza dei fatti le idee della gente colta
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
@@ -600,8 +600,8 @@
                                 <lb />scirebbero di un'utilità assai più completa e generale che
                                 <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
                                 <lb />lente preparazione per chi poi volesse studiare anche questi.
-                            </p>
-                            <p facs="#p394_p4" xml:id="p394_par4">
+                            </ab>
+                            <ab facs="#p394_p4" xml:id="p394_par4">
                                 <lb />Le <num type="cardinal" value="3">tre</num> religioni a cui è principalmente consacrato il li
                                 <lb />bro del <name type="person" ref="#puini">Puini</name> sono del numero di quelle che sogliono di
                                 <lb />stinguersi col nome di positive; cioè fondate sull'autorità
@@ -642,12 +642,12 @@
                                 <lb />e propria. Non così la dottrina di <name type="person" ref="#confucio">Confucio</name> nè la filosofia
                                 <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                                 <lb />sto che la speculazione quantunque si spingesse fra i greci
-                            </p>
+                            </ab>
 
                             <pb n="3" facs="#p395" xml:id="pb395"/>
                             <cb n="1"/>
 
-                            <p facs="#p395_p4" xml:id="p395_par4">
+                            <ab facs="#p395_p4" xml:id="p395_par4">
                                 <lb />fino all'idea di <name type="god">Dio</name> e la purificasse e arrivasse a un concetto
                                 <lb />monoteistico ben diverso da quello offerto dalla religione
                                 <lb />nazionale, nondimeno rimase pura e razionale e laica sem
@@ -715,7 +715,7 @@
                                 <lb />orientale</bloc></placeName>quest' ora non è suonata nè l'ottimo <ref target="#puini78" resp="leopasq">libro</ref> del
                                 <lb /><roleName type="honorific">prof</roleName><name type="person" ref="#puini">Puini</name> ci addita alcuna speranza che sia mai per suo
                                 <lb />nare.
-                            </p>
+                            </ab>
                             <closer facs="#p395_firm" xml:id="p395_author">
                                 <signed rend="align(right) case(allcaps)">
                                     <name type="person" ref="#comparetti">Domenico Comparetti</name>
@@ -748,21 +748,21 @@
                         <lb />tutti, il <name type="person" ref="wagner">Wagner</name>. Una poesia vaporosa, un'idealità trascen
                         <lb />dente, una ricerca di nuovi orizzonti: ecco la nota carat
                         <lb />teristica di quegli arditi ingegni la cui bandiera ha per
-                        <lb />motto l'oraziano: <quote xml:lang="la">odi profanum vulgus et arceo</quote>. Ma tali
+                        <lb />motto l'oraziano: <quote xml:lang="la" rend="italic" source="#odi">odi profanum vulgus et arceo</quote>. Ma tali
                         <lb />autori sono modelli, pericolosissimi per tutti, e massime
-                        <lb />per i giovani di mente fantastica e un po' malata ; come
+                        <lb />per i giovani di mente fantastica e un po' malata; come
                         <lb />(in modo diverso) sono pericolosi modelli di poesia <name type="person" ref="#byron">Byron</name>,
                         <lb /><name type="person" ref="#heine">Heine</name>, <name type="person" ref="#demusset">Alfred de Musset</name> e <name type="person" ref="#leopardi">Leopardi</name>. Oltre a ciò chi non
                         <lb />ha le loro ali, avventurandosi in quell'atmosfera, fa il volo
-                        <lb />d'<name type="person" ref="#icaro">Icaro</name>; e sgraziatamente sono spesso gl' impotenti e
+                        <lb />d'<name type="person" ref="#icaro">Icaro</name>; e sgraziatamente sono spesso gl'impotenti e
                         <lb />gl'ignoranti quelli che si camuffano da apostoli incom
                         <lb />presi di tale o tal'altra scuola, e trovano chi li piglia sul
                         <lb />serio. Del resto, nella storia dell'arte, è vecchio il fatto che
                         <lb />anco i grandi maestri producono talvolta cattivi scolari ed
                         <lb />hanno un'influenza non sempre benefica : il <name type="person" ref="#petrarca">Petrarca</name> fece
-                        <lb />i Petrarchisti, e il <name type="person" ref="#tasso">Tasso</name> diede forse, inconsciamente, una
-                        <lb />spinta al barocchismo del <date from="1600" to="1699">seicento</date>. Non neghiamo dunque es
-                        <lb />sere pericoloso il fascino' che esercita la musica trascenden
+                        <lb />i <name type="org" ref="#PETRS">Petrarchisti</name>, e il <name type="person" ref="#tasso">Tasso</name> diede forse, inconsciamente, una
+                        <lb />spinta al <name type="org" ref="#BAROC">barocchismo</name> del <date from="1600" to="1699">seicento</date>. Non neghiamo dunque es
+                        <lb />sere pericoloso il fascino che esercita la musica trascenden
                         <lb />tale sulla giovane generazione; ma ci sembra che i tedeschi
                         <lb />stessi ci additino i mezzi di ovviare al pericolo, ed ecco in che
                         <lb />cosa ci possono essere utilissimi. Anzi tutto gli stranieri, e in
@@ -781,12 +781,12 @@
                         <lb />nomi. Non ha molto il maestro <name type="person" ref="#roberti">Giulio Roberti</name>, scrivendo
                         <lb />della musica italiana a <name type="place" ref="#lips">Lipsia</name>, toglieva dai programmi
                         <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
-                    </p>
+                    </ab>
 
                     <pb n="2" facs="#p397" xml:id="pb397"/>
                     <cb n="1"/>
                     <p facs="#p397_p1" xml:id="p397_par1">
-                        <lb />posizioni di classici nostri eseguite nel Riedel'scher Verein.
+                        <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
                         <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
                         <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
                         <lb /><name type="person" ref="#bernabei">E. Bernabei</name>, <name type="person" ref="#carissimi">G. Carissimi</name>, <name type="person" ref="#biordi">G. Biordi</name> della scuola romana;
@@ -803,26 +803,26 @@
                         <lb />più moderni <name type="person" ref="#bach">Bach</name>, <name type="person" ref="#haendel">Haendel</name>, <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#haydn">Haydn</name>, <name type="person" ref="#gluck">Gluck</name>, <name type="person" ref="#beethoven">Beetho
                         <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> ec., senza omettere i viventi
                         <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Se dunque la <name type="place" ref="#de">Germania</name> ci dà l'esempio di una profonda
                         <lb />serietà negli studi e di un vero culto per le nostre glorie
                         <lb />(non trascurando certo d'onorare le sue), perchè non fac
                         <lb />ciamo noi altrettanto? Perchè non sappiamo valerci di que
                         <lb />sta invadente influenza tedesca ritorcendola a nostro vantag
                         <lb />gio, anziché respingerla per un malinteso amor di patria?
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Il perchè ci sembra chiaro. Da molto tempo la musica
                         <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
                         <lb />trali, che appartengono invece ad uno solo fra i tanti rami
                         <lb />dell'arte. Sarebbe come tutta la letteratura si limitasse
                         <lb />a' lavori drammatici che si rappresentano ne' teatri.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />In tal modo i paladini della pretesa italianità musicale
                         <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
                         <lb />ignota o mal nota, ed anco la stessa arte teatrale ristrin
@@ -831,9 +831,9 @@
                         <lb />illustrano pur tanto la musica di teatro; e quanti sono che
                         <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la Medea, e le due
                         <lb />giornate?
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Nondimeno anco in questo ramo l'arte straniera vanta
                         <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
                         <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
@@ -844,9 +844,9 @@
                         <lb />sapiente progresso della musica teatrale tedesca, nonostante
                         <lb />il suo celebre <quote xml:lang="it">«tornate all'antico,»</quote> sentenza savia del resto
                         <lb />purché non frantesa.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Ora se l'opera teatrale è solamente uno fra i molti
                         <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
                         <lb />nobile e più grande,, benché in generale si possa dirlo forse
@@ -856,9 +856,9 @@
                         <lb />fana e chi reputa infine che la più alta espressione dei
                         <lb />fi arte musicale sia la Sinfonia con tutti i suoi derivati che
                         <lb />appartengono appunto al genere sinfonico.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Certo a chi ha sentito le più maravigliose fra le sin
                         <lb />fonie di Beethoven pare impossibile che un cervello umano
                         <lb />abbia potuto creare questi edilìzi monumentali, e trova che
@@ -868,9 +868,9 @@
                         <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz"></name> che
                         <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'infatigable Titan, le géant de la mu
                         <lb />sique.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Questo prova che se da parecchio tempo le opere tea
                         <lb />trali hanno tenuto nell'ombra i capolavori della musica
                         <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
@@ -879,9 +879,9 @@
 
                         <lb />questi ultimi almeno tanto quanto le prime purché gli si
                         <lb />facessero conoscere.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Del resto che lo studio dell'arte classica straniera (da
                         <lb />non confondersi colle spropositate imitazioni del servum
                         <lb />pecus) congiunto a quello dell'arte classica italiana possa
@@ -897,17 +897,17 @@
                         <lb />Lear (eseguite di continuo in <name type="place" ref="#it">Italia</name> e fuori) sono dapper
                         <lb />tutto e massime in <name type="place" ref="#de">Germania</name>, lodate dal pubblico e dalla
                         <lb />critica. Pure egli si mantenne italiano.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
                         <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
                         <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
                         <lb />potrà un giorno mostrarsi bella di varia ricchezza anche
                         <lb />nel genere strumentale e corale.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />A propagare la conoscenza e lo studio della musica più
                         <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
                         <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
@@ -917,9 +917,9 @@
                         <lb />più sconosciuto: per questo abbiamo detto che ora l'<name type="place" ref="#it">Italia</name>
                         <lb />sembra rinascere a nuova vita musicale, e di ciò dobbiamo
                         <lb />saper grado a quei valenti che se ne fecero campioni.
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Nonpertanto sarebbe d'uopo che il loro esempio e i loro
                         <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
                         <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
@@ -929,9 +929,9 @@
                         <lb />straniera, da <name type="person" ref="#palestrina">Palestrina</name> a <name type="person" ref="#cherubini">Cherubini</name> l'<name type="place" ref="#it">Italia</name> possiede un te
                         <lb />soro di capolavori dello stile più elevato. Eppure questa
                         <lb />musica in quante città italiane e quanto spesso si ode?
-                    </p>
+                    </ab>
 
-                    <p>
+                    <ab>
                         <lb />Dal fin qui detto si comprende come l'influenza germa
                         <lb />nica (imparzialmente giudicata) ci sia tutt'altro che dan
                         <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
@@ -949,7 +949,7 @@
                         <lb />sica tedesca, impararono l'uno da <name type="person" ref="#a_gabrieli">Andrea</name>, l'altro da <name type="person" ref="#g_gabrieli">Gio
                         <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
                         <lb />rono dipoi in <name type="place" ref="#de">Germania</name>.
-                    </p>
+                    </ab>
                 </div>
         </div>
         </body>
@@ -2260,7 +2260,7 @@
                     <place xml:id="it" type="nation">
                         <placeName>Italia</placeName>
                         <location>
-                            <bloc>EU</bloc>
+                            <bloc>Europa</bloc>
                         </location>
                     </place>
                     <place xml:id="eu" type="continent">
@@ -2270,13 +2270,20 @@
                         <placeName>Firenze</placeName>
                         <location>
                             <country>Italia</country>
-                            <bloc>EU</bloc>
+                            <bloc>Europa</bloc>
                         </location>
                     </place>
                     <place xml:id="de" type="nation">
                         <placeName>Germania</placeName>
                         <location>
-                            <bloc>EU</bloc>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="lips" type="city">
+                        <placeName>Lipsia</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <bloc>Europa</bloc>
                         </location>
                     </place>
                     <place xml:id="ci" type="nation">
@@ -2333,68 +2340,92 @@
                         </orgName>
                         <state type="governance" from="1848"></state>
                     </org>
-                    <org xml:id="BUDD" type="religion">
+                    <org xml:id="rsv" role="association">
+                        <orgName>
+                            <name>Riedel'scher Verein</name>
+                            <ref target="https://www.deutsche-biographie.de/sfz76504.html?language=en" />
+                        </orgName>
+                    </org>
+                    <org xml:id="BUDD" role="religion">
                         <orgName>
                             <name>Buddismo</name>
                             <ref target="https://it.wikipedia.org/wiki/buddismo"/>
                         </orgName>
                     </org>
-                    <org xml:id="SINT" type="religion">
+                    <org xml:id="SINT" role="religion">
                         <orgName>
                             <name>Sintoismo</name>
                             <ref target="https://it.wikipedia.org/wiki/sintoismo"/>
                         </orgName>
                     </org>
-                    <org xml:id="ZORO" type="religion">
+                    <org xml:id="ZORO" role="religion">
                         <orgName>
                             <name>Zoroastrismo</name>
                             <ref target="https://it.wikipedia.org/wiki/zoroastrismo"/>
                         </orgName>
                     </org>
-                    <org xml:id="CRIST" type="religion">
+                    <org xml:id="CRIST" role="religion">
                         <orgName>
                             <name>Cristianesimo</name>
                             <ref target="https://it.wikipedia.org/wiki/cristianesimo"/>
                         </orgName>
                     </org>
-                    <org xml:id="PITAG" type="philosophy">
+                    <org xml:id="PITAG" role="philosophy">
                         <orgName>
                             <name>Pitagorismo</name>
                             <ref target="https://it.wikipedia.org/wiki/pitagorismo"/>
                         </orgName>
                     </org>
-                    <org xml:id="BRAHM" type="religion">
+                    <org xml:id="BRAHM" role="religion">
                         <orgName>
                             <name>Brahmanesimo</name>
                             <ref target="https://www.treccani.it/enciclopedia/brahmanesimo_(Enciclopedia-Italiana)"/>
                         </orgName>
                     </org>
-                    <org xml:id="ISLAM" type="religion">
+                    <org xml:id="ISLAM" role="religion">
                         <orgName>
                             <name>Islam</name>
                             <ref target="https://it.wikipedia.org/wiki/Islam"/>
                         </orgName>
                     </org>
-                    <org xml:id="OXF" type="university">
+                    <org xml:id="OXF" role="university">
                         <orgName>
                             <name>Università di Oxford</name>
                             <ref target="https://it.wikipedia.org/wiki/Università_di_Oxford"/>
                         </orgName>
                     </org>
-                    <org xml:id="giud_cris" type="religion">
+                    <org xml:id="giud_cris" role="religion">
                         <orgName>
                             <name>Giudeo-cristianesimo</name>
                             <ref target="https://it.wikipedia.org/wiki/Giudeo-cristianesimo"/>
                         </orgName>
                     </org>
-                    <org xml:id="cris_cat" type="religione">
+                    <org xml:id="cris_cat" role="religion">
                         <orgName>
                             <name>Cattolicesimo</name>
                             <ref target="https://it.wikipedia.org/wiki/Chiesa_cattolica"/>
                         </orgName>
                     </org>
+                    <org xml:id="PETRS" role="literary">
+                        <orgName>
+                            <name>Petrarchismo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Petrarchismo"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="BAROC" role="literary">
+                        <orgName>
+                            <name>Barocco</name>
+                            <ref target="https://it.wikipedia.org/wiki/Barocco"/>
+                        </orgName>
+                    </org>
                 </listOrg>
                 <listBibl>
+                    <bibl xml:id="odi">
+                        <title>Odi</title>
+                        <author>Quinto Orazio Flacco</author>
+                        <date>23-13 a.C.</date>
+                        <ref target="https://it.wikipedia.org/wiki/Odi_(Orazio)" />
+                    </bibl>
                     <bibl xml:id="scienza_rel">
                         <title>Scienza delle Religioni</title>
                         <author ref="#muller">Max Müller</author>
