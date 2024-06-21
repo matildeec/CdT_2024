@@ -55,6 +55,14 @@
                         <title level="a">Dell'Influenza Germanica sulla Musica Italiana</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
+                    <analytic xml:id="BIBL">
+                        <title level="a">Bibliografia</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
+                    <analytic xml:id="NEWS">
+                        <title level="a">Notizie</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
                     <monogr>
                         <title level="j">La Rassegna Settimanale</title>
                         <textLang mainLang="it">Italiano</textLang>
