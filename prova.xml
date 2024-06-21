@@ -728,7 +728,7 @@
                     <pb n="1" facs="#p396" xml:id="pb396"/>
                     <cb n="2"/>
                     <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">Dell'Influenza Germanica sulla Musica Italiana</head>
-                    <p facs="#p396_p1" xml:id="p396_par1">
+                    <ab facs="#p396_p1" xml:id="p396_par1">
                         <lb />Checché ne dicano quelli che vedono tutto nero, spira
                         <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
                         <lb />musicale, che promette di ringagliardire e fecondare le no
@@ -785,7 +785,7 @@
 
                     <pb n="2" facs="#p397" xml:id="pb397"/>
                     <cb n="1"/>
-                    <p facs="#p397_p1" xml:id="p397_par1">
+                    <ab facs="#p397_p1" xml:id="p397_par1">
                         <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
                         <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
                         <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
