@@ -743,32 +743,32 @@
                         <lb />ma, a nostro avviso, l'influenza tedesca, ci può fare molto
                         <lb />più bene che male, purché sappiamo valercene. Del rivolgi
                         <lb />mento musicale, che ci viene d'oltralpe, i maggiori cam
-                        <lb />pioni (benché di genere diverso fra loro) sono : <persName><surname>Chopin</surname></persName>,
-                        <lb /><persName><surname>Schumann</surname></persName>, <persName><surname>Liszt</surname></persName>, <persName><surname>Berlioz</surname></persName>, <persName><forename>Raff</forename><surname>Brahms</surname></persName>, e, più possente di
-                        <lb />tutti, il <persName><surname>Wagner</surname></persName>. Una poesia vaporosa, un'idealità trascen
-                        <lb />dente, una ricerca di nuovi orizzonti : ecco la nota carat
+                        <lb />pioni (benché di genere diverso fra loro) sono : <name type="person" ref="#chopin">Chopin</name>,
+                        <lb /><name type="person" ref="schumann">Schumann</name>, <name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#berlioz">Berlioz</name>, <name type="person" ref="#brahms">Raff Brahms</name>, e, più possente di
+                        <lb />tutti, il <name type="person" ref="wagner">Wagner</name>. Una poesia vaporosa, un'idealità trascen
+                        <lb />dente, una ricerca di nuovi orizzonti: ecco la nota carat
                         <lb />teristica di quegli arditi ingegni la cui bandiera ha per
-                        <lb />motto l'oraziano: <quote xml:lang="la" source="Orazio">odi profanum vulgus et arceo</quote>. Ma tali
+                        <lb />motto l'oraziano: <quote xml:lang="la">odi profanum vulgus et arceo</quote>. Ma tali
                         <lb />autori sono modelli, pericolosissimi per tutti, e massime
                         <lb />per i giovani di mente fantastica e un po' malata ; come
-                        <lb />(in modo diverso) sono pericolosi modelli di poesia <persName><surname>Byron</surname></persName>,
-                        <lb /><persName><surname>Heine</surname></persName>, <persName><forename>Alfred</forename><surname>de Musset</surname></persName> e <persName><surname>Leopardi</surname></persName>. Oltre a ciò chi non
+                        <lb />(in modo diverso) sono pericolosi modelli di poesia <name type="person" ref="#byron">Byron</name>,
+                        <lb /><name type="person" ref="#heine">Heine</name>, <name type="person" ref="#demusset">Alfred de Musset</name> e <name type="person" ref="#leopardi">Leopardi</name>. Oltre a ciò chi non
                         <lb />ha le loro ali, avventurandosi in quell'atmosfera, fa il volo
-                        <lb />d'<persName>Icaro</persName>; e sgraziatamente sono spesso gl' impotenti e
+                        <lb />d'<name type="person" ref="#icaro">Icaro</name>; e sgraziatamente sono spesso gl' impotenti e
                         <lb />gl'ignoranti quelli che si camuffano da apostoli incom
                         <lb />presi di tale o tal'altra scuola, e trovano chi li piglia sul
                         <lb />serio. Del resto, nella storia dell'arte, è vecchio il fatto che
                         <lb />anco i grandi maestri producono talvolta cattivi scolari ed
-                        <lb />hanno un'influenza non sempre benefica : il <surname></surname>Petrarca fece
-                        <lb />i Petrarchisti, e il Tasso diede forse, inconsciamente, una
-                        <lb />spinta al barocchismo del seicento. Non neghiamo dunque es
+                        <lb />hanno un'influenza non sempre benefica : il <name type="person" ref="#petrarca">Petrarca</name> fece
+                        <lb />i Petrarchisti, e il <name type="person" ref="#tasso">Tasso</name> diede forse, inconsciamente, una
+                        <lb />spinta al barocchismo del <date from="1600" to="1699">seicento</date>. Non neghiamo dunque es
                         <lb />sere pericoloso il fascino' che esercita la musica trascenden
-                        <lb />tale sulla giovane generazione ; ma ci sembra che i tedeschi
+                        <lb />tale sulla giovane generazione; ma ci sembra che i tedeschi
                         <lb />stessi ci additino i mezzi di ovviare al pericolo, ed ecco in che
                         <lb />cosa ci possono essere utilissimi. Anzi tutto gli stranieri, e in
                         <lb />ispecie i tedeschi, non ci danno solo gli autori moderni sun
                         <lb />nominati, ma bensì una schiera di grandi musicisti capita
-                        <lb />nati dai sommi Bach e Beethoven ; e questa è la loro scuola
+                        <lb />nati dai sommi <name type="person" ref="#bach">Bach</name> e <name type="person" ref="#beethoven">Beethoven</name>; e questa è la loro scuola
                         <lb />classica, fonte inesauribile dei più salutari insegnamenti, a
                         <lb />cui tutte le nazioni possono attingere con immenso profitto.
                         <lb />Poi i tedeschi c'insegnano una cosa importantissima: a stu
@@ -778,38 +778,38 @@
                         <lb />nostri classici siano conosciuti, studiati e celebrati di fuori,
                         <lb />mentre fra noi (eccetto che da pochi musicisti) non se ne
                         <lb />conoscono non solo le opere, ma di parecchi neppure i
-                        <lb />nomi. Non ha molto il maestro Giulio Roberti, scrivendo
-                        <lb />della musica italiana a Lipsia, toglieva dai programmi
-                        <lb />de'concerti diretti dal prof. Carl Riedel l'elenco delle com
+                        <lb />nomi. Non ha molto il maestro <name type="person" ref="#roberti">Giulio Roberti</name>, scrivendo
+                        <lb />della musica italiana a <name type="place" ref="#lips">Lipsia</name>, toglieva dai programmi
+                        <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
                     </p>
 
                     <pb n="2" facs="#p397" xml:id="pb397"/>
                     <cb n="1"/>
                     <p facs="#p397_p1" xml:id="p397_par1">
                         <lb />posizioni di classici nostri eseguite nel Riedel'scher Verein.
-                        <lb />Eccone i nomi degli autori : C. Festa, Palestrina, G. M.
-                        <lb />Nanini, L. da Vittoria, F. Anerio, G. Allegri, O. Benevoli,
-                        <lb />E. Bernabei, G. Carissimi, G. Biordi della scuola romana;
-                        <lb />G. Gabrieli, A. Lotti, Marcello, F. Bertoni della scuola ve
-                        <lb />neziana; G. C. Maria Clari, L. Cherubini della scuola bo
-                        <lb />lognese;Stradella,E.d'Astorga,F.Durante,L.Leo,A.
-                        <lb />Caldana, Pergolese, N. Jommelli, M. Mortellari della scuola
-                        <lb />napoletana ; tutti questi per la parte vocale. Per la strumen
-                        <lb />tale : Frescobaldi, Gorelli, Veracini, Geminiani, Lotti, Por
-                        <lb />pora, Tartini, Locatelli, Boccherini, Viotti e Paganini. E la
+                        <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
+                        <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
+                        <lb /><name type="person" ref="#bernabei">E. Bernabei</name>, <name type="person" ref="#carissimi">G. Carissimi</name>, <name type="person" ref="#biordi">G. Biordi</name> della scuola romana;
+                        <lb /><name type="person" ref="#g_gabrieli">G. Gabrieli</name>, <name type="person" ref="#lotti">A. Lotti</name>, <name type="person" ref="#marcello">Marcello</name>, <name type="person" ref="#bertoni">F. Bertoni</name> della scuola ve                        
+                        <lb />neziana; <name type="person" ref="#clari">G. C. Maria Clari</name>, <name type="person" ref="#cherubini">L. Cherubini</name> della scuola bo
+                        <lb />lognese; <name type="person" ref="#stradella">Stradella</name>, <name type="person" ref="#astorga">E.d'Astorga</name>, <name type="person" ref="#durante">F. Durante</name>, <name type="person" ref="#leo">L. Leo</name>, <name type="person" ref="#caldara">A. 
+                        <lb />Caldara</name>, <name type="person" ref="#pergolese">Pergolese</name>, <name type="person" ref="#jommelli">N. Jommelli</name>, <name type="person" ref="#mortellari">M. Mortellari</name> della scuola
+                        <lb />napoletana; tutti questi per la parte vocale. Per la strumen
+                        <lb />tale: <name type="person" ref="#frescobaldi">Frescobaldi</name>, <name type="person" ref="#gorelli">Gorelli</name>, <name type="person" ref="#veracini">Veracini</name>, <name type="person" ref="#geminiani">Geminiani</name>, <name type="person" ref="#lotti">Lotti</name>, <name type="person" ref="#porpora">Por
+                        <lb />pora</name>, <name type="person" ref="#tartini">Tartini</name>, <name type="person" ref="#locatelli">Locatelli</name>, <name type="person" ref="#boccherini">Boccherini</name>, <name type="person" ref="#viotti">Viotti</name> e <name type="person" ref="#paganini">Paganini</name>. E la
                         <lb />musica italiana si trova sempre alternata con quella degli
-                        <lb />antichi autori fiamminghi e tedeschi come Arcadelt, Orlando
-                        <lb />Lasso, Eccard, Kassier, Praetorius, Schütz, non che dei
-                        <lb />più moderni Bach, Haendel, Mozart, Haydn, Gluck, Beetho
-                        <lb />ven, Mendelssohn, Schumann ec., senza omettere i viventi
-                        <lb />Liszt, Hiller, Richter, Brahms, Kiel ed altri.
+                        <lb />antichi autori fiamminghi e tedeschi come <name type="person" ref="#arcadelt">Arcadelt</name>, <name type="person" ref="#orlandolasso">Orlando 
+                        <lb />Lasso</name>, <name type="person" ref="#eccard">Eccard</name>, <name type="person" ref="#kassier">Kassier</name>, <name type="person" ref="#praetorius">Praetorius</name>, <name type="person" ref="#schuetz">Schütz</name>, non che dei
+                        <lb />più moderni <name type="person" ref="#bach">Bach</name>, <name type="person" ref="#haendel">Haendel</name>, <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#haydn">Haydn</name>, <name type="person" ref="#gluck">Gluck</name>, <name type="person" ref="#beethoven">Beetho
+                        <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> ec., senza omettere i viventi
+                        <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
                     </p>
 
                     <p>
-                        <lb />Se dunque la Germania ci dà 1'esempio di una profonda
+                        <lb />Se dunque la <name type="place" ref="#de"></name>Germania ci dà l'esempio di una profonda
                         <lb />serietà negli studi e di un vero culto per le nostre glorie
                         <lb />(non trascurando certo d'onorare le sue), perchè non fac
-                        <lb />ciamo noi altrettanto ? Perchè non sappiamo valerci di que
+                        <lb />ciamo noi altrettanto? Perchè non sappiamo valerci di que
                         <lb />sta invadente influenza tedesca ritorcendola a nostro vantag
                         <lb />gio, anziché respingerla per un malinteso amor di patria?
                     </p>
@@ -826,23 +826,23 @@
                         <lb />In tal modo i paladini della pretesa italianità musicale
                         <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
                         <lb />ignota o mal nota, ed anco la stessa arte teatrale ristrin
-                        <lb />gono a Rossini, Bellini. Donizetti e qualche altro. Appena
-                        <lb />da pochi anni furono diseppelliti Gimarosa e Spontini che
+                        <lb />gono a <name type="person" ref="#rossini">Rossini</name>, <name type="person" ref="#bellini">Bellini</name>, <name type="person" ref="#donizetti">Donizetti</name> e qualche altro. Appena
+                        <lb />da pochi anni furono diseppelliti <name type="person" ref="#cimarosa">Cimarosa</name> e <name type="person" ref="#spontini">Spontini</name> che
                         <lb />illustrano pur tanto la musica di teatro; e quanti sono che
-                        <lb />conoscono le opere di Cherubini come la Medea, e le due
-                        <lb />giornate ?
+                        <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la Medea, e le due
+                        <lb />giornate?
                     </p>
 
                     <p>
-                        <lb />Nondimeno anco in questo ramo 1'arte straniera vanta
-                        <lb />grandi maestri: Mozart, Weber, Halévy, Meyerbeer, Gounod
-                        <lb />ed anche Wagner (almeno in parte) furono accettati e am
-                        <lb />mirati dai nostri pubblici. E lo stesso Verdi nelle sue ultime
+                        <lb />Nondimeno anco in questo ramo l'arte straniera vanta
+                        <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
+                        <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
+                        <lb />mirati dai nostri pubblici. E lo stesso <name type="person" ref="#verdi">Verdi</name> nelle sue ultime
                         <lb />opere Don Carlos e Aida, pur rimanendo italiano, cercò di
                         <lb />piegarsi a' nuovi intendimenti artistici che ci vengono d'ol
                         <lb />tralpe ; e dimostrò d' avere studiato, facendone suo pro, il
                         <lb />sapiente progresso della musica teatrale tedesca, nonostante
-                        <lb />il suo celebre « tornate all' antico, » sentenza savia del resto
+                        <lb />il suo celebre <quote xml:lang="it">«tornate all'antico,»</quote> sentenza savia del resto
                         <lb />purché non frantesa.
                     </p>
 
@@ -863,10 +863,10 @@
                         <lb />fonie di Beethoven pare impossibile che un cervello umano
                         <lb />abbia potuto creare questi edilìzi monumentali, e trova che
                         <lb />non si possa fare nulla di più grande. E il pubblico che
-                        <lb />di fresco assistette in Milano alla esecuzione eccellente della
+                        <lb />di fresco assistette in <name type="place" ref="#mi">Milano</name> alla esecuzione eccellente della
                         <lb />Nuova Sinfonia, (che per la prima volta si dava intera in
-                        <lb />Italia) diede ragione, col proprio entusiasmo, al Berlioz che
-                        <lb />chiamò il Beethoven l'infatigable Titan, le géant de la mu
+                        <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz"></name> che
+                        <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'infatigable Titan, le géant de la mu
                         <lb />sique.
                     </p>
 
@@ -887,7 +887,7 @@
                         <lb />pecus) congiunto a quello dell'arte classica italiana possa
                         <lb />avere una salutare influenza, è cosa evidente per chi non
                         <lb />voglia negare la luce del sole. Ne citerò un esempio: quello
-                        <lb />di Antonio Bazzini, compositore e violinista. Egli coll'in
+                        <lb />di <name type="person" ref="#bazzini">Antonio Bazzini</name>, compositore e violinista. Egli coll'in
                         <lb />gegno, collo studio profondo de'capolavori di tutti i tem
                         <lb />pi, di tutte le scuole, di tutti i paesi, pervenne a tener
                         <lb />alta la fama del nome italiano anche fuori d'<name type="place" ref="#it">Italia</name> scri
@@ -895,23 +895,23 @@
                         <lb />trastabilmente principi. I suoi Quartetti, il Quintetto, i
                         <lb />Salmi, la Sinfonia cantata, le ouvertures del Saul e del Tie
                         <lb />Lear (eseguite di continuo in <name type="place" ref="#it">Italia</name> e fuori) sono dapper
-                        <lb />tutto e massime in Germania, lodate dal pubblico e dalla
+                        <lb />tutto e massime in <name type="place" ref="#de">Germania</name>, lodate dal pubblico e dalla
                         <lb />critica. Pure egli si mantenne italiano.
                     </p>
 
                     <p>
                         <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
-                        <lb />a secondare il vigoroso impulso dato dal Bazzini, seguen
-                        <lb />done l'esempio, e ce ne rallegriamo : così l'<name type="place" ref="#it">Italia</name> moderna
+                        <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
+                        <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
                         <lb />potrà un giorno mostrarsi bella di varia ricchezza anche
                         <lb />nel genere strumentale e corale.
                     </p>
 
                     <p>
                         <lb />A propagare la conoscenza e lo studio della musica più
-                        <lb />elevata, contribuirono indubbiamente i concerti dell'Andreoli
-                        <lb />a Milano, dello Sgambati e del Pinelli a Roma, del Buona
-                        <lb />mici, dello Sbolci e del Maglioni a Firenze; quelli delle So
+                        <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
+                        <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
+                        <lb />mici</name>, dello <name type="person" ref="#sbolci">Sbolci</name> e del <name type="person" ref="#maglioni">Maglioni</name> a <name type="place" ref="#fi">Firenze</name>; quelli delle So
                         <lb />cietà del quartetto e delle Società orchestrali e corali di
                         <lb />queste e d'altre città d'<name type="place" ref="#it">Italia</name>; rivelando così un mondo ai
                         <lb />più sconosciuto: per questo abbiamo detto che ora l'<name type="place" ref="#it">Italia</name>
@@ -922,13 +922,13 @@
                     <p>
                         <lb />Nonpertanto sarebbe d'uopo che il loro esempio e i loro
                         <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
-                        <lb />più : soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
+                        <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
                         <lb />si eseguisse frequentemente la musica sacra de' grandi clas
                         <lb />sici, perchè appunto per le chiese fu scritta e nelle chiese
                         <lb />si dovrebbe sentire. Non omettendo certo la musica sacra
-                        <lb />straniera, da Palestrina a Cherubini l'<name type="place" ref="#it">Italia</name> possiede un te
+                        <lb />straniera, da <name type="person" ref="#palestrina">Palestrina</name> a <name type="person" ref="#cherubini">Cherubini</name> l'<name type="place" ref="#it">Italia</name> possiede un te
                         <lb />soro di capolavori dello stile più elevato. Eppure questa
-                        <lb />musica in quante città italiane e quanto spesso si ode ?
+                        <lb />musica in quante città italiane e quanto spesso si ode?
                     </p>
 
                     <p>
@@ -937,18 +937,18 @@
                         <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
                         <lb />opere nostre e straniere, e se ha spinto alcuni egregi ar
                         <lb />tisti ad assumere questo sacro mandato, che diede già ot
-                        <lb />timi frutti e ne darà di maggiori ; purché, ripetiamo, i ma
+                        <lb />timi frutti e ne darà di maggiori; purché, ripetiamo, i ma
                         <lb />lintesi patriottismi artistici spariscano del tutto. Nella poesia
-                        <lb />Omero non esclude Dante, nè Dante Shakespeare, nè questi
-                        <lb />Goethe; così lo stesso dovrebbe avvenire nella musica e
+                        <lb />Omero non esclude <name type="person" ref="#dante">Dante</name>, nè <name type="person" ref="#dante">Dante</name> <name type="person" ref="#shakespeare">Shakespeare</name>, nè questi
+                        <lb /><name type="person" ref="#goethe">Goethe</name>; così lo stesso dovrebbe avvenire nella musica e
                         <lb />nelle altre arti. Se i fiamminghi portarono primi que
-                        <lb />st' arte ancor bambina agli italiani, fu dagli italiani con
+                        <lb />st'arte ancor bambina agli italiani, fu dagli italiani con
                         <lb />dotta a una grandezza imperitura : e fu in <name type="place" ref="#it">Italia</name> e pre
-                        <lb />cisamente a Venezia che Leo Hassler e Heinrich Schütz,
+                        <lb />cisamente a <name type="place" ref="#ve">Venezia</name> che <name type="person" ref="#hassler">Leo Hassler</name> e <name type="person" ref="#schutz">Heinrich Schütz</name>,
                         <lb />detto Sagittarius e considerato come il fondatore della mu
-                        <lb />sica tedesca, impararono l'uno da Andrea, l'altro da Gio
-                        <lb />vanni Gabrieli (secolo XVI) quell'arte che fiorente porta
-                        <lb />rono dipoi in Germania.
+                        <lb />sica tedesca, impararono l'uno da <name type="person" ref="#a_gabrieli">Andrea</name>, l'altro da <name type="person" ref="#g_gabrieli">Gio
+                        <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
+                        <lb />rono dipoi in <name type="place" ref="#de">Germania</name>.
                     </p>
                 </div>
         </div>
@@ -1067,6 +1067,1038 @@
                             <date when="1867-08-25">25/08/1867</date>
                         </death>
                     </person>
+
+                    <!-- dall'Articolo 3 -->
+                        <person xml:id="chopin">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Fryderyk_Chopin"/>
+                                <forename>Fryderyk</forename>
+                                <surname>Chopin</surname>
+                            </persName>
+                            <birth>
+                                <date when="1810-03-01">01/03/1810</date>
+                            </birth>
+                            <death>
+                                <date when="1849-10-17">17/10/1849</date>
+                            </death>
+                            <occupation>Compositore e pianista</occupation>
+                        </person>
+                    
+                        <person xml:id="schumann">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Robert_Schumann"/>
+                                <forename>Robert</forename>
+                                <surname>Schumann</surname>
+                            </persName>
+                            <birth>
+                                <date when="1810-06-08">08/06/1810</date>
+                            </birth>
+                            <death>
+                                <date when="1856-07-29">29/07/1856</date>
+                            </death>
+                            <occupation>Compositore e pianista</occupation>
+                        </person>
+                    
+                        <person xml:id="liszt">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Franz_Liszt"/>
+                                <forename>Franz</forename>
+                                <surname>Liszt</surname>
+                            </persName>
+                            <birth>
+                                <date when="1811-10-22">22/10/1811</date>
+                            </birth>
+                            <death>
+                                <date when="1886-07-31">31/07/1886</date>
+                            </death>
+                            <occupation>Compositore e pianista</occupation>
+                        </person>
+                    
+                        <person xml:id="berlioz">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Hector_Berlioz"/>
+                                <forename>Hector</forename>
+                                <surname>Berlioz</surname>
+                            </persName>
+                            <birth>
+                                <date when="1803-12-11">11/12/1803</date>
+                            </birth>
+                            <death>
+                                <date when="1869-03-08">08/03/1869</date>
+                            </death>
+                            <occupation>Compositore</occupation>
+                        </person>
+                    
+                        <person xml:id="raff">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Joachim_Raff"/>
+                                <forename>Joachim</forename>
+                                <surname>Raff</surname>
+                            </persName>
+                            <birth>
+                                <date when="1822-05-27">27/05/1822</date>
+                            </birth>
+                            <death>
+                                <date when="1882-06-24">24/06/1882</date>
+                            </death>
+                            <occupation>Compositore</occupation>
+                        </person>
+                    
+                        <person xml:id="brahms">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Johannes_Brahms"/>
+                                <forename>Johannes</forename>
+                                <surname>Brahms</surname>
+                            </persName>
+                            <birth>
+                                <date when="1833-05-07">07/05/1833</date>
+                            </birth>
+                            <death>
+                                <date when="1897-04-03">03/04/1897</date>
+                            </death>
+                            <occupation>Compositore e pianista</occupation>
+                        </person>
+                    
+                        <person xml:id="wagner">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Richard_Wagner"/>
+                                <forename>Richard</forename>
+                                <surname>Wagner</surname>
+                            </persName>
+                            <birth>
+                                <date when="1813-05-22">22/05/1813</date>
+                            </birth>
+                            <death>
+                                <date when="1883-02-13">13/02/1883</date>
+                            </death>
+                            <occupation>Compositore e direttore d'orchestra</occupation>
+                        </person>
+                    
+                        <person xml:id="byron">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/George_Gordon_Byron"/>
+                                <forename>George Gordon</forename>
+                                <surname>Byron</surname>
+                            </persName>
+                            <birth>
+                                <date when="1788-01-22">22/01/1788</date>
+                            </birth>
+                            <death>
+                                <date when="1824-04-19">19/04/1824</date>
+                            </death>
+                            <occupation>Poeta</occupation>
+                        </person>
+                    
+                        <person xml:id="heine">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Heinrich_Heine"/>
+                                <forename>Heinrich</forename>
+                                <surname>Heine</surname>
+                            </persName>
+                            <birth>
+                                <date when="1797-12-13">13/12/1797</date>
+                            </birth>
+                            <death>
+                                <date when="1856-02-17">17/02/1856</date>
+                            </death>
+                            <occupation>Poeta</occupation>
+                        </person>
+                    
+                        <person xml:id="musset">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Alfred_de_Musset"/>
+                                <forename>Alfred</forename>
+                                <surname>de Musset</surname>
+                            </persName>
+                            <birth>
+                                <date when="1810-12-11">11/12/1810</date>
+                            </birth>
+                            <death>
+                                <date when="1857-05-02">02/05/1857</date>
+                            </death>
+                            <occupation>Poeta e drammaturgo</occupation>
+                        </person>
+                    
+                        <person xml:id="leopardi">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giacomo_Leopardi"/>
+                                <forename>Giacomo</forename>
+                                <surname>Leopardi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1798-06-29">29/06/1798</date>
+                            </birth>
+                            <death>
+                                <date when="1837-06-14">14/06/1837</date>
+                            </death>
+                            <occupation>Poeta e filosofo</occupation>
+                        </person>
+                    
+                        <person xml:id="icaro">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Icaro"/>
+                                <forename>Icaro</forename>
+                                <surname></surname>
+                            </persName>
+                            <birth>
+                                <date when="N/A">N/A</date>
+                            </birth>
+                            <death>
+                                <date when="N/A">N/A</date>
+                            </death>
+                            <occupation>Personaggio mitologico</occupation>
+                        </person>
+                    
+                        <person xml:id="petrarca">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Francesco_Petrarca"/>
+                                <forename>Francesco</forename>
+                                <surname>Petrarca</surname>
+                            </persName>
+                            <birth>
+                                <date when="1304-07-20">20/07/1304</date>
+                            </birth>
+                            <death>
+                                <date when="1374-07-19">19/07/1374</date>
+                            </death>
+                            <occupation>Poeta e umanista</occupation>
+                        </person>
+                    
+                        <person xml:id="tasso">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Torquato_Tasso"/>
+                                <forename>Torquato</forename>
+                                <surname>Tasso</surname>
+                            </persName>
+                            <birth>
+                                <date when="1544-03-11">11/03/1544</date>
+                            </birth>
+                            <death>
+                                <date when="1595-04-25">25/04/1595</date>
+                            </death>
+                            <occupation>Poeta</occupation>
+                        </person>
+                    
+                        <person xml:id="bach">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Johann_Sebastian_Bach"/>
+                                <forename>Johann Sebastian</forename>
+                                <surname>Bach</surname>
+                            </persName>
+                            <birth>
+                                <date when="1685-03-31">31/03/1685</date>
+                            </birth>
+                            <death>
+                                <date when="1750-07-28">28/07/1750</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="beethoven">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ludwig_van_Beethoven"/>
+                                <forename>Ludwig van</forename>
+                                <surname>Beethoven</surname>
+                            </persName>
+                            <birth>
+                                <date when="1770-12-17">17/12/1770</date>
+                            </birth>
+                            <death>
+                                <date when="1827-03-26">26/03/1827</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="roberti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giulio_Roberti"/>
+                                <forename>Giulio</forename>
+                                <surname>Roberti</surname>
+                            </persName>
+                            <birth>
+                                <date when="1818-11-27">27/11/1818</date>
+                            </birth>
+                            <death>
+                                <date when="1891-06-23">23/06/1891</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="riedel">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carl_Riedel"/>
+                                <forename>Carl</forename>
+                                <surname>Riedel</surname>
+                            </persName>
+                            <birth>
+                                <date when="1827-10-13">13/10/1827</date>
+                            </birth>
+                            <death>
+                                <date when="1888-06-03">03/06/1888</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="festa">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Costanzo_Festa"/>
+                                <forename>Costanzo</forename>
+                                <surname>Festa</surname>
+                            </persName>
+                            <birth>
+                                <date when="1485-01-01">01/01/1485</date>
+                            </birth>
+                            <death>
+                                <date when="1545-04-10">10/04/1545</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="palestrina">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"/>
+                                <forename>Giovanni Pierluigi</forename>
+                                <surname>da Palestrina</surname>
+                            </persName>
+                            <birth>
+                                <date when="1525-02-03">03/02/1525</date>
+                            </birth>
+                            <death>
+                                <date when="1594-02-02">02/02/1594</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="nanini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Maria_Nanino"/>
+                                <forename>Giovanni Maria</forename>
+                                <surname>Nanino</surname>
+                            </persName>
+                            <birth>
+                                <date when="1543-01-01">01/01/1543</date>
+                            </birth>
+                            <death>
+                                <date when="1607-03-11">11/03/1607</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="vittoria">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Tom%C3%A1s_Luis_de_Victoria"/>
+                                <forename>Tomás Luis</forename>
+                                <surname>de Victoria</surname>
+                            </persName>
+                            <birth>
+                                <date when="1548-01-01">01/01/1548</date>
+                            </birth>
+                            <death>
+                                <date when="1611-08-20">20/08/1611</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="anerio">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Felice_Anerio"/>
+                                <forename>Felice</forename>
+                                <surname>Anerio</surname>
+                            </persName>
+                            <birth>
+                                <date when="1560-01-01">01/01/1560</date>
+                            </birth>
+                            <death>
+                                <date when="1614-09-26">26/09/1614</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="allegri">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Gregorio_Allegri"/>
+                                <forename>Gregorio</forename>
+                                <surname>Allegri</surname>
+                            </persName>
+                            <birth>
+                                <date when="1582-01-01">01/01/1582</date>
+                            </birth>
+                            <death>
+                                <date when="1652-02-17">17/02/1652</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="benevoli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Orazio_Benevoli"/>
+                                <forename>Orazio</forename>
+                                <surname>Benevoli</surname>
+                            </persName>
+                            <birth>
+                                <date when="1605-04-19">19/04/1605</date>
+                            </birth>
+                            <death>
+                                <date when="1672-06-17">17/06/1672</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="bernabei">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ercole_Bernabei"/>
+                                <forename>Ercole</forename>
+                                <surname>Bernabei</surname>
+                            </persName>
+                            <birth>
+                                <date when="1622-01-01">01/01/1622</date>
+                            </birth>
+                            <death>
+                                <date when="1687-12-05">05/12/1687</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="carissimi">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giacomo_Carissimi"/>
+                                <forename>Giacomo</forename>
+                                <surname>Carissimi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1605-04-18">18/04/1605</date>
+                            </birth>
+                            <death>
+                                <date when="1674-01-12">12/01/1674</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="biordi">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Biordi"/>
+                                <forename>Giovanni</forename>
+                                <surname>Biordi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1682-01-01">01/01/1682</date>
+                            </birth>
+                            <death>
+                                <date when="1761-01-01">01/01/1761</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="gabrieli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Gabrieli"/>
+                                <forename>Giovanni</forename>
+                                <surname>Gabrieli</surname>
+                            </persName>
+                            <birth>
+                                <date when="1557-01-01">01/01/1557</date>
+                            </birth>
+                            <death>
+                                <date when="1612-08-12">12/08/1612</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="lotti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Antonio_Lotti"/>
+                                <forename>Antonio</forename>
+                                <surname>Lotti</surname>
+                            </persName>
+                            <birth>
+                                <date when="1667-01-05">05/01/1667</date>
+                            </birth>
+                            <death>
+                                <date when="1740-01-05">05/01/1740</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="marcello">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Benedetto_Marcello"/>
+                                <forename>Benedetto</forename>
+                                <surname>Marcello</surname>
+                            </persName>
+                            <birth>
+                                <date when="1686-07-31">31/07/1686</date>
+                            </birth>
+                            <death>
+                                <date when="1739-07-24">24/07/1739</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="bertoni">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ferdinando_Bertoni"/>
+                                <forename>Ferdinando</forename>
+                                <surname>Bertoni</surname>
+                            </persName>
+                            <birth>
+                                <date when="1725-08-15">15/08/1725</date>
+                            </birth>
+                            <death>
+                                <date when="1813-12-01">01/12/1813</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="clari">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Clari"/>
+                                <forename>Giovanni Carlo Maria</forename>
+                                <surname>Clari</surname>
+                            </persName>
+                            <birth>
+                                <date when="1677-01-01">01/01/1677</date>
+                            </birth>
+                            <death>
+                                <date when="1754-05-16">16/05/1754</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="cherubini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Luigi_Cherubini"/>
+                                <forename>Luigi</forename>
+                                <surname>Cherubini</surname>
+                            </persName>
+                            <birth>
+                                <date when="1760-09-08">08/09/1760</date>
+                            </birth>
+                            <death>
+                                <date when="1842-03-15">15/03/1842</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="stradella">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Alessandro_Stradella"/>
+                                <forename>Alessandro</forename>
+                                <surname>Stradella</surname>
+                            </persName>
+                            <birth>
+                                <date when="1639-04-03">03/04/1639</date>
+                            </birth>
+                            <death>
+                                <date when="1682-02-25">25/02/1682</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="astorga">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Emanuele_d%27Astorga"/>
+                                <forename>Emanuele</forename>
+                                <surname>d'Astorga</surname>
+                            </persName>
+                            <birth>
+                                <date when="1681-12-20">20/12/1681</date>
+                            </birth>
+                            <death>
+                                <date when="1736-02-21">21/02/1736</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="durante">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Francesco_Durante"/>
+                                <forename>Francesco</forename>
+                                <surname>Durante</surname>
+                            </persName>
+                            <birth>
+                                <date when="1684-03-31">31/03/1684</date>
+                            </birth>
+                            <death>
+                                <date when="1755-08-13">13/08/1755</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="leo">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Leonardo_Leo"/>
+                                <forename>Leonardo</forename>
+                                <surname>Leo</surname>
+                            </persName>
+                            <birth>
+                                <date when="1694-08-05">05/08/1694</date>
+                            </birth>
+                            <death>
+                                <date when="1744-10-31">31/10/1744</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="caldara">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Antonio_Caldara"/>
+                                <forename>Antonio</forename>
+                                <surname>Caldara</surname>
+                            </persName>
+                            <birth>
+                                <date when="1670-12-17">17/12/1670</date>
+                            </birth>
+                            <death>
+                                <date when="1736-12-28">28/12/1736</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="pergolese">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Battista_Pergolesi"/>
+                                <forename>Giovanni Battista</forename>
+                                <surname>Pergolesi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1710-01-04">04/01/1710</date>
+                            </birth>
+                            <death>
+                                <date when="1736-03-16">16/03/1736</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="jommelli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Niccolò_Jommelli"/>
+                                <forename>Niccolò</forename>
+                                <surname>Jommelli</surname>
+                            </persName>
+                            <birth>
+                                <date when="1714-09-10">10/09/1714</date>
+                            </birth>
+                            <death>
+                                <date when="1774-08-25">25/08/1774</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="mortellari">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Martino_Mortellari"/>
+                                <forename>Martino</forename>
+                                <surname>Mortellari</surname>
+                            </persName>
+                            <birth>
+                                <date when="1713-11-27">27/11/1713</date>
+                            </birth>
+                            <death>
+                                <date when="1783-12-19">19/12/1783</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="frescobaldi">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Girolamo_Frescobaldi"/>
+                                <forename>Girolamo</forename>
+                                <surname>Frescobaldi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1583-09-13">13/09/1583</date>
+                            </birth>
+                            <death>
+                                <date when="1643-03-01">01/03/1643</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="gorelli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Gorelli"/>
+                                <forename>Giovanni</forename>
+                                <surname>Gorelli</surname>
+                            </persName>
+                            <birth>
+                                <date when="1661-06-14">14/06/1661</date>
+                            </birth>
+                            <death>
+                                <date when="1730-04-18">18/04/1730</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="veracini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Francesco_Maria_Veracini"/>
+                                <forename>Francesco Maria</forename>
+                                <surname>Veracini</surname>
+                            </persName>
+                            <birth>
+                                <date when="1690-02-01">01/02/1690</date>
+                            </birth>
+                            <death>
+                                <date when="1768-10-31">31/10/1768</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                    
+                        <person xml:id="geminiani">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Francesco_Geminiani"/>
+                                <forename>Francesco</forename>
+                                <surname>Geminiani</surname>
+                            </persName>
+                            <birth>
+                                <date when="1687-12-05">05/12/1687</date>
+                            </birth>
+                            <death>
+                                <date when="1762-09-17">17/09/1762</date>
+                            </death>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        <person xml:id="lotti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Antonio_Lotti"/>
+                                <forename>Antonio</forename>
+                                <surname>Lotti</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="porpora">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Nicola_Porpora"/>
+                                <forename>Nicola</forename>
+                                <surname>Porpora</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="tartini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giuseppe_Tartini"/>
+                                <forename>Giuseppe</forename>
+                                <surname>Tartini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="locatelli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Pietro_Locatelli"/>
+                                <forename>Pietro</forename>
+                                <surname>Locatelli</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="boccherini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Luigi_Boccherini"/>
+                                <forename>Luigi</forename>
+                                <surname>Boccherini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="viotti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Battista_Viotti"/>
+                                <forename>Giovanni Battista</forename>
+                                <surname>Viotti</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="paganini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Niccol%C3%B2_Paganini"/>
+                                <forename>Niccolò</forename>
+                                <surname>Paganini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="arcadelt">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Jacob_Arcadelt"/>
+                                <forename>Jacob</forename>
+                                <surname>Arcadelt</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="lasso">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Orlando_di_Lasso"/>
+                                <forename>Orlando</forename>
+                                <surname>di Lasso</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="eccard">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Heinrich_Isaac"/>
+                                <forename>Heinrich</forename>
+                                <surname>Isaac</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="kassler">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Thomas_Luis_de_Victoria"/>
+                                <forename>Thomas Luis</forename>
+                                <surname>de Victoria</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="praetorius">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Michael_Praetorius"/>
+                                <forename>Michael</forename>
+                                <surname>Praetorius</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="schutz">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Heinrich_Sch%C3%BCtz"/>
+                                <forename>Heinrich</forename>
+                                <surname>Schütz</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="handel">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Georg_Friedrich_H%C3%A4ndel"/>
+                                <forename>Georg Friedrich</forename>
+                                <surname>Händel</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="mozart">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"/>
+                                <forename>Wolfgang Amadeus</forename>
+                                <surname>Mozart</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="haydn">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Joseph_Haydn"/>
+                                <forename>Joseph</forename>
+                                <surname>Haydn</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="gluck">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Christoph_Willibald_Gluck"/>
+                                <forename>Christoph Willibald</forename>
+                                <surname>Gluck</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="mendelssohn">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Felix_Mendelssohn"/>
+                                <forename>Felix</forename>
+                                <surname>Mendelssohn</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="hiller">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ferdinand_Hiller"/>
+                                <forename>Ferdinand</forename>
+                                <surname>Hiller</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="richter">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Franz_Xaver_Richter"/>
+                                <forename>Franz Xaver</forename>
+                                <surname>Richter</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="kiel">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Friedrich_Kiel"/>
+                                <forename>Friedrich</forename>
+                                <surname>Kiel</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="rossini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Gioachino_Rossini"/>
+                                <forename>Gioachino</forename>
+                                <surname>Rossini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="bellini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Vincenzo_Bellini"/>
+                                <forename>Vincenzo</forename>
+                                <surname>Bellini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="donizetti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Gaetano_Donizetti"/>
+                                <forename>Gaetano</forename>
+                                <surname>Donizetti</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="cimarosa">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Domenico_Cimarosa"/>
+                                <forename>Domenico</forename>
+                                <surname>Cimarosa</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="spontini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Gaspare_Spontini"/>
+                                <forename>Gaspare</forename>
+                                <surname>Spontini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="weber">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carl_Maria_von_Weber"/>
+                                <forename>Carl Maria von</forename>
+                                <surname>Weber</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="halevy">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Fromental_Hal%C3%A9vy"/>
+                                <forename>Fromental</forename>
+                                <surname>Halévy</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="meyerbeer">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giacomo_Meyerbeer"/>
+                                <forename>Giacomo</forename>
+                                <surname>Meyerbeer</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="gounod">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Charles_Gounod"/>
+                                <forename>Charles</forename>
+                                <surname>Gounod</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="verdi">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giuseppe_Verdi"/>
+                                <forename>Giuseppe</forename>
+                                <surname>Verdi</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="bazzini">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Antonio_Bazzini"/>
+                                <forename>Antonio</forename>
+                                <surname>Bazzini</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="andreoli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Alessandro_Andreoli"/>
+                                <forename>Alessandro</forename>
+                                <surname>Andreoli</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="sgambati">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Sgambati"/>
+                                <forename>Giovanni</forename>
+                                <surname>Sgambati</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="pinelli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giuseppe_Benedetto_Pinelli"/>
+                                <forename>Giuseppe Benedetto</forename>
+                                <surname>Pinelli</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="buonamici">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giacomo_Antonio_Perti"/>
+                                <forename>Giacomo Antonio</forename>
+                                <surname>Perti</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="sbolci">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Sbolci"/>
+                                <forename>Giovanni</forename>
+                                <surname>Sbolci</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>
+                        
+                        <person xml:id="maglioni">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Pasquale_Maglioni"/>
+                                <forename>Pasquale</forename>
+                                <surname>Maglioni</surname>
+                            </persName>
+                            <occupation>Compositore e musicista</occupation>
+                        </person>                        
                 </listPerson>
 
                 <listPlace>
