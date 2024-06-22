@@ -156,21 +156,24 @@
         </surface>
 
         <surface xml:id="p397" start="#pb397" n="7">
-            <graphic url='Vol1-1878-1-S1-F21_7.png' width='1532px' height='2245px' />
+
+            <graphic url='Vol1-1878-1-S1-F21_7.png' width='1532.4px' height='2245.4px' />
+
+            <zone ulx="76" uly="161" lrx="743" lry="637" xml:id="p397_p1" start="#p397_par1"/>
+            <zone ulx="76" uly="647" lrx="748" lry="812" xml:id="p397_p2" start="#p397_par2"/>
+            <zone ulx="79" uly="821" lrx="747" lry="953" xml:id="p397_p3" start="#p397_par3"/>
+            <zone ulx="80" uly="964" lrx="749" lry="1188" xml:id="p397_p4" start="#p397_par4"/>
+            <zone ulx="81" uly="1194" lrx="746" lry="1472" xml:id="p397_p5" start="#p397_par5"/>
+            <zone ulx="81" uly="1480" lrx="746" lry="1731" xml:id="p397_p6" start="#p397_par6"/>
+            <zone ulx="87" uly="1743" lrx="751" lry="1992" xml:id="p397_p7" start="#p397_par7"/>
+            <zone ulx="94" uly="2001" lrx="756" lry="2083" xml:id="p397_p8" start="#p397_par8"/>
+            <zone ulx="764" uly="166" lrx="1426" lry="212" xml:id="p397_p8_cb" start="#p397_par8_cb"/>
+            <zone ulx="766" uly="221" lrx="1426" lry="643" xml:id="p397_p9" start="#p397_par9"/>
+            <zone ulx="768" uly="652" lrx="1425" lry="784" xml:id="p397_p10" start="#p397_par10"/>
+            <zone ulx="768" uly="790" lrx="1429" lry="1044"  xml:id="p397_p11" start="#p397_par11"/>
+            <zone ulx="772" uly="1052" lrx="1433" lry="1301" xml:id="p397_p12" start="#p397_par12"/>
+            <zone ulx="775" uly="1308" lrx="1428" lry="1788" xml:id="p397_p13" start="#p397_par13"/>
             
-            <zone ulx="72" uly="156" lrx="744" lry="635" xml:id="p397_p1" start="#p397_par1" />
-            <zone ulx="75" uly="643" lrx="747" lry="954" xml:id="p397_p2" start="#p397_par2"/>
-            <zone ulx="80" uly="962" lrx="750" lry="1186" xml:id="p397_p3" start="#p397_par3"/>
-            <zone ulx="81" uly="1191" lrx="750" lry="1466" xml:id="p397_p4" start="#p397_par4"/>
-            <zone ulx="84" uly="1481" lrx="751" lry="1732" xml:id="p397_p5" start="#p397_par5"/>
-            <zone ulx="87" uly="1740" lrx="750" lry="1989" xml:id="p397_p6" start="#p397_par6"/>
-            <zone ulx="89" uly="1995" lrx="758" lry="2081" xml:id="p397_p7" start="#p397_par7"/>
-            <zone ulx="765" uly="158" lrx="1434" lry="212" xml:id="p397_p8" start="#p397_par8"/>
-            <zone ulx="767" uly="221" lrx="1433" lry="642" xml:id="p397_p8_cb" start="#p397_par8_cb"/>
-            <zone ulx="768" uly="647" lrx="1436" lry="785" xml:id="p397_p9" start="#p397_par9"/>
-            <zone ulx="769" uly="792" lrx="1442" lry="1043" xml:id="p397_p10" start="#p397_par10"/>
-            <zone ulx="771" uly="1047" lrx="1442" lry="1296" xml:id="p397_p11" start="#p397_par11"/>
-            <zone ulx="774" uly="1303" lrx="1443" lry="1789" xml:id="p397_p12" start="#p397_par12"/>
         </surface>
 
         <!-- BIBLIOGRAFIA E NOTIZIE-->
