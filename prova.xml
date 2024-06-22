@@ -159,18 +159,18 @@
             <graphic url='Vol1-1878-1-S1-F21_7.png' width='1532px' height='2245px' />
             
             <zone ulx="72" uly="156" lrx="744" lry="635" xml:id="p397_p1" start="#p397_par1" />
-            <zone ulx="75" uly="643" lrx="747" lry="954" />
-            <zone ulx="80" uly="962" lrx="750" lry="1186" />
-            <zone ulx="81" uly="1191" lrx="750" lry="1466" />
-            <zone ulx="84" uly="1481" lrx="751" lry="1732" />
-            <zone ulx="87" uly="1740" lrx="750" lry="1989" />
-            <zone ulx="89" uly="1995" lrx="758" lry="2081" />
-            <zone ulx="765" uly="158" lrx="1434" lry="212" />
-            <zone ulx="767" uly="221" lrx="1433" lry="642" />
-            <zone ulx="768" uly="647" lrx="1436" lry="785" />
-            <zone ulx="769" uly="792" lrx="1442" lry="1043" />
-            <zone ulx="771" uly="1047" lrx="1442" lry="1296" />
-            <zone ulx="774" uly="1303" lrx="1443" lry="1789" />
+            <zone ulx="75" uly="643" lrx="747" lry="954" xml:id="p397_p2" start="#p397_par2"/>
+            <zone ulx="80" uly="962" lrx="750" lry="1186" xml:id="p397_p3" start="#p397_par3"/>
+            <zone ulx="81" uly="1191" lrx="750" lry="1466" xml:id="p397_p4" start="#p397_par4"/>
+            <zone ulx="84" uly="1481" lrx="751" lry="1732" xml:id="p397_p5" start="#p397_par5"/>
+            <zone ulx="87" uly="1740" lrx="750" lry="1989" xml:id="p397_p6" start="#p397_par6"/>
+            <zone ulx="89" uly="1995" lrx="758" lry="2081" xml:id="p397_p7" start="#p397_par7"/>
+            <zone ulx="765" uly="158" lrx="1434" lry="212" xml:id="p397_p8" start="#p397_par8"/>
+            <zone ulx="767" uly="221" lrx="1433" lry="642" xml:id="p397_p8_cb" start="#p397_par8_cb"/>
+            <zone ulx="768" uly="647" lrx="1436" lry="785" xml:id="p397_p9" start="#p397_par9"/>
+            <zone ulx="769" uly="792" lrx="1442" lry="1043" xml:id="p397_p10" start="#p397_par10"/>
+            <zone ulx="771" uly="1047" lrx="1442" lry="1296" xml:id="p397_p11" start="#p397_par11"/>
+            <zone ulx="774" uly="1303" lrx="1443" lry="1789" xml:id="p397_p12" start="#p397_par12"/>
         </surface>
 
         <!-- BIBLIOGRAFIA E NOTIZIE-->
@@ -794,7 +794,7 @@
                         <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
                     </ab>
 
-                    <pb n="2" facs="#p397" xml:id="pb397"/>
+                    <pb n="2"/>
                     <cb n="1"/>
                     <ab facs="#p397_p1" xml:id="p397_par1">
                         <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
@@ -816,7 +816,7 @@
                         <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p2" xml:id="p397_par2">
                         <lb />Se dunque la <name type="place" ref="#de">Germania</name> ci dà l'esempio di una profonda
                         <lb />serietà negli studi e di un vero culto per le nostre glorie
                         <lb />(non trascurando certo d'onorare le sue), perchè non fac
@@ -825,7 +825,7 @@
                         <lb />gio, anziché respingerla per un malinteso amor di patria?
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p3" xml:id="p397_par3">
                         <lb />Il perchè ci sembra chiaro. Da molto tempo la musica
                         <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
                         <lb />trali, che appartengono invece ad uno solo fra i tanti rami
@@ -833,7 +833,7 @@
                         <lb /><choice><abbr>a'</abbr><expan>ai</expan></choice>lavori drammatici che si rappresentano <choice><abbr>ne'</abbr><expan>nei</expan></choice>teatri.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p4" xml:id="p397_par4">
                         <lb />In tal modo i paladini della pretesa italianità musicale
                         <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
                         <lb />ignota o mal nota, ed anco la stessa arte teatrale ristrin
@@ -844,7 +844,7 @@
                         <lb />giornate</name>?
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p5" xml:id="p397_par5">
                         <lb />Nondimeno anco in questo ramo l'arte straniera vanta
                         <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
                         <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
@@ -857,7 +857,7 @@
                         <lb />purché non frantesa.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p6" xml:id="p397_par6">
                         <lb />Ora se l'opera teatrale è solamente uno fra i molti
                         <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
                         <lb />nobile e più grande, benché in generale si possa dirlo forse
@@ -869,7 +869,7 @@
                         <lb />appartengono appunto al genere sinfonico.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p7" xml:id="p397_par7"> 
                         <lb />Certo a chi ha sentito le più <choice><orig>maravigliose</orig><reg>meravigliose</reg></choice> fra le sin
                         <lb />fonie di <name type="person" ref="#beethoven">Beethoven</name> pare impossibile che un cervello umano
                         <lb />abbia potuto creare questi edifìzi monumentali, e trova che
@@ -881,18 +881,18 @@
                         <lb />sique</quote>.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p8" xml:id="p397_par8">
                         <lb />Questo prova che se da parecchio tempo le opere tea
                         <lb />trali hanno tenuto nell'ombra i capolavori della musica
                         <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
-
-                        <cb n="2"/>
-
+                    </ab>
+                    <cb n="2"/>
+                    <ab facs="#p397_p8_cb" xml:id="p397_par8_cb">
                         <lb />questi ultimi almeno tanto quanto le prime purché gli si
                         <lb />facessero conoscere.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p9" xml:id="p397_par9">
                         <lb />Del resto che lo studio dell'arte classica straniera (da
                         <lb />non confondersi colle spropositate imitazioni del <quote xml:lang="la" source="#epistole" rend="italic">servum
                         <lb />pecus</quote>) congiunto a quello dell'arte classica italiana possa
@@ -910,7 +910,7 @@
                         <lb />critica. Pure egli si mantenne italiano.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p10" xml:id="p397_par10">
                         <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
                         <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
                         <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
@@ -918,7 +918,7 @@
                         <lb />nel genere strumentale e corale.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p11" xml:id="p397_par11">
                         <lb />A propagare la conoscenza e lo studio della musica più
                         <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
                         <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
@@ -930,7 +930,7 @@
                         <lb />saper grado a quei valenti che se ne fecero campioni.
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p12" xml:id="p397_par12">
                         <lb />Nonpertanto sarebbe <choice><orig>d'uopo</orig><reg>necessario</reg></choice> che il loro esempio e i loro
                         <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
                         <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
@@ -942,7 +942,7 @@
                         <lb />musica in quante città italiane e quanto spesso si ode?
                     </ab>
 
-                    <ab>
+                    <ab facs="#p397_p13" xml:id="p397_par13">
                         <lb />Dal fin qui detto si comprende come l'influenza germa
                         <lb />nica (imparzialmente giudicata) ci sia tutt'altro che dan
                         <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
