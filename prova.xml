@@ -94,6 +94,8 @@
        </teiHeader>
 
        <facsimile>
+
+        <!--ARTICOLO 1-->
         <surface xml:id="p386" start="#pb386" n="1">
 
             <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
@@ -117,6 +119,8 @@
             <zone ulx="753" uly="153" lrx="1422" lry="446" xml:id="p387_p10_cb" start="p387_par10_cb"/>
             
         </surface>
+        
+        <!--ARTICOLO 2-->
         <surface xml:id="p393" start="#pb393" n="3">
 
             <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
@@ -141,6 +145,8 @@
             <zone ulx="463" uly="2065" lrx="721" lry="2090" xml:id="p395_firm" corresp="#p395_author"/>
             
         </surface>
+        
+        <!--ARTICOLO 3-->
         <surface xml:id="p396" start="#pb396" n="6">
 
             <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
@@ -167,6 +173,7 @@
             <zone ulx="774" uly="1303" lrx="1443" lry="1789" />
         </surface>
 
+        <!-- BIBLIOGRAFIA E NOTIZIE-->
         <surface>
             <graphic url='Vol1-1878-1-S1-F21_8.png' width='1542px' height='2252px' />
 
@@ -269,9 +276,9 @@
                                 <lb />bile, che le ragazze debbano andare il meno possibile nella
                                 <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può
                                 <lb />scrivere alla figlia, nè questa alla madre, senza che la di
-
-                                <cb n="2"  facs="#p386_p3_cb" xml:id="p386_par3_cb"/>
-                            
+                            </ab>
+                                <cb n="2"/>
+                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb">
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
                                 <lb />La conseguenza naturale di tutto ciò è che in molti con
@@ -426,9 +433,9 @@
                                 <lb />come fate per gli uomini, le scuole necessarie ; dateci i me
                                 <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
                                 <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
-                        
-                                <cb n="2" facs="#p387_p10_cb" xml:id="p387_par10_cb"/>
-                        
+                            </ab>
+                                <cb n="2" />
+                            <ab facs="#p387_p10_cb" xml:id="p387_par10_cb">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
                                 <lb />nome solamente. Noi crediamo che questo bisogno sia uni
@@ -483,20 +490,21 @@
                                 <lb />menti storici. Nei vari periodi di evoluzione del suo spirito,
                                 <lb />queste creature sue gli s'impongono sempre, e gli si pre
                             </ab>
-                            <bibl facs="#p393_bibl" xml:id="puini78">
-                                <author>
-                                    <name>
-                                        <forename>Carlo</forename>
-                                        <surname>Puini</surname>
-                                    </name>
-                                </author>,
-                                <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
-                                    alle religioni dell'Asia orientale</title>.
-                                <pubPlace>Firenze</pubPlace>,
-                                <publisher>Sansoni</publisher>, 
-                                <date when="1878">1878</date>
-                            </bibl>
-
+                            <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
+                                <bibl>
+                                    <author>
+                                        <name>
+                                            <forename>Carlo</forename>
+                                            <surname>Puini</surname>
+                                        </name>
+                                    </author>,
+                                    <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
+                                        alle religioni dell'Asia orientale</title>.
+                                    <pubPlace>Firenze</pubPlace>,
+                                    <publisher>Sansoni</publisher>, 
+                                    <date when="1878">1878</date>
+                                </bibl>
+                            </ab>
                             <pb n="2" facs="#p394" xml:id="pb394"/>
                             <cb n="1" />
                             <ab facs="#p394_p1" xml:id="p394_par1">
