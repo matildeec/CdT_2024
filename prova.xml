@@ -457,7 +457,7 @@
                 </div>
 
                 <!-- ARTICOLO 2 -->
-                <div type="article" n="7" xml:lang="it" source="#ART_2">
+                <div type="article" n="2" xml:lang="it" source="#ART_2">
                     <pb n="1" facs="#p393" xml:id="pb393"/>
                             <cb n="2"/>
                             <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">
@@ -741,7 +741,7 @@
                 </div>
 
                 <!-- ARTICOLO 3 -->
-                <div type="article" n="8" xml:lang="it" source="#ART_3">
+                <div type="article" n="3" xml:lang="it" source="#ART_3">
                     <pb n="1" facs="#p396" xml:id="pb396"/>
                     <cb n="2"/>
                     <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
@@ -970,6 +970,70 @@
                         <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
                         <lb />rono dipoi in <name type="place" ref="#de">Germania</name>.
                     </ab>
+                </div>
+                <div type="bibliografia" org="composite" part="Y">
+                    <div type="entrata_bibliografica" n="1">
+                        <pb n="1" facs="#p403" xml:id="pb403"/>
+                        <cb n="1"/>
+                    <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
+                        <lb />Scienze Politiche. 
+                    </head>
+                    <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
+                        <bibl>
+                            <author>
+                                <name>
+                                    <forename>Carlo</forename>
+                                    <surname>Puini</surname>
+                                </name>
+                            </author>,
+                            <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
+                                alle religioni dell'Asia orientale</title>.
+                            <pubPlace>Firenze</pubPlace>,
+                            <publisher>Sansoni</publisher>, 
+                            <date when="1878">1878</date>
+                        </bibl>
+                    </ab>
+                    <ab>
+                        <bibl>
+                            <author>
+                                <name>
+                                    <forename>Gaetano</forename>
+                                    <surname>Zini</surname>
+                                </name>
+                            </author>
+                            <title rend="italic">
+                                La riforma della legge comunale e provinciale.
+                                Note ed appunti. — Bologna, Zanichelli, 1878
+                            </title>.
+                            <pubPlace>Bologna</pubPlace>,
+                            <publisher>Zanichelli</publisher>,
+                            <date when="1878">1878</date>
+                        </bibl>
+                    </ab>
+                    <ab>
+                        <lb />La riforma della legge che regola le amministrazioni
+                        <lb />delle Province e dei Comuni, più volte annunziataci dal
+                        <lb />Governo come uno dei più prossimi lavori parlamentari e
+                        <lb />concretata nei progetti già presentati alla Camera nell'anno
+                        <lb />decorso, tiene viva la questione assai interessante della
+                        <lb />maggiore o minor libertà d'azione che può concedersi alle
+                        <lb />rappresentanze di coteste amministrazioni. E un fatto pur
+                        <lb />troppo vero che nella maggior parte di coteste aziende si
+                        <lb />rileva un certo malessere che reclama solleciti rimedi e per
+                        <lb />alcune il male può dirsi giunto agli estremi ; ora avviene
+                        <lb />che da molti economisti ed uomini politici si accusi di cotesto
+                        <lb />male la soverchia ingerenza delle Autorità governa
+                        <lb />tive nelle faccende comunali e si vorrebbe da loro che il
+                        <lb />rimedio si ricercasse appunto in una più larga libertà di
+                        <lb />azione per le amministrazioni locali.
+                    </ab>
+                    <ab>
+                        
+                    </ab>
+                    </div>
+                    <div>
+
+                    </div>
                 </div>
         </div>
         </body>
