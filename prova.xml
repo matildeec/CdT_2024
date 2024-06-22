@@ -735,7 +735,10 @@
                 <div type="article" n="8" xml:lang="it" source="#ART_3">
                     <pb n="1" facs="#p396" xml:id="pb396"/>
                     <cb n="2"/>
-                    <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">Dell'Influenza Germanica sulla Musica Italiana</head>
+                    <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
+                        <lb />Dell'Influenza Germanica 
+                        <lb />sulla Musica Italiana
+                    </head>
                     <ab facs="#p396_p1" xml:id="p396_par1">
                         <lb />Checché ne dicano quelli che vedono tutto nero, spira
                         <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
