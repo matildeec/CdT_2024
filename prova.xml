@@ -91,6 +91,15 @@
                 <p>Sono stati selezionati per la codifica tre articoli, due entrate della sezione Bibliografia e due entrate della sezione Notizie, appartenenti allo stesso fascicolo.</p>
             </samplingDecl>
         </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it" usage="100">Italiano</language>
+            </langUsage>
+            <creation>
+                <date when="1878-05-26">26 maggio 1878</date>
+                <rs type="city">Firenze</rs>
+            </creation>
+        </profileDesc>
        </teiHeader>
 
        <facsimile>
@@ -232,7 +241,7 @@
                                 <lb />ed istituti tecnici. Questo disegno di legge discusso ed ap
                                 <lb />provato da una Commissione, non fu neppure presentato
                                 <lb />al <name type="org" ref="#PAR">Parlamento</name>, ed ora è con moltissimi altri sepolto. Intanto
-                                <lb />sono usciti opuscoli, libri, articoli di giornali sull' istru
+                                <lb />sono usciti opuscoli, libri, articoli di giornali sull'istru
                                 <lb />zione della donna. Chi vuole il greco ed il latino, e chi
                                 <lb />non lo vuole; chi vuole la donna istruita ed ha paura della
                                 <lb />donna letterata, e chi vuol solo la madre di famiglia. Ma
@@ -244,26 +253,26 @@
                             </ab>
                             <ab facs="#p386_p2" xml:id="p386_par2">
                                 <lb />In generale può dirsi che, mentre noi cerchiamo di dare
-                                <lb />all' uomo una istruzione che ne sviluppi e fortifichi l' intel
+                                <lb />all'uomo una istruzione che ne sviluppi e fortifichi l'intel
                                 <lb />ligenza, ne accresca la cultura, alla donna <choice><expan>vogliam<ex>o</ex></expan></choice> dare
                                 <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne
                                 <lb />viene, come è naturale, una grande superficialità e legge
                                 <lb />rezza in tutto. Ma noi allora, con una logica molto singo
-                                <lb />lare, ci serviamo di questi che sono i resultati naturali del
+                                <lb />lare, ci serviamo di questi che sono i <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> naturali del
                                 <lb />nostro metodo, per giustificarlo. Se da una istruzione su
                                 <lb />perficiale e leggera risulta una intelligenza leggera e su
                                 <lb />perficiale, invece di <choice><expan>mutar<ex>e</ex></expan></choice> metodo, diciamo: <said direct="true" aloud="false">Vedete come
                                 <lb />la donna è incapace di studi severi; essa non si pieghe
                                 <lb />rebbe mai ad un metodo rigoroso</said>. Non viene mai in mente
                                 <lb />di pensare che una istruzione come quella che le diamo,
-                                <lb />porterebbe i medesimi resultati anche in un uomo. E non
+                                <lb />porterebbe i medesimi <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> anche in un uomo. E non
                                 <lb />viene neppure in mente, che la superficialità e la legge
                                 <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                                 <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                             </ab>
                             <ab facs="#p386_p3" xml:id="p386_par3">
-                                <lb />Ma c' è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
-                                <lb />nostri convitti. I soli che diano qualche utile resultato sono
+                                <lb />Ma c'è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
+                                <lb />nostri convitti. I soli che diano qualche utile <distinct type="rare"><choice><orig>resultato</orig><reg>risultato</reg></choice></distinct> sono
                                 <lb />i convitti militari, perchè in essi è entrato quello spirito di
                                 <lb />disciplina, d'indipendenza morale e di onore cavalleresco, che
                                 <lb />costituiscono la forza e la gloria del nostro esercito. I convitti
@@ -287,13 +296,13 @@
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
                                 <lb />La conseguenza naturale di tutto ciò è che in molti con
-                                <lb />vitti femminili tra le ragazze non si parìa d'altro che
+                                <lb />vitti femminili tra le ragazze non si parla d'altro che
                                 <lb />di amori; si cercano e si trovano tutti i mezzi per fare
-                                <lb />uscire ed entrare lettere d' ogni sorta, senza che la diret
+                                <lb />uscire ed entrare lettere d'ogni sorta, senza che la diret
                                 <lb />trice lo sappia. Abbiamo conosciuta una signorina in
                                 <lb />glese, chiamata ad insegnare la sua lingua in un con
                                 <lb />vitto, nel quale doveva dimorare. Quando essa ricevette
-                                <lb />aperta la sua prima lettera, andò in furia ; quando le
+                                <lb />aperta la sua prima lettera, andò in furia; quando le
                                 <lb />fu detto che il Regolamento lo imponeva, trovò subito
                                 <lb />il modo di far come facevano le alunne. In sostanza i col
                                 <lb />legi femminili furono e sono in <name type="place" ref="#it">Italia</name> nelle mani delle mo
@@ -306,7 +315,7 @@
                                 <lb />dalla società, che tende a s<damage agent="inkblot" degree="low">o</damage>pprimere ogni morale respon
                                 <lb />sabilità, ogni indipendenza di carattere, che spinge senza
                                 <lb />saperlo ai sotterfugi ed alla finzione? Fortunatamente i
-                                <lb />convitti non sono molti ; ma da un altro lato le scuole sono
+                                <lb />convitti non sono molti; ma da un altro lato le scuole sono
                                 <lb />poche ed insufficenti.
                             </ab>
                             <ab facs="#p386_p4" xml:id="p386_par4">
@@ -331,7 +340,7 @@
                             <ab facs="#p386_p5" xml:id="p386_par5">
                                 <lb />Per ora il nostro sistema scolastico femminile si riduce
                                 <lb />alle scuole elementari, ed alle scuole normali che formano
-                                <lb />le maestre elementari. Le sei o forse sette scuole femmi
+                                <lb />le maestre elementari. Le <num type="cardinal" value="6">sei</num> o forse <num type="cardinal" value="7">sette</num> scuole femmi
                                 <lb />nili, che si chiamano superiori, sono certo una lodevole ec
                                 <lb />cezione; ma poche di numero e con poche alunne non pos
                                 <lb />sono mutare il carattere generale del sistema. Esse non
@@ -352,7 +361,7 @@
                                 <lb />piere la loro istruzione. Ma noi non abbiamo qui lo spazio
                                 <lb />necessario per esporre tutte le nostre idee, sulle quali
                                 <lb />torneremo altra volta. Vogliamo per ora fermarci sopra
-                                <lb />una sola quistione, che par molto e forse troppo speciale;
+                                <lb />una sola <distinct type="archaic"><choice><orig>quistione</orig><reg>questione</reg></choice></distinct>, che par molto e forse troppo speciale;
                                 <lb />ma che pure crediamo assai importante, specialmente se
                                 <lb />si considera che in <name type="place" ref="#it">Italia</name> ormai tutti, uomini e donne, fre
                                 <lb />quentano quelle scuole solamente, che danno loro un di
@@ -363,7 +372,7 @@
                             <cb n="1"/>
                             <ab facs="#p387_p7" xml:id="p387_par7">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
-                                <lb />che cominciano a dare utili <choice><sic>resultati</sic><corr>risultati</corr></choice> e vanno migliorando
+                                <lb />che cominciano a dare utili <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> e vanno migliorando
                                 <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
                                 <lb />generalmente parlando, i soli istituti superiori per le donne,
                                 <lb />quelli che danno la regola e la norma a tutti gli altri. L'in
@@ -390,7 +399,7 @@
                                 <lb />Ma c'è una ragione al mondo, per la quale ad essa
                                 <lb />non si debba dare altra istruzione che quella strettamente
                                 <lb />necessaria a farne una buona maestra elementare? È qui
-                                <lb />appunto che si presenta la <choice><sic>quistione</sic><corr>questione</corr></choice> pratica, di «pui vo
+                                <lb />appunto che si presenta la <distinct type="archaic"><choice><orig>quistione</orig><reg>questione</reg></choice></distinct> pratica, di «pui vo
                                 <lb />gliamo parlare. Nelle scuole normali e nei convitti insegnano
                                 <lb />spesso anche le donne, e queste non sono o almeno non do
                                 <lb />vrebbero essere semplici maestre elementari, perchè tengono
@@ -398,7 +407,7 @@
                                 <lb />per gli uomini è equiparato a quello di professori di liceo
                                 <lb />o ginnasio, e richiede un diploma universitario. Ora, se
                                 <lb />alla donna si dà un ufficio di pari grado non è giusto darle
-                                <lb />anche le cognizioni necessarie per adempierlo bene ? In
+                                <lb />anche le cognizioni necessarie per adempierlo bene? In
                                 <lb />tanto, vere scuole normali superiori che le diano l'insegna
                                 <lb />mento richiesto, ed abbiano facoltà di concedere il diploma
                                 <lb />non ne abbiamo. Profittare delle Università, come fanno gli
@@ -430,12 +439,12 @@
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
                                 <lb />ed al <name type="org" ref="#PAR">Parlamento</name> inespugnabili. Non dovrebbe discutere nè
                                 <lb />di metodi, nè di materie d'insegnamento, nè di alcuna teo
-                                <lb />ria. Dovrebbe dir solamente : <said direct="true" aloud="false">Voi ci chiamate ad insegnare
-                                <lb />nelle scuole normali ; ebbene, non ci nominate come fate
+                                <lb />ria. Dovrebbe dir solamente: <said direct="true" aloud="false">Voi ci chiamate ad insegnare
+                                <lb />nelle scuole normali; ebbene, non ci nominate come fate
                                 <lb />ora, senza che abbiamo il diploma, solo per favore o per
                                 <lb />raccomandazioni. Determinate le cognizioni che dobbiamo
                                 <lb />avere, gli esami a cui dobbiamo sottoporci, e aprite per noi,
-                                <lb />come fate per gli uomini, le scuole necessarie ; dateci i me
+                                <lb />come fate per gli uomini, le scuole necessarie; dateci i me
                                 <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
                                 <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
                             </ab>
@@ -469,24 +478,21 @@
                                 <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
                                 <lb />superi il campo delle nostre competenze e quello pure di
                                 <lb />questa <name type="bibl" ref="#ras_set" rend="italic"><choice><abbr>Rassegna</abbr><expan>Rassegna Settimanale</expan></choice></name>, pure esso ha un lato di natura e d'im
-                                <lb />portanza più generale, che, secondo gl'intendimenti dell' <choice><abbr>A.</abbr><expan>Autore</expan></choice>
+                                <lb />portanza più generale, che, secondo gl'intendimenti dell'<choice><abbr>A.</abbr><expan>Autore</expan></choice>
                                 <lb />stesso, lo rende accessibile a tutti e utile oggetto di atten
                                 <lb />zione per ogni persona colta. Il <roleName type="honorific">professor</roleName><name type="person" ref="#puini">Puini</name> è il primo
                                 <lb />che, colla serietà e l'autorità di chi è munito di tutti gli
                                 <lb />studi necessari e sa ispirarsi unicamente alle ragioni della
                                 <lb />scienza, offre agli Italiani un quadro delle religioni del
                                 <lb />l'<name type="place" ref="#asor">Asia Orientale</name>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="religion" ref="#BUDD">Buddhismo</name>,
-                                <lb />dall'<name type="place" ref="#ind">India</name> importato in vastissime regioni dell' <bloc type="sub-continent">estremo
+                                <lb />dall'<name type="place" ref="#ind">India</name> importato in vastissime regioni dell'<bloc type="sub-continent">estremo
                                 <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <name type="person" ref="#confucio">Confucio</name>
                                 <lb />e di <name type="person" ref="#laotse">Lao-tse</name>; brevemente poi discorre il <name><surname>Puini</surname></name> di una
-                                <lb />quarta religione, anche men conosciuta delle altre, che è
+                                <lb /><num type="ordinal" value="4">quarta</num> religione, anche <choice><expan>men<ex>o</ex></expan></choice> conosciuta delle altre, che è
                                 <lb />l'antica religione indigena e nazionale dei Giapponesi, il
-                                <lb /><name rend="italic" type="religion" ref="#SINT">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
-                                <lb /><num type="ordinal" value="4"></num>quarta religione, anche men conosciuta delle altre, che è
-                                <lb />l'antica religione indigena e nazionale dei Giapponesi, il
-                                <lb /><name type="religion" ref="#SINT">Sintoismo</name>, anteriore all' influenza cinese in quelle contrade.
+                                <lb /><name rend="italic" type="religion" ref="#SINT">Sintoismo</name>, anteriore all'influenza cinese in quelle contrade.
                                 <lb />Tutto questo gruppo di fatti religiosi bene scelti e bene
-                                <lb />esposti è estremamente interessante. Niuno può ormai più
+                                <lb />esposti è estremamente interessante. <distinct type="archaic"><choice><orig>Niuno</orig><reg>Nessuno</reg></choice></distinct> può ormai più
                                 <lb />negarlo; la coscienza di tutti i popoli di civiltà Europea
                                 <lb />è scossa e agitata; fra essa e molte idee resele familiari e
                                 <lb />quasi necessarie dalla educazione e da quanto v'ha di tra
@@ -520,14 +526,14 @@
                                 <lb />sentano come problemi che hanno poi per soluzione una
                                 <lb />definizione nuova di una parola antica. Questo è avvenuto
                                 <lb />per molti nomi di gran significato, quali <term type="verbum" rend="italic">Dio</term>, <term type="verbum" rend="italic">anima</term>, <term type="verbum" rend="italic">vita</term>,
-                                <lb /><term type="verbum" rend="italic">natura</term>, ec. nè ci possiamo maravigliare se oggi pure dopo
-                                <lb />secoli e secoli di vita religiosa siam qui a domandarci: che
-                                <lb />cos'è la Religione? Gli antichi popoli politeisti e pagani
+                                <lb /><term type="verbum" rend="italic">natura</term>, <distinct type="archaic"><choice><orig>ec.</orig><reg>ecc.</reg></choice></distinct> nè ci possiamo maravigliare se oggi pure dopo
+                                <lb />secoli e secoli di vita religiosa siam qui a domandarci: <said direct="true" aloud="false">che
+                                <lb />cos'è la Religione?</said> Gli antichi popoli politeisti e pagani
                                 <lb />non ebbero un vocabolo che esprimesse <term rend="italic">religione</term> nel senso
                                 <lb />odierno della parola. Si parlava di Dei greci, di Dei fenici,
-                                <lb />egizi, ec. ma la religione era una; le varietà modali erano
+                                <lb />egizi, <distinct type="archaic"><choice><orig>ec.</orig><reg>ecc.</reg></choice></distinct> ma la religione era una; le varietà modali erano
                                 <lb />considerate e sentite come distintivi nazionali e non pro
-                                <lb />vocavano antagonismi, nè odii, nè guerre. Il monoteismo
+                                <lb />vocavano antagonismi, nè <choice><sic>odii</sic><corr>odi</corr></choice>, nè guerre. Il monoteismo
                                 <lb />ruppe l'accordo e l'armonia fondamentale che nell'ordine
                                 <lb />religioso, in mezzo alla moltiplicità de'nomi e delle forme,
                                 <lb />regnava nelle coscienze antiche, e se ridusse il numero
@@ -535,32 +541,32 @@
                                 <lb />che con grande svantaggio della tranquillità sociale e della
                                 <lb />fraternità umana. Ed allora si comincia a parlare di <term rend="italic">reli
                                 <lb />gione</term> e di <term rend="italic">religioni</term>; nè mai plurale fu più pregno di con
-                                <lb />seguenze pel valore e il significato del suo singolare. La
+                                <lb />seguenze <distinct type="archaic"><orig>pel</orig><reg>per il</reg></distinct> valore e il significato del suo singolare. La
                                 <lb />coscienza moderna illuminata dal sapere molto progredito
                                 <lb />e dalla conoscenza sempre più facilitata di popoli diversi
                                 <lb />e lontani, sente ogni dì più fortemente tutto il peso di
                                 <lb />questo plurale. E la curiosità è grande per questo lato.
                                 <lb />Il numero dei libri che parlano storicamente o filosofica
                                 <lb />mente di religione, o di religioni, si accresce ogni dì; ed
-                                <lb />ognun vede, ognun sente che la ragione per cui questo ac
+                                <lb /><choice><expan>ognun<ex>o</ex></expan></choice> vede, <choice><expan>ognun<ex>o</ex></expan></choice> sente che la ragione per cui questo ac
                                 <lb />cade non è soltanto scientifica. L'ufficio dei dotti nel sod
                                 <lb />disfare ad un bisogno generale di questa natura è più dif
                                 <lb />ficile che non si creda, poiché mai terreno non fu più
                                 <lb />scosceso e facile a spingere a conclusioni precipitose, mai
                                 <lb />conclusioni non si aggirarono su soggetti più gravi. E se
                                 <lb />guardiamo ai passi che hanno fatto alcuni nella via della
-                                <lb />popolarizzazione per queste materie, dobbiam confessare
+                                <lb />popolarizzazione per queste materie, <choice><expan>dobbiam<ex>o</ex></expan></choice> confessare
                                 <lb />che siamo assai restii dall'approvarli. Si comincia già male
                                 <lb />col titolo specioso di <name type="bibl" ref="#scienza_rel" rend="italic">Scienza della religione</name>, che pare fatto
-                                <lb />espressamente per istimolare la curiosità degli uditori di
+                                <lb />espressamente per <distinct><choice><orig>istimolare</orig><reg>stimolare</reg></choice></distinct> la curiosità degli uditori di
                                 <lb />un <foreign xml:lang="en">lecturer</foreign>, ma che non è un titolo serio. Una scienza tale
                                 <lb />non esiste, nè (vista la vastità e la varietà delle discipline
-                                <lb />di cui sàrebbe la sintesi) la crediamo possibile; se pure poi
+                                <lb />di cui sarebbe la sintesi) la crediamo possibile; se pure poi
                                 <lb />fosse possibile, sarebbe una scienza <foreign xml:lang="la">in fieri</foreign>, e, a dirla schiet
                                 <lb />tamente, se noi abbiamo ammirato il <name type="person" ref="#faraday">Faraday</name>, quando po
                                 <lb />polarizzava la scienza fatta, non possiamo ammirare chi
                                 <lb />pretende popolarizzare la scienza da farsi e si compiace
-                                <lb />di dare pubblico spettacolo dell' indagine scientifica nel
+                                <lb />di dare pubblico spettacolo dell'indagine scientifica nel
                                 <lb />suo stato il più immaturo. Peggio poi quando vediamo
                                 <lb />il <name type="person" ref="#muller">Max Müller</name> venir fuori, a proposito di religione, con
                                 <lb />vuote e vane formule qual'è la sua ormai celebre <quote source="#scienza_rel" rend="italic">perce
@@ -595,7 +601,7 @@
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
                                 <lb />libri sacri delle principali religioni, tradotti in inglese. Il
-                                <lb />sei delle otto religioni così dette positive, cioè del <name type="religion" ref="#BRAHM">Brahma
+                                <lb />sei delle <num type="cardinal" value="8">otto</num> religioni così dette positive, cioè del <name type="religion" ref="#BRAHM">Brahma
                                 <lb />nismo</name>, del <name type="religion" ref="#BUDD">Buddismo</name>, dello <name type="religion" ref="#ZORO">Zoroastrismo</name>, dell'<name type="religion" ref="#ISLAM">Islamismo</name> e
                                 <lb />dei due sistemi cinesi di <name type="person" ref="#confucio">Confucio</name> e <name type="person" ref="#laotse">Lao-tse</name>. Non neghiamo
                                 <lb />che una raccolta tale sarebbe utile in qualche modo, ma
@@ -603,7 +609,7 @@
                                 <lb />rebbero <num type="cardinal">24</num> volumi per sole <num type="cardinal" value="6">sei</num> religioni; e di alcuni codici
                                 <lb />sacri di vastissima mole, come quelli Brahmanico e Bud
                                 <lb />distico, non darebbero che una parte assai piccola, relati
-                                <lb />vamente. La conchiusione poi sarebbe che i lettori non
+                                <lb />vamente. La <distinct type="rare"><orig>conchiusione</orig><reg>conclusione</reg></distinct> poi sarebbe che i lettori non
                                 <lb />conoscerebbero quelle religioni; poiché è un grosso e vol
                                 <lb />gare errore il credere che una religione sia contenuta in
                                 <lb />quei libri che per vicende molteplici e molto diverse, ar
@@ -821,7 +827,7 @@
                         <lb />antichi autori fiamminghi e tedeschi come <name type="person" ref="#arcadelt">Arcadelt</name>, <name type="person" ref="#orlandolasso">Orlando 
                         <lb />Lasso</name>, <name type="person" ref="#eccard">Eccard</name>, <name type="person" ref="#kassier">Kassier</name>, <name type="person" ref="#praetorius">Praetorius</name>, <name type="person" ref="#schuetz">Schütz</name>, non che dei
                         <lb />più moderni <name type="person" ref="#bach">Bach</name>, <name type="person" ref="#haendel">Haendel</name>, <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#haydn">Haydn</name>, <name type="person" ref="#gluck">Gluck</name>, <name type="person" ref="#beethoven">Beetho
-                        <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> ec., senza omettere i viventi
+                        <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> <distinct type="archaic"><choice><orig>ec.</orig><reg>ecc.</reg></choice></distinct>, senza omettere i viventi
                         <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
                     </ab>
 
