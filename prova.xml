@@ -213,7 +213,7 @@
 
        <text>
         <body>
-            <div type="journal" org="composite" part="Y">
+            <div type="journal" org="composite">
 
                 <!-- ARTICOLO 1 -->
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
@@ -261,7 +261,7 @@
                                 <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                                 <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                             </ab>
-                            <ab facs="#p386_p3" xml:id="p386_par3">
+                            <ab facs="#p386_p3" xml:id="p386_par3" part="I">
                                 <lb />Ma c' è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                                 <lb />nostri convitti. I soli che diano qualche utile resultato sono
                                 <lb />i convitti militari, perchè in essi è entrato quello spirito di
@@ -283,7 +283,7 @@
                                 <lb />scrivere alla figlia, nè questa alla madre, senza che la di
                             </ab>
                                 <cb n="2"/>
-                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb">
+                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F">
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
                                 <lb />La conseguenza naturale di tutto ciò è che in molti con
@@ -424,7 +424,7 @@
                                 <lb />cessari aiuti?
                             </ab>
 
-                            <ab facs="#p387_p10" xml:id="p387_par10">
+                            <ab facs="#p387_p10" xml:id="p387_par10" part="I">
                                 <lb />A noi pare davvero che se la donna cominciasse un'agi
                                 <lb />tazione su questo terreno, la sua posizione legale e la sua
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
@@ -442,7 +442,7 @@
 
                             <cb n="2" />
 
-                            <ab facs="#p387_p10_cb" xml:id="p387_par10_cb">
+                            <ab facs="#p387_p10_cb" xml:id="p387_par10_cb" part="F">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
                                 <lb />nome solamente. Noi crediamo che questo bisogno sia uni
@@ -584,13 +584,13 @@
                                 <lb />semplice, chiaro ed onesto stile, fa onore alla lucida sere
                                 <lb />nità dell'ingegno italiano.
                             </ab>
-                            <ab facs="#p394_p2" xml:id="p394_par2">
+                            <ab facs="#p394_p2" xml:id="p394_par2" part="I">
                                 <lb />Il <roleName>professor</roleName><name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                             </ab>
 
                             <cb n="2"/>
 
-                            <ab facs="#p394_p3" xml:id="p394_par3">
+                            <ab facs="#p394_p3" xml:id="p394_par3" part="F">
                                 <lb />basare sulla conoscenza dei fatti le idee della gente colta
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
@@ -618,7 +618,7 @@
                                 <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
                                 <lb />lente preparazione per chi poi volesse studiare anche questi.
                             </ab>
-                            <ab facs="#p394_p4" xml:id="p394_par4">
+                            <ab facs="#p394_p4" xml:id="p394_par4" part="I">
                                 <lb />Le <num type="cardinal" value="3">tre</num> religioni a cui è principalmente consacrato il li
                                 <lb />bro del <name type="person" ref="#puini">Puini</name> sono del numero di quelle che sogliono di
                                 <lb />stinguersi col nome di positive; cioè fondate sull'autorità
@@ -664,7 +664,7 @@
                             <pb n="3" facs="#p395" xml:id="pb395"/>
                             <cb n="1"/>
 
-                            <ab facs="#p395_p4" xml:id="p395_par4">
+                            <ab facs="#p395_p4" xml:id="p395_par4" part="F">
                                 <lb />fino all'idea di <name type="god">Dio</name> e la purificasse e arrivasse a un concetto
                                 <lb />monoteistico ben diverso da quello offerto dalla religione
                                 <lb />nazionale, nondimeno rimase pura e razionale e laica sem
@@ -748,7 +748,7 @@
                         <lb />Dell'Influenza Germanica 
                         <lb />sulla Musica Italiana
                     </head>
-                    <ab facs="#p396_p1" xml:id="p396_par1">
+                    <ab facs="#p396_p1" xml:id="p396_par1" part="I">
                         <lb />Checché ne dicano quelli che vedono tutto nero, spira
                         <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
                         <lb />musicale, che promette di ringagliardire e fecondare le no
@@ -805,7 +805,7 @@
 
                     <pb n="2"/>
                     <cb n="1"/>
-                    <ab facs="#p397_p1" xml:id="p397_par1">
+                    <ab facs="#p397_p1" xml:id="p397_par1" part="F">
                         <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
                         <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
                         <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
@@ -890,13 +890,13 @@
                         <lb />sique</quote>.
                     </ab>
 
-                    <ab facs="#p397_p8" xml:id="p397_par8">
+                    <ab facs="#p397_p8" xml:id="p397_par8" part="I">
                         <lb />Questo prova che se da parecchio tempo le opere tea
                         <lb />trali hanno tenuto nell'ombra i capolavori della musica
                         <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
                     </ab>
                     <cb n="2"/>
-                    <ab facs="#p397_p8_cb" xml:id="p397_par8_cb">
+                    <ab facs="#p397_p8_cb" xml:id="p397_par8_cb" part="F">
                         <lb />questi ultimi almeno tanto quanto le prime purché gli si
                         <lb />facessero conoscere.
                     </ab>
@@ -971,28 +971,15 @@
                         <lb />rono dipoi in <name type="place" ref="#de">Germania</name>.
                     </ab>
                 </div>
-                <div type="bibliografia" org="composite" part="Y">
+
+                <!--BIBLIOGRAFIA-->
+                <div type="bibliografia" org="uniform" sample="medial">
                     <div type="entrata_bibliografica" n="1">
                         <pb n="1" facs="#p403" xml:id="pb403"/>
                         <cb n="1"/>
-                        <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
+                        <head rend="align(center) case(allcaps)">
                             <lb />Scienze Politiche. 
                         </head>
-                        <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
-                            <bibl>
-                                <author>
-                                    <name>
-                                        <forename>Carlo</forename>
-                                        <surname>Puini</surname>
-                                    </name>
-                                </author>,
-                                <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
-                                    alle religioni dell'Asia orientale</title>.
-                                <pubPlace>Firenze</pubPlace>,
-                                <publisher>Sansoni</publisher>, 
-                                <date when="1878">1878</date>
-                            </bibl>
-                        </ab>
                         <ab>
                             <bibl>
                                 <author>
@@ -1003,8 +990,8 @@
                                 </author>
                                 <title rend="italic">
                                     La riforma della legge comunale e provinciale.
-                                    Note ed appunti. — Bologna, Zanichelli, 1878
-                                </title>.
+                                    Note ed appunti
+                                </title>.-
                                 <pubPlace>Bologna</pubPlace>,
                                 <publisher>Zanichelli</publisher>,
                                 <date when="1878">1878</date>
@@ -1108,9 +1095,100 @@
                             <lb />questi giorni.
                         </ab>
                     </div>
-                    <div>
-
+                    <div type="entrata_bibliografica" n="2">
+                        <pb n="1" />
+                        <cb n="2" />
+                        <head rend="align(center) case(allcaps)">
+                            <lb />Educazione pubblica. 
+                        </head>
+                        <ab>
+                            <bibl>
+                                <author>
+                                    <name>
+                                        <forename>G.</forename>
+                                        <surname>Fanti</surname>
+                                    </name>
+                                </author>
+                                <title rend="italic">
+                                    L'istruzione obbligatoria e le scuole foresi in Italia
+                                </title>.-
+                                <pubPlace>Palermo</pubPlace>,
+                                <date when="1878">1878</date>
+                            </bibl>
+                        </ab>
+                        <ab>
+                            <lb />In questo opuscolo l'A. si rallegra che la tanto desiderata
+                            <lb />e combattuta legge sull'istruzione obbligatoria sia entrata
+                            <lb />in porto, e pensa che eserciterà una notevole influenza sui
+                            <lb />Municipi più restii a diffondere l'istruzione primaria come
+                        </ab>
+                        <pb n="2" />
+                        <cb n="1" />
+                        <ab>
+                            <lb />e quando il bisogno richiede e potrà far rivolgere a questa
+                            <lb />i denari che talora si spendono male e inutilmente altrove.
+                        </ab>
+                        <ab>
+                            <lb />Osserva gli ostacoli che in pratica si opporranno al
+                            <lb />l'istruzione obbligatoria, e mostra che saranno maggiori
+                            <lb />nelle campagne per molte ragioni che sono state più volte
+                            <lb />ripetute, nè si nasconde che, salvo alcune eccezioni, è a te
+                            <lb />mersi la influenza dei parroci.
+                        </ab>
+                        <ab>
+                            <lb />Crediamo poi che egli abbia ragione di dire che ben
+                            <lb />poco è a sperarsi in un felice risultato, obbligando i fan
+                            <lb />ciulli alla scuola solo dai 6 ai 9 anni, perchè nelle campa
+                            <lb />gne l'insegnamento si riduce forzatamente a poche ore ed
+                            <lb />è spesso per necessità interrotto, ed anche perchè i ragazzi
+                            <lb />campagnoli più lontani dal civile consorzio non possono
+                            <lb />apprendere molte cose indirettamente, tanto che la loro in
+                            <lb />telligenza è in generale meno sveglia di quella dei fanciulli
+                            <lb />delle città. Proporrebbe un asilo-scuola, che il ragazzo do
+                            <lb />vrebbe frequentare da cinque o sei auni fino agli undici.
+                            <lb />Ai più poveri si potrebbe dare una minestra, nè ciò indur
+                            <lb />rebbe spesa soverchia perchè potrebbero venire occupati
+                            <lb />in semplici lavori da vendersi a benefizio dell'asilo. Gli
+                            <lb />altri la voterebbero per la loro famiglia. Così si otterrebbe
+                            <lb />una regolare e costante educazione.
+                        </ab>
+                        <ab>
+                            <lb />Conveniamo coll'A. sulla necessità che l' insegnamento
+                            <lb />sia molto semplice, e conveniamo pure in ciò che egli
+                            <lb />dice sulla miserrima condizione dei maestri. Anzi que
+                            <lb />sto ci pare il nodo della questione. Noi siamo in principio
+                            <lb />favorevoli alla istruzione obbligatoria, ma essa dovrebbe
+                            <lb />essere il coronamento dell' edifizio, poiché riesce inefficace
+                            <lb />quando mancano le scuole e i maestri. E i maestri, i mae
+                            <lb />stri buoni, non si possono avere quando si retribuiscono
+                            <lb />tanto male. E sì che specialmente in una scuola rurale il
+                            <lb />buon esito dipende tutto dalle qualità di chi insegna!
+                        </ab>
                     </div>
+                </div>
+                <div type="notizie"  org="uniform" sample="initial">
+                    <pb n="1"/>
+                    <cb n="2"/>
+                    <list rend="simple">
+                        <head rend="align(center) case(allcaps)">
+                            <lb />NOTIZIE 
+                        </head>
+                        <item>
+                            Nel corso dell'estate prossima si pubblicherà dal Barbèra a Fi
+                            renze un supplemento all' edizione Le Monnier intitolato: Appendice
+                            all'E pistolario ed agli scritti giovanili d i Giacomo Leopardi. L'A. Pro
+                            spero Viani prepara anche la pubblicazione della corrispondenza tra i
+                            membri dell' ultima generazione della famiglia Leopardi affidatagli per
+                            questo scopo dalla contessa Leopardi vedova del conte Carlo.
+                        </item>
+                        <item>
+                            Fra poco usciranno presso lo stesso editore : L'Avvocatura, Due
+                            discorsi di Giuseppe Zanardelli. — Sonetti in dialetto romanesco di Luigi
+                            Ferretti, scelti e pubblicati da Luigi Morandi. — I viaggi di Francesco
+                            Carletti, le Rime di Veronica Gàmbara, le Poesie del conte Giovanni
+                            Marchetti.
+                        </item>
+                    </list>
                 </div>
         </div>
         </body>
