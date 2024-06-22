@@ -219,7 +219,9 @@
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
                     <pb n="2" facs="#p386" xml:id="pb386"/>
                             <cb n="1"/>
-                            <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">L'Istruzione della Donna</head>
+                            <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">
+                                <lb />L'Istruzione della Donna
+                            </head>
                             <ab facs="#p386_p1" xml:id="p386_par1">
                                 <lb />L' <roleName type="office"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
                                 <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
@@ -439,7 +441,7 @@
                             </ab>
 
                             <cb n="2" />
-                            
+
                             <ab facs="#p387_p10_cb" xml:id="p387_par10_cb">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
@@ -458,7 +460,9 @@
                 <div type="article" n="7" xml:lang="it" source="#ART_2">
                     <pb n="1" facs="#p393" xml:id="pb393"/>
                             <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">Le Religioni dell'Asia Orientale</head>
+                            <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">
+                                <lb />Le Religioni dell'Asia Orientale
+                            </head>
                             <ab facs="#p393_p1" xml:id="p393_par1">
                                 <lb />È venuto a luce da non molto un libro che è il <num type="ordinal" value="1">primo</num>
                                 <lb />del suo genere in <name type="place" ref="#it">Italia</name>, e risponde ad un vivo desiderio
