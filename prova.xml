@@ -1183,13 +1183,13 @@
                             all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
                             spero Viani</name> prepara anche la pubblicazione della corrispondenza tra i
                             membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
-                            questo scopo dalla <name type="person" ref="#cont_leop">contessa Leopardi</name> vedova del <name type="person" ref="#cont_carlo">conte Carlo</name>.
+                            questo scopo dalla <name type="role">contessa</name><name type="person" ref="#cont_leop">Leopardi</name> vedova del <name type="role">conte</name> <name type="person" ref="#cont_carlo">Carlo</name>.
                         </item>
                         <item>
-                            - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic">L'Avvocatura</name>, Due
-                            discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
-                            Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl">I viaggi</name> di <name type="person" ref="#carletti">Francesco
-                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person" ref="#gambara">Veronica Gàmbara</name>, le <name type="bibl">Poesie</name> del <name type="person" ref="#marchetti">conte Giovanni
+                            - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic" ref="#avvocatura">L'Avvocatura</name>, Due
+                            discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic" ref="#sonetti_rom">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
+                            Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl" ref="#viaggi">I viaggi</name> di <name type="person" ref="#carletti">Francesco
+                            Carletti</name>, le <name type="bibl" ref="#rime">Rime</name> di <name type="person" ref="#gambara">Veronica Gàmbara</name>, le <name type="bibl" ref="#poesie">Poesie</name> del <name type="role">conte</name> <name type="person" ref="#marchetti">Giovanni
                             Marchetti</name>.
                         </item>
                     </list>
@@ -2897,6 +2897,38 @@
                         <editor>Casa editrice Barbera</editor>
                         <date>1878</date>
                         <ref target="https://books.google.it/books/about/Appendice_all_epistolario_e_agli_scritti.html?id=73sNAAAAQAAJ"></ref>
+                    </bibl>
+                    <bibl xml:id="avvocatura">
+                        <title>L'Avvocatura</title>
+                        <author ref="#zanardelli">Giuseppe Zanardelli</author>
+                        <editor>Casa editrice Barbera</editor>
+                        <date>1879</date>
+                        <ref target="https://books.google.it/books/about/L_avvocatura.html?id=M14SAAAAYAAJ"></ref>
+                    </bibl>
+                    <bibl xml:id="sonetti_rom">
+                        <title>Centoventi sonetti in dialetto romanesco</title>
+                        <author ref="#ferretti">Luigi Ferretti</author>
+                        <editor>Casa editrice Barbera</editor>
+                        <date>1879</date>
+                        <ref target="https://books.google.it/books/about/Centoventi_sonetti_in_dialetto_romanesco.html?id=030NAAAAQAAJ"></ref>
+                    </bibl>
+                    <bibl xml:id="viaggi">
+                        <title>Viaggi di Francesco Carletti da lui raccontati in dodici ragionamenti e novamente editi da Carlo Gargiolli</title>
+                        <author ref="#carletti">Francesco Carletti</author>
+                        <editor>Casa editrice Barbera</editor>
+                        <date>1878</date>
+                        <ref target="https://books.google.it/books/about/Viaggi_di_Francesco_Carletti_da_lui_racc.html?id=X2B1HwAACAAJ"></ref>
+                    </bibl>
+                    <bibl xml:id="rime">
+                        <title>Rime</title>
+                        <author ref="#gambara">Veronica Gambara</author>
+                    </bibl>
+                    <bibl xml:id="poesie">
+                        <title>Poesie</title>
+                        <author ref="#marchetti">Giovanni Marchetti</author>
+                        <editor>Casa editrice Barbera</editor>
+                        <date>1878</date>
+                        <ref target="https://books.google.it/books/about/Poesie.html?id=1lg9AAAAYAAJ"></ref>
                     </bibl>
                 </listBibl>
             </div>
