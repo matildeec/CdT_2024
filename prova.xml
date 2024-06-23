@@ -191,25 +191,25 @@
 
             <zone ulx="297" uly="1313" lrx="523" lry="1339" xml:id="p403_title" corresp="#pag403_title"/>
             <zone ulx="74" uly="1343" lrx="752" lry="1403" xml:id="p403_bibl" corresp="#pag403_bibl"/>
-            <zone ulx="77" uly="1406" lrx="750" lry="1826" xml:id="p403_p1" corresp="#p403_par1"/>
-            <zone ulx="80" uly="1836" lrx="750" lry="2062" xml:id="p403_p2" corresp="#p403_par2"/>
-            <zone ulx="768" uly="150" lrx="1441" lry="199" xml:id="p403_p2_cb" corresp="#p403_par2_cb"/>
-            <zone ulx="772" uly="209" lrx="1447" lry="1082" xml:id="p403_p3" corresp="#p403_par3"/>
-            <zone ulx="770" uly="1091" lrx="1444" lry="1510" xml:id="p403_p4" corresp="#p403_par4"/>
-            <zone ulx="771" uly="1516" lrx="1448" lry="1630" xml:id="p403_p5" corresp="#p403_par5"/>
-            <zone ulx="774" uly="1634" lrx="1445" lry="1832" xml:id="p403_p6" corresp="#p403_par6"/>
-            <zone ulx="973" uly="1850" lrx="1242" lry="1880" />
-            <zone ulx="768" uly="1887" lrx="1447" lry="1944" />
-            <zone ulx="770" uly="1951" lrx="1447" lry="2062" />
+            <zone ulx="77" uly="1406" lrx="750" lry="1826" xml:id="p403_p1" start="#p403_par1"/>
+            <zone ulx="80" uly="1836" lrx="750" lry="2062" xml:id="p403_p2" start="#p403_par2"/>
+            <zone ulx="768" uly="150" lrx="1441" lry="199" xml:id="p403_p2_cb" start="#p403_par2_cb"/>
+            <zone ulx="772" uly="209" lrx="1447" lry="1082" xml:id="p403_p3" start="#p403_par3"/>
+            <zone ulx="770" uly="1091" lrx="1444" lry="1510" xml:id="p403_p4" start="#p403_par4"/>
+            <zone ulx="771" uly="1516" lrx="1448" lry="1630" xml:id="p403_p5" start="#p403_par5"/>
+            <zone ulx="774" uly="1634" lrx="1445" lry="1832" xml:id="p403_p6" start="#p403_par6"/>
+            <zone ulx="973" uly="1850" lrx="1242" lry="1880" xml:id="p403_title_2" corresp="#p403_title_2"/>
+            <zone ulx="768" uly="1887" lrx="1447" lry="1944" xml:id="p403_bibl_2" corresp="#pag403_bibl_2"/>
+            <zone ulx="770" uly="1951" lrx="1447" lry="2062" xml:id="p403_p1_2" start="#p403_p1_2"/>
         </surface>
 
         <surface>
             <graphic url='Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
 
-            <zone ulx="112" uly="141" lrx="789" lry="202" />
-            <zone ulx="115" uly="209" lrx="786" lry="351" />
-            <zone ulx="119" uly="356" lrx="785" lry="775" />
-            <zone ulx="118" uly="779" lrx="787" lry="1063" />
+            <zone ulx="112" uly="141" lrx="789" lry="202" xml:id="p404_p1" start="#p404_p1"/>
+            <zone ulx="115" uly="209" lrx="786" lry="351" xml:id="p404_p2" start="#p404_p2"/>
+            <zone ulx="119" uly="356" lrx="785" lry="775" xml:id="p404_p3" start="#p404_p3"/>
+            <zone ulx="118" uly="779" lrx="787" lry="1063" xml:id="p404_p4" start="#p404_p4"/>
             <zone ulx="1068" uly="988" lrx="1209" lry="1016" />
             <zone ulx="805" uly="1022" lrx="1476" lry="1172" />
             <zone ulx="805" uly="1179" lrx="1474" lry="1301" />
@@ -1102,13 +1102,11 @@
                         </ab>
                     </div>
                     <div type="entrata_bibliografica" n="2">
-                        <pb n="1" />
-                        <cb n="2" />
-                        <head rend="align(center) case(allcaps)">
+                        <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2">
                             <lb />Educazione pubblica. 
                         </head>
                         <ab>
-                            <bibl>
+                            <bibl facs="#p403_bibl_2" xml:id="pag403_bibl_2">
                                 <author>
                                     <name>
                                         <forename>G.</forename>
@@ -1122,26 +1120,26 @@
                                 <date when="1878">1878</date>
                             </bibl>
                         </ab>
-                        <ab>
-                            <lb />In questo opuscolo l'A. si rallegra che la tanto desiderata
+                        <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I">
+                            <lb />In questo opuscolo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> si rallegra che la tanto desiderata
                             <lb />e combattuta legge sull'istruzione obbligatoria sia entrata
                             <lb />in porto, e pensa che eserciterà una notevole influenza sui
-                            <lb />Municipi più restii a diffondere l'istruzione primaria come
+                            <lb /><name type="org">Municipi</name> più restii a diffondere l'istruzione primaria come
                         </ab>
-                        <pb n="2" />
+                        <pb n="3" />
                         <cb n="1" />
-                        <ab>
+                        <ab facs="#p404_p1" xml:id="p404_par1" part="F">
                             <lb />e quando il bisogno richiede e potrà far rivolgere a questa
                             <lb />i denari che talora si spendono male e inutilmente altrove.
                         </ab>
-                        <ab>
+                        <ab facs="#p404_p2" xml:id="p404_par2">
                             <lb />Osserva gli ostacoli che in pratica si opporranno al
                             <lb />l'istruzione obbligatoria, e mostra che saranno maggiori
                             <lb />nelle campagne per molte ragioni che sono state più volte
                             <lb />ripetute, nè si nasconde che, salvo alcune eccezioni, è a te
                             <lb />mersi la influenza dei parroci.
                         </ab>
-                        <ab>
+                        <ab facs="#p404_p3" xml:id="p404_par3">
                             <lb />Crediamo poi che egli abbia ragione di dire che ben
                             <lb />poco è a sperarsi in un felice risultato, obbligando i fan
                             <lb />ciulli alla scuola solo dai 6 ai 9 anni, perchè nelle campa
@@ -1151,20 +1149,20 @@
                             <lb />apprendere molte cose indirettamente, tanto che la loro in
                             <lb />telligenza è in generale meno sveglia di quella dei fanciulli
                             <lb />delle città. Proporrebbe un asilo-scuola, che il ragazzo do
-                            <lb />vrebbe frequentare da cinque o sei auni fino agli undici.
+                            <lb />vrebbe frequentare da cinque o sei anni fino agli undici.
                             <lb />Ai più poveri si potrebbe dare una minestra, nè ciò indur
                             <lb />rebbe spesa soverchia perchè potrebbero venire occupati
                             <lb />in semplici lavori da vendersi a benefizio dell'asilo. Gli
                             <lb />altri la voterebbero per la loro famiglia. Così si otterrebbe
                             <lb />una regolare e costante educazione.
                         </ab>
-                        <ab>
-                            <lb />Conveniamo coll'A. sulla necessità che l' insegnamento
+                        <ab facs="#p404_p4" xml:id="p404_par4">
+                            <lb />Conveniamo coll'<choice><abbr>A.</abbr><expan>Autore</expan></choice> sulla necessità che l'insegnamento
                             <lb />sia molto semplice, e conveniamo pure in ciò che egli
                             <lb />dice sulla miserrima condizione dei maestri. Anzi que
                             <lb />sto ci pare il nodo della questione. Noi siamo in principio
                             <lb />favorevoli alla istruzione obbligatoria, ma essa dovrebbe
-                            <lb />essere il coronamento dell' edifizio, poiché riesce inefficace
+                            <lb />essere il coronamento dell'<distinct type="rare">edifizio</distinct>, poiché riesce inefficace
                             <lb />quando mancano le scuole e i maestri. E i maestri, i mae
                             <lb />stri buoni, non si possono avere quando si retribuiscono
                             <lb />tanto male. E sì che specialmente in una scuola rurale il
@@ -1180,19 +1178,20 @@
                             <lb />NOTIZIE 
                         </head>
                         <item>
-                            Nel corso dell'estate prossima si pubblicherà dal Barbèra a Fi
-                            renze un supplemento all' edizione Le Monnier intitolato: Appendice
-                            all'E pistolario ed agli scritti giovanili d i Giacomo Leopardi. L'A. Pro
-                            spero Viani prepara anche la pubblicazione della corrispondenza tra i
-                            membri dell' ultima generazione della famiglia Leopardi affidatagli per
-                            questo scopo dalla contessa Leopardi vedova del conte Carlo.
+                            - Nel corso dell'estate prossima si pubblicherà dal <name type="org">Barbèra</name> a <name type="place">Fi
+                            renze</name> un supplemento all' edizione Le Monnier intitolato: <name type="bibl" rend="italic">Appendice
+                            all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person">Pro
+                            spero Viani</name> prepara anche la pubblicazione della corrispondenza tra i
+                            membri dell' ultima generazione della <name type="person">famiglia Leopardi</name> affidatagli per
+                            questo scopo dalla <name type="person">contessa Leopardi</name> vedova del <name type="person">conte Carlo</name>.
                         </item>
                         <item>
-                            Fra poco usciranno presso lo stesso editore : L'Avvocatura, Due
-                            discorsi di Giuseppe Zanardelli. — Sonetti in dialetto romanesco di Luigi
-                            Ferretti, scelti e pubblicati da Luigi Morandi. — I viaggi di Francesco
-                            Carletti, le Rime di Veronica Gàmbara, le Poesie del conte Giovanni
-                            Marchetti.
+                            - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic">L'Avvocatura</name>, Due
+                            discorsi di Giuseppe Zanardelli. — <name type="bibl" rend="italic">Sonetti in dialetto romanesco</name> di <name type="person">Luigi
+                            Ferretti</name>, scelti e pubblicati da <name type="person">Luigi Morandi</name>. — <name type="bibl">I viaggi</name> di <name type="person">Francesco
+                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person">Veronica Gàmbara</name>, le <name type="bibl">Poesie del conte Giovanni
+                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person">Veronica Gàmbara</name>, le <name type="bibl">Poesie</name> del conte <name type="person">Giovanni
+                            Marchetti</name>.
                         </item>
                     </list>
                 </div>
