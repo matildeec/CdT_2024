@@ -1102,9 +1102,7 @@
                         </ab>
                     </div>
                     <div type="entrata_bibliografica" n="2">
-                        <pb n="1" />
-                        <cb n="2" />
-                        <head rend="align(center) case(allcaps)">
+                        <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2">
                             <lb />Educazione pubblica. 
                         </head>
                         <ab>
@@ -1122,26 +1120,26 @@
                                 <date when="1878">1878</date>
                             </bibl>
                         </ab>
-                        <ab>
+                        <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I">
                             <lb />In questo opuscolo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> si rallegra che la tanto desiderata
                             <lb />e combattuta legge sull'istruzione obbligatoria sia entrata
                             <lb />in porto, e pensa che eserciterà una notevole influenza sui
                             <lb /><name type="org">Municipi</name> più restii a diffondere l'istruzione primaria come
                         </ab>
-                        <pb n="2" />
+                        <pb n="3" />
                         <cb n="1" />
-                        <ab>
+                        <ab facs="#p404_p1" xml:id="p404_par1" part="F">
                             <lb />e quando il bisogno richiede e potrà far rivolgere a questa
                             <lb />i denari che talora si spendono male e inutilmente altrove.
                         </ab>
-                        <ab>
+                        <ab facs="#p404_p2" xml:id="p404_par2">
                             <lb />Osserva gli ostacoli che in pratica si opporranno al
                             <lb />l'istruzione obbligatoria, e mostra che saranno maggiori
                             <lb />nelle campagne per molte ragioni che sono state più volte
                             <lb />ripetute, nè si nasconde che, salvo alcune eccezioni, è a te
                             <lb />mersi la influenza dei parroci.
                         </ab>
-                        <ab>
+                        <ab facs="#p404_p3" xml:id="p404_par3">
                             <lb />Crediamo poi che egli abbia ragione di dire che ben
                             <lb />poco è a sperarsi in un felice risultato, obbligando i fan
                             <lb />ciulli alla scuola solo dai 6 ai 9 anni, perchè nelle campa
@@ -1158,7 +1156,7 @@
                             <lb />altri la voterebbero per la loro famiglia. Così si otterrebbe
                             <lb />una regolare e costante educazione.
                         </ab>
-                        <ab>
+                        <ab facs="#p404_p4" xml:id="p404_par4">
                             <lb />Conveniamo coll'<choice><abbr>A.</abbr><expan>Autore</expan></choice> sulla necessità che l'insegnamento
                             <lb />sia molto semplice, e conveniamo pure in ciò che egli
                             <lb />dice sulla miserrima condizione dei maestri. Anzi que
@@ -1182,7 +1180,7 @@
                         <item>
                             Nel corso dell'estate prossima si pubblicherà dal Barbèra a Fi
                             renze un supplemento all' edizione Le Monnier intitolato: Appendice
-                            all'E pistolario ed agli scritti giovanili d i Giacomo Leopardi. L'A. Pro
+                            all'Epistolario ed agli scritti giovanili d i Giacomo Leopardi. L'A. Pro
                             spero Viani prepara anche la pubblicazione della corrispondenza tra i
                             membri dell' ultima generazione della famiglia Leopardi affidatagli per
                             questo scopo dalla contessa Leopardi vedova del conte Carlo.
