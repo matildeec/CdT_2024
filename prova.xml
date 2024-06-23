@@ -210,13 +210,9 @@
             <zone ulx="115" uly="209" lrx="786" lry="351" xml:id="p404_p2" start="#p404_p2"/>
             <zone ulx="119" uly="356" lrx="785" lry="775" xml:id="p404_p3" start="#p404_p3"/>
             <zone ulx="118" uly="779" lrx="787" lry="1063" xml:id="p404_p4" start="#p404_p4"/>
-            <zone ulx="1068" uly="988" lrx="1209" lry="1016" />
-            <zone ulx="805" uly="1022" lrx="1476" lry="1172" />
-            <zone ulx="805" uly="1179" lrx="1474" lry="1301" />
-            <zone ulx="804" uly="1308" lrx="1470" lry="1482" />
-            <zone ulx="804" uly="1487" lrx="1471" lry="1759" />
-            <zone ulx="992" uly="1768" lrx="1443" lry="1790" />
-            <zone ulx="800" uly="1808" lrx="1471" lry="1935" />
+            <zone ulx="1068" uly="988" lrx="1209" lry="1016" xml:id="p404_title" corresp="#pag404_title"/>
+            <zone ulx="805" uly="1022" lrx="1476" lry="1172" xml:id="p404_n1" start="#p404_nws1"/>
+            <zone ulx="805" uly="1179" lrx="1474" lry="1301" xml:id="p404_n2" start="#p404_nws"/>
         </surface>
        </facsimile>
 
@@ -1171,13 +1167,12 @@
                     </div>
                 </div>
                 <div type="notizie"  org="uniform" sample="initial">
-                    <pb n="1"/>
                     <cb n="2"/>
                     <list rend="simple">
-                        <head rend="align(center) case(allcaps)">
+                        <head rend="align(center) case(allcaps)" facs="#p404_title" xml:id="pag404_title" >
                             <lb />NOTIZIE 
                         </head>
-                        <item>
+                        <item facs="#p404_n1" xml:id="p404_nws1">
                             - Nel corso dell'estate prossima si pubblicherà dal <name type="org" ref="#barbera">Barbèra</name> a <name type="place" ref="#fi">Fi
                             renze</name> un supplemento all'edizione <name type="org" ref="#lemon">Le Monnier</name> intitolato: <name type="bibl" rend="italic" ref="#app_leop">Appendice
                             all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
@@ -1185,7 +1180,7 @@
                             membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
                             questo scopo dalla <name type="role">contessa</name><name type="person" ref="#cont_leop">Leopardi</name> vedova del <name type="role">conte</name> <name type="person" ref="#cont_carlo">Carlo</name>.
                         </item>
-                        <item>
+                        <item facs="#p404_n2" xml:id="p404_nws2">
                             - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic" ref="#avvocatura">L'Avvocatura</name>, Due
                             discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic" ref="#sonetti_rom">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
                             Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl" ref="#viaggi">I viaggi</name> di <name type="person" ref="#carletti">Francesco
