@@ -1178,19 +1178,18 @@
                             <lb />NOTIZIE 
                         </head>
                         <item>
-                            - Nel corso dell'estate prossima si pubblicherà dal <name type="org">Barbèra</name> a <name type="place">Fi
-                            renze</name> un supplemento all' edizione Le Monnier intitolato: <name type="bibl" rend="italic">Appendice
-                            all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person">Pro
+                            - Nel corso dell'estate prossima si pubblicherà dal <name type="org" ref="#barbera">Barbèra</name> a <name type="place" ref="#fi">Fi
+                            renze</name> un supplemento all'edizione <name type="org" ref="#lemon">Le Monnier</name> intitolato: <name type="bibl" rend="italic" ref="#app_leop">Appendice
+                            all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
                             spero Viani</name> prepara anche la pubblicazione della corrispondenza tra i
-                            membri dell' ultima generazione della <name type="person">famiglia Leopardi</name> affidatagli per
-                            questo scopo dalla <name type="person">contessa Leopardi</name> vedova del <name type="person">conte Carlo</name>.
+                            membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
+                            questo scopo dalla <name type="person" ref="#cont_leop">contessa Leopardi</name> vedova del <name type="person" ref="#cont_carlo">conte Carlo</name>.
                         </item>
                         <item>
                             - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic">L'Avvocatura</name>, Due
-                            discorsi di Giuseppe Zanardelli. — <name type="bibl" rend="italic">Sonetti in dialetto romanesco</name> di <name type="person">Luigi
-                            Ferretti</name>, scelti e pubblicati da <name type="person">Luigi Morandi</name>. — <name type="bibl">I viaggi</name> di <name type="person">Francesco
-                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person">Veronica Gàmbara</name>, le <name type="bibl">Poesie del conte Giovanni
-                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person">Veronica Gàmbara</name>, le <name type="bibl">Poesie</name> del conte <name type="person">Giovanni
+                            discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
+                            Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl">I viaggi</name> di <name type="person" ref="#carletti">Francesco
+                            Carletti</name>, le <name type="bibl">Rime</name> di <name type="person" ref="#gambara">Veronica Gàmbara</name>, le <name type="bibl">Poesie</name> del <name type="person" ref="#marchetti">conte Giovanni
                             Marchetti</name>.
                         </item>
                     </list>
@@ -2496,13 +2495,147 @@
                                 <surname>Maglioni</surname>
                             </persName>
                             <occupation>Compositore e musicista</occupation>
-                        </person> 
+                        </person>
+                        
                         <person xml:id="zini">
                             <persName>
                                 <forename>Gaetano</forename>
                                 <surname>Zini</surname>
                             </persName>
-                        </person>                                              
+                        </person>
+                        
+                        <person xml:id="viani">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Prospero_Viani"/>
+                                <forename>Prospero</forename>
+                                <surname>Viani</surname>
+                            </persName>
+                            <birth>
+                                <date when="1812-04-13">13/04/1812</date>
+                            </birth>
+                            <death>
+                                <date when="1892-11-12">12/11/1892</date>
+                            </death>
+                            <occupation>Filologo e biografo</occupation>
+                        </person>
+                        <personGrp xml:id="fam_leop" role="family">
+                            <persName>
+                                <name>Famiglia Leopardi</name>
+                                <ref target="https://it.wikipedia.org/wiki/Leopardi_(famiglia)"/>
+                            </persName>
+                        </personGrp>
+                        <person xml:id="cont_leop">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carlo_Leopardi"/>
+                                <forename>Teresa</forename>
+                                <surname>Teja</surname>
+                            </persName>
+                            <birth>
+                                <date>1826</date>
+                            </birth>
+                            <death>
+                                <date>1898</date>
+                            </death>
+                            <occupation>Nobile</occupation>
+                        </person>
+                        <person xml:id="cont_carlo">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carlo_Leopardi"/>
+                                <forename>Carlo</forename>
+                                <surname>Leopardi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1799-07-12">12/07/1799</date>
+                            </birth>
+                            <death>
+                                <date when="1878-02-11">11/02/1878</date>
+                            </death>
+                            <occupation>Nobile</occupation>
+                        </person>
+                        <person xml:id="zanardelli">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giuseppe_Zanardelli"/>
+                                <forename>Giuseppe</forename>
+                                <surname>Zanardelli</surname>
+                            </persName>
+                            <birth>
+                                <date when="1826-10-26">26/10/1826</date>
+                            </birth>
+                            <death>
+                                <date when="1903-12-26">26/12/1903</date>
+                            </death>
+                            <occupation>Patriota e politico italiano</occupation>
+                        </person>
+                        <person xml:id="ferretti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Luigi_Ferretti"/>
+                                <forename>Luigi</forename>
+                                <surname>Ferretti</surname>
+                            </persName>
+                            <birth>
+                                <date when="1836-02-21">21/02/1836</date>
+                            </birth>
+                            <death>
+                                <date when="1881-07-07">07/07/1881</date>
+                            </death>
+                            <occupation>Poeta</occupation>
+                        </person>
+                        <person>
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Luigi_Morandi"/>
+                                <forename>Luigi</forename>
+                                <surname>Morandi</surname>
+                            </persName>
+                            <birth>
+                                <date when="1844-12-18">18/12/1844</date>
+                            </birth>
+                            <death>
+                                <date when="1922-01-06">06/01/1922</date>
+                            </death>
+                            <occupation>Scrittore</occupation>
+                        </person>
+                        <person xml:id="carletti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Francesco_Carletti"/>
+                                <forename>Francesco</forename>
+                                <surname>Carletti</surname>
+                            </persName>
+                            <birth>
+                                <date>1573</date>
+                            </birth>
+                            <death>
+                                <date>1636</date>
+                            </death>
+                            <occupation>Scrittore e mercante</occupation>
+                        </person>
+                        <person xml:id="gambara">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Veronica_Gambara"/>
+                                <forename>Veronica</forename>
+                                <surname>Gambara</surname>
+                            </persName>
+                            <birth>
+                                <date>1485</date>
+                            </birth>
+                            <death>
+                                <date>1550</date>
+                            </death>
+                            <occupation>Poetessa</occupation>
+                        </person>
+                        <person xml:id="marchetti">
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giovanni_Marchetti_(poeta)"/>
+                                <forename>Giovanni</forename>
+                                <surname>Marchetti</surname>
+                            </persName>
+                            <birth>
+                                <date>1790</date>
+                            </birth>
+                            <death>
+                                <date>1852</date>
+                            </death>
+                            <occupation>Poeta e politico italiano</occupation>
+                        </person>
                 </listPerson>
 
                 <listPlace>
@@ -2668,6 +2801,19 @@
                             <ref target="https://it.wikipedia.org/wiki/Barocco"/>
                         </orgName>
                     </org>
+                    <org xml:id="barbera" role="publisher">
+                        <orgName>
+                            <name>Casa Editrice Barbera</name>
+                            <ref target="https://it.wikipedia.org/wiki/Casa_Editrice_Barb%C3%A8ra"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="lemon" role="publisher">
+                        <orgName>
+                            <name>Le Monnier</name>
+                            <ref target="https://it.wikipedia.org/wiki/Le_Monnier"/>
+                        </orgName>
+                    </org>
+
                 </listOrg>
                 <listBibl>
                     <bibl xml:id="odi">
@@ -2741,6 +2887,16 @@
                         <author ref="#bazzini">Antonio Bazzini</author>
                         <date>1867-1897</date>
                         <ref target="https://it.wikipedia.org/wiki/Antonio_Bazzini#Composizioni"></ref>
+                    </bibl>
+                    <bibl xml:id="app_leop">
+                        <title>Appendice all' epistolario e agli scritti Giovanili di Giacomo Leopardi</title>
+                        <respStmt>
+                            <resp>a cura di</resp>
+                            <name ref="#viani">Prospero Viani</name>
+                        </respStmt>
+                        <editor>Casa editrice Barbera</editor>
+                        <date>1878</date>
+                        <ref target="https://books.google.it/books/about/Appendice_all_epistolario_e_agli_scritti.html?id=73sNAAAAQAAJ"></ref>
                     </bibl>
                 </listBibl>
             </div>
