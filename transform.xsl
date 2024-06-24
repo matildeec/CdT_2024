@@ -33,6 +33,25 @@
                     </div>
                 </div>
 
+                <!-- Bottoni -->
+                <button>Persone reali</button>
+                <button>Persone immaginarie</button>
+                <button>Opere</button>
+                <button>Luoghi</button>
+                <button>Casa editrice</button>
+                <button>Date</button>
+                <button>Verbum</button>
+                <button>Correnti letterarie</button>
+                <button>Testo in lingua straniera</button>
+                <button>Citazioni</button>
+                <button>Organizzazioni</button>
+
+                <!-- Testo -->
+                <!--<xsl:value-of select="tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='article']"/>-->
+
+                <xsl:apply-templates select="tei:TEI/tei:text/tei:body"/>
+
+
                 <!-- Bibliografia -->
                 <div>
 
@@ -114,7 +133,7 @@
                 <td><xsl:value-of select="tei:title"/></td>
             </tr>
             <tr>
-                <td><strong>Supervisore</strong></td>
+                <td><strong>Coordinatore</strong></td>
                 <td><xsl:value-of select="tei:respStmt"/></td>
             </tr>
         </table>
@@ -210,6 +229,20 @@
             </td>
         </tr>
     </table>
+    </xsl:template>
+
+    <!-- Body -->
+    <xsl:template match="tei:body">
+
+        <xsl:for-each select="tei:div/tei:div[@type='article']">
+
+            <xsl:apply-templates select="./*"/>
+
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="tei:ab">
+        <xsl:value-of select="." />
     </xsl:template>
 
 </xsl:stylesheet>
