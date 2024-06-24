@@ -5,10 +5,12 @@
 
 <TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        <!-- Descrizione bibliografica del testo codificato -->
         <fileDesc>
+        <!-- Titolo del testo codificato -->
          <titleStmt>
           <title>
-            La Rassegna Settimanale (vol.1, fascicolo 21): versione elettronica
+            Versione elettronica di articoli tratti dalla Rassegna Settimanale (vol.1, fascicolo 21)
           </title>
           <respStmt>
             <resp>Conversione TEI P5 a cura di</resp>
@@ -17,25 +19,33 @@
           </respStmt>
           <sponsor>Università di Pisa</sponsor>
          </titleStmt>
+
+          <!-- Info sulla pubblicazione e diffusione -->
          <publicationStmt>
             <publisher>Università di Pisa</publisher>
             <pubPlace>Pisa</pubPlace>
             <date>2024</date>
             <availability status="free">
-                <p>L'edizione digitale è consultabile liberamente al seguente link:"https://github.com/matildeec/CdT_2024"</p>
+                <p>L'edizione digitale è consultabile liberamente su </p>
+                <ref target="https://github.com/matildeec/CdT_2024">GitHub</ref>
             </availability>
          </publicationStmt>
+         <!-- Info sulla serie in cui è inserita la codifica -->
          <seriesStmt>
             <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
             <respStmt>
-                <resp>supervisionato da</resp>
+                <resp>supervisionata da</resp>
                 <name>Angelo Mario Del Grosso</name>
             </respStmt>
          </seriesStmt>
+
          <notesStmt>
-            <note>La digitalizzazione e l'indicizzazione della Rassegna settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti.</note>
-            <note>La scansione digitale dell'intera rivista è consultabile al seguente link:https://rassegnasettimanale.animi.it</note>
+            <note>La digitalizzazione e l'indicizzazione della Rassegna settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti</note>
+            <note>La scansione digitale dell'intera rivista è consultabile </note>
+            <ref target="https://rassegnasettimanale.animi.it">online</ref>
          </notesStmt>
+
+         <!-- Descrizione della fonte dalla quale è tratto il testo codificato -->
          <sourceDesc>
                 <biblStruct type="article">
                     <analytic xml:id="ART_1">
@@ -45,8 +55,8 @@
                     <analytic xml:id="ART_2">
                         <author>
                           <persName>
-                            <surname>Domenico</surname>
-                            <forename>Comparetti</forename>
+                            <forename>Domenico</forename>
+                            <surname>Comparetti</surname>
                           </persName>
                         </author>
                         <title level="a">Le Religioni dell'Asia Orientale</title>
@@ -57,18 +67,18 @@
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <analytic xml:id="BIBL">
-                        <title level="a">Bibliografia</title>
+                        <title level="a">Bibliografia (Scienze Politiche, Educazione Pubblica)</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <analytic xml:id="NEWS">
-                        <title level="a">Notizie</title>
+                        <title level="a">Notizie (1, 2)</title>
                         <textLang mainLang="it">Italiano</textLang>
                     </analytic>
                     <monogr>
-                        <title level="j">La Rassegna Settimanale</title>
+                        <title level="j">La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
                         <textLang mainLang="it">Italiano</textLang>
                         <respStmt>
-                            <resp>fondata da</resp>
+                            <resp>Fondata da</resp>
                             <name>Leopoldo Franchetti</name>
                             <name>Sydney Sonnino</name>
                         </respStmt>
@@ -84,6 +94,8 @@
                 </biblStruct>
          </sourceDesc>
         </fileDesc>
+
+        <!-- Informazioni sulla codifica -->
         <encodingDesc>
             <projectDesc>
                 <p>Il testo rispetta le <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">linee guida TEI P5</ref> ed è stato realizzato per il corso di Codifica Di Testi dell'<orgName>Università di Pisa</orgName></p>
@@ -91,16 +103,19 @@
             <samplingDecl>
                 <p>Sono stati selezionati per la codifica tre articoli, due entrate della sezione Bibliografia e due entrate della sezione Notizie, appartenenti allo stesso fascicolo.</p>
             </samplingDecl>
+            <!-- Dichiarazione modalità di codifica -->
+            <editorialDecl> 
+                <correction status="high" method="markup"> 
+                    <p>Per la correzione di errori sono stati usati i tag <gi>sic</gi> e <gi>corr</gi></p>
+                </correction>
+                <normalization method="markup" source="https://www.treccani.it/">
+                    <p>Per le normalizzazioni sono stati usati i tag <gi>orig</gi> e <gi>reg</gi> e come fonte il vocabolario online della Treccani</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Tutte le lineette d'unione non sono stati mantenuti nell'edizione elettronica</p>
+                </hyphenation>
+            </editorialDecl>
         </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="it" usage="100">Italiano</language>
-            </langUsage>
-            <creation>
-                <date when="1878-05-26">26 maggio 1878</date>
-                <rs type="city">Firenze</rs>
-            </creation>
-        </profileDesc>
        </teiHeader>
 
        <facsimile>

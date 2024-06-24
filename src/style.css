@@ -4,14 +4,70 @@ html, body
 }
 
 body{
-	background-color: white;
-	font-family: 'Red Hat Dispay', sans-serif;
+	font-family: 'Newsreader', serif;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
 }
 
 .header
 {
 	text-align: center;
-	background-color: #023047;
-	padding: 2rem;
+	background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+	padding: 1rem;
+	color: white;
+}
+
+.header h2 {
+    font-size: 1em;
+}
+
+/**/
+.container{
+	text-align: left;
+	padding: 3rem;
+}
+
+.container h1{
+	font-size: 3rem;
+}
+
+.container > .containerTabelle
+{
+	display: flex;
+	margin: 3rem 0;
+}
+
+.container > .containerTabelle > .containerTabella
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex: 1;
+	text-align: left;
+	font-size: 1.3rem;
+}
+
+.containerTabella table{
+	border-collapse: collapse;
+	display: flex;
+	align-items: flex-start;
+}
+
+.containerTabella > table > tbody > tr
+{
+	border-bottom: 1px solid black;
+}
+
+.containerTabella td{
+	padding:10px 0 10px 10px;
+}
+
+footer {
+    text-align: center;
+	background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+	padding: 1rem;
 	color: white;
 }
