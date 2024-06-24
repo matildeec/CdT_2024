@@ -1,3 +1,11 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+:root {
+	--black: #000000;
+	--white: #ffffff;
+  }
+
 html, body
 {
 	margin: 0;
@@ -5,40 +13,131 @@ html, body
 
 body{
 	font-family: 'Newsreader', serif;
-    background-color: #ffffff;
+    background-color: var(--white);
     background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
 }
 
 .header
 {
 	text-align: center;
-	background-color: #000000;
+	background-color: var(--black);
     background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
 	padding: 1rem;
-	color: white;
+	color: var(--white);
 }
 
-.header h2 {
-    font-size: 1em;
+.header img {
+	min-width: 300px;
+	width: 25%;
+	border-radius: 20px;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
 }
 
 /**/
-.container{
-	text-align: left;
-	padding: 3rem;
+.menu {
+	background-color: var(--black);
+	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+	border-radius: 20px;
+  	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  	box-sizing: border-box;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	margin: 20px;
+	text-align: center;
+	color: var(--white);
 }
 
-.container h1{
-	font-size: 3rem;
-}
-
-.container > .containerTabelle
-{
+.btns {
+	margin: 0 3rem;
 	display: flex;
-	margin: 3rem 0;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
-.container > .containerTabelle > .containerTabella
+button {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 20px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Newsreader', 'Serif';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  margin: 6px 4px;
+}
+
+button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+button:focus {
+  outline: 1px transparent;
+}
+
+button:-webkit-details-marker {
+  display: none;
+}
+
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.container > .bgTabella {
+	padding: 3%;
+	margin: 2% 5%;
+	border-radius: 20px;
+	background-color: var(--black);
+	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+  	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  	box-sizing: border-box;
+}
+
+.container > .bgTabella > .containerTabella
 {
 	display: flex;
 	flex-direction: column;
@@ -47,6 +146,9 @@ body{
 	flex: 1;
 	text-align: left;
 	font-size: 1.3rem;
+	background-color: var(--white);
+	border-radius: 20px;
+	padding: 3%;
 }
 
 .containerTabella table{
@@ -61,7 +163,8 @@ body{
 }
 
 .containerTabella td{
-	padding:10px 0 10px 10px;
+	padding:10px;
+	vertical-align: baseline;
 }
 
 footer {

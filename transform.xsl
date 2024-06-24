@@ -12,45 +12,66 @@
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <script type="text/javascript" src="src/script.js"></script>
-                <link href="https://fonts.googleapis.com/css2?family=Newsreadero" rel="stylesheet" />
                 <link rel="stylesheet" type="text/css" href="src/style.css"/>
                 <title>Progetto di Codifica di Testi</title>
             </head>
 
             <body>
                 <div class="header">
+                    <img src="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/03/logo_rassegna_new.jpg" alt="La Rassegna Settimanale Logo"/>
+                </div>
+
+                <div class="heading">
                     <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
+                    <span><img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg" alt="Logo Università di Pisa" style="width:100px"/></span>
                     <h3><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:sponsor"/></h3>
                 </div>
 
                 <div class="container">
-                    <div class="containerTabelle">
+                    <div>
+                        <button>Descrizione bibliografica</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bgTabella">
                         <div class="containerTabella">
                             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc"/>
+                        </div>
+                    </div>
 
+                    <div class="bgTabella">
+                        <div class="containerTabella">
                             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc"/>
                         </div>
                     </div>
                 </div>
 
-                <!-- Bottoni -->
-                <button>Persone reali</button>
-                <button>Persone immaginarie</button>
-                <button>Opere</button>
-                <button>Luoghi</button>
-                <button>Casa editrice</button>
-                <button>Date</button>
-                <button>Verbum</button>
-                <button>Correnti letterarie</button>
-                <button>Testo in lingua straniera</button>
-                <button>Citazioni</button>
-                <button>Organizzazioni</button>
+                <div class="menu">
+
+                    <h3>Evidenzia</h3>
+                    <!-- Bottoni -->
+                    <div class="btns">
+                        <button>Persone reali</button>
+                        <button>Persone immaginarie</button>
+                        <button>Opere</button>
+                        <button>Luoghi</button>
+                        <button>Casa editrice</button>
+                        <button>Date</button>
+                        <button>Verbum</button>
+                        <button>Correnti letterarie</button>
+                        <button>Testo in lingua straniera</button>
+                        <button>Citazioni</button>
+                        <button>Organizzazioni</button>
+                    </div>
+                </div>
 
                 <!-- Testo -->
                 <!--<xsl:value-of select="tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='article']"/>-->
 
-                <xsl:apply-templates select="tei:TEI/tei:text/tei:body"/>
-
+                <div class="container">
+                    <xsl:apply-templates select="tei:TEI/tei:text/tei:body"/>
+                </div>
 
                 <!-- Bibliografia -->
                 <div>
@@ -74,25 +95,25 @@
         <table>
             <tr></tr>
             <tr>
-                <td><span><strong>Pubblicazione</strong></span></td>
+                <td><h3>Pubblicazione</h3></td>
                 <td>
                     <xsl:apply-templates select="tei:publicationStmt"/>
                 </td>
             </tr>
             <tr>
-                <td><span><strong>Serie</strong></span></td>
+                <td><h3>Serie</h3></td>
                 <td>
                     <xsl:apply-templates select="tei:seriesStmt"/>
                 </td>
             </tr>
             <tr>
-                <td><span><strong>Note</strong></span></td>
+                <td><h3>Note</h3></td>
                 <td>
                     <xsl:apply-templates select="tei:notesStmt"/>
                 </td>
             </tr>
             <tr>
-                <td><span><strong>Fonte</strong></span></td>
+                <td><h3>Fonte</h3></td>
                 <td>
                     <xsl:apply-templates select="tei:sourceDesc"/>
                 </td>
