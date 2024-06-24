@@ -241,8 +241,20 @@
         </xsl:for-each>
     </xsl:template>
 
+    <xsl:template match="tei:head">
+        <h4>
+            <xsl:value-of select="."/>
+        </h4>
+    </xsl:template>
+
     <xsl:template match="tei:ab">
-        <xsl:value-of select="." />
+        <div>
+            <xsl:apply-templates select="node()"/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:lb">
+        <br/>
     </xsl:template>
 
 </xsl:stylesheet>

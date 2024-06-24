@@ -27,7 +27,7 @@
             <date>2024</date>
             <availability status="free">
                 <p>L'edizione digitale è consultabile liberamente su </p>
-                <ref target="https://github.com/matildeec/CdT_2024">GitHub</ref>
+                <p><ref target="https://github.com/matildeec/CdT_2024">GitHub</ref></p>
             </availability>
          </publicationStmt>
          <!-- Info sulla serie in cui è inserita la codifica -->
@@ -42,7 +42,7 @@
          <notesStmt>
             <note>La digitalizzazione e l'indicizzazione della Rassegna settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti</note>
             <note>La scansione digitale dell'intera rivista è consultabile </note>
-            <ref target="https://rassegnasettimanale.animi.it">online</ref>
+            <note><ref target="https://rassegnasettimanale.animi.it">online</ref></note>
          </notesStmt>
 
          <!-- Descrizione della fonte dalla quale è tratto il testo codificato -->
