@@ -112,7 +112,7 @@
                     <p>Per le normalizzazioni sono stati usati i tag <gi>orig</gi> e <gi>reg</gi> e come fonte il vocabolario online della Treccani</p>
                 </normalization>
                 <hyphenation eol="none">
-                    <p>Tutte le lineette d'unione non sono stati mantenuti nell'edizione elettronica</p>
+                    <p>Tutte le lineette d'unione non sono state mantenute nell'edizione elettronica</p>
                 </hyphenation>
             </editorialDecl>
         </encodingDesc>
