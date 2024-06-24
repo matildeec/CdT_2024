@@ -244,7 +244,7 @@
                                 <lb />L'Istruzione della Donna
                             </head>
                             <ab facs="#p386_p1" xml:id="p386_par1">
-                                <lb />L' <roleName type="office"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
+                                <lb />L' <name type="role"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></name> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
                                 <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
                                 <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
                                 <lb />fondava principalmente su questo concetto: dare agli uo
