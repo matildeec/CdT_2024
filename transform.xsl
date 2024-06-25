@@ -354,10 +354,12 @@
     </xsl:template>
     <!--Espansioni e correzioni-->
     <xsl:template match="tei:expan">
-        <xsl:element name="span">
-            <xsl:attribute name="class">expan</xsl:attribute>
-            <xsl:apply-templates />
-        </xsl:element>
+        <xsl:if test="count(*)=0">
+            <xsl:element name="span">
+                <xsl:attribute name="class">expan</xsl:attribute>
+                <xsl:apply-templates />
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:ex">
         <xsl:element name="span">
@@ -368,6 +370,12 @@
     <xsl:template match="tei:reg">
         <xsl:element name="span">
             <xsl:attribute name="class">reg</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:corr">
+        <xsl:element name="span">
+            <xsl:attribute name="class">corr</xsl:attribute>
             <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
