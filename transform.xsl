@@ -65,6 +65,15 @@
                         <button class="highlight" id="quote">Citazioni</button>
                         <button class="highlight" id="org">Organizzazioni</button>
                     </div>
+
+                    <!-- 
+                    <h3>Mostra</h3>
+                     
+                     <div class="btns">
+                        <button class="show" id="abbr">Abbreviazioni</button>
+                        <button class="show" id="reg">Regolarizzazioni</button>
+                        <button class="show" id="ex">Aggiunte</button>
+                    </div>-->
                 </div>
 
                 <!-- Testo -->
