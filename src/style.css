@@ -37,6 +37,10 @@ body{
 	color: var(--white);
 }
 
+.display {
+	background-color: var(--jade);
+}
+
 .header img {
 	min-width: 300px;
 	width: 25%;
