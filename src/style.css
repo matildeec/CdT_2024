@@ -15,6 +15,10 @@
 	--lilac: #DFCCFB;
 	--jade: #98d8c8;
 	--blue: #80BCBD;
+	--lemon: #F4CE14;
+	--marine: #37B7C3;
+	--vanilla: #BE7B72;
+	--sand: #ECCA9C;
   }
 
 html, body
@@ -67,8 +71,15 @@ body{
 	position: sticky;
 	top: 0;
 	margin: 20px;
-	text-align: center;
 	color: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.menu h3 {
+	margin: 5px;
 }
 
 .btns {
@@ -132,7 +143,7 @@ button:-webkit-details-marker {
   display: none;
 }
 
-.highlight.active {
+button.active {
 	background-color: white;
 }
 

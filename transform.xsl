@@ -53,27 +53,27 @@
                     <h3>Evidenzia</h3>
                     <!-- Bottoni -->
                     <div class="btns">
-                        <button class="highlight yellow" id="person">Persone reali</button>
-                        <button class="highlight rose" id="character">Persone immaginarie</button>
+                        <button class="highlight yellow" id="person">Persone</button>
+                        <button class="highlight rose" id="character">Personaggi</button>
                         <button class="highlight mint" id="bibl">Opere</button>
                         <button class="highlight powder" id="place">Luoghi</button>
                         <button class="highlight purple">Casa editrice</button>
                         <button class="highlight coral" id="date">Date</button>
                         <button class="highlight crimson" id="verbum">Verbum</button>
                         <button class="highlight orange">Correnti letterarie</button>
-                        <button class="highlight lilac" id="foreign">Testo in lingua straniera</button>
+                        <button class="highlight lilac" id="foreign">Lingua straniera</button>
                         <button class="highlight jade" id="cit">Citazioni</button>
                         <button class="highlight blue" id="org">Organizzazioni</button>
                     </div>
 
-                    <!-- 
                     <h3>Mostra</h3>
                      
-                     <div class="btns">
-                        <button class="show" id="abbr">Abbreviazioni</button>
-                        <button class="show" id="reg">Regolarizzazioni</button>
-                        <button class="show" id="ex">Aggiunte</button>
-                    </div>-->
+                     <div class="btns" style="width:600px;">
+                        <button class="show lemon" id="expan">Espansioni</button>
+                        <button class="show marine" id="reg">Regolarizzazioni</button>
+                        <button class="show vanilla" id="ex">Aggiunte</button>
+                        <button class="show sand" id="corr">Correzioni</button>
+                    </div>
                 </div>
 
                 <!-- Testo -->
