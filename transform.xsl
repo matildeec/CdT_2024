@@ -266,12 +266,13 @@
     <xsl:template match="tei:surface">
         <xsl:element name="img">
             <xsl:attribute name="src"><xsl:value-of select="./tei:graphic/@url"></xsl:value-of></xsl:attribute>
+            <xsl:attribute name="class">facsimile</xsl:attribute>
         </xsl:element>
     </xsl:template>
     <!-- Body -->
     <xsl:template match="tei:body">
-        <xsl:for-each select="tei:div/tei:div">
-                <div class="containerArticle">
+        <xsl:for-each select="tei:div//tei:div">
+                <div class="containerSection">
                     <xsl:apply-templates select="./tei:pb" />
                 </div>   
         </xsl:for-each>
