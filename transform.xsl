@@ -62,7 +62,7 @@
                         <button class="highlight crimson" id="verbum">Verbum</button>
                         <button class="highlight orange">Correnti letterarie</button>
                         <button class="highlight lilac" id="foreign">Testo in lingua straniera</button>
-                        <button class="highlight jade" id="quote">Citazioni</button>
+                        <button class="highlight jade" id="cit">Citazioni</button>
                         <button class="highlight blue" id="org">Organizzazioni</button>
                     </div>
 
@@ -332,7 +332,7 @@
         </xsl:element>
     </xsl:template>
     <!--Testo straniero-->
-    <xsl:template match="*/@xml:lang">
+    <xsl:template match="*[@xml:lang]">
         <xsl:element name="span">
             <xsl:attribute name="class">foreign</xsl:attribute>
             <xsl:apply-templates />
