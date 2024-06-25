@@ -291,10 +291,15 @@
             <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]"/>
         </div>
         <div class="containerText">
-            <xsl:apply-templates select="./following-sibling::*"/>
+            <xsl:apply-templates select="./following-sibling::tei:cb"/>
         </div>
     </xsl:template>
 
+    <xsl:template match="tei:cb">
+        <div class="colonna">
+            <xsl:apply-templates select="./following-sibling::*"/>
+        </div>
+    </xsl:template>
     <xsl:template match="tei:ab">
         <div>
             <xsl:apply-templates select="node()"/>
