@@ -276,6 +276,114 @@
 
     <xsl:template match="tei:lb">
         <br/>
+        <xsl:apply-templates />
     </xsl:template>
+
+    <!-- Persone reali-->
+    <xsl:template match="tei:name[@type='person']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">person</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!-- Persone immaginarie-->
+    <xsl:template match="tei:name[@type='character']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">character</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!-- Opere-->
+    <xsl:template match="tei:name[@type='bibl']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">bibl</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!-- Luoghi-->
+    <xsl:template match="tei:name[@type='place']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">place</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Date-->
+    <xsl:template match="tei:date">
+        <xsl:element name="span">
+            <xsl:attribute name="class">date</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Verbum-->
+    <xsl:template match="tei:name[@type='verbum']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">verbum</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Testo straniero-->
+    <xsl:template match="*/@xml:lang">
+        <xsl:element name="span">
+            <xsl:attribute name="class">foreign</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Citazioni-->
+    <xsl:template match="tei:quote | tei:q | tei:cit | tei:said">
+        <xsl:element name="span">
+            <xsl:attribute name="class">cit</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Organizzazioni-->
+    <xsl:template match="tei:name[@type='org']">
+        <xsl:element name="span">
+            <xsl:attribute name="class">org</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!--Espansioni e correzioni-->
+    <xsl:template match="tei:expan">
+        <xsl:element name="span">
+            <xsl:attribute name="class">expan</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:ex">
+        <xsl:element name="span">
+            <xsl:attribute name="class">ex</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:reg">
+        <xsl:element name="span">
+            <xsl:attribute name="class">reg</xsl:attribute>
+            <xsl:apply-templates />
+        </xsl:element>
+    </xsl:template>
+    <!-- Correnti letterarie 
+    <xsl:key name="orgById" match="tei:org" use="@id"/>
+
+    <xsl:template match="tei:name[@type='org']">
+        <xsl:variable name="orgRefId" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="orgElement" select="key('orgById', $orgRefId)"/>
+
+        <xsl:if test="$orgElement/@role = 'literary'">
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+            </xsl:copy>
+        </xsl:if>
+    </xsl:template>
+    <xsl:key name="orgById" match="tei:org" use="@id"/>
+    <xsl:template match="tei:name[@type='org']">
+        <xsl:variable name="orgRefId" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="orgElement" select="key('orgById', $orgRefId)"/>
+
+        <xsl:if test="$orgElement/@role = 'publisher'">
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+            </xsl:copy>
+        </xsl:if>
+    </xsl:template>-->
 
 </xsl:stylesheet>
