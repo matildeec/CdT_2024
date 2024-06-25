@@ -266,14 +266,14 @@
     <xsl:template match="tei:surface">
         <xsl:element name="img">
             <xsl:attribute name="src"><xsl:value-of select="./tei:graphic/@url"></xsl:value-of></xsl:attribute>
-            <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
     <!-- Body -->
     <xsl:template match="tei:body">
-        <xsl:for-each select="tei:div/tei:div[@type='article']">
-
-            <xsl:apply-templates select="./*" />
+        <xsl:for-each select="tei:div/tei:div">
+                <div>
+                    <xsl:apply-templates select="./*" />
+                </div>   
         </xsl:for-each>
     </xsl:template>
 
@@ -285,7 +285,9 @@
 
     <xsl:template match="tei:pb">
         <xsl:variable name="pb_id" select="substring-after(@facs, '#')"/>
-        <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]"/>
+        <div>
+            <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]"/>
+        </div>
     </xsl:template>
 
     <xsl:template match="tei:ab">

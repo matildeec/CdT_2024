@@ -219,7 +219,7 @@
             <zone ulx="770" uly="1951" lrx="1447" lry="2062" xml:id="p403_p1_2" start="#p403_p1_2"/>
         </surface>
 
-        <surface>
+        <surface xml:id="p404" start="#pb404">
             <graphic url='img/Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
 
             <zone ulx="112" uly="141" lrx="789" lry="202" xml:id="p404_p1" start="#p404_p1"/>
@@ -1138,7 +1138,7 @@
                             <lb />in porto, e pensa che eserciterà una notevole influenza sui
                             <lb /><name type="org">Municipi</name> più restii a diffondere l'istruzione primaria come
                         </ab>
-                        <pb n="3" />
+                        <pb n="3" facs="#p404" xml:id="pb404"/>
                         <cb n="1" />
                         <ab facs="#p404_p1" xml:id="p404_par1" part="F">
                             <lb />e quando il bisogno richiede e potrà far rivolgere a questa
@@ -1189,19 +1189,19 @@
                             <lb />NOTIZIE 
                         </head>
                         <item facs="#p404_n1" xml:id="p404_nws1">
-                            - Nel corso dell'estate prossima si pubblicherà dal <name type="org" ref="#barbera">Barbèra</name> a <name type="place" ref="#fi">Fi
-                            renze</name> un supplemento all'edizione <name type="org" ref="#lemon">Le Monnier</name> intitolato: <name type="bibl" rend="italic" ref="#app_leop">Appendice
-                            all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
-                            spero Viani</name> prepara anche la pubblicazione della corrispondenza tra i
-                            membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
-                            questo scopo dalla <name type="role">contessa</name><name type="person" ref="#cont_leop">Leopardi</name> vedova del <name type="role">conte</name> <name type="person" ref="#cont_carlo">Carlo</name>.
+                            <lb />Nel corso dell'estate prossima si pubblicherà dal <name type="org" ref="#barbera">Barbèra</name> a <name type="place" ref="#fi">Fi
+                            <lb />renze</name> un supplemento all'edizione <name type="org" ref="#lemon">Le Monnier</name> intitolato: <name type="bibl" rend="italic" ref="#app_leop">Appendice
+                            <lb />all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
+                            <lb />spero Viani</name> prepara anche la pubblicazione della corrispondenza tra i
+                            <lb />membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
+                            <lb />questo scopo dalla <name type="role">contessa</name><name type="person" ref="#cont_leop">Leopardi</name> vedova del <name type="role">conte</name> <name type="person" ref="#cont_carlo">Carlo</name>.
                         </item>
                         <item facs="#p404_n2" xml:id="p404_nws2">
-                            - Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic" ref="#avvocatura">L'Avvocatura</name>, Due
-                            discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic" ref="#sonetti_rom">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
-                            Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl" ref="#viaggi">I viaggi</name> di <name type="person" ref="#carletti">Francesco
-                            Carletti</name>, le <name type="bibl" ref="#rime">Rime</name> di <name type="person" ref="#gambara">Veronica Gàmbara</name>, le <name type="bibl" ref="#poesie">Poesie</name> del <name type="role">conte</name> <name type="person" ref="#marchetti">Giovanni
-                            Marchetti</name>.
+                            <lb />Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic" ref="#avvocatura">L'Avvocatura</name>, Due
+                            <lb />discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic" ref="#sonetti_rom">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
+                            <lb />Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl" ref="#viaggi">I viaggi</name> di <name type="person" ref="#carletti">Francesco
+                            <lb />Carletti</name>, le <name type="bibl" ref="#rime">Rime</name> di <name type="person" ref="#gambara">Veronica Gàmbara</name>, le <name type="bibl" ref="#poesie">Poesie</name> del <name type="role">conte</name> <name type="person" ref="#marchetti">Giovanni
+                            <lb />Marchetti</name>.
                         </item>
                     </list>
                 </div>
