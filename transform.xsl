@@ -296,9 +296,17 @@
     </xsl:template>
 
     <xsl:template match="tei:cb">
-        <div class="colonna">
-            <xsl:apply-templates select="./following-sibling::*"/>
-        </div>
+        <xsl:variable name="cb_n" select="./@n"/>
+        <xsl:if test="$cb_n=1">
+            <div class="containerColumnLeft">
+                <xsl:apply-templates select="./following-sibling::*"/>
+            </div>
+        </xsl:if>
+        <xsl:if test="$cb_n=2">
+            <div class="containerColumnRight">
+                <xsl:apply-templates select="./following-sibling::*"/>
+            </div>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:ab">
         <div>
