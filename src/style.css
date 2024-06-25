@@ -4,6 +4,17 @@
 :root {
 	--black: #000000;
 	--white: #ffffff;
+	--yellow: #FCDC94;
+	--rose: #E8C5E5;
+	--mint: #95D2B3;
+	--powder: #BBE9FF;
+	--purple: #B1AFFF;
+	--coral: #ff789a;
+	--crimson: #D37676;
+	--orange: #ffc096;
+	--lilac: #DFCCFB;
+	--jade: #98d8c8;
+	--blue: #80BCBD;
   }
 
 html, body
@@ -105,9 +116,8 @@ button:disabled {
 }
 
 button:active {
-  background-color: #EDEFF2;
+  background-color: #5347ff;
   box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
-  transition: none 0s;
 }
 
 button:focus {
@@ -118,6 +128,9 @@ button:-webkit-details-marker {
   display: none;
 }
 
+.highlight.active {
+	background-color: #5347ff;
+}
 
 .container{
 	display: flex;

@@ -11,8 +11,9 @@
         <html>
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <script type="text/javascript" src="src/script.js"></script>
                 <link rel="stylesheet" type="text/css" href="src/style.css"/>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                <script type="text/javascript" src="src/script.js"></script>
                 <title>Progetto di Codifica di Testi</title>
             </head>
 
@@ -52,17 +53,17 @@
                     <h3>Evidenzia</h3>
                     <!-- Bottoni -->
                     <div class="btns">
-                        <button>Persone reali</button>
-                        <button>Persone immaginarie</button>
-                        <button>Opere</button>
-                        <button>Luoghi</button>
-                        <button>Casa editrice</button>
-                        <button>Date</button>
-                        <button>Verbum</button>
-                        <button>Correnti letterarie</button>
-                        <button>Testo in lingua straniera</button>
-                        <button>Citazioni</button>
-                        <button>Organizzazioni</button>
+                        <button class="highlight" id="person">Persone reali</button>
+                        <button class="highlight" id="character">Persone immaginarie</button>
+                        <button class="highlight" id="bibl">Opere</button>
+                        <button class="highlight" id="place">Luoghi</button>
+                        <button class="highlight">Casa editrice</button>
+                        <button class="highlight" id="date">Date</button>
+                        <button class="highlight" id="verbum">Verbum</button>
+                        <button class="highlight">Correnti letterarie</button>
+                        <button class="highlight" id="foreign">Testo in lingua straniera</button>
+                        <button class="highlight" id="quote">Citazioni</button>
+                        <button class="highlight" id="org">Organizzazioni</button>
                     </div>
                 </div>
 
