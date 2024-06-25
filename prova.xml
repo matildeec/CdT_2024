@@ -136,7 +136,7 @@
         </surface>
         <surface xml:id="p387" start="#pb387" n="2">
 
-            <graphic url='Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
             <zone ulx="69" uly="150" lrx="738" lry="781" xml:id="p387_p7" start="p387_par7" />
             <zone ulx="69" uly="788" lrx="737" lry="1382" xml:id="p387_p8" start="p387_par8" />
             <zone ulx="70" uly="1391" lrx="737" lry="1701" xml:id="p387_p9" start="p387_par9" />
@@ -148,7 +148,7 @@
         <!--ARTICOLO 2-->
         <surface xml:id="p393" start="#pb393" n="3">
 
-            <graphic url='Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
             <zone ulx="834" uly="1085" lrx="1434" lry="1119" xml:id="p393_title" corresp="#par393_title"/>
             <zone ulx="792" uly="1127" lrx="1462" lry="2014" xml:id="p393_p1" start="#p393_par1"/>
             <zone ulx="796" uly="2029" lrx="1461" lry="2075" xml:id="p393_bibl" corresp="#puini78"/>
@@ -156,7 +156,7 @@
         </surface>
         <surface xml:id="p394" start="#pb394" n="4">
 
-            <graphic url='Vol1-1878-1-S1-F21_4.png' width='1516.4px' height='2240.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_4.png' width='1516.4px' height='2240.4px' />
             <zone ulx="74" uly="158" lrx="745" lry="2045" xml:id="p394_p1" start="#p394_par1" />
             <zone ulx="75" uly="2052" lrx="745" lry="2079" xml:id="p394_p2" start="#p394_par2" />
             <zone ulx="762" uly="160" lrx="1431" lry="933" xml:id="p394_p3" start="#p394_par3" />
@@ -165,7 +165,7 @@
         </surface>
         <surface xml:id="p395" start="#pb395" n="5">
 
-            <graphic url='Vol1-1878-1-S1-F21_5.png' width='1545.4px' height='2255.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_5.png' width='1545.4px' height='2255.4px' />
             <zone ulx="86" uly="166" lrx="759" lry="2088" xml:id="p395_p4" start="#p395_par4" />
             <zone ulx="463" uly="2065" lrx="721" lry="2090" xml:id="p395_firm" corresp="#p395_author"/>
             
@@ -174,7 +174,7 @@
         <!--ARTICOLO 3-->
         <surface xml:id="p396" start="#pb396" n="6">
 
-            <graphic url='Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
             <zone ulx="847" uly="511" lrx="1385" lry="572" xml:id="p396_title" start="#p396_title" />
             <zone ulx="777" uly="585" lrx="1459" lry="2082" xml:id="p396_p1" start="#p396_par1" />
                 
@@ -182,7 +182,7 @@
 
         <surface xml:id="p397" start="#pb397" n="7">
 
-            <graphic url='Vol1-1878-1-S1-F21_7.png' width='1532.4px' height='2245.4px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_7.png' width='1532.4px' height='2245.4px' />
 
             <zone ulx="76" uly="161" lrx="743" lry="637" xml:id="p397_p1" start="#p397_par1"/>
             <zone ulx="76" uly="647" lrx="748" lry="812" xml:id="p397_p2" start="#p397_par2"/>
@@ -203,7 +203,7 @@
 
         <!-- BIBLIOGRAFIA E NOTIZIE-->
         <surface xml:id="p403" start="#pb403">
-            <graphic url='Vol1-1878-1-S1-F21_8.png' width='1542px' height='2252px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_8.png' width='1542px' height='2252px' />
 
             <zone ulx="297" uly="1313" lrx="523" lry="1339" xml:id="p403_title" corresp="#pag403_title"/>
             <zone ulx="74" uly="1343" lrx="752" lry="1403" xml:id="p403_bibl" corresp="#pag403_bibl"/>
@@ -220,7 +220,7 @@
         </surface>
 
         <surface>
-            <graphic url='Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
+            <graphic url='img/Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
 
             <zone ulx="112" uly="141" lrx="789" lry="202" xml:id="p404_p1" start="#p404_p1"/>
             <zone ulx="115" uly="209" lrx="786" lry="351" xml:id="p404_p2" start="#p404_p2"/>
