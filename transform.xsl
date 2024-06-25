@@ -53,17 +53,17 @@
                     <h3>Evidenzia</h3>
                     <!-- Bottoni -->
                     <div class="btns">
-                        <button class="highlight" id="person">Persone reali</button>
-                        <button class="highlight" id="character">Persone immaginarie</button>
-                        <button class="highlight" id="bibl">Opere</button>
-                        <button class="highlight" id="place">Luoghi</button>
-                        <button class="highlight">Casa editrice</button>
-                        <button class="highlight" id="date">Date</button>
-                        <button class="highlight" id="verbum">Verbum</button>
-                        <button class="highlight">Correnti letterarie</button>
-                        <button class="highlight" id="foreign">Testo in lingua straniera</button>
-                        <button class="highlight" id="quote">Citazioni</button>
-                        <button class="highlight" id="org">Organizzazioni</button>
+                        <button class="highlight yellow" id="person">Persone reali</button>
+                        <button class="highlight rose" id="character">Persone immaginarie</button>
+                        <button class="highlight mint" id="bibl">Opere</button>
+                        <button class="highlight powder" id="place">Luoghi</button>
+                        <button class="highlight purple">Casa editrice</button>
+                        <button class="highlight coral" id="date">Date</button>
+                        <button class="highlight crimson" id="verbum">Verbum</button>
+                        <button class="highlight orange">Correnti letterarie</button>
+                        <button class="highlight lilac" id="foreign">Testo in lingua straniera</button>
+                        <button class="highlight jade" id="quote">Citazioni</button>
+                        <button class="highlight blue" id="org">Organizzazioni</button>
                     </div>
 
                     <!-- 
