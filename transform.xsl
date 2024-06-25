@@ -271,11 +271,12 @@
     <!-- Body -->
     <xsl:template match="tei:body">
         <xsl:for-each select="tei:div/tei:div">
-                <div>
-                    <xsl:apply-templates select="./*" />
+                <div class="containerArticle">
+                    <xsl:apply-templates select="./tei:pb" />
                 </div>   
         </xsl:for-each>
     </xsl:template>
+    
 
     <xsl:template match="tei:head">
         <h4>
@@ -285,8 +286,11 @@
 
     <xsl:template match="tei:pb">
         <xsl:variable name="pb_id" select="substring-after(@facs, '#')"/>
-        <div>
+        <div class="containerFacsimile">
             <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]"/>
+        </div>
+        <div class="containerText">
+            <xsl:apply-templates select="./following-sibling::*"/>
         </div>
     </xsl:template>
 
