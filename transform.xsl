@@ -353,13 +353,11 @@
         </xsl:element>
     </xsl:template>
     <!--Espansioni e correzioni-->
-    <xsl:template match="tei:expan">
-        <xsl:if test="count(*)=0">
+    <xsl:template match="tei:expan[not(*)]">
             <xsl:element name="span">
-                <xsl:attribute name="class">expan</xsl:attribute>
+                    <xsl:attribute name="class">expan</xsl:attribute>
                 <xsl:apply-templates />
-            </xsl:element>
-        </xsl:if>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:ex">
         <xsl:element name="span">
