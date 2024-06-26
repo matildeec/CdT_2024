@@ -80,16 +80,16 @@
                 <div class="container">
 
                     <div class="containerSection">
-                        <!-- Itera su ogni articolo -->
+                        <!-- Itera su ogni sezione -->
                         <xsl:for-each
                             select="tei:TEI/tei:text/tei:body/tei:div[@type='journal']/tei:div">
                             <!-- Estrai e visualizza il titolo della sezione -->
                             <div
                                 class="section">
-                                <h3>
+                                <h2>
                                     <xsl:value-of
                                         select="tei:div[@type='page']/tei:div[@type='column']/tei:head" />
-                                </h3>
+                                </h2>
 
                                 <xsl:for-each select="tei:div[@type='page']">
 
@@ -150,8 +150,14 @@
 
             <footer>
                 <p>
-                    <xsl:value-of
-                        select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt" />
+                    <span>
+                        <xsl:value-of
+                        select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:resp" />&#160;
+                    </span>
+                    <span><xsl:value-of
+                        select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[1]" /></span>&#160;e&#160; 
+                        <span><xsl:value-of
+                            select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[2]" /></span>
                 </p>
                 <p>Repository <a target="_blank" href="https://github.com/matildeec/CdT_2024">GitHub</a></p>
             </footer>
@@ -487,19 +493,19 @@
         <xsl:for-each select="/tei:TEI/tei:text/tei:back/tei:div/tei:listPerson/tei:person">
             <xsl:if test="@xml:id=$person_ref">
                 <span class="info">
-                    Nome:<xsl:value-of select="./tei:persName"/><br/>
-                    Nascita:<xsl:value-of select="./tei:birth"/><br/>
-                    Morte:<xsl:value-of select="./tei:death"/><br/>
-                    Professione:<xsl:value-of select="./tei:occupation"/><br/>
+                    <strong>Nome: </strong><xsl:value-of select="./tei:persName"/><br/>
+                    <strong>Nascita: </strong><xsl:value-of select="./tei:birth"/><br/>
+                    <strong>Morte: </strong><xsl:value-of select="./tei:death"/><br/>
+                    <strong>Professione: </strong><xsl:value-of select="./tei:occupation"/><br/>
                     <xsl:element name="a">
                         <xsl:attribute name="href"><xsl:value-of select="./tei:persName/tei:ref/@target"/></xsl:attribute>
-                        Fonte
+                        <strong>Fonte</strong>
                     </xsl:element>
                 </span>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-    <!-- Persone immaginarie-->
+    <!-- Personaggi -->
     <xsl:template match="tei:name[@type='character']">
         <xsl:element name="span">
             <xsl:attribute name="class">character</xsl:attribute>
@@ -523,8 +529,8 @@
         <xsl:for-each select="/tei:TEI/tei:text/tei:back/tei:div/tei:listPlace/tei:place">
                 <xsl:if test="@xml:id=$place_ref">
                     <span class="info">
-                        Nome:<xsl:value-of select="./tei:placeName"/><br/>
-                        Località:<xsl:value-of select="./tei:location"/>
+                        <strong>Nome: </strong><xsl:value-of select="./tei:placeName"/><br/>
+                        <strong>Località: </strong><xsl:value-of select="./tei:location"/>
                     </span>
                 </xsl:if>
             </xsl:for-each>
@@ -543,8 +549,7 @@
             <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
-    <!--Testo
-    straniero-->
+    <!--Testo straniero-->
     <xsl:template match="*[@xml:lang]">
         <xsl:element name="span">
             <xsl:attribute name="class">foreign</xsl:attribute>

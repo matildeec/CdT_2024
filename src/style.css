@@ -3,6 +3,8 @@
 
 :root {
 	--black: #000000;
+	--bordeaux: #641c1e;
+	--navy: #07003d;
 	--white: #ffffff;
 	--yellow: #FCDC94;
 	--rose: #ffcefb;
@@ -74,19 +76,17 @@ a {
 .containerSection {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Spazio tra gli articoli */
+    gap: 20px;
 }
 
 .section {
-    background-color: #f8f8f8; /* Colore di sfondo per visibilità */
     padding: 10px;
 }
 
-.section h3 {
+.section h2 {
     text-align: center;
     margin: 0;
     padding: 10px;
-    background-color: #e8e8e8; /* Colore di sfondo per visibilità */
 }
 
 .page {
@@ -101,14 +101,12 @@ a {
 
 .facsimile {
     flex: 1;
-    background-color: #f0f0f0; /* Colore di sfondo per visibilità */
     padding: 10px;
 	text-align: center;
 }
 
 .column {
     padding: 10px;
-    background-color: #d0d0d0; /* Colore di sfondo per visibilità */
 }
 
 table.columns {
@@ -125,17 +123,17 @@ table.columns td {
 .paragraph {
     display: flex;
 	flex-direction: row;
-    gap: 5px; /* Spazio tra il simbolo "P" e il testo del paragrafo */
-    margin-bottom: 10px; /* Margine inferiore per separare i paragrafi */
+    gap: 5px;
+    margin-bottom: 10px;
 }
 
 .paragraph span {
-    min-width: 20px; /* Larghezza minima per il simbolo "P" */
+    min-width: 90px;
 	padding-top: 8px;
 }
 
 .paragraph strong {
-    font-weight: bold; /* Stile grassetto per il simbolo "P" */
+    font-weight: bold;
 }
 
 .line {
@@ -145,7 +143,9 @@ table.columns td {
 /* map */
 
 span.selezionato {
-	background-color: #2cd3a9;
+	background-color: var(--lemon);
+	border-radius: 20px;
+	padding: 10px;
 }
 
 area:hover {
@@ -180,12 +180,12 @@ area:hover {
 }
 
 .btns-highlight {
-	background-color: var(--black);
+	background-color: var(--bordeaux);
 	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
 }
 
 .btns-show {
-	background-color: rgb(1, 1, 50);
+	background-color: var(--navy);
 	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
 }
 
@@ -208,7 +208,6 @@ button {
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
@@ -238,10 +237,6 @@ button:focus {
   outline: 1px transparent;
 }
 
-button:-webkit-details-marker {
-  display: none;
-}
-
 button.active {
 	background-color: white;
 }
@@ -252,6 +247,10 @@ button.active {
 	justify-content: center;
 	flex-direction: column;
 	padding: 1rem;
+}
+
+button.desc {
+	font-size: 1.2rem;
 }
 
 /* tabelle descrizioni */
@@ -294,9 +293,16 @@ button.active {
 	padding:10px;
 	vertical-align: baseline;
 }
-.info{
+
+span.info{
 	position:absolute;
-	background-color: #B1AFFF;
+	background-color: var(--black);
+	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+	color: var(--white);
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 5px;
+	width: fit-content;
 }
 
 /* footer */
