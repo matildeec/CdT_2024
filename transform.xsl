@@ -64,7 +64,7 @@
                         <button class="highlight lilac" id="foreign">Lingua straniera</button>
                         <button class="highlight jade" id="cit">Citazioni</button>
                         <button class="highlight blue" id="org">Organizzazioni</button>
-                        <button class="highlight blue" id="religion">Religioni</button>
+                        <button class="highlight applegreen" id="religion">Religioni</button>
                     </div>
 
                     <div class="btns-show" style="width:600px;">
@@ -76,8 +76,6 @@
                 </div>
 
                 <!-- Testo -->
-                <!--<xsl:value-of
-                select="tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='article']"/>-->
 
                 <div class="container">
 
@@ -100,37 +98,33 @@
                                             <xsl:apply-templates select="tei:pb" />
                                         </div>
 
-                                        <table>
-                                            <tr>
-                                                <td>Colonna 1</td>
-                                                <td>Colonna 2</td>
-                                            </tr>
-                                            <tr>
-                                                <xsl:for-each select="tei:div[@type='column']">
+                                        <table class="columns">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Colonna 1</th>
+                                                    <th>Colonna 2</th>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                        <xsl:choose>
-                                                            <xsl:when test="./@n=1">
-                                                                <div class="column left">
-                                                                    <xsl:for-each select="tei:ab">
-                                                                        <xsl:apply-templates select="." />
-                                                                    </xsl:for-each>
-                                                                </div>
-                                                            </xsl:when>
-                                                        </xsl:choose>
+                                                        <div class="column left">
+                                                            <xsl:for-each select="tei:div[@type='column' and @n=1]">
+                                                                <xsl:for-each select="tei:ab | tei:head">
+                                                                    <xsl:apply-templates select="." />
+                                                                </xsl:for-each>
+                                                            </xsl:for-each>
+                                                        </div>
                                                     </td>
                                                     <td>
-                                                        <xsl:choose>
-                                                            <xsl:when test="./@n=2">
-                                                                <div class="column right">
-                                                                    <xsl:for-each select="tei:ab">
-                                                                        <xsl:apply-templates select="." />
-                                                                    </xsl:for-each>
-                                                                </div>
-                                                            </xsl:when>
-                                                        </xsl:choose>
+                                                        <div class="column right">
+                                                            <xsl:for-each select="tei:div[@type='column' and @n=2]">
+                                                                <xsl:for-each select="tei:ab | tei:head">
+                                                                    <xsl:apply-templates select="." />
+                                                                </xsl:for-each>
+                                                            </xsl:for-each>
+                                                        </div>
                                                     </td>
-                                                </xsl:for-each>
-                                            </tr>
+                                                </tr>
+                                            </tbody>
                                         </table>
 
                                     </div>
@@ -409,6 +403,18 @@
         </xsl:element>
     </xsl:template>
 
+    <!-- head -->
+    <xsl:template match="tei:head">
+        <div class="paragraph">
+            <span>
+                <strong>H</strong>
+            </span>
+            <div class="block">
+                <xsl:apply-templates />
+            </div>
+        </div>
+    </xsl:template>
+
     <!-- ab -->
     <xsl:template match="tei:ab">
         <div class="paragraph">
@@ -416,15 +422,16 @@
                 <strong>P</strong>
             </span>
             <div class="block">
-                <xsl:apply-templates select="node()" />
+                <xsl:apply-templates />
             </div>
         </div>
     </xsl:template>
 
     <!-- lb -->
     <xsl:template match="tei:lb">
-        <br />
-        <xsl:apply-templates />
+        <div class="line">
+            <xsl:apply-templates />
+        </div>
     </xsl:template>
 
     <!-- Persone reali-->

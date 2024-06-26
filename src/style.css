@@ -5,20 +5,21 @@
 	--black: #000000;
 	--white: #ffffff;
 	--yellow: #FCDC94;
-	--rose: #E8C5E5;
-	--mint: #95D2B3;
-	--powder: #BBE9FF;
+	--rose: #ffcefb;
+	--mint: #b4ffda;
+	--powder: #b3e7ff;
 	--purple: #B1AFFF;
-	--coral: #ff789a;
-	--crimson: #D37676;
-	--orange: #ffc096;
+	--coral: #ff787a;
+	--crimson: #ff4545;
+	--orange: #ff8e43;
 	--lilac: #DFCCFB;
-	--jade: #98d8c8;
-	--blue: #80BCBD;
+	--jade: #2cd3a9;
+	--blue: #78d2f8;
 	--lemon: #F4CE14;
-	--marine: #37B7C3;
-	--vanilla: #BE7B72;
-	--sand: #ECCA9C;
+	--marine: #37b5c0;
+	--vanilla: #b47870;
+	--sand: #ffd092;
+	--applegreen: #66ff80;
   }
 
 html, body
@@ -45,10 +46,7 @@ a {
 	color: var(--lemon);
 }
 
-.display {
-	background-color: var(--jade);
-}
-
+/* header */
 .header img {
 	min-width: 300px;
 	width: 25%;
@@ -72,11 +70,7 @@ a {
 	padding: 1rem;
 }
 
-.facsimile {
-	width: 80%;
-}
-
-/**/
+/* body layout */
 .containerSection {
     display: flex;
     flex-direction: column;
@@ -110,16 +104,7 @@ a {
     background-color: #f0f0f0; /* Colore di sfondo per visibilità */
     padding: 10px;
 	text-align: center;
-}
-
-.columns {
-    flex: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Due colonne */
-	grid-template-areas: 
-	'left right';
-    gap: 10px;
-    box-sizing: border-box;
+	width: 80%;
 }
 
 .column {
@@ -127,17 +112,17 @@ a {
     background-color: #d0d0d0; /* Colore di sfondo per visibilità */
 }
 
-.left {
-    background-color: #e0e0e0; /* Colore di sfondo per visibilità */
-	grid-area: 'left';
+table.columns {
+	display: flex;
 }
 
-.right {
-    background-color: #c0c0c0; /* Colore di sfondo per visibilità */
-	grid-area: 'right';
+table.columns td {
+	vertical-align: baseline;
+	min-width: 470px;
+	width: fit-content;
 }
 
-/**/
+/* text */
 .paragraph {
     display: flex;
 	flex-direction: row;
@@ -147,14 +132,18 @@ a {
 
 .paragraph span {
     min-width: 20px; /* Larghezza minima per il simbolo "P" */
+	padding-top: 8px;
 }
 
 .paragraph strong {
     font-weight: bold; /* Stile grassetto per il simbolo "P" */
 }
 
+.line {
+	padding-bottom: 8px;
+}
 
-/**/
+/* buttons */
 .menu {
 	background-color: transparent;
 	border-radius: 20px;
@@ -198,7 +187,7 @@ button {
   border-radius: 20px;
   box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
   box-sizing: border-box;
-  color: #24292E;
+  color: var(--black);
   cursor: pointer;
   display: inline-block;
   font-family: 'Newsreader', 'Serif';
@@ -256,6 +245,7 @@ button.active {
 	padding: 1rem;
 }
 
+/* tabelle descrizioni */
 .container > .bgTabella {
 	padding: 3%;
 	margin: 2% 5%;
@@ -296,6 +286,7 @@ button.active {
 	vertical-align: baseline;
 }
 
+/* footer */
 footer {
     text-align: center;
 	background-color: #000000;
