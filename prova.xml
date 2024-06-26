@@ -1021,7 +1021,7 @@
                 </div>
 
                 <!--BIBLIOGRAFIA E NOTIZIE-->
-                <div type="bibliografia e notizie" org="uniform" sample="medial">
+                <div type="bibliografia_notizie" org="uniform" sample="medial">
                     <div type="page" n="1">
                         <pb n="1" facs="#p403" xml:id="pb403"/>
                         <div type="column" n="1">

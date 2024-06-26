@@ -133,6 +133,60 @@
                         </xsl:for-each>
                     </div>
 
+                    <!--  bib -->
+                    <div class="containerSection">
+                        <!-- Itera su ogni bib e notizie -->
+                        <xsl:for-each
+                            select="tei:TEI/tei:text/tei:body/tei:div[@type='journal']/tei:div[@type='bibliografia_notizie']">
+                            <!-- Estrai e visualizza il titolo dell'articolo -->
+                            <div
+                                class="art">
+                                <h3>
+                                    <xsl:value-of
+                                        select="tei:div[@type='page']/tei:div[@type='column']/tei:head" />
+                                </h3>
+
+                                <xsl:for-each select="tei:div[@type='page']">
+
+                                    <div class="page">
+                                        <div class="facsimile">
+                                            <xsl:apply-templates select="tei:pb" />
+                                        </div>
+
+                                        <table class="columns">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Colonna 1</th>
+                                                    <th>Colonna 2</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="column left">
+                                                            <xsl:for-each select="tei:div[@type='column' and @n=1]">
+                                                                <xsl:for-each select="tei:div/tei:ab | tei:div/tei:head">
+                                                                    <xsl:apply-templates select="." />
+                                                                </xsl:for-each>
+                                                            </xsl:for-each>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="column right">
+                                                            <xsl:for-each select="tei:div[@type='column' and @n=2]">
+                                                                <xsl:for-each select="tei:div/tei:ab | tei:div/tei:head | tei:div/tei:list">
+                                                                    <xsl:apply-templates select="." />
+                                                                </xsl:for-each>
+                                                            </xsl:for-each>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </xsl:for-each>
+                            </div>
+                        </xsl:for-each>
+                    </div>
 
                 </div>
 
@@ -420,6 +474,30 @@
         <div class="paragraph">
             <span>
                 <strong>P</strong>
+            </span>
+            <div class="block">
+                <xsl:apply-templates />
+            </div>
+        </div>
+    </xsl:template>
+
+    <!-- list -->
+    <xsl:template match="tei:list">
+        <div class="paragraph">
+            <span>
+                <strong>L</strong>
+            </span>
+            <div class="block">
+                <xsl:apply-templates />
+            </div>
+        </div>
+    </xsl:template>
+
+    <!-- list item -->
+    <xsl:template match="tei:item">
+        <div class="paragraph">
+            <span>
+                <strong>LI</strong>
             </span>
             <div class="block">
                 <xsl:apply-templates />
