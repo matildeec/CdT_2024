@@ -416,16 +416,6 @@
         <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]" />
     </xsl:template>
 
-    <!--<xsl:template match="tei:pb">
-        <xsl:variable name="pb_id" select="substring-after(@facs, '#')" />
-        <xsl:element name="img">
-            <xsl:attribute name="src"><xsl:value-of
-                    select="//tei:facsimile/tei:surface[@xml:id = $pb_id]/tei:graphic/@url"></xsl:value-of></xsl:attribute>
-            <xsl:attribute
-                name="class">facsimile</xsl:attribute>
-        </xsl:element>
-    </xsl:template>-->
-
     <!-- head -->
     <xsl:template match="tei:head">
         <div class="paragraph">
@@ -489,10 +479,25 @@
 
     <!-- Persone reali-->
     <xsl:template match="tei:name[@type='person']">
+        <xsl:variable name="person_ref" select="substring-after(@ref, '#')" />
         <xsl:element name="span">
             <xsl:attribute name="class">person</xsl:attribute>
             <xsl:apply-templates />
         </xsl:element>
+        <xsl:for-each select="/tei:TEI/tei:text/tei:back/tei:div/tei:listPerson/tei:person">
+            <xsl:if test="@xml:id=$person_ref">
+                <span class="info">
+                    Nome:<xsl:value-of select="./tei:persName"/><br/>
+                    Nascita:<xsl:value-of select="./tei:birth"/><br/>
+                    Morte:<xsl:value-of select="./tei:death"/><br/>
+                    Professione:<xsl:value-of select="./tei:occupation"/><br/>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href"><xsl:value-of select="./tei:persName/tei:ref/@target"/></xsl:attribute>
+                        Fonte
+                    </xsl:element>
+                </span>
+            </xsl:if>
+        </xsl:for-each>
     </xsl:template>
     <!-- Persone immaginarie-->
     <xsl:template match="tei:name[@type='character']">
@@ -510,10 +515,19 @@
     </xsl:template>
     <!-- Luoghi-->
     <xsl:template match="tei:name[@type='place']">
+        <xsl:variable name="place_ref" select="substring-after(@ref, '#')" />
         <xsl:element name="span">
             <xsl:attribute name="class">place</xsl:attribute>
             <xsl:apply-templates />
         </xsl:element>
+        <xsl:for-each select="/tei:TEI/tei:text/tei:back/tei:div/tei:listPlace/tei:place">
+                <xsl:if test="@xml:id=$place_ref">
+                    <span class="info">
+                        Nome:<xsl:value-of select="./tei:placeName"/><br/>
+                        Località:<xsl:value-of select="./tei:location"/>
+                    </span>
+                </xsl:if>
+            </xsl:for-each>
     </xsl:template>
     <!--Date-->
     <xsl:template match="tei:date">

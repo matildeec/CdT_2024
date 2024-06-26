@@ -294,6 +294,10 @@ button.active {
 	padding:10px;
 	vertical-align: baseline;
 }
+.info{
+	position:absolute;
+	background-color: #B1AFFF;
+}
 
 /* footer */
 footer {
