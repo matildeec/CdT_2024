@@ -165,7 +165,7 @@
                         <span><xsl:value-of
                             select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[2]" /></span>
                 </p>
-                <p>Repository <a target="_blank" href="https://github.com/matildeec/CdT_2024">GitHub</a></p>
+                <p>Repository <a target="_blank" href="https://github.com/matildeec/CdT_2024" style="color:var(--lemon);">GitHub</a></p>
             </footer>
         </html>
     </xsl:template>
