@@ -22,15 +22,30 @@
                     <img
                         src="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/03/logo_rassegna_new.jpg"
                         alt="La Rassegna Settimanale Logo" />
+                </div>
+                
+                <div class="heading">
                     <h1>
                         <xsl:value-of
                             select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title" />
                     </h1>
+                    <span>
+                        <img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg"
+                            alt="Logo Università di Pisa" style="width:80px" />
+                    </span>
+                    <h3>
+                        <xsl:value-of
+                            select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:sponsor" />
+                    </h3>
                 </div>
+    
+                <div class="container">
+                    <p style="color: black;">Informazioni sul Progetto</p>
 
-                <div class="btns-container">
-                    <button class="desc" id="btn-descBibl">Descrizione bibliografica</button>
-                    <button class="desc" id="btn-descCod">Descrizione della codifica</button>
+                    <div class="btns-container">
+                        <button class="desc" id="btn-descBibl">Descrizione bibliografica</button>
+                        <button class="desc" id="btn-descCod">Descrizione della codifica</button>
+                    </div>
                 </div>
 
                 <div class="container" id="descBibl">
@@ -48,6 +63,8 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="container"><h3>Evidenzia</h3></div>
 
                 <div class="menu">
 
@@ -136,17 +153,6 @@
                 </div>
 
             </body>
-
-            <div class="heading">
-                <span>
-                    <img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg"
-                        alt="Logo Università di Pisa" style="width:100px" />
-                </span>
-                <h3>
-                    <xsl:value-of
-                        select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:sponsor" />
-                </h3>
-            </div>
 
             <footer>
                 <p>

@@ -50,8 +50,8 @@ a {
 
 /* header */
 .header img {
-	min-width: 300px;
-	width: 25%;
+	min-width: 250px;
+	width: 20%;
 	border-radius: 20px;
 }
 
@@ -169,7 +169,7 @@ area:hover {
 }
 
 .btns-highlight, .btns-show {
-	margin: 5px 3rem;
+	margin: 5px 1rem;
 	padding: 0 1rem;
 	display: flex;
 	flex-direction: row;
@@ -241,6 +241,10 @@ button.active {
 	background-color: white;
 }
 
+button.desc.selected {
+	background-color: var(--lemon);
+}
+
 .container{
 	display: flex;
 	align-items: center;
@@ -249,8 +253,13 @@ button.active {
 	padding: 1rem;
 }
 
+.container h3 {
+	margin: 0;
+}
+
 button.desc {
 	font-size: 1.2rem;
+	padding: 12px 20px;
 }
 
 /* tabelle descrizioni */

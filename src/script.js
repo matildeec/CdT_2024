@@ -44,7 +44,7 @@ $(document).ready(function () {
                 
             }
        }else{
-        $(this).addClass("selected")
+        $(this).addClass("selected");
         if (buttonId === "btn-descBibl" ) {
             $("#descBibl").show();
             $("#descCod").hide();
