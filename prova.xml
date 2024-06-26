@@ -228,7 +228,7 @@
             <zone ulx="118" uly="779" lrx="787" lry="1063" xml:id="p404_p4" start="#p404_p4"/>
             <zone ulx="1068" uly="988" lrx="1209" lry="1016" xml:id="p404_title" corresp="#pag404_title"/>
             <zone ulx="805" uly="1022" lrx="1476" lry="1172" xml:id="p404_n1" start="#p404_nws1"/>
-            <zone ulx="805" uly="1179" lrx="1474" lry="1301" xml:id="p404_n2" start="#p404_nws"/>
+            <zone ulx="805" uly="1179" lrx="1474" lry="1301" xml:id="p404_n2" start="#p404_nws2"/>
         </surface>
        </facsimile>
 

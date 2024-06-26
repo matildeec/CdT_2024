@@ -459,9 +459,6 @@
     <!-- list -->
     <xsl:template match="tei:list">
         <div class="paragraph">
-            <span>
-                <strong>L</strong>
-            </span>
             <div class="block">
                 <xsl:apply-templates />
             </div>
@@ -471,9 +468,12 @@
     <!-- list item -->
     <xsl:template match="tei:item">
         <div class="paragraph">
-            <span>
-                <strong>LI</strong>
-            </span>
+            <xsl:element name="span">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring-after(@facs, '#')"/>
+                </xsl:attribute>
+                <strong><xsl:value-of select="substring-after(@facs, '#')"/></strong>
+            </xsl:element>
             <div class="block">
                 <xsl:apply-templates />
             </div>
