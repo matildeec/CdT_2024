@@ -30,4 +30,18 @@ $(document).ready(function () {
         }
     })
 
+   $("#descBibl").hide();
+   $("#descCod").hide();
+
+   $(".desc").click(function() {
+       var buttonId = $(this).attr('id');
+
+       if (buttonId === "btn-descBibl") {
+           $("#descBibl").show();
+           $("#descCod").hide();
+       } else if (buttonId === "btn-descCod") {
+           $("#descCod").show();
+           $("#descBibl").hide();
+       }
+   });
 });

@@ -41,6 +41,10 @@ body{
 	color: var(--white);
 }
 
+a {
+	color: var(--lemon);
+}
+
 .display {
 	background-color: var(--jade);
 }
@@ -60,17 +64,105 @@ body{
 	padding: 2rem;
 }
 
+.btns-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	padding: 1rem;
+}
+
+.facsimile {
+	width: 80%;
+}
+
+/**/
+.containerSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spazio tra gli articoli */
+}
+
+.art {
+    background-color: #f8f8f8; /* Colore di sfondo per visibilità */
+    padding: 10px;
+}
+
+.art h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #e8e8e8; /* Colore di sfondo per visibilità */
+}
+
+.page {
+    display: flex;
+	flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+}
+
+.facsimile {
+    flex: 1;
+    background-color: #f0f0f0; /* Colore di sfondo per visibilità */
+    padding: 10px;
+	text-align: center;
+}
+
+.columns {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Due colonne */
+	grid-template-areas: 
+	'left right';
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.column {
+    padding: 10px;
+    background-color: #d0d0d0; /* Colore di sfondo per visibilità */
+}
+
+.left {
+    background-color: #e0e0e0; /* Colore di sfondo per visibilità */
+	grid-area: 'left';
+}
+
+.right {
+    background-color: #c0c0c0; /* Colore di sfondo per visibilità */
+	grid-area: 'right';
+}
+
+/**/
+.paragraph {
+    display: flex;
+	flex-direction: row;
+    gap: 5px; /* Spazio tra il simbolo "P" e il testo del paragrafo */
+    margin-bottom: 10px; /* Margine inferiore per separare i paragrafi */
+}
+
+.paragraph span {
+    min-width: 20px; /* Larghezza minima per il simbolo "P" */
+}
+
+.paragraph strong {
+    font-weight: bold; /* Stile grassetto per il simbolo "P" */
+}
+
+
 /**/
 .menu {
-	background-color: var(--black);
-	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+	background-color: transparent;
 	border-radius: 20px;
-  	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
   	box-sizing: border-box;
 	padding: 1rem;
 	position: sticky;
 	top: 0;
-	margin: 20px;
+	margin: 10px;
 	color: var(--white);
 	display: flex;
 	align-items: center;
@@ -78,16 +170,25 @@ body{
 	flex-direction: column;
 }
 
-.menu h3 {
-	margin: 5px;
-}
-
-.btns {
-	margin: 0 3rem;
+.btns-highlight, .btns-show {
+	margin: 5px 3rem;
+	padding: 0 1rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	border-radius: 20px;
+	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+}
+
+.btns-highlight {
+	background-color: var(--black);
+	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+}
+
+.btns-show {
+	background-color: rgb(1, 1, 50);
+	background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
 }
 
 button {

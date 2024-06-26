@@ -238,7 +238,9 @@
 
                 <!-- ARTICOLO 1 -->
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
-                    <pb n="2" facs="#p386" xml:id="pb386"/>
+                    <div type="page" n="1">
+                        <pb n="1" facs="#p386" xml:id="pb386"/>
+                        <div type="column" n="1">
                             <cb n="1"/>
                             <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">
                                 <lb />L'Istruzione della Donna
@@ -303,7 +305,9 @@
                                 <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può
                                 <lb />scrivere alla figlia, nè questa alla madre, senza che la di
                             </ab>
-                                <cb n="2"/>
+                        </div>
+                        <div type="column" n="2">
+                            <cb n="2"/>
                             <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F">
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
@@ -379,8 +383,11 @@
                                 <lb />quentano quelle scuole solamente, che danno loro un di
                                 <lb />ploma il quale sia praticamente utile a qualche cosa.
                             </ab>
-
-                            <pb n="2" facs="#p387" xml:id="pb387"/>
+                        </div>
+                    </div>
+                    <div type="page" n="2">
+                        <pb n="2" facs="#p387" xml:id="pb387"/>
+                        <div type="column" n="1">
                             <cb n="1"/>
                             <ab facs="#p387_p7" xml:id="p387_par7">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
@@ -460,9 +467,9 @@
                                 <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
                                 <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
                             </ab>
-
+                        </div>
+                        <div type="column" n="2">
                             <cb n="2" />
-
                             <ab facs="#p387_p10_cb" xml:id="p387_par10_cb" part="F">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
@@ -475,11 +482,15 @@
                                 <lb />secondarie femminili sentirebbero la necessità di rendere i
                                 <lb />loro corsi di studio più seri e meno superficiali.
                             </ab>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- ARTICOLO 2 -->
                 <div type="article" n="2" xml:lang="it" source="#ART_2">
-                    <pb n="1" facs="#p393" xml:id="pb393"/>
+                    <div type="page" n="1">
+                        <pb n="1" facs="#p393" xml:id="pb393"/>
+                        <div type="column" n="2">
                             <cb n="2"/>
                             <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">
                                 <lb />Le Religioni dell'Asia Orientale
@@ -532,7 +543,11 @@
                                     <date when="1878">1878</date>
                                 </bibl>
                             </ab>
-                            <pb n="2" facs="#p394" xml:id="pb394"/>
+                        </div>
+                    </div>
+                    <div type="page" n="2">
+                        <pb n="2" facs="#p394" xml:id="pb394"/>
+                        <div type="column" n="1">
                             <cb n="1" />
                             <ab facs="#p394_p1" xml:id="p394_par1">
                                 <lb />sentano come problemi che hanno poi per soluzione una
@@ -605,7 +620,8 @@
                             <ab facs="#p394_p2" xml:id="p394_par2" part="I">
                                 <lb />Il <roleName>professor</roleName><name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                             </ab>
-
+                        </div>
+                        <div type="column" n="2">
                             <cb n="2"/>
 
                             <ab facs="#p394_p3" xml:id="p394_par3" part="F">
@@ -678,8 +694,11 @@
                                 <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                                 <lb />sto che la speculazione quantunque si spingesse fra i greci
                             </ab>
-
-                            <pb n="3" facs="#p395" xml:id="pb395"/>
+                        </div>
+                    </div>
+                    <div type="page" n="3">
+                        <pb n="3" facs="#p395" xml:id="pb395"/>
+                        <div type="column" n="1">
                             <cb n="1"/>
 
                             <ab facs="#p395_p4" xml:id="p395_par4" part="F">
@@ -756,6 +775,8 @@
                                     <name type="person" ref="#comparetti">Domenico Comparetti</name>
                                 </signed>
                             </closer>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- ARTICOLO 3 -->

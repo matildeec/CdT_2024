@@ -20,27 +20,23 @@
             <body>
                 <div class="header">
                     <img src="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/03/logo_rassegna_new.jpg" alt="La Rassegna Settimanale Logo"/>
-                </div>
-
-                <div class="heading">
                     <h1><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
-                    <span><img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg" alt="Logo Università di Pisa" style="width:100px"/></span>
-                    <h3><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:sponsor"/></h3>
                 </div>
 
-                <div class="container">
-                    <div>
-                        <button>Descrizione bibliografica</button>
-                    </div>
+                <div class="btns-container">
+                    <button class="desc" id="btn-descBibl">Descrizione bibliografica</button>
+                    <button class="desc" id="btn-descCod">Descrizione della codifica</button>
                 </div>
 
-                <div class="container">
+                <div class="container" id="descBibl">
                     <div class="bgTabella">
                         <div class="containerTabella">
                             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc"/>
                         </div>
                     </div>
+                </div>
 
+                <div class="container" id="descCod">
                     <div class="bgTabella">
                         <div class="containerTabella">
                             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc"/>
@@ -50,9 +46,8 @@
 
                 <div class="menu">
 
-                    <h3>Evidenzia</h3>
                     <!-- Bottoni -->
-                    <div class="btns">
+                    <div class="btns-highlight">
                         <button class="highlight yellow" id="person">Persone</button>
                         <button class="highlight rose" id="character">Personaggi</button>
                         <button class="highlight mint" id="bibl">Opere</button>
@@ -65,10 +60,8 @@
                         <button class="highlight jade" id="cit">Citazioni</button>
                         <button class="highlight blue" id="org">Organizzazioni</button>
                     </div>
-
-                    <h3>Mostra</h3>
                      
-                     <div class="btns" style="width:600px;">
+                     <div class="btns-show" style="width:600px;">
                         <button class="show lemon" id="expan">Espansioni</button>
                         <button class="show marine" id="reg">Regolarizzazioni</button>
                         <button class="show vanilla" id="ex">Aggiunte</button>
@@ -80,16 +73,60 @@
                 <!--<xsl:value-of select="tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='article']"/>-->
 
                 <div class="container">
-                    <xsl:apply-templates select="tei:TEI/tei:text/tei:body"/>
-                </div>
 
-                <!-- Bibliografia -->
-                <div>
+                    <div class="containerSection">
+                        <!-- Itera su ogni articolo -->
+                        <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:div[@type='journal']/tei:div[@type='article']">
+                            <!-- Estrai e visualizza il titolo dell'articolo -->
+                            <div class="art">
+                                <h3>
+                                    <xsl:value-of select="tei:div[@type='page']/tei:div[@type='column']/tei:head" />
+                                </h3>
+
+                                <xsl:for-each select="tei:div[@type='page']">
+
+                                    <div class="page">
+                                        <div class="facsimile">
+                                            <xsl:apply-templates select="tei:pb" />
+                                        </div>
+                                        
+                                        <div class="columns">
+
+                                            <xsl:for-each select="tei:div[@type='column']">
+                                                <xsl:choose>
+                                                    <xsl:when test="./@n=1">
+                                                        <div class="column left">
+                                                            <xsl:for-each select="tei:ab">
+                                                                <xsl:apply-templates select="." />
+                                                            </xsl:for-each>
+                                                        </div>
+                                                    </xsl:when>
+                                                    <xsl:when test="./@n=2">
+                                                        <div class="column right">
+                                                            <xsl:for-each select="tei:ab">
+                                                                <xsl:apply-templates select="." />
+                                                            </xsl:for-each>
+                                                        </div>
+                                                    </xsl:when>
+                                                </xsl:choose>
+                                            </xsl:for-each>
+                                        </div>
+                                    </div>
+                                </xsl:for-each>
+                            </div>
+                        </xsl:for-each>
+                    </div>
+                    
 
                 </div>
 
             </body>
 
+            <div class="heading">
+                <span><img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg" alt="Logo Università di Pisa" style="width:100px"/></span>
+                <h3><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:sponsor"/></h3>
+            </div>
+            
             <footer>
                 <p><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/></p>
                 <p>Repository <a target="_blank" href="https://github.com/matildeec/CdT_2024">GitHub</a></p>
@@ -262,58 +299,27 @@
     </table>
     </xsl:template>
 
-    <!--Foto-->
-    <xsl:template match="tei:surface">
+
+    <!-- pb -->
+    <xsl:template match="tei:pb">
+        <xsl:variable name="pb_id" select="substring-after(@facs, '#')"/>
         <xsl:element name="img">
-            <xsl:attribute name="src"><xsl:value-of select="./tei:graphic/@url"></xsl:value-of></xsl:attribute>
+            <xsl:attribute name="src"><xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $pb_id]/tei:graphic/@url"></xsl:value-of></xsl:attribute>
             <xsl:attribute name="class">facsimile</xsl:attribute>
         </xsl:element>
     </xsl:template>
-    <!-- Body -->
-    <xsl:template match="tei:body">
-        <xsl:for-each select="tei:div//tei:div">
-                <div class="containerSection">
-                    <xsl:apply-templates select="./tei:pb" />
-                </div>   
-        </xsl:for-each>
-    </xsl:template>
-    
 
-    <xsl:template match="tei:head">
-        <h4>
-            <xsl:value-of select="."/>
-        </h4>
-    </xsl:template>
-
-    <xsl:template match="tei:pb">
-        <xsl:variable name="pb_id" select="substring-after(@facs, '#')"/>
-        <div class="containerFacsimile">
-            <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]"/>
-        </div>
-        <div class="containerText">
-            <xsl:apply-templates select="./following-sibling::tei:cb"/>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="tei:cb">
-        <xsl:variable name="cb_n" select="./@n"/>
-        <xsl:if test="$cb_n=1">
-            <div class="containerColumnLeft">
-                <xsl:apply-templates select="./following-sibling::*"/>
-            </div>
-        </xsl:if>
-        <xsl:if test="$cb_n=2">
-            <div class="containerColumnRight">
-                <xsl:apply-templates select="./following-sibling::*"/>
-            </div>
-        </xsl:if>
-    </xsl:template>
+    <!-- ab -->
     <xsl:template match="tei:ab">
-        <div>
+        <div class="paragraph">
+            <span><strong>P</strong></span>
+            <div class="block">
             <xsl:apply-templates select="node()"/>
+            </div>
         </div>
     </xsl:template>
 
+    <!-- lb -->
     <xsl:template match="tei:lb">
         <br/>
         <xsl:apply-templates />
