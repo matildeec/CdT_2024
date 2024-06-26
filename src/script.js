@@ -36,12 +36,12 @@ $(document).ready(function () {
    $(".desc").click(function() {
        var buttonId = $(this).attr('id');
        if($(this).hasClass("selected")){
+            $(this).removeClass("selected");
             if (buttonId === "btn-descBibl"){
                 $("#descBibl").hide();
-                $(this).removeClass("selected");
             }else if (buttonId === "btn-descCod") {
                 $("#descCod").hide();
-                $(this).removeClass("selected");
+                
             }
        }else{
         $(this).addClass("selected")
@@ -70,6 +70,12 @@ $(document).ready(function () {
         $("span").removeClass('selezionato');
         $areaId = $(this).attr('id');
         $("span[id="+$areaId+"]").addClass('selezionato');
+
+        event.preventDefault(); 
+        var target = $("span[id="+$areaId+"]");
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);
    });
 
 });
