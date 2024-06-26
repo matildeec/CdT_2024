@@ -572,7 +572,7 @@
         </xsl:element>
     </xsl:template>
     <!--Verbum-->
-    <xsl:template match="tei:name[@type='verbum']">
+    <xsl:template match="tei:term[@type='verbum']">
         <xsl:element name="span">
             <xsl:attribute name="class">verbum</xsl:attribute>
             <xsl:apply-templates />
