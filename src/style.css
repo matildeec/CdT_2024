@@ -104,7 +104,6 @@ a {
     background-color: #f0f0f0; /* Colore di sfondo per visibilità */
     padding: 10px;
 	text-align: center;
-	width: 80%;
 }
 
 .column {
@@ -141,6 +140,16 @@ table.columns td {
 
 .line {
 	padding-bottom: 8px;
+}
+
+/* map */
+
+span.selezionato {
+	background-color: #2cd3a9;
+}
+
+area:hover {
+	cursor: pointer;
 }
 
 /* buttons */

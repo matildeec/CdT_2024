@@ -390,9 +390,33 @@
         </table>
     </xsl:template>
 
+    <!-- surface -->
+    <xsl:template match="tei:surface">
+        <xsl:element name="img">
+            <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
+            <xsl:attribute name="usemap">#<xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="alt">Immagine <xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="class">facsimile</xsl:attribute>
+        </xsl:element>
+
+        <xsl:element name="map">
+            <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:for-each select="tei:zone">
+                <xsl:element name="area">
+                    <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                    <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
 
     <!-- pb -->
     <xsl:template match="tei:pb">
+        <xsl:variable name="pb_id" select="substring-after(@facs, '#')" />
+        <xsl:apply-templates select="//tei:facsimile/tei:surface[@xml:id = $pb_id]" />
+    </xsl:template>
+
+    <!--<xsl:template match="tei:pb">
         <xsl:variable name="pb_id" select="substring-after(@facs, '#')" />
         <xsl:element name="img">
             <xsl:attribute name="src"><xsl:value-of
@@ -400,14 +424,17 @@
             <xsl:attribute
                 name="class">facsimile</xsl:attribute>
         </xsl:element>
-    </xsl:template>
+    </xsl:template>-->
 
     <!-- head -->
     <xsl:template match="tei:head">
         <div class="paragraph">
-            <span>
-                <strong>H</strong>
-            </span>
+            <xsl:element name="span">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring-after(@facs, '#')"/>
+                </xsl:attribute>
+                <strong><xsl:value-of select="substring-after(@facs, '#')"/></strong>
+            </xsl:element>
             <div class="block">
                 <xsl:apply-templates />
             </div>
@@ -417,9 +444,12 @@
     <!-- ab -->
     <xsl:template match="tei:ab">
         <div class="paragraph">
-            <span>
-                <strong>P</strong>
-            </span>
+            <xsl:element name="span">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring-after(@facs, '#')"/>
+                </xsl:attribute>
+                <strong><xsl:value-of select="substring-after(@facs, '#')"/></strong>
+            </xsl:element>
             <div class="block">
                 <xsl:apply-templates />
             </div>

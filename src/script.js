@@ -44,4 +44,11 @@ $(document).ready(function () {
            $("#descBibl").hide();
        }
    });
+
+   $("area").click(function(){
+    $("span").removeClass('selezionato');
+    $areaId = $(this).attr('id');
+    $("span[id="+$areaId+"]").addClass('selezionato');
+   });
+
 });

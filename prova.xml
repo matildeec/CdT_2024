@@ -242,7 +242,7 @@
                         <pb n="1" facs="#p386" xml:id="pb386"/>
                         <div type="column" n="1">
                             <cb n="1"/>
-                            <head rend="align(center) case(allcaps)" facs="p386_title" xml:id="par386_title">
+                            <head rend="align(center) case(allcaps)" facs="#p386_title" xml:id="par386_title">
                                 <lb />L'Istruzione della Donna
                             </head>
                             <ab facs="#p386_p1" xml:id="p386_par1">
@@ -492,7 +492,7 @@
                         <pb n="1" facs="#p393" xml:id="pb393"/>
                         <div type="column" n="2">
                             <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="p393_title" xml:id="par393_title">
+                            <head rend="align(center) case(allcaps)" facs="#p393_title" xml:id="par393_title">
                                 <lb />Le Religioni dell'Asia Orientale
                             </head>
                             <ab facs="#p393_p1" xml:id="p393_par1">
@@ -786,7 +786,7 @@
                         <pb n="1" facs="#p396" xml:id="pb396"/>
                         <div type="column" n="2">
                             <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
+                            <head rend="align(center) case(allcaps)" facs="#p396_title" xml:id="par396_title">
                                 <lb />Dell'Influenza Germanica 
                                 <lb />sulla Musica Italiana
                             </head>
