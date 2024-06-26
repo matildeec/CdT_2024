@@ -506,7 +506,7 @@
                                 <lb />che, colla serietà e l'autorità di chi è munito di tutti gli
                                 <lb />studi necessari e sa ispirarsi unicamente alle ragioni della
                                 <lb />scienza, offre agli Italiani un quadro delle religioni del
-                                <lb />l'<name type="place" ref="#asor">Asia Orientale</name>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="religion" ref="#BUDD">Buddhismo</name>,
+                                <lb />l'<name type="place" ref="#asor">Asia Orientale</name>, che sono <num type="cardinal" value="3">tre</num> principali, cioè il <name type="org" ref="#BUDD">Buddhismo</name>,
                                 <lb />dall'<name type="place" ref="#ind">India</name> importato in vastissime regioni dell'<bloc type="sub-continent">estremo
                                 <lb />Oriente</bloc>, e i <num type="cardinal" value="2">due</num> sistemi schiettamente cinesi di <name type="person" ref="#confucio">Confucio</name>
                                 <lb />e di <name type="person" ref="#laotse">Lao-tse</name>; brevemente poi discorre il <name><surname>Puini</surname></name> di una
@@ -629,8 +629,8 @@
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
                                 <lb />libri sacri delle principali religioni, tradotti in inglese. Il
-                                <lb />sei delle <num type="cardinal" value="8">otto</num> religioni così dette positive, cioè del <name type="religion" ref="#BRAHM">Brahma
-                                <lb />nismo</name>, del <name type="religion" ref="#BUDD">Buddismo</name>, dello <name type="religion" ref="#ZORO">Zoroastrismo</name>, dell'<name type="religion" ref="#ISLAM">Islamismo</name> e
+                                <lb />sei delle <num type="cardinal" value="8">otto</num> religioni così dette positive, cioè del <name type="org" ref="#BRAHM">Brahma
+                                <lb />nismo</name>, del <name type="org" ref="#BUDD">Buddismo</name>, dello <name type="org" ref="#ZORO">Zoroastrismo</name>, dell'<name type="org" ref="#ISLAM">Islamismo</name> e
                                 <lb />dei due sistemi cinesi di <name type="person" ref="#confucio">Confucio</name> e <name type="person" ref="#laotse">Lao-tse</name>. Non neghiamo
                                 <lb />che una raccolta tale sarebbe utile in qualche modo, ma
                                 <lb />non crediamo che lo sarebbe quanto e come crede l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> Sa
@@ -642,11 +642,11 @@
                                 <lb />gare errore il credere che una religione sia contenuta in
                                 <lb />quei libri che per vicende molteplici e molto diverse, ar
                                 <lb />rivarono ad esser considerati come sacri. Se un cinese af
-                                <lb />fermasse dinanzi a noi di conoscere il nostro <name type="religion" ref="#CRIST">Cristianesimo</name>
+                                <lb />fermasse dinanzi a noi di conoscere il nostro <name type="org" ref="#CRIST">Cristianesimo</name>
                                 <lb />per aver letto il <name type="bibl" ref="#van">Vangelo</name>, ci farebbe ridere. A noi sembra
                                 <lb />che in un altro volume di non maggiore mole di quello del
-                                <lb /><roleName>prof.</roleName><name type="person" ref="#puini">Puini</name>, potrebbesi dar notizie sul <name type="religion" ref="#BRAHM">Brahmanismo</name>, il <name type="religion">Zo
-                                <lb />roastrismo</name> e l'<name type="religion" ref="#ISLAM">Islamismo</name>, come il <name type="person" ref="#puini">Puini</name> ha fatto per le altre
+                                <lb /><roleName>prof.</roleName><name type="person" ref="#puini">Puini</name>, potrebbesi dar notizie sul <name type="org" ref="#BRAHM">Brahmanismo</name>, il <name type="org">Zo
+                                <lb />roastrismo</name> e l'<name type="org" ref="#ISLAM">Islamismo</name>, come il <name type="person" ref="#puini">Puini</name> ha fatto per le altre
                                 <lb />tre principali religioni dell'<bloc>Oriente</bloc>, e questi <num type="cardinal" value="2">due</num> volumi riu
                                 <lb />scirebbero di un'utilità assai più completa e generale che
                                 <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
@@ -660,7 +660,7 @@
                                 <lb />un fondatore conosciuto, tutte <num type="cardinal" value="3">tre</num> nate in tempi storici
                                 <lb />ed anche quasi del tutto contemporaneamente. <num type="cardinal" value="2">Due</num> sono
                                 <lb />di origine schiettamente nazionale Cinese, i <num type="cardinal" value="2">due</num> sistemi
-                                <lb />cioè di <name type="person" ref="#confucio">Confucio</name> e di <name type="person" ref="#laotse">Lao-tse</name>; l'altra, il <name type="religion" ref="BUDD">Buddismo</name>, nacque
+                                <lb />cioè di <name type="person" ref="#confucio">Confucio</name> e di <name type="person" ref="#laotse">Lao-tse</name>; l'altra, il <name type="org" ref="BUDD">Buddismo</name>, nacque
                                 <lb />in <name type="place" ref="#ind">India</name> nello stesso tempo in cui vivevano in <name type="place" ref="#ci">Cina</name> <name>Con
                                 <lb />fucio</name> e <name type="person" ref="#laotse">Lao-tse</name> cioè nel <date from="-0599" to="-0500">sesto secolo prima dell'èra volgare</date>.
                                 <lb />Alla <name type="place" ref="#ci">Cina</name> accadeva qualche cosa di simile ciò che accadde
@@ -686,10 +686,10 @@
                                 <lb />il <name type="philosophy" ref="#PITAG">Pitagorismo</name>, che è quello fra i sistemi filosofici greci che
                                 <lb />più si accosta ad una religione. Come in <name type="place" ref="#ci">Cina</name> ed anche in
                                 <lb /><name type="place" ref="#ind">India</name> (<name type="person" ref="#buddha">Buddha</name> era della casta dei guerrieri), il movimento
-                                <lb />è in <name type="place" ref="#gr">Grecia</name> laico. Ma il <name type="religion" ref="#BUDD">Buddhismo</name>, benchè in origine sia
+                                <lb />è in <name type="place" ref="#gr">Grecia</name> laico. Ma il <name type="org" ref="#BUDD">Buddhismo</name>, benchè in origine sia
                                 <lb />cosa filosofica e laica e prescinda affatto dall'idea di Dio,
                                 <lb />pure pe gli antecedenti suoi e per l'ambiente in cui na
-                                <lb />sce, degenera (come il <name type="religion" ref="#CRIST">Cristianesimo</name>) in una religione vera
+                                <lb />sce, degenera (come il <name type="org" ref="#CRIST">Cristianesimo</name>) in una religione vera
                                 <lb />e propria. Non così la dottrina di <name type="person" ref="#confucio">Confucio</name> nè la filosofia
                                 <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                                 <lb />sto che la speculazione quantunque si spingesse fra i greci
