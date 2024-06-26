@@ -530,14 +530,15 @@
                             </ab>
                             <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
                                 <bibl>
+                                    <lb />*
                                     <author>
                                         <name>
                                             <forename>Carlo</forename>
                                             <surname>Puini</surname>
                                         </name>
                                     </author>,
-                                    <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi intorno
-                                        alle religioni dell'Asia orientale</title>.
+                                    <title rend="italic">Il Buddha, Confucio e Lao-tse: notìzie e studi in
+                                        <lb />torno alle religioni dell'Asia orientale</title>.
                                     <pubPlace>Firenze</pubPlace>,
                                     <publisher>Sansoni</publisher>, 
                                     <date when="1878">1878</date>
@@ -1032,6 +1033,7 @@
                                 </head>
                                 <ab facs="#p403_bibl" xml:id="pag403_bibl">
                                     <bibl xml:id="zini_bibl">
+                                        <lb />
                                         <author rend="case(allcaps)">
                                             <name ref="#zini">
                                                 <forename>Gaetano</forename>
@@ -1040,7 +1042,7 @@
                                         </author>
                                         <title rend="italic">
                                             La riforma della legge comunale e provinciale.
-                                            Note ed appunti
+                                            <lb />Note ed appunti
                                         </title>.-
                                         <pubPlace>Bologna</pubPlace>,
                                         <publisher>Zanichelli</publisher>,
@@ -1153,8 +1155,9 @@
                                 <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2">
                                     <lb />Educazione pubblica. 
                                 </head>
-                                <ab>
-                                    <bibl facs="#p403_bibl_2" xml:id="pag403_bibl_2">
+                                <ab facs="#p403_bibl_2" xml:id="pag403_bibl_2">                                    
+                                    <bibl>
+                                        <lb />
                                         <author>
                                             <name>
                                                 <forename>G.</forename>
@@ -1162,7 +1165,9 @@
                                             </name>
                                         </author>
                                         <title rend="italic">
-                                            L'istruzione obbligatoria e le scuole foresi in Italia
+                                            L'istruzione obbligatoria e le scuole foresi in 
+                                            <lb />
+                                            Italia
                                         </title>.-
                                         <pubPlace>Palermo</pubPlace>,
                                         <date when="1878">1878</date>

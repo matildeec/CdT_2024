@@ -77,12 +77,12 @@ a {
     gap: 20px; /* Spazio tra gli articoli */
 }
 
-.art {
+.section {
     background-color: #f8f8f8; /* Colore di sfondo per visibilità */
     padding: 10px;
 }
 
-.art h3 {
+.section h3 {
     text-align: center;
     margin: 0;
     padding: 10px;
