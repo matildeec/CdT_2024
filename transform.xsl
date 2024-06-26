@@ -52,13 +52,14 @@
                         <button class="highlight rose" id="character">Personaggi</button>
                         <button class="highlight mint" id="bibl">Opere</button>
                         <button class="highlight powder" id="place">Luoghi</button>
-                        <button class="highlight purple">Casa editrice</button>
+                        <button class="highlight purple" id="publisher">Casa editrice</button>
                         <button class="highlight coral" id="date">Date</button>
                         <button class="highlight crimson" id="verbum">Verbum</button>
-                        <button class="highlight orange">Correnti letterarie</button>
+                        <button class="highlight orange" id="literary">Correnti letterarie</button>
                         <button class="highlight lilac" id="foreign">Lingua straniera</button>
                         <button class="highlight jade" id="cit">Citazioni</button>
                         <button class="highlight blue" id="org">Organizzazioni</button>
+                        <button class="highlight blue" id="religion">Religioni</button>
                     </div>
                      
                      <div class="btns-show" style="width:600px;">
@@ -382,11 +383,32 @@
         </xsl:element>
     </xsl:template>
     <!--Organizzazioni-->
+    <xsl:key name="orgById" match="tei:org" use="@xml:id"/>
     <xsl:template match="tei:name[@type='org']">
-        <xsl:element name="span">
-            <xsl:attribute name="class">org</xsl:attribute>
-            <xsl:apply-templates />
-        </xsl:element>
+        <xsl:variable name="org_ref" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="org_element" select="key('orgById', $org_ref)[1]"/>
+        <xsl:choose>
+            <xsl:when test="$org_element/@role = 'publisher'">
+                <span class="publisher">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="$org_element/@role = 'literary'">
+                <span class="literary">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="$org_element/@role = 'religion'">
+                <span class="religion">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="org">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <!--Espansioni e correzioni-->
     <xsl:template match="tei:expan[not(*)]">
@@ -413,29 +435,5 @@
             <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
-    <!-- Correnti letterarie 
-    <xsl:key name="orgById" match="tei:org" use="@id"/>
-
-    <xsl:template match="tei:name[@type='org']">
-        <xsl:variable name="orgRefId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="orgElement" select="key('orgById', $orgRefId)"/>
-
-        <xsl:if test="$orgElement/@role = 'literary'">
-            <xsl:copy>
-                <xsl:apply-templates select="@*|node()"/>
-            </xsl:copy>
-        </xsl:if>
-    </xsl:template>
-    <xsl:key name="orgById" match="tei:org" use="@id"/>
-    <xsl:template match="tei:name[@type='org']">
-        <xsl:variable name="orgRefId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="orgElement" select="key('orgById', $orgRefId)"/>
-
-        <xsl:if test="$orgElement/@role = 'publisher'">
-            <xsl:copy>
-                <xsl:apply-templates select="@*|node()"/>
-            </xsl:copy>
-        </xsl:if>
-    </xsl:template>-->
 
 </xsl:stylesheet>

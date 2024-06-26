@@ -781,234 +781,243 @@
 
                 <!-- ARTICOLO 3 -->
                 <div type="article" n="3" xml:lang="it" source="#ART_3">
-                    <pb n="1" facs="#p396" xml:id="pb396"/>
-                    <cb n="2"/>
-                    <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
-                        <lb />Dell'Influenza Germanica 
-                        <lb />sulla Musica Italiana
-                    </head>
-                    <ab facs="#p396_p1" xml:id="p396_par1" part="I">
-                        <lb /><distinct type="archaic"><choice><orig>Checché</orig><reg>Qualunque cosa</reg></choice></distinct> ne dicano quelli che vedono tutto nero, spira
-                        <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
-                        <lb />musicale, che promette di ringagliardire e fecondare le no
-                        <lb />stre menti. Questo soffio però sembra venirci d'oltralpe e
-                        <lb />segnatamente dalla <name type="place" ref="#de">Germania</name>. Alcuni, facendo pompa di
-                        <lb />una eccessiva e malintesa italianità, accusano i nuovi tempi
-                        <lb />di ammirare e imitare servilmente tutto ciò ch'è straniero;
-                        <lb />e, deplorando le tendenze musicali de'giovani e il travia
-                        <lb />mento del gusto, ne danno tutta la colpa alla scuola tede
-                        <lb />sca, che, secondo essi, scese fra noi come un torrente fatale,
-                        <lb />che nessuna forza può arrestare. Qualche cosa di vero c'è;
-                        <lb />ma, a nostro avviso, l'influenza tedesca, ci può fare molto
-                        <lb />più bene che male, purché sappiamo valercene. Del rivolgi
-                        <lb />mento musicale, che ci viene d'oltralpe, i maggiori cam
-                        <lb />pioni (benché di genere diverso fra loro) sono: <name type="person" ref="#chopin">Chopin</name>,
-                        <lb /><name type="person" ref="schumann">Schumann</name>, <name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#berlioz">Berlioz</name>, <name type="person" ref="#brahms">Raff Brahms</name>, e, più possente di
-                        <lb />tutti, il <name type="person" ref="wagner">Wagner</name>. Una poesia vaporosa, un'idealità trascen
-                        <lb />dente, una ricerca di nuovi orizzonti: ecco la nota carat
-                        <lb />teristica di quegli arditi ingegni la cui bandiera ha per
-                        <lb />motto l'oraziano: <quote xml:lang="la" rend="italic" source="#odi">odi profanum vulgus et arceo</quote>. Ma tali
-                        <lb />autori sono modelli, pericolosissimi per tutti, e massime
-                        <lb />per i giovani di mente fantastica e un po' malata; come
-                        <lb />(in modo diverso) sono pericolosi modelli di poesia <name type="person" ref="#byron">Byron</name>,
-                        <lb /><name type="person" ref="#heine">Heine</name>, <name type="person" ref="#demusset">Alfred de Musset</name> e <name type="person" ref="#leopardi">Leopardi</name>. Oltre a ciò chi non
-                        <lb />ha le loro ali, avventurandosi in quell'atmosfera, fa il volo
-                        <lb />d'<name type="character" ref="#icaro">Icaro</name>; e sgraziatamente sono spesso gl'impotenti e
-                        <lb />gl'ignoranti quelli che si camuffano da apostoli incom
-                        <lb />presi di tale o tal'altra scuola, e trovano chi li piglia sul
-                        <lb />serio. Del resto, nella storia dell'arte, è vecchio il fatto che
-                        <lb />anco i grandi maestri producono talvolta cattivi scolari ed
-                        <lb />hanno un'influenza non sempre benefica: il <name type="person" ref="#petrarca">Petrarca</name> fece
-                        <lb />i <name type="org" ref="#PETRS">Petrarchisti</name>, e il <name type="person" ref="#tasso">Tasso</name> diede forse, inconsciamente, una
-                        <lb />spinta al <name type="org" ref="#BAROC">barocchismo</name> del <date from="1600" to="1699">seicento</date>. Non neghiamo dunque es
-                        <lb />sere pericoloso il fascino che esercita la musica trascenden
-                        <lb />tale sulla giovane generazione; ma ci sembra che i tedeschi
-                        <lb />stessi ci additino i mezzi di ovviare al pericolo, ed ecco in che
-                        <lb />cosa ci possono essere utilissimi. Anzi tutto gli stranieri, e in
-                        <lb />ispecie i tedeschi, non ci danno solo gli autori moderni sun
-                        <lb />nominati, ma bensì una schiera di grandi musicisti capita
-                        <lb />nati dai sommi <name type="person" ref="#bach">Bach</name> e <name type="person" ref="#beethoven">Beethoven</name>; e questa è la loro scuola
-                        <lb />classica, fonte inesauribile dei più salutari insegnamenti, a
-                        <lb />cui tutte le nazioni possono attingere con immenso profitto.
-                        <lb />Poi i tedeschi c'insegnano una cosa importantissima: a stu
-                        <lb />diare seriamente, e ad onorare la grande arte classica ita
-                        <lb />liana, che ci lasciò tante gloriose tradizioni. Dovrebbe es
-                        <lb />sere una dolorosa lezione per noi italiani il vedere come i
-                        <lb />nostri classici siano conosciuti, studiati e celebrati di fuori,
-                        <lb />mentre fra noi (eccetto che da pochi musicisti) non se ne
-                        <lb />conoscono non solo le opere, ma di parecchi neppure i
-                        <lb />nomi. Non ha molto il maestro <name type="person" ref="#roberti">Giulio Roberti</name>, scrivendo
-                        <lb />della musica italiana a <name type="place" ref="#lips">Lipsia</name>, toglieva dai programmi
-                        <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
-                    </ab>
+                    <div type="page" n="1">
+                        <pb n="1" facs="#p396" xml:id="pb396"/>
+                        <div type="column" n="2">
+                            <cb n="2"/>
+                            <head rend="align(center) case(allcaps)" facs="p396_title" xml:id="par396_title">
+                                <lb />Dell'Influenza Germanica 
+                                <lb />sulla Musica Italiana
+                            </head>
+                            <ab facs="#p396_p1" xml:id="p396_par1" part="I">
+                                <lb /><distinct type="archaic"><choice><orig>Checché</orig><reg>Qualunque cosa</reg></choice></distinct> ne dicano quelli che vedono tutto nero, spira
+                                <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
+                                <lb />musicale, che promette di ringagliardire e fecondare le no
+                                <lb />stre menti. Questo soffio però sembra venirci d'oltralpe e
+                                <lb />segnatamente dalla <name type="place" ref="#de">Germania</name>. Alcuni, facendo pompa di
+                                <lb />una eccessiva e malintesa italianità, accusano i nuovi tempi
+                                <lb />di ammirare e imitare servilmente tutto ciò ch'è straniero;
+                                <lb />e, deplorando le tendenze musicali de'giovani e il travia
+                                <lb />mento del gusto, ne danno tutta la colpa alla scuola tede
+                                <lb />sca, che, secondo essi, scese fra noi come un torrente fatale,
+                                <lb />che nessuna forza può arrestare. Qualche cosa di vero c'è;
+                                <lb />ma, a nostro avviso, l'influenza tedesca, ci può fare molto
+                                <lb />più bene che male, purché sappiamo valercene. Del rivolgi
+                                <lb />mento musicale, che ci viene d'oltralpe, i maggiori cam
+                                <lb />pioni (benché di genere diverso fra loro) sono: <name type="person" ref="#chopin">Chopin</name>,
+                                <lb /><name type="person" ref="schumann">Schumann</name>, <name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#berlioz">Berlioz</name>, <name type="person" ref="#brahms">Raff Brahms</name>, e, più possente di
+                                <lb />tutti, il <name type="person" ref="wagner">Wagner</name>. Una poesia vaporosa, un'idealità trascen
+                                <lb />dente, una ricerca di nuovi orizzonti: ecco la nota carat
+                                <lb />teristica di quegli arditi ingegni la cui bandiera ha per
+                                <lb />motto l'oraziano: <quote xml:lang="la" rend="italic" source="#odi">odi profanum vulgus et arceo</quote>. Ma tali
+                                <lb />autori sono modelli, pericolosissimi per tutti, e massime
+                                <lb />per i giovani di mente fantastica e un po' malata; come
+                                <lb />(in modo diverso) sono pericolosi modelli di poesia <name type="person" ref="#byron">Byron</name>,
+                                <lb /><name type="person" ref="#heine">Heine</name>, <name type="person" ref="#demusset">Alfred de Musset</name> e <name type="person" ref="#leopardi">Leopardi</name>. Oltre a ciò chi non
+                                <lb />ha le loro ali, avventurandosi in quell'atmosfera, fa il volo
+                                <lb />d'<name type="character" ref="#icaro">Icaro</name>; e sgraziatamente sono spesso gl'impotenti e
+                                <lb />gl'ignoranti quelli che si camuffano da apostoli incom
+                                <lb />presi di tale o tal'altra scuola, e trovano chi li piglia sul
+                                <lb />serio. Del resto, nella storia dell'arte, è vecchio il fatto che
+                                <lb />anco i grandi maestri producono talvolta cattivi scolari ed
+                                <lb />hanno un'influenza non sempre benefica: il <name type="person" ref="#petrarca">Petrarca</name> fece
+                                <lb />i <name type="org" ref="#PETRS">Petrarchisti</name>, e il <name type="person" ref="#tasso">Tasso</name> diede forse, inconsciamente, una
+                                <lb />spinta al <name type="org" ref="#BAROC">barocchismo</name> del <date from="1600" to="1699">seicento</date>. Non neghiamo dunque es
+                                <lb />sere pericoloso il fascino che esercita la musica trascenden
+                                <lb />tale sulla giovane generazione; ma ci sembra che i tedeschi
+                                <lb />stessi ci additino i mezzi di ovviare al pericolo, ed ecco in che
+                                <lb />cosa ci possono essere utilissimi. Anzi tutto gli stranieri, e in
+                                <lb />ispecie i tedeschi, non ci danno solo gli autori moderni sun
+                                <lb />nominati, ma bensì una schiera di grandi musicisti capita
+                                <lb />nati dai sommi <name type="person" ref="#bach">Bach</name> e <name type="person" ref="#beethoven">Beethoven</name>; e questa è la loro scuola
+                                <lb />classica, fonte inesauribile dei più salutari insegnamenti, a
+                                <lb />cui tutte le nazioni possono attingere con immenso profitto.
+                                <lb />Poi i tedeschi c'insegnano una cosa importantissima: a stu
+                                <lb />diare seriamente, e ad onorare la grande arte classica ita
+                                <lb />liana, che ci lasciò tante gloriose tradizioni. Dovrebbe es
+                                <lb />sere una dolorosa lezione per noi italiani il vedere come i
+                                <lb />nostri classici siano conosciuti, studiati e celebrati di fuori,
+                                <lb />mentre fra noi (eccetto che da pochi musicisti) non se ne
+                                <lb />conoscono non solo le opere, ma di parecchi neppure i
+                                <lb />nomi. Non ha molto il maestro <name type="person" ref="#roberti">Giulio Roberti</name>, scrivendo
+                                <lb />della musica italiana a <name type="place" ref="#lips">Lipsia</name>, toglieva dai programmi
+                                <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="page" n="2">
+                        <pb n="2" facs="#p397" xml:id="pb397"/>
+                        <div type="column" n="1">
+                            <cb n="1"/>
+                            <ab facs="#p397_p1" xml:id="p397_par1" part="F">
+                                <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
+                                <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
+                                <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
+                                <lb /><name type="person" ref="#bernabei">E. Bernabei</name>, <name type="person" ref="#carissimi">G. Carissimi</name>, <name type="person" ref="#biordi">G. Biordi</name> della scuola romana;
+                                <lb /><name type="person" ref="#g_gabrieli">G. Gabrieli</name>, <name type="person" ref="#lotti">A. Lotti</name>, <name type="person" ref="#marcello">Marcello</name>, <name type="person" ref="#bertoni">F. Bertoni</name> della scuola ve                        
+                                <lb />neziana; <name type="person" ref="#clari">G. C. Maria Clari</name>, <name type="person" ref="#cherubini">L. Cherubini</name> della scuola bo
+                                <lb />lognese; <name type="person" ref="#stradella">Stradella</name>, <name type="person" ref="#astorga">E.d'Astorga</name>, <name type="person" ref="#durante">F. Durante</name>, <name type="person" ref="#leo">L. Leo</name>, <name type="person" ref="#caldara">A. 
+                                <lb />Caldara</name>, <name type="person" ref="#pergolese">Pergolese</name>, <name type="person" ref="#jommelli">N. Jommelli</name>, <name type="person" ref="#mortellari">M. Mortellari</name> della scuola
+                                <lb />napoletana; tutti questi per la parte vocale. Per la strumen
+                                <lb />tale: <name type="person" ref="#frescobaldi">Frescobaldi</name>, <name type="person" ref="#gorelli">Gorelli</name>, <name type="person" ref="#veracini">Veracini</name>, <name type="person" ref="#geminiani">Geminiani</name>, <name type="person" ref="#lotti">Lotti</name>, <name type="person" ref="#porpora">Por
+                                <lb />pora</name>, <name type="person" ref="#tartini">Tartini</name>, <name type="person" ref="#locatelli">Locatelli</name>, <name type="person" ref="#boccherini">Boccherini</name>, <name type="person" ref="#viotti">Viotti</name> e <name type="person" ref="#paganini">Paganini</name>. E la
+                                <lb />musica italiana si trova sempre alternata con quella degli
+                                <lb />antichi autori fiamminghi e tedeschi come <name type="person" ref="#arcadelt">Arcadelt</name>, <name type="person" ref="#orlandolasso">Orlando 
+                                <lb />Lasso</name>, <name type="person" ref="#eccard">Eccard</name>, <name type="person" ref="#kassier">Kassier</name>, <name type="person" ref="#praetorius">Praetorius</name>, <name type="person" ref="#schuetz">Schütz</name>, non che dei
+                                <lb />più moderni <name type="person" ref="#bach">Bach</name>, <name type="person" ref="#haendel">Haendel</name>, <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#haydn">Haydn</name>, <name type="person" ref="#gluck">Gluck</name>, <name type="person" ref="#beethoven">Beetho
+                                <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> <distinct type="archaic"><choice><orig>ec.</orig><reg>ecc.</reg></choice></distinct>, senza omettere i viventi
+                                <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
+                            </ab>
 
-                    <pb n="2"/>
-                    <cb n="1"/>
-                    <ab facs="#p397_p1" xml:id="p397_par1" part="F">
-                        <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
-                        <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
-                        <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
-                        <lb /><name type="person" ref="#bernabei">E. Bernabei</name>, <name type="person" ref="#carissimi">G. Carissimi</name>, <name type="person" ref="#biordi">G. Biordi</name> della scuola romana;
-                        <lb /><name type="person" ref="#g_gabrieli">G. Gabrieli</name>, <name type="person" ref="#lotti">A. Lotti</name>, <name type="person" ref="#marcello">Marcello</name>, <name type="person" ref="#bertoni">F. Bertoni</name> della scuola ve                        
-                        <lb />neziana; <name type="person" ref="#clari">G. C. Maria Clari</name>, <name type="person" ref="#cherubini">L. Cherubini</name> della scuola bo
-                        <lb />lognese; <name type="person" ref="#stradella">Stradella</name>, <name type="person" ref="#astorga">E.d'Astorga</name>, <name type="person" ref="#durante">F. Durante</name>, <name type="person" ref="#leo">L. Leo</name>, <name type="person" ref="#caldara">A. 
-                        <lb />Caldara</name>, <name type="person" ref="#pergolese">Pergolese</name>, <name type="person" ref="#jommelli">N. Jommelli</name>, <name type="person" ref="#mortellari">M. Mortellari</name> della scuola
-                        <lb />napoletana; tutti questi per la parte vocale. Per la strumen
-                        <lb />tale: <name type="person" ref="#frescobaldi">Frescobaldi</name>, <name type="person" ref="#gorelli">Gorelli</name>, <name type="person" ref="#veracini">Veracini</name>, <name type="person" ref="#geminiani">Geminiani</name>, <name type="person" ref="#lotti">Lotti</name>, <name type="person" ref="#porpora">Por
-                        <lb />pora</name>, <name type="person" ref="#tartini">Tartini</name>, <name type="person" ref="#locatelli">Locatelli</name>, <name type="person" ref="#boccherini">Boccherini</name>, <name type="person" ref="#viotti">Viotti</name> e <name type="person" ref="#paganini">Paganini</name>. E la
-                        <lb />musica italiana si trova sempre alternata con quella degli
-                        <lb />antichi autori fiamminghi e tedeschi come <name type="person" ref="#arcadelt">Arcadelt</name>, <name type="person" ref="#orlandolasso">Orlando 
-                        <lb />Lasso</name>, <name type="person" ref="#eccard">Eccard</name>, <name type="person" ref="#kassier">Kassier</name>, <name type="person" ref="#praetorius">Praetorius</name>, <name type="person" ref="#schuetz">Schütz</name>, non che dei
-                        <lb />più moderni <name type="person" ref="#bach">Bach</name>, <name type="person" ref="#haendel">Haendel</name>, <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#haydn">Haydn</name>, <name type="person" ref="#gluck">Gluck</name>, <name type="person" ref="#beethoven">Beetho
-                        <lb />ven</name>, <name type="person" ref="#mendelssohn">Mendelssohn</name>, <name type="person" ref="#schumann">Schumann</name> <distinct type="archaic"><choice><orig>ec.</orig><reg>ecc.</reg></choice></distinct>, senza omettere i viventi
-                        <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
-                    </ab>
+                            <ab facs="#p397_p2" xml:id="p397_par2">
+                                <lb />Se dunque la <name type="place" ref="#de">Germania</name> ci dà l'esempio di una profonda
+                                <lb />serietà negli studi e di un vero culto per le nostre glorie
+                                <lb />(non trascurando certo d'onorare le sue), perchè non fac
+                                <lb />ciamo noi altrettanto? Perchè non sappiamo valerci di que
+                                <lb />sta invadente influenza tedesca ritorcendola a nostro vantag
+                                <lb />gio, anziché respingerla per un malinteso amor di patria?
+                            </ab>
 
-                    <ab facs="#p397_p2" xml:id="p397_par2">
-                        <lb />Se dunque la <name type="place" ref="#de">Germania</name> ci dà l'esempio di una profonda
-                        <lb />serietà negli studi e di un vero culto per le nostre glorie
-                        <lb />(non trascurando certo d'onorare le sue), perchè non fac
-                        <lb />ciamo noi altrettanto? Perchè non sappiamo valerci di que
-                        <lb />sta invadente influenza tedesca ritorcendola a nostro vantag
-                        <lb />gio, anziché respingerla per un malinteso amor di patria?
-                    </ab>
+                            <ab facs="#p397_p3" xml:id="p397_par3">
+                                <lb />Il perchè ci sembra chiaro. Da molto tempo la musica
+                                <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
+                                <lb />trali, che appartengono invece ad uno solo fra i tanti rami
+                                <lb />dell'arte. Sarebbe come tutta la letteratura si limitasse
+                                <lb /><choice><abbr>a'</abbr><expan>ai</expan></choice>lavori drammatici che si rappresentano <choice><abbr>ne'</abbr><expan>nei</expan></choice>teatri.
+                            </ab>
 
-                    <ab facs="#p397_p3" xml:id="p397_par3">
-                        <lb />Il perchè ci sembra chiaro. Da molto tempo la musica
-                        <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
-                        <lb />trali, che appartengono invece ad uno solo fra i tanti rami
-                        <lb />dell'arte. Sarebbe come tutta la letteratura si limitasse
-                        <lb /><choice><abbr>a'</abbr><expan>ai</expan></choice>lavori drammatici che si rappresentano <choice><abbr>ne'</abbr><expan>nei</expan></choice>teatri.
-                    </ab>
+                            <ab facs="#p397_p4" xml:id="p397_par4">
+                                <lb />In tal modo i paladini della pretesa italianità musicale
+                                <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
+                                <lb />ignota o mal nota, ed anco la stessa arte teatrale <distinct type="rare" space="tuscany"><choice><orig>ristrin 
+                                <lb />gono</orig><reg>restringono</reg></choice></distinct> a <name type="person" ref="#rossini">Rossini</name>, <name type="person" ref="#bellini">Bellini</name>, <name type="person" ref="#donizetti">Donizetti</name> e qualche altro. Appena
+                                <lb />da pochi anni furono diseppelliti <name type="person" ref="#cimarosa">Cimarosa</name> e <name type="person" ref="#spontini">Spontini</name> che
+                                <lb />illustrano pur tanto la musica di teatro; e quanti sono che
+                                <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la <name type="bibl" ref="#medea" rend="italic">Medea</name>, e le <name type="bibl" ref="#dueg" rend="italic">due
+                                <lb />giornate</name>?
+                            </ab>
 
-                    <ab facs="#p397_p4" xml:id="p397_par4">
-                        <lb />In tal modo i paladini della pretesa italianità musicale
-                        <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
-                        <lb />ignota o mal nota, ed anco la stessa arte teatrale <distinct type="rare" space="tuscany"><choice><orig>ristrin 
-                        <lb />gono</orig><reg>restringono</reg></choice></distinct> a <name type="person" ref="#rossini">Rossini</name>, <name type="person" ref="#bellini">Bellini</name>, <name type="person" ref="#donizetti">Donizetti</name> e qualche altro. Appena
-                        <lb />da pochi anni furono diseppelliti <name type="person" ref="#cimarosa">Cimarosa</name> e <name type="person" ref="#spontini">Spontini</name> che
-                        <lb />illustrano pur tanto la musica di teatro; e quanti sono che
-                        <lb />conoscono le opere di <name type="person" ref="#cherubini">Cherubini</name> come la <name type="bibl" ref="#medea" rend="italic">Medea</name>, e le <name type="bibl" ref="#dueg" rend="italic">due
-                        <lb />giornate</name>?
-                    </ab>
+                            <ab facs="#p397_p5" xml:id="p397_par5">
+                                <lb />Nondimeno <distinct type="archaic" space="tuscany"><orig>anco</orig><reg>anche</reg></distinct> in questo ramo l'arte straniera vanta
+                                <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
+                                <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
+                                <lb />mirati dai nostri pubblici. E lo stesso <name type="person" ref="#verdi">Verdi</name> nelle sue ultime
+                                <lb />opere <name type="bibl" ref="#doncarlos">Don Carlos</name> e <name type="bibl" ref="#aida">Aida</name>, pur rimanendo italiano, cercò di
+                                <lb />piegarsi <choice><abbr>a'</abbr><expan>ai</expan></choice> nuovi intendimenti artistici che ci vengono d'ol
+                                <lb />tralpe; e dimostrò d'avere studiato, facendone suo pro, il
+                                <lb />sapiente progresso della musica teatrale tedesca, nonostante
+                                <lb />il suo celebre «<quote xml:lang="it" rend="italic">tornate all'antico</quote>,» sentenza savia del resto
+                                <lb />purché non <choice><sic>frantesa</sic><corr>fraintesa</corr></choice>.
+                            </ab>
 
-                    <ab facs="#p397_p5" xml:id="p397_par5">
-                        <lb />Nondimeno <distinct type="archaic" space="tuscany"><orig>anco</orig><reg>anche</reg></distinct> in questo ramo l'arte straniera vanta
-                        <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
-                        <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
-                        <lb />mirati dai nostri pubblici. E lo stesso <name type="person" ref="#verdi">Verdi</name> nelle sue ultime
-                        <lb />opere <name type="bibl" ref="#doncarlos">Don Carlos</name> e <name type="bibl" ref="#aida">Aida</name>, pur rimanendo italiano, cercò di
-                        <lb />piegarsi <choice><abbr>a'</abbr><expan>ai</expan></choice> nuovi intendimenti artistici che ci vengono d'ol
-                        <lb />tralpe; e dimostrò d'avere studiato, facendone suo pro, il
-                        <lb />sapiente progresso della musica teatrale tedesca, nonostante
-                        <lb />il suo celebre «<quote xml:lang="it" rend="italic">tornate all'antico</quote>,» sentenza savia del resto
-                        <lb />purché non <choice><sic>frantesa</sic><corr>fraintesa</corr></choice>.
-                    </ab>
+                            <ab facs="#p397_p6" xml:id="p397_par6">
+                                <lb />Ora se l'opera teatrale è solamente uno fra i molti
+                                <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
+                                <lb />nobile e più grande, benché in generale si possa dirlo forse
+                                <lb />il più accessibile alla maggior parte del pubblico. Molti vi
+                                <lb />preferiscono la musica strumentale e corale dei grandi clas
+                                <lb />sici, e fra questi chi antepone la musica sacra, chi la pro
+                                <lb />fana e chi reputa infine che la più alta espressione del
+                                <lb />l' arte musicale sia la Sinfonia con tutti i suoi derivati che
+                                <lb />appartengono appunto al genere sinfonico.
+                            </ab>
 
-                    <ab facs="#p397_p6" xml:id="p397_par6">
-                        <lb />Ora se l'opera teatrale è solamente uno fra i molti
-                        <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
-                        <lb />nobile e più grande, benché in generale si possa dirlo forse
-                        <lb />il più accessibile alla maggior parte del pubblico. Molti vi
-                        <lb />preferiscono la musica strumentale e corale dei grandi clas
-                        <lb />sici, e fra questi chi antepone la musica sacra, chi la pro
-                        <lb />fana e chi reputa infine che la più alta espressione del
-                        <lb />l' arte musicale sia la Sinfonia con tutti i suoi derivati che
-                        <lb />appartengono appunto al genere sinfonico.
-                    </ab>
+                            <ab facs="#p397_p7" xml:id="p397_par7"> 
+                                <lb />Certo a chi ha sentito le più <distinct type="archaic"><choice><orig>maravigliose</orig><reg>meravigliose</reg></choice></distinct> fra le sin
+                                <lb />fonie di <name type="person" ref="#beethoven">Beethoven</name> pare impossibile che un cervello umano
+                                <lb />abbia potuto creare questi edifìzi monumentali, e trova che
+                                <lb />non si possa fare nulla di più grande. E il pubblico che
+                                <lb />di fresco assistette in <name type="place" ref="#mi">Milano</name> alla esecuzione eccellente della
+                                <lb /><name type="bibl" ref="#nonasin" rend="italic">Nuova Sinfonia</name>, (che per la prima volta si dava intera in
+                                <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz">Berlioz</name> che
+                                <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'<quote source="#berlioz" rend="italic">infatigable Titan, le géant de la mu
+                                <lb />sique</quote>.
+                            </ab>
 
-                    <ab facs="#p397_p7" xml:id="p397_par7"> 
-                        <lb />Certo a chi ha sentito le più <distinct type="archaic"><choice><orig>maravigliose</orig><reg>meravigliose</reg></choice></distinct> fra le sin
-                        <lb />fonie di <name type="person" ref="#beethoven">Beethoven</name> pare impossibile che un cervello umano
-                        <lb />abbia potuto creare questi edifìzi monumentali, e trova che
-                        <lb />non si possa fare nulla di più grande. E il pubblico che
-                        <lb />di fresco assistette in <name type="place" ref="#mi">Milano</name> alla esecuzione eccellente della
-                        <lb /><name type="bibl" ref="#nonasin" rend="italic">Nuova Sinfonia</name>, (che per la prima volta si dava intera in
-                        <lb />Italia) diede ragione, col proprio entusiasmo, al <name type="person" ref="#berlioz">Berlioz</name> che
-                        <lb />chiamò il <name type="person" ref="#beethoven">Beethoven</name> l'<quote source="#berlioz" rend="italic">infatigable Titan, le géant de la mu
-                        <lb />sique</quote>.
-                    </ab>
+                            <ab facs="#p397_p8" xml:id="p397_par8" part="I">
+                                <lb />Questo prova che se da parecchio tempo le opere tea
+                                <lb />trali hanno tenuto nell'ombra i capolavori della musica
+                                <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
+                            </ab>
+                        </div>
+                        <div type="column" n="2">
+                            <cb n="2"/>
+                            <ab facs="#p397_p8_cb" xml:id="p397_par8_cb" part="F">
+                                <lb />questi ultimi almeno tanto quanto le prime purché gli si
+                                <lb />facessero conoscere.
+                            </ab>
 
-                    <ab facs="#p397_p8" xml:id="p397_par8" part="I">
-                        <lb />Questo prova che se da parecchio tempo le opere tea
-                        <lb />trali hanno tenuto nell'ombra i capolavori della musica
-                        <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
-                    </ab>
-                    <cb n="2"/>
-                    <ab facs="#p397_p8_cb" xml:id="p397_par8_cb" part="F">
-                        <lb />questi ultimi almeno tanto quanto le prime purché gli si
-                        <lb />facessero conoscere.
-                    </ab>
+                            <ab facs="#p397_p9" xml:id="p397_par9">
+                                <lb />Del resto che lo studio dell'arte classica straniera (da
+                                <lb />non confondersi colle spropositate imitazioni del <quote xml:lang="la" source="#epistole" rend="italic">servum
+                                <lb />pecus</quote>) congiunto a quello dell'arte classica italiana possa
+                                <lb />avere una salutare influenza, è cosa evidente per chi non
+                                <lb />voglia negare la luce del sole. Ne citerò un esempio: quello
+                                <lb />di <name type="person" ref="#bazzini">Antonio Bazzini</name>, compositore e violinista. Egli coll'in
+                                <lb />gegno, collo studio profondo <choice><abbr>de'</abbr><expan>dei</expan></choice>capolavori di tutti i tem
+                                <lb />pi, di tutte le scuole, di tutti i paesi, pervenne a tener
+                                <lb />alta la fama del nome italiano anche fuori d'<name type="place" ref="#it">Italia</name> scri
+                                <lb />vendo un genere di musica in cui i tedeschi sono incon
+                                <lb />trastabilmente principi. I suoi <name type="bibl" ref="#bazzini_comp">Quartetti</name>, il <name type="bibl" ref="#bazzini_comp">Quintetto</name>, i
+                                <lb /><name type="bibl" ref="#bazzini_comp">Salmi</name>, la <name type="bibl" ref="#bazzini_comp">Sinfonia cantata</name>, le <name type="bibl" rend="italic" ref="#bazzini_comp">ouvertures del Saul e del Re
+                                <lb />Lear</name> (eseguite di continuo in <name type="place" ref="#it" >Italia</name> e fuori) sono dapper
+                                <lb />tutto e massime in <name type="place" ref="#de">Germania</name>, lodate dal pubblico e dalla
+                                <lb />critica. Pure egli si mantenne italiano.
+                            </ab>
 
-                    <ab facs="#p397_p9" xml:id="p397_par9">
-                        <lb />Del resto che lo studio dell'arte classica straniera (da
-                        <lb />non confondersi colle spropositate imitazioni del <quote xml:lang="la" source="#epistole" rend="italic">servum
-                        <lb />pecus</quote>) congiunto a quello dell'arte classica italiana possa
-                        <lb />avere una salutare influenza, è cosa evidente per chi non
-                        <lb />voglia negare la luce del sole. Ne citerò un esempio: quello
-                        <lb />di <name type="person" ref="#bazzini">Antonio Bazzini</name>, compositore e violinista. Egli coll'in
-                        <lb />gegno, collo studio profondo <choice><abbr>de'</abbr><expan>dei</expan></choice>capolavori di tutti i tem
-                        <lb />pi, di tutte le scuole, di tutti i paesi, pervenne a tener
-                        <lb />alta la fama del nome italiano anche fuori d'<name type="place" ref="#it">Italia</name> scri
-                        <lb />vendo un genere di musica in cui i tedeschi sono incon
-                        <lb />trastabilmente principi. I suoi <name type="bibl" ref="#bazzini_comp">Quartetti</name>, il <name type="bibl" ref="#bazzini_comp">Quintetto</name>, i
-                        <lb /><name type="bibl" ref="#bazzini_comp">Salmi</name>, la <name type="bibl" ref="#bazzini_comp">Sinfonia cantata</name>, le <name type="bibl" rend="italic" ref="#bazzini_comp">ouvertures del Saul e del Re
-                        <lb />Lear</name> (eseguite di continuo in <name type="place" ref="#it" >Italia</name> e fuori) sono dapper
-                        <lb />tutto e massime in <name type="place" ref="#de">Germania</name>, lodate dal pubblico e dalla
-                        <lb />critica. Pure egli si mantenne italiano.
-                    </ab>
+                            <ab facs="#p397_p10" xml:id="p397_par10">
+                                <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
+                                <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
+                                <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
+                                <lb />potrà un giorno mostrarsi bella di varia ricchezza anche
+                                <lb />nel genere strumentale e corale.
+                            </ab>
 
-                    <ab facs="#p397_p10" xml:id="p397_par10">
-                        <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
-                        <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
-                        <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
-                        <lb />potrà un giorno mostrarsi bella di varia ricchezza anche
-                        <lb />nel genere strumentale e corale.
-                    </ab>
+                            <ab facs="#p397_p11" xml:id="p397_par11">
+                                <lb />A propagare la conoscenza e lo studio della musica più
+                                <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
+                                <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
+                                <lb />mici</name>, dello <name type="person" ref="#sbolci">Sbolci</name> e del <name type="person" ref="#maglioni">Maglioni</name> a <name type="place" ref="#fi">Firenze</name>; quelli delle So
+                                <lb />cietà del quartetto e delle Società orchestrali e corali di
+                                <lb />queste e d'altre città d'<name type="place" ref="#it">Italia</name>; rivelando così un mondo ai
+                                <lb />più sconosciuto: per questo abbiamo detto che ora l'<name type="place" ref="#it">Italia</name>
+                                <lb />sembra rinascere a nuova vita musicale, e di ciò dobbiamo
+                                <lb />saper grado a quei valenti che se ne fecero campioni.
+                            </ab>
 
-                    <ab facs="#p397_p11" xml:id="p397_par11">
-                        <lb />A propagare la conoscenza e lo studio della musica più
-                        <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
-                        <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
-                        <lb />mici</name>, dello <name type="person" ref="#sbolci">Sbolci</name> e del <name type="person" ref="#maglioni">Maglioni</name> a <name type="place" ref="#fi">Firenze</name>; quelli delle So
-                        <lb />cietà del quartetto e delle Società orchestrali e corali di
-                        <lb />queste e d'altre città d'<name type="place" ref="#it">Italia</name>; rivelando così un mondo ai
-                        <lb />più sconosciuto: per questo abbiamo detto che ora l'<name type="place" ref="#it">Italia</name>
-                        <lb />sembra rinascere a nuova vita musicale, e di ciò dobbiamo
-                        <lb />saper grado a quei valenti che se ne fecero campioni.
-                    </ab>
+                            <ab facs="#p397_p12" xml:id="p397_par12">
+                                <lb /><distinct type="archaic"><orig>Nonpertanto</orig><reg>Nondimeno</reg></distinct> sarebbe <choice><orig>d'uopo</orig><reg>necessario</reg></choice> che il loro esempio e i loro
+                                <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
+                                <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
+                                <lb />si eseguisse frequentemente la musica sacra de' grandi clas
+                                <lb />sici, perchè appunto per le chiese fu scritta e nelle chiese
+                                <lb />si dovrebbe sentire. Non omettendo certo la musica sacra
+                                <lb />straniera, da <name type="person" ref="#palestrina">Palestrina</name> a <name type="person" ref="#cherubini">Cherubini</name> l'<name type="place" ref="#it">Italia</name> possiede un te
+                                <lb />soro di capolavori dello stile più elevato. Eppure questa
+                                <lb />musica in quante città italiane e quanto spesso si ode?
+                            </ab>
 
-                    <ab facs="#p397_p12" xml:id="p397_par12">
-                        <lb /><distinct type="archaic"><orig>Nonpertanto</orig><reg>Nondimeno</reg></distinct> sarebbe <choice><orig>d'uopo</orig><reg>necessario</reg></choice> che il loro esempio e i loro
-                        <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
-                        <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
-                        <lb />si eseguisse frequentemente la musica sacra de' grandi clas
-                        <lb />sici, perchè appunto per le chiese fu scritta e nelle chiese
-                        <lb />si dovrebbe sentire. Non omettendo certo la musica sacra
-                        <lb />straniera, da <name type="person" ref="#palestrina">Palestrina</name> a <name type="person" ref="#cherubini">Cherubini</name> l'<name type="place" ref="#it">Italia</name> possiede un te
-                        <lb />soro di capolavori dello stile più elevato. Eppure questa
-                        <lb />musica in quante città italiane e quanto spesso si ode?
-                    </ab>
-
-                    <ab facs="#p397_p13" xml:id="p397_par13">
-                        <lb />Dal fin qui detto si comprende come l'influenza germa
-                        <lb />nica (imparzialmente giudicata) ci sia tutt'altro che dan
-                        <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
-                        <lb />opere nostre e straniere, e se ha spinto alcuni egregi ar
-                        <lb />tisti ad assumere questo sacro mandato, che diede già ot
-                        <lb />timi frutti e ne darà di maggiori; purché, ripetiamo, i ma
-                        <lb />lintesi patriottismi artistici spariscano del tutto. Nella poesia
-                        <lb />Omero non esclude <name type="person" ref="#dante">Dante</name>, nè <name type="person" ref="#dante">Dante</name> <name type="person" ref="#shakespeare">Shakespeare</name>, nè questi
-                        <lb /><name type="person" ref="#goethe">Goethe</name>; così lo stesso dovrebbe avvenire nella musica e
-                        <lb />nelle altre arti. Se i fiamminghi portarono primi que
-                        <lb />st'arte ancor bambina agli italiani, fu dagli italiani con
-                        <lb />dotta a una grandezza imperitura : e fu in <name type="place" ref="#it">Italia</name> e pre
-                        <lb />cisamente a <name type="place" ref="#ve">Venezia</name> che <name type="person" ref="#hassler">Leo Hassler</name> e <name type="person" ref="#schutz">Heinrich Schütz</name>,
-                        <lb />detto <soCalled rend="italic">Sagittarius</soCalled> e considerato come il fondatore della mu
-                        <lb />sica tedesca, impararono l'uno da <name type="person" ref="#a_gabrieli">Andrea</name>, l'altro da <name type="person" ref="#g_gabrieli">Gio
-                        <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
-                        <lb />rono <distinct type="rare"><orig>dipoi</orig><reg>poi</reg></distinct> in <name type="place" ref="#de">Germania</name>.
-                    </ab>
+                            <ab facs="#p397_p13" xml:id="p397_par13">
+                                <lb />Dal fin qui detto si comprende come l'influenza germa
+                                <lb />nica (imparzialmente giudicata) ci sia tutt'altro che dan
+                                <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
+                                <lb />opere nostre e straniere, e se ha spinto alcuni egregi ar
+                                <lb />tisti ad assumere questo sacro mandato, che diede già ot
+                                <lb />timi frutti e ne darà di maggiori; purché, ripetiamo, i ma
+                                <lb />lintesi patriottismi artistici spariscano del tutto. Nella poesia
+                                <lb />Omero non esclude <name type="person" ref="#dante">Dante</name>, nè <name type="person" ref="#dante">Dante</name> <name type="person" ref="#shakespeare">Shakespeare</name>, nè questi
+                                <lb /><name type="person" ref="#goethe">Goethe</name>; così lo stesso dovrebbe avvenire nella musica e
+                                <lb />nelle altre arti. Se i fiamminghi portarono primi que
+                                <lb />st'arte ancor bambina agli italiani, fu dagli italiani con
+                                <lb />dotta a una grandezza imperitura : e fu in <name type="place" ref="#it">Italia</name> e pre
+                                <lb />cisamente a <name type="place" ref="#ve">Venezia</name> che <name type="person" ref="#hassler">Leo Hassler</name> e <name type="person" ref="#schutz">Heinrich Schütz</name>,
+                                <lb />detto <soCalled rend="italic">Sagittarius</soCalled> e considerato come il fondatore della mu
+                                <lb />sica tedesca, impararono l'uno da <name type="person" ref="#a_gabrieli">Andrea</name>, l'altro da <name type="person" ref="#g_gabrieli">Gio
+                                <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
+                                <lb />rono <distinct type="rare"><orig>dipoi</orig><reg>poi</reg></distinct> in <name type="place" ref="#de">Germania</name>.
+                            </ab>
+                        </div>
+                    </div>
                 </div>
 
                 <!--BIBLIOGRAFIA-->
