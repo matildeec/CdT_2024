@@ -35,20 +35,41 @@ $(document).ready(function () {
 
    $(".desc").click(function() {
        var buttonId = $(this).attr('id');
-
-       if (buttonId === "btn-descBibl") {
-           $("#descBibl").show();
-           $("#descCod").hide();
-       } else if (buttonId === "btn-descCod") {
-           $("#descCod").show();
-           $("#descBibl").hide();
+       if($(this).hasClass("selected")){
+            if (buttonId === "btn-descBibl"){
+                $("#descBibl").hide();
+                $(this).removeClass("selected");
+            }else if (buttonId === "btn-descCod") {
+                $("#descCod").hide();
+                $(this).removeClass("selected");
+            }
+       }else{
+        $(this).addClass("selected")
+        if (buttonId === "btn-descBibl" ) {
+            $("#descBibl").show();
+            $("#descCod").hide();
+            $("#btn-descCod").removeClass("selected");
+        } else if (buttonId === "btn-descCod") {
+            $("#descCod").show();
+            $("#descBibl").hide();
+            $("#btn-descBibl").removeClass("selected");
+        }
        }
    });
 
+   $("span.character, span.bibl, span.org, span.publisher,span.literary, span.religion, span.person, span.place").mouseover(function(){
+    $(this).css("text-decoration","underline");
+    $(this).next("span.info").css("visibility","visible");
+   })
+   $("span.character, span.bibl, span.org, span.publisher,span.literary, span.religion, span.person, span.place").mouseout(function(){
+    $(this).css("text-decoration","none")
+    $(this).next("span.info").css("visibility","hidden");
+   })
+
    $("area").click(function(){
-    $("span").removeClass('selezionato');
-    $areaId = $(this).attr('id');
-    $("span[id="+$areaId+"]").addClass('selezionato');
+        $("span").removeClass('selezionato');
+        $areaId = $(this).attr('id');
+        $("span[id="+$areaId+"]").addClass('selezionato');
    });
 
 });

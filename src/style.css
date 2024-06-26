@@ -303,6 +303,7 @@ span.info{
 	padding: 20px;
 	margin: 0 5px;
 	width: fit-content;
+	visibility: hidden;
 }
 
 /* footer */

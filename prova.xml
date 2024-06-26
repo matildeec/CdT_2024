@@ -619,7 +619,7 @@
                                 <lb />nità dell'ingegno italiano.
                             </ab>
                             <ab facs="#p394_p2" xml:id="p394_par2" part="I">
-                                <lb />Il <roleName>professor</roleName><name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
+                                <lb />Il <roleName>professor</roleName> <name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                             </ab>
                         </div>
                         <div type="column" n="2">
@@ -767,8 +767,8 @@
                                 <lb />individuali e tutti gli elementi sociali, e librandosi sulle
                                 <lb />forti ali della ragione e della scienza <distinct type="rare"><choice><orig>repudia</orig><reg>ripudia</reg></choice></distinct> la vecchia
                                 <lb />straniera fola che a lungo lo allucinò. Pei popoli dell'<placeName><bloc type="continent">Asia 
-                                <lb />orientale</bloc></placeName>quest'ora non è suonata nè l'ottimo <ref target="#puini78" resp="leopasq">libro</ref> del
-                                <lb /><roleName type="honorific">prof</roleName><name type="person" ref="#puini">Puini</name> ci addita alcuna speranza che sia mai per suo
+                                <lb />orientale</bloc></placeName> quest'ora non è suonata nè l'ottimo <ref target="#puini78" resp="leopasq">libro</ref> del
+                                <lb /><roleName type="honorific">prof</roleName> <name type="person" ref="#puini">Puini</name> ci addita alcuna speranza che sia mai per suo
                                 <lb />nare.
                             </ab>
                             <closer facs="#p395_firm" xml:id="p395_author">
@@ -2164,7 +2164,7 @@
                             <occupation>Compositore e musicista</occupation>
                         </person>
                         
-                        <person xml:id="lasso">
+                        <person xml:id="orlandolasso">
                             <persName>
                                 <ref target="https://it.wikipedia.org/wiki/Orlando_di_Lasso"/>
                                 <forename>Orlando</forename>
@@ -2885,7 +2885,7 @@
                         <date>23-13 a.C.</date>
                         <ref target="https://it.wikipedia.org/wiki/Odi_(Orazio)" />
                     </bibl>
-                    <bibl xml:id="epitole">
+                    <bibl xml:id="epistole">
                         <title>Epistole</title>
                         <author>Quinto Orazio Flacco</author>
                         <date>20 a.C.</date>
