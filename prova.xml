@@ -123,112 +123,111 @@
         <!--ARTICOLO 1-->
         <surface xml:id="p386" start="#pb386" n="1">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='1540.4px' height='2244.4px' />
-            <zone ulx="223" uly="461" lrx="697" lry="490" xml:id="p386_title" corresp="#par386_title"/>
-            <zone ulx="133" uly="500" lrx="800" lry="1010" xml:id="p386_p1" start="#p386_par1"/>
-            <zone ulx="133" uly="1016" lrx="802" lry="1502" xml:id="p386_p2" start="#p386_par2"/>
-            <zone ulx="126" uly="1506" lrx="801" lry="2045" xml:id="p386_p3" start="#p386_par3"/>
-            <zone ulx="816" uly="136" lrx="1487" lry="816" xml:id="p386_p3_cb" start="#p386_par3_cb"/>
-            <zone ulx="818" uly="820" lrx="1490" lry="1293" xml:id="p386_p4" start="#p386_par4"/>
-            <zone ulx="824" uly="1302" lrx="1488" lry="1617" xml:id="p386_p5" start="#p386_par5"/>
-            <zone ulx="824" uly="1623" lrx="1491" lry="2050" xml:id="p386_p6" start="#p386_par6"/>
-
+            <graphic url='img/Vol1-1878-1-S1-F21_1.png' width='960.4px' height='1399.4px' />
+            <zone ulx="147" uly="289" lrx="432" lry="308" xml:id="p386_title" corresp="#par386_title"/>
+            <zone ulx="77" uly="309" lrx="501" lry="632" xml:id="p386_p1" start="#p386_par1"/>
+            <zone ulx="77" uly="635" lrx="501" lry="936" xml:id="p386_p2" start="#p386_par2"/>
+            <zone ulx="77" uly="939" lrx="502" lry="1277" xml:id="p386_p3" start="#p386_par3"/>
+            <zone ulx="510" uly="83" lrx="929" lry="509" xml:id="p386_p3_cb" start="#p386_par3_cb"/>
+            <zone ulx="513" uly="514" lrx="929" lry="808" xml:id="p386_p4" start="#p386_par4"/>
+            <zone ulx="515" uly="812" lrx="929" lry="1006" xml:id="p386_p5" start="#p386_par5"/>
+            <zone ulx="517" uly="1008" lrx="929" lry="1274" xml:id="p386_p6" start="#p386_par6"/>
+            
         </surface>
         <surface xml:id="p387" start="#pb387" n="2">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_2.png' width='1530.4px' height='2230.4px' />
-            <zone ulx="69" uly="150" lrx="738" lry="781" xml:id="p387_p7" start="p387_par7" />
-            <zone ulx="69" uly="788" lrx="737" lry="1382" xml:id="p387_p8" start="p387_par8" />
-            <zone ulx="70" uly="1391" lrx="737" lry="1701" xml:id="p387_p9" start="p387_par9" />
-            <zone ulx="70" uly="1707" lrx="739" lry="2070" xml:id="p387_p10" start="p387_par10" />
-            <zone ulx="753" uly="153" lrx="1422" lry="446" xml:id="p387_p10_cb" start="p387_par10_cb"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_2.png' width='960.4px' height='1399.4px' />
+            <zone ulx="43" uly="93" lrx="462" lry="489"  xml:id="p387_p1" start="p387_par1"/>
+            <zone ulx="43" uly="497" lrx="463" lry="869" xml:id="p387_p2" start="p387_par2"/>
+            <zone ulx="43" uly="873" lrx="465" lry="1068" xml:id="p387_p3" start="p387_par3"/>
+            <zone ulx="45" uly="1071" lrx="465" lry="1301" xml:id="p387_p4" start="p387_par4" />
+            <zone ulx="471" uly="100" lrx="891" lry="280" xml:id="p387_p4_cb" start="p387_par4_cb"/>
             
         </surface>
         
         <!--ARTICOLO 2-->
         <surface xml:id="p393" start="#pb393" n="3">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_3.png' width='1550.4px' height='2241.4px' />
-            <zone ulx="834" uly="1085" lrx="1434" lry="1119" xml:id="p393_title" corresp="#par393_title"/>
-            <zone ulx="792" uly="1127" lrx="1462" lry="2014" xml:id="p393_p1" start="#p393_par1"/>
-            <zone ulx="796" uly="2029" lrx="1461" lry="2075" xml:id="p393_bibl" corresp="#puini78"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_3.png' width='970.4px' height='1402.4px' />
+            <zone ulx="521" uly="680" lrx="890" lry="700" xml:id="p393_title" corresp="#par393_title"/>
+            <zone ulx="494" uly="703" lrx="916" lry="1261" xml:id="p393_p1" start="#p393_par1"/>
+            <zone ulx="495" uly="1270" lrx="918" lry="1297" xml:id="p393_bibl" corresp="#puini78"/>
             
         </surface>
         <surface xml:id="p394" start="#pb394" n="4">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_4.png' width='1516.4px' height='2240.4px' />
-            <zone ulx="74" uly="158" lrx="745" lry="2045" xml:id="p394_p1" start="#p394_par1" />
-            <zone ulx="75" uly="2052" lrx="745" lry="2079" xml:id="p394_p2" start="#p394_par2" />
-            <zone ulx="762" uly="160" lrx="1431" lry="933" xml:id="p394_p3" start="#p394_par3" />
-            <zone ulx="764" uly="940" lrx="1432" lry="2082" xml:id="p394_p4" start="#p394_par4" />
+            <graphic url='img/Vol1-1878-1-S1-F21_4.png' width='940.4px' height='1389.4px' />
+            <zone ulx="44" uly="98" lrx="462" lry="1271" xml:id="p394_p1" start="#p394_par1" />
+            <zone ulx="46" uly="1274" lrx="464" lry="1293" xml:id="p394_p2" start="#p394_par2"/>
+            <zone ulx="473" uly="100" lrx="890" lry="579" xml:id="p394_p3" start="#p394_par3"/>
+            <zone ulx="473" uly="582" lrx="888" lry="1289" xml:id="p394_p4" start="#p394_par4"/>
             
         </surface>
         <surface xml:id="p395" start="#pb395" n="5">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_5.png' width='1545.4px' height='2255.4px' />
-            <zone ulx="86" uly="166" lrx="759" lry="2088" xml:id="p395_p4" start="#p395_par4" />
-            <zone ulx="463" uly="2065" lrx="721" lry="2090" xml:id="p395_firm" corresp="#p395_author"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_5.png' width='960.4px' height='1401.4px' />
+            <zone ulx="51" uly="102" lrx="468" lry="1291" xml:id="p395_p4" start="#p395_par4" />
+            <zone ulx="289" uly="1282" lrx="449" lry="1298" xml:id="p395_firm" corresp="#p395_author"/>
             
         </surface>
         
         <!--ARTICOLO 3-->
         <surface xml:id="p396" start="#pb396" n="6">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_6.png' width='1520.4px' height='2240.4px' />
-            <zone ulx="847" uly="511" lrx="1385" lry="572" xml:id="p396_title" start="#p396_title" />
-            <zone ulx="777" uly="585" lrx="1459" lry="2082" xml:id="p396_p1" start="#p396_par1" />
-                
+            <graphic url='img/Vol1-1878-1-S1-F21_6.png' width='940.4px' height='1385.4px' />
+            <zone ulx="519" uly="316" lrx="855" lry="359" xml:id="p396_title" start="#p396_title"/>
+            <zone ulx="474" uly="364" lrx="897" lry="1284" xml:id="p396_p1" start="#p396_par1"/>
+            
         </surface>
-
         <surface xml:id="p397" start="#pb397" n="7">
 
-            <graphic url='img/Vol1-1878-1-S1-F21_7.png' width='1532.4px' height='2245.4px' />
-
-            <zone ulx="76" uly="161" lrx="743" lry="637" xml:id="p397_p1" start="#p397_par1"/>
-            <zone ulx="76" uly="647" lrx="748" lry="812" xml:id="p397_p2" start="#p397_par2"/>
-            <zone ulx="79" uly="821" lrx="747" lry="953" xml:id="p397_p3" start="#p397_par3"/>
-            <zone ulx="80" uly="964" lrx="749" lry="1188" xml:id="p397_p4" start="#p397_par4"/>
-            <zone ulx="81" uly="1194" lrx="746" lry="1472" xml:id="p397_p5" start="#p397_par5"/>
-            <zone ulx="81" uly="1480" lrx="746" lry="1731" xml:id="p397_p6" start="#p397_par6"/>
-            <zone ulx="87" uly="1743" lrx="751" lry="1992" xml:id="p397_p7" start="#p397_par7"/>
-            <zone ulx="94" uly="2001" lrx="756" lry="2083" xml:id="p397_p8" start="#p397_par8"/>
-            <zone ulx="764" uly="166" lrx="1426" lry="212" xml:id="p397_p8_cb" start="#p397_par8_cb"/>
-            <zone ulx="766" uly="221" lrx="1426" lry="643" xml:id="p397_p9" start="#p397_par9"/>
-            <zone ulx="768" uly="652" lrx="1425" lry="784" xml:id="p397_p10" start="#p397_par10"/>
-            <zone ulx="768" uly="790" lrx="1429" lry="1044"  xml:id="p397_p11" start="#p397_par11"/>
-            <zone ulx="772" uly="1052" lrx="1433" lry="1301" xml:id="p397_p12" start="#p397_par12"/>
-            <zone ulx="775" uly="1308" lrx="1428" lry="1788" xml:id="p397_p13" start="#p397_par13"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_7.png' width='950.4px' height='1392.4px' />
+            <zone ulx="44" uly="95" lrx="461" lry="397" xml:id="p397_p1" start="#p397_par1"/>
+            <zone ulx="45" uly="402" lrx="462" lry="506" xml:id="p397_p2" start="#p397_par2"/>
+            <zone ulx="45" uly="507" lrx="467" lry="595" xml:id="p397_p3" start="#p397_par3"/>
+            <zone ulx="46" uly="598" lrx="466" lry="739" xml:id="p397_p4" start="#p397_par4"/>
+            <zone ulx="49" uly="742" lrx="465" lry="911" xml:id="p397_p5" start="#p397_par5"/>
+            <zone ulx="50" uly="917" lrx="467" lry="1078" xml:id="p397_p6" start="#p397_par6"/>
+            <zone ulx="52" uly="1082" lrx="469" lry="1235" xml:id="p397_p7" start="#p397_par7"/>
+            <zone ulx="53" uly="1238" lrx="470" lry="1292" xml:id="p397_p8" start="#p397_par8"/>
+            <zone ulx="473" uly="101" lrx="885" lry="132" xml:id="p397_p8_cb" start="#p397_par8_cb"/>
+            <zone ulx="476" uly="135" lrx="890" lry="400" xml:id="p397_p9" start="#p397_par9"/>
+            <zone ulx="480" uly="407" lrx="887" lry="489" xml:id="p397_p10" start="#p397_par10"/>
+            <zone ulx="481" uly="492" lrx="889" lry="647" xml:id="p397_p11" start="#p397_par11"/>
+            <zone ulx="481" uly="650" lrx="890" lry="805" xml:id="p397_p12" start="#p397_par12"/>
+            <zone ulx="482" uly="806" lrx="893" lry="1109" xml:id="p397_p13" start="#p397_par13"/>
             
         </surface>
 
         <!-- BIBLIOGRAFIA E NOTIZIE-->
-        <surface xml:id="p403" start="#pb403">
-            <graphic url='img/Vol1-1878-1-S1-F21_8.png' width='1542px' height='2252px' />
+        <surface xml:id="p403" start="#pb403" n="8">
 
-            <zone ulx="297" uly="1313" lrx="523" lry="1339" xml:id="p403_title" corresp="#pag403_title"/>
-            <zone ulx="74" uly="1343" lrx="752" lry="1403" xml:id="p403_bibl" corresp="#pag403_bibl"/>
-            <zone ulx="77" uly="1406" lrx="750" lry="1826" xml:id="p403_p1" start="#p403_par1"/>
-            <zone ulx="80" uly="1836" lrx="750" lry="2062" xml:id="p403_p2" start="#p403_par2"/>
-            <zone ulx="768" uly="150" lrx="1441" lry="199" xml:id="p403_p2_cb" start="#p403_par2_cb"/>
-            <zone ulx="772" uly="209" lrx="1447" lry="1082" xml:id="p403_p3" start="#p403_par3"/>
-            <zone ulx="770" uly="1091" lrx="1444" lry="1510" xml:id="p403_p4" start="#p403_par4"/>
-            <zone ulx="771" uly="1516" lrx="1448" lry="1630" xml:id="p403_p5" start="#p403_par5"/>
-            <zone ulx="774" uly="1634" lrx="1445" lry="1832" xml:id="p403_p6" start="#p403_par6"/>
-            <zone ulx="973" uly="1850" lrx="1242" lry="1880" xml:id="p403_title_2" corresp="#p403_title_2"/>
-            <zone ulx="768" uly="1887" lrx="1447" lry="1944" xml:id="p403_bibl_2" corresp="#pag403_bibl_2"/>
-            <zone ulx="770" uly="1951" lrx="1447" lry="2062" xml:id="p403_p1_2" start="#p403_p1_2"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_8.png' width='960.4px' height='1402.4px' />
+            <zone ulx="190" uly="816" lrx="330" lry="834" xml:id="p403_title" corresp="#pag403_title"/>
+            <zone ulx="48" uly="836" lrx="469" lry="874" xml:id="p403_bibl" corresp="#pag403_bibl"/>
+            <zone ulx="49" uly="880" lrx="468" lry="1141" xml:id="p403_p1" start="#p403_par1"/>
+            <zone ulx="49" uly="1145" lrx="465" lry="1287" xml:id="p403_p2" start="#p403_par2"/>
+            <zone ulx="479" uly="97" lrx="898" lry="127" xml:id="p403_p2_cb" start="#p403_par2_cb"/>
+            <zone ulx="481" uly="132" lrx="900" lry="674" xml:id="p403_p3" start="#p403_par3"/>
+            <zone ulx="480" uly="680" lrx="896" lry="940" xml:id="p403_p4" start="#p403_par4"/>
+            <zone ulx="481" uly="944" lrx="896" lry="1016" xml:id="p403_p5" start="#p403_par5"/>
+            <zone ulx="481" uly="1020" lrx="891" lry="1140" xml:id="p403_p6" start="#p403_par6"/>
+            <zone ulx="608" uly="1152" lrx="771" lry="1168" xml:id="p403_title_2" corresp="#p403_title_2"/>
+            <zone ulx="480" uly="1175" lrx="899" lry="1213" xml:id="p403_bibl_2" corresp="#pag403_bibl_2"/>
+            <zone ulx="481" uly="1217" lrx="898" lry="1284" xml:id="p403_p1_2" start="#p403_p1_2"/>
+            
         </surface>
+        <surface xml:id="p404" start="#pb404" n="9">
 
-        <surface xml:id="p404" start="#pb404">
-            <graphic url='img/Vol1-1878-1-S1-F21_9.png' width='1525px' height='2244px' />
-
-            <zone ulx="112" uly="141" lrx="789" lry="202" xml:id="p404_p1" start="#p404_p1"/>
-            <zone ulx="115" uly="209" lrx="786" lry="351" xml:id="p404_p2" start="#p404_p2"/>
-            <zone ulx="119" uly="356" lrx="785" lry="775" xml:id="p404_p3" start="#p404_p3"/>
-            <zone ulx="118" uly="779" lrx="787" lry="1063" xml:id="p404_p4" start="#p404_p4"/>
-            <zone ulx="1068" uly="988" lrx="1209" lry="1016" xml:id="p404_title" corresp="#pag404_title"/>
-            <zone ulx="805" uly="1022" lrx="1476" lry="1172" xml:id="p404_n1" start="#p404_nws1"/>
-            <zone ulx="805" uly="1179" lrx="1474" lry="1301" xml:id="p404_n2" start="#p404_nws2"/>
+            <graphic url='img/Vol1-1878-1-S1-F21_9.png' width='945.4px' height='1391.4px' />
+            <zone ulx="72" uly="92" lrx="490" lry="129" xml:id="p404_p1" start="#p404_p1"/>
+            <zone ulx="73" uly="134" lrx="487" lry="218" xml:id="p404_p2" start="#p404_p2"/>
+            <zone ulx="74" uly="222" lrx="486" lry="482" xml:id="p404_p3" start="#p404_p3"/>
+            <zone ulx="75" uly="486" lrx="485" lry="660" xml:id="p404_p4" start="#p404_p4"/>
+            <zone ulx="665" uly="612" lrx="758" lry="630" xml:id="p404_title" corresp="#pag404_title"/>
+            <zone ulx="501" uly="637" lrx="912" lry="727" xml:id="p404_n1" start="#p404_nws1"/>
+            <zone ulx="499" uly="733" lrx="910" lry="806" xml:id="p404_n2" start="#p404_nws2"/>
+            
         </surface>
        </facsimile>
 
@@ -389,7 +388,7 @@
                         <pb n="2" facs="#p387" xml:id="pb387"/>
                         <div type="column" n="1">
                             <cb n="1"/>
-                            <ab facs="#p387_p7" xml:id="p387_par7">
+                            <ab facs="#p387_p1" xml:id="p387_par1">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
                                 <lb />che cominciano a dare utili <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> e vanno migliorando
                                 <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
@@ -414,7 +413,7 @@
                                 <lb />non riesce punto inferiore all'uomo.
                             </ab>
 
-                            <ab facs="#p387_p8" xml:id="p387_par8">
+                            <ab facs="#p387_p2" xml:id="p387_par2">
                                 <lb />Ma c'è una ragione al mondo, per la quale ad essa
                                 <lb />non si debba dare altra istruzione che quella strettamente
                                 <lb />necessaria a farne una buona maestra elementare? È qui
@@ -438,7 +437,7 @@
                                 <lb />mali.
                             </ab>
 
-                            <ab facs="#p387_p9" xml:id="p387_par9">
+                            <ab facs="#p387_p3" xml:id="p387_par3">
                                 <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se
                                 <lb />la donna è incapace di essere niente di più che una sem
                                 <lb />plice maestra elementare, perchè si chiama dal governo,
@@ -452,7 +451,7 @@
                                 <lb />cessari aiuti?
                             </ab>
 
-                            <ab facs="#p387_p10" xml:id="p387_par10" part="I">
+                            <ab facs="#p387_p4" xml:id="p387_par4" part="I">
                                 <lb />A noi pare davvero che se la donna cominciasse un'agi
                                 <lb />tazione su questo terreno, la sua posizione legale e la sua
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
@@ -470,7 +469,7 @@
                         </div>
                         <div type="column" n="2">
                             <cb n="2" />
-                            <ab facs="#p387_p10_cb" xml:id="p387_par10_cb" part="F">
+                            <ab facs="#p387_p4_cb" xml:id="p387_par4_cb" part="F">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
                                 <lb />nome solamente. Noi crediamo che questo bisogno sia uni
