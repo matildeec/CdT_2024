@@ -44,10 +44,6 @@ body{
 	color: var(--white);
 }
 
-a {
-	color: var(--lemon);
-}
-
 /* header */
 .header img {
 	min-width: 300px;
