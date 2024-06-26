@@ -44,6 +44,10 @@ body{
 	color: var(--white);
 }
 
+a {
+	color: black;
+}
+
 /* header */
 .header img {
 	min-width: 300px;
