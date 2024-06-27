@@ -545,7 +545,7 @@
             <xsl:if test="@xml:id=$bibl_ref">
                 <span class="info">
                     <strong>Titolo: </strong><xsl:value-of select="./tei:title"/><br/>
-                    <strong>Autore: </strong><xsl:value-of select="./tei:author"/><br/>
+                    <strong>Autore: </strong><xsl:value-of select="./tei:author | ./tei:respStmt"/><br/>
                     <strong>Anno: </strong><xsl:value-of select="./tei:date"/><br/>
                 </span>
             </xsl:if>
