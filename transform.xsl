@@ -105,14 +105,17 @@
                                 class="section">
                                 <h2>
                                     <xsl:value-of
-                                        select="tei:div[@type='page']/tei:div[@type='column']/tei:head" />
+                                        select="tei:head" />
                                 </h2>
 
-                                <xsl:for-each select="tei:div[@type='page']">
+                                <xsl:for-each select="tei:pb">
+                                    <xsl:variable name="page_id">
+                                        <xsl:value-of select="@xml:id" />
+                                    </xsl:variable>
 
                                     <div class="page">
                                         <div class="facsimile">
-                                            <xsl:apply-templates select="tei:pb" />
+                                            <xsl:apply-templates select="." />
                                         </div>
 
                                         <table class="columns">
@@ -124,8 +127,11 @@
                                                 <tr>
                                                     <td>
                                                         <div class="column left">
-                                                            <xsl:for-each select="tei:div[@type='column' and @n=1]">
-                                                                <xsl:for-each select="tei:ab | tei:head | tei:div/tei:ab | tei:div/tei:head">
+                                                            <xsl:for-each select="following-sibling::tei:cb[@corresp=concat('#',$page_id) and @n=1]">
+                                                                <xsl:variable name="col_id">
+                                                                    <xsl:value-of select="@xml:id" />
+                                                                </xsl:variable>
+                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | following-sibling::tei:closer[@corresp=concat('#',$col_id)] | tei:div/tei:ab | tei:div/tei:head">
                                                                     <xsl:apply-templates select="." />
                                                                 </xsl:for-each>
                                                             </xsl:for-each>
@@ -133,8 +139,11 @@
                                                     </td>
                                                     <td>
                                                         <div class="column right">
-                                                            <xsl:for-each select="tei:div[@type='column' and @n=2]">
-                                                                <xsl:for-each select="tei:ab | tei:head | tei:div/tei:ab | tei:div/tei:head | tei:div/tei:list">
+                                                            <xsl:for-each select="following-sibling::tei:cb[@corresp=concat('#',$page_id) and @n=2]">
+                                                                <xsl:variable name="col_id">
+                                                                    <xsl:value-of select="@xml:id" />
+                                                                </xsl:variable>
+                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | tei:div/tei:ab | tei:div/tei:head | tei:div/tei:list">
                                                                     <xsl:apply-templates select="." />
                                                                 </xsl:for-each>
                                                             </xsl:for-each>
@@ -430,6 +439,21 @@
 
     <!-- head -->
     <xsl:template match="tei:head">
+        <div class="paragraph">
+            <xsl:element name="span">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring-after(@facs, '#')"/>
+                </xsl:attribute>
+                <strong><xsl:value-of select="substring-after(@facs, '#')"/></strong>
+            </xsl:element>
+            <div class="block">
+                <xsl:apply-templates />
+            </div>
+        </div>
+    </xsl:template>
+
+    <!-- closer -->
+    <xsl:template match="tei:closer">
         <div class="paragraph">
             <xsl:element name="span">
                 <xsl:attribute name="id">
