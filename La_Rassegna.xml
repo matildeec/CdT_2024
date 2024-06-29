@@ -237,14 +237,12 @@
 
                 <!-- ARTICOLO 1 -->
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
-                    <div type="page" n="1">
-                        <pb n="1" facs="#p386" xml:id="pb386"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
-                            <head rend="align(center) case(allcaps)" facs="#p386_title" xml:id="par386_title">
+                        <pb n="1" facs="#p386" xml:id="pb386" />
+                            <cb xml:id="c1_386" n="1" corresp="#pb386"/>
+                            <head rend="align(center) case(allcaps)" facs="#p386_title" xml:id="par386_title" corresp="#c1_386">
                                 <lb />L'Istruzione della Donna
                             </head>
-                            <ab facs="#p386_p1" xml:id="p386_par1">
+                            <ab facs="#p386_p1" xml:id="p386_par1" corresp="#c1_386">
                                 <lb />L' <name type="role"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></name> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
                                 <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
                                 <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
@@ -264,7 +262,7 @@
                                 <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="#matcont #leopasq">l</unclear>e e miglio
                                 <lb />rarle.
                             </ab>
-                            <ab facs="#p386_p2" xml:id="p386_par2">
+                            <ab facs="#p386_p2" xml:id="p386_par2" corresp="#c1_386">
                                 <lb />In generale può dirsi che, mentre noi cerchiamo di dare
                                 <lb />all'uomo una istruzione che ne sviluppi e fortifichi l'intel
                                 <lb />ligenza, ne accresca la cultura, alla donna <choice><expan>vogliam<ex>o</ex></expan></choice> dare
@@ -283,7 +281,7 @@
                                 <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                                 <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                             </ab>
-                            <ab facs="#p386_p3" xml:id="p386_par3" part="I">
+                            <ab facs="#p386_p3" xml:id="p386_par3" part="I" corresp="#c1_386">
                                 <lb />Ma c'è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                                 <lb />nostri convitti. I soli che diano qualche utile <distinct type="rare"><choice><orig>resultato</orig><reg>risultato</reg></choice></distinct> sono
                                 <lb />i convitti militari, perchè in essi è entrato quello spirito di
@@ -304,10 +302,8 @@
                                 <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può
                                 <lb />scrivere alla figlia, nè questa alla madre, senza che la di
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F">
+                            <cb xml:id="c2_386" n="2" corresp="#pb386"/>
+                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F" corresp="#c2_386">
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
                                 <lb />La conseguenza naturale di tutto ciò è che in molti con
@@ -333,7 +329,7 @@
                                 <lb />convitti non sono molti; ma da un altro lato le scuole sono
                                 <lb />poche ed insufficenti.
                             </ab>
-                            <ab facs="#p386_p4" xml:id="p386_par4">
+                            <ab facs="#p386_p4" xml:id="p386_par4" corresp="#c2_386">
                                 <lb />Per queste ragioni è molto naturale quella impazienza
                                 <lb />che vediamo crescere ogni giorno, e quelle domande che
                                 <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
@@ -352,7 +348,7 @@
                                 <lb />libri diventano noiosi, aridi, tecnici, e sono scritti troppo
                                 <lb />spesso solamente per gli uomini del mestiere.
                             </ab>
-                            <ab facs="#p386_p5" xml:id="p386_par5">
+                            <ab facs="#p386_p5" xml:id="p386_par5" corresp="#c2_386">
                                 <lb />Per ora il nostro sistema scolastico femminile si riduce
                                 <lb />alle scuole elementari, ed alle scuole normali che formano
                                 <lb />le maestre elementari. Le <num type="cardinal" value="6">sei</num> o forse <num type="cardinal" value="7">sette</num> scuole femmi
@@ -365,7 +361,7 @@
                                 <lb />Nondimeno già sentiamo che si parla di sopprimere quella
                                 <lb />che fu istituita in <name type="place" ref="fi">Firenze</name>.
                             </ab>
-                            <ab facs="#p386_p6" xml:id="p386_par6">
+                            <ab facs="#p386_p6" xml:id="p386_par6" corresp="#c2_386">
                                 <lb />Molto dunque ci sarebbe da fare, se si volesse comin
                                 <lb />ciare veramente a dare un impulso serio alla istruzione
                                 <lb />della donna. Bisognerebbe innanzi tutto ordinare meglio,
@@ -382,13 +378,9 @@
                                 <lb />quentano quelle scuole solamente, che danno loro un di
                                 <lb />ploma il quale sia praticamente utile a qualche cosa.
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
-                        <pb n="2" facs="#p387" xml:id="pb387"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
-                            <ab facs="#p387_p1" xml:id="p387_par1">
+                        <pb n="2" facs="#p387" xml:id="pb387" />
+                            <cb xml:id="c1_387" n="1" corresp="#pb387"/>
+                            <ab facs="#p387_p1" xml:id="p387_par1" corresp="#c1_387">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
                                 <lb />che cominciano a dare utili <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> e vanno migliorando
                                 <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
@@ -413,7 +405,7 @@
                                 <lb />non riesce punto inferiore all'uomo.
                             </ab>
 
-                            <ab facs="#p387_p2" xml:id="p387_par2">
+                            <ab facs="#p387_p2" xml:id="p387_par2" corresp="#c1_387">
                                 <lb />Ma c'è una ragione al mondo, per la quale ad essa
                                 <lb />non si debba dare altra istruzione che quella strettamente
                                 <lb />necessaria a farne una buona maestra elementare? È qui
@@ -437,7 +429,7 @@
                                 <lb />mali.
                             </ab>
 
-                            <ab facs="#p387_p3" xml:id="p387_par3">
+                            <ab facs="#p387_p3" xml:id="p387_par3" corresp="#c1_387">
                                 <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se
                                 <lb />la donna è incapace di essere niente di più che una sem
                                 <lb />plice maestra elementare, perchè si chiama dal governo,
@@ -451,7 +443,7 @@
                                 <lb />cessari aiuti?
                             </ab>
 
-                            <ab facs="#p387_p4" xml:id="p387_par4" part="I">
+                            <ab facs="#p387_p4" xml:id="p387_par4" part="I" corresp="#c1_387">
                                 <lb />A noi pare davvero che se la donna cominciasse un'agi
                                 <lb />tazione su questo terreno, la sua posizione legale e la sua
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
@@ -466,10 +458,8 @@
                                 <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
                                 <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2" />
-                            <ab facs="#p387_p4_cb" xml:id="p387_par4_cb" part="F">
+                            <cb xml:id="c2_387" n="2" corresp="#pb387"/>
+                            <ab facs="#p387_p4_cb" xml:id="p387_par4_cb" part="F" corresp="#c2_387">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
                                 <lb />nome solamente. Noi crediamo che questo bisogno sia uni
@@ -481,20 +471,16 @@
                                 <lb />secondarie femminili sentirebbero la necessità di rendere i
                                 <lb />loro corsi di studio più seri e meno superficiali.
                             </ab>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- ARTICOLO 2 -->
                 <div type="article" n="2" xml:lang="it" source="#ART_2">
-                    <div type="page" n="1">
                         <pb n="1" facs="#p393" xml:id="pb393"/>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="#p393_title" xml:id="par393_title">
+                            <cb xml:id="c2_393" n="2" corresp="#pb393"/>
+                            <head rend="align(center) case(allcaps)" facs="#p393_title" xml:id="par393_title" corresp="#c2_393">
                                 <lb />Le Religioni dell'Asia Orientale
                             </head>
-                            <ab facs="#p393_p1" xml:id="p393_par1">
+                            <ab facs="#p393_p1" xml:id="p393_par1" corresp="#c2_393">
                                 <lb />È venuto a luce da non molto un libro che è il <num type="ordinal" value="1">primo</num>
                                 <lb />del suo genere in <name type="place" ref="#it">Italia</name>, e risponde ad un vivo desiderio
                                 <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
@@ -527,7 +513,7 @@
                                 <lb />menti storici. Nei vari periodi di evoluzione del suo spirito,
                                 <lb />queste creature sue gli s'impongono sempre, e gli si pre
                             </ab>
-                            <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
+                            <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78" corresp="#c2_393">
                                 <bibl>
                                     <lb />*
                                     <author>
@@ -543,13 +529,9 @@
                                     <date when="1878">1878</date>
                                 </bibl>
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
                         <pb n="2" facs="#p394" xml:id="pb394"/>
-                        <div type="column" n="1">
-                            <cb n="1" />
-                            <ab facs="#p394_p1" xml:id="p394_par1">
+                            <cb xml:id="c1_394" n="1" corresp="#pb394"/>
+                            <ab facs="#p394_p1" xml:id="p394_par1" corresp="#c1_394">
                                 <lb />sentano come problemi che hanno poi per soluzione una
                                 <lb />definizione nuova di una parola antica. Questo è avvenuto
                                 <lb />per molti nomi di gran significato, quali <term type="verbum" rend="italic">Dio</term>, <term type="verbum" rend="italic">anima</term>, <term type="verbum" rend="italic">vita</term>,
@@ -617,14 +599,12 @@
                                 <lb />semplice, chiaro ed onesto stile, fa onore alla lucida sere
                                 <lb />nità dell'ingegno italiano.
                             </ab>
-                            <ab facs="#p394_p2" xml:id="p394_par2" part="I">
+                            <ab facs="#p394_p2" xml:id="p394_par2" part="I" corresp="#c1_394">
                                 <lb />Il <roleName>professor</roleName> <name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
+                            <cb xml:id="c2_394" n="2" corresp="#pb394"/>
 
-                            <ab facs="#p394_p3" xml:id="p394_par3" part="F">
+                            <ab facs="#p394_p3" xml:id="p394_par3" part="F" corresp="#c2_394">
                                 <lb />basare sulla conoscenza dei fatti le idee della gente colta
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
@@ -652,7 +632,7 @@
                                 <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
                                 <lb />lente preparazione per chi poi volesse studiare anche questi.
                             </ab>
-                            <ab facs="#p394_p4" xml:id="p394_par4" part="I">
+                            <ab facs="#p394_p4" xml:id="p394_par4" part="I" corresp="#c2_394">
                                 <lb />Le <num type="cardinal" value="3">tre</num> religioni a cui è principalmente consacrato il li
                                 <lb />bro del <name type="person" ref="#puini">Puini</name> sono del numero di quelle che sogliono di
                                 <lb />stinguersi col nome di positive; cioè fondate sull'autorità
@@ -694,14 +674,10 @@
                                 <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                                 <lb />sto che la speculazione quantunque si spingesse fra i greci
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="3">
                         <pb n="3" facs="#p395" xml:id="pb395"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
+                            <cb xml:id="c1_395" n="1" corresp="#pb395"/>
 
-                            <ab facs="#p395_p4" xml:id="p395_par4" part="F">
+                            <ab facs="#p395_p4" xml:id="p395_par4" part="F" corresp="#c1_395">
                                 <lb />fino all'idea di <name type="god">Dio</name> e la purificasse e arrivasse a un concetto
                                 <lb />monoteistico ben diverso da quello offerto dalla religione
                                 <lb />nazionale, nondimeno rimase pura e razionale e laica sem
@@ -770,26 +746,22 @@
                                 <lb /><roleName type="honorific">prof</roleName> <name type="person" ref="#puini">Puini</name> ci addita alcuna speranza che sia mai per suo
                                 <lb />nare.
                             </ab>
-                            <closer facs="#p395_firm" xml:id="p395_author">
+                            <closer facs="#p395_firm" xml:id="p395_author" corresp="#c1_395">
                                 <signed rend="align(right) case(allcaps)">
                                     <name type="person" ref="#comparetti">Domenico Comparetti</name>
                                 </signed>
                             </closer>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- ARTICOLO 3 -->
                 <div type="article" n="3" xml:lang="it" source="#ART_3">
-                    <div type="page" n="1">
                         <pb n="1" facs="#p396" xml:id="pb396"/>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="#p396_title" xml:id="par396_title">
+                            <cb xml:id="c1_396" n="2" corresp="#pb396"/>
+                            <head rend="align(center) case(allcaps)" facs="#p396_title" xml:id="par396_title" corresp="#c1_396">
                                 <lb />Dell'Influenza Germanica 
                                 <lb />sulla Musica Italiana
                             </head>
-                            <ab facs="#p396_p1" xml:id="p396_par1" part="I">
+                            <ab facs="#p396_p1" xml:id="p396_par1" part="I" corresp="#c1_396">
                                 <lb /><distinct type="archaic"><choice><orig>Checché</orig><reg>Qualunque cosa</reg></choice></distinct> ne dicano quelli che vedono tutto nero, spira
                                 <lb />in <name type="place" ref="#it">Italia</name> da qualche anno in qua un nuovo soffio di vita
                                 <lb />musicale, che promette di ringagliardire e fecondare le no
@@ -843,13 +815,9 @@
                                 <lb />della musica italiana a <name type="place" ref="#lips">Lipsia</name>, toglieva dai programmi
                                 <lb />de'concerti diretti dal <roleName>prof.</roleName> <name type="person" ref="#riedel">Carl Riedel</name> l'elenco delle com
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
                         <pb n="2" facs="#p397" xml:id="pb397"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
-                            <ab facs="#p397_p1" xml:id="p397_par1" part="F">
+                            <cb xml:id="c1_397" n="1" corresp="#pb397"/>
+                            <ab facs="#p397_p1" xml:id="p397_par1" part="F" corresp="#c1_397">
                                 <lb />posizioni di classici nostri eseguite nel <name type="org" ref="#rsv">Riedel'scher Verein</name>.
                                 <lb />Eccone i nomi degli autori: <name type="person" ref="#festa">C. Festa</name>, <name type="person" ref="#palestrina">Palestrina</name>, <name type="person" ref="#nanini">G. M.
                                 <lb />Nanini</name>, <name type="person" ref="#davittoria">L. da Vittoria</name>, <name type="person" ref="#anerio">F. Anerio</name>, <name type="person" ref="#allegri">G. Allegri</name>, <name type="person" ref="#benevoli">O. Benevoli</name>,
@@ -869,7 +837,7 @@
                                 <lb /><name type="person" ref="#liszt">Liszt</name>, <name type="person" ref="#hiller">Hiller</name>, <name type="person" ref="#richter">Richter</name>, <name type="person" ref="#brahms">Brahms</name>, <name type="person" ref="#kiel">Kiel</name> ed altri.
                             </ab>
 
-                            <ab facs="#p397_p2" xml:id="p397_par2">
+                            <ab facs="#p397_p2" xml:id="p397_par2" corresp="#c1_397">
                                 <lb />Se dunque la <name type="place" ref="#de">Germania</name> ci dà l'esempio di una profonda
                                 <lb />serietà negli studi e di un vero culto per le nostre glorie
                                 <lb />(non trascurando certo d'onorare le sue), perchè non fac
@@ -878,7 +846,7 @@
                                 <lb />gio, anziché respingerla per un malinteso amor di patria?
                             </ab>
 
-                            <ab facs="#p397_p3" xml:id="p397_par3">
+                            <ab facs="#p397_p3" xml:id="p397_par3" corresp="#c1_397">
                                 <lb />Il perchè ci sembra chiaro. Da molto tempo la musica
                                 <lb />fra noi si fa consistere quasi esclusivamente nelle opere tea
                                 <lb />trali, che appartengono invece ad uno solo fra i tanti rami
@@ -886,7 +854,7 @@
                                 <lb /><choice><abbr>a'</abbr><expan>ai</expan></choice>lavori drammatici che si rappresentano <choice><abbr>ne'</abbr><expan>nei</expan></choice>teatri.
                             </ab>
 
-                            <ab facs="#p397_p4" xml:id="p397_par4">
+                            <ab facs="#p397_p4" xml:id="p397_par4" corresp="#c1_397">
                                 <lb />In tal modo i paladini della pretesa italianità musicale
                                 <lb />rimpiccioliscono la gloriosa scuola classica italiana, ad essi
                                 <lb />ignota o mal nota, ed anco la stessa arte teatrale <distinct type="rare" space="tuscany"><choice><orig>ristrin 
@@ -897,7 +865,7 @@
                                 <lb />giornate</name>?
                             </ab>
 
-                            <ab facs="#p397_p5" xml:id="p397_par5">
+                            <ab facs="#p397_p5" xml:id="p397_par5" corresp="#c1_397">
                                 <lb />Nondimeno <distinct type="archaic" space="tuscany"><orig>anco</orig><reg>anche</reg></distinct> in questo ramo l'arte straniera vanta
                                 <lb />grandi maestri: <name type="person" ref="#mozart">Mozart</name>, <name type="person" ref="#weber">Weber</name>, <name type="person" ref="#halevy">Halévy</name>, <name type="person" ref="#meyerbeer">Meyerbeer</name>, <name type="person" ref="#gounod">Gounod</name>
                                 <lb />ed anche <name type="person" ref="#wagner">Wagner</name> (almeno in parte) furono accettati e am
@@ -910,7 +878,7 @@
                                 <lb />purché non <choice><sic>frantesa</sic><corr>fraintesa</corr></choice>.
                             </ab>
 
-                            <ab facs="#p397_p6" xml:id="p397_par6">
+                            <ab facs="#p397_p6" xml:id="p397_par6" corresp="#c1_397">
                                 <lb />Ora se l'opera teatrale è solamente uno fra i molti
                                 <lb />rami dell'arte non fu poi nemmeno proclamato il ramo più
                                 <lb />nobile e più grande, benché in generale si possa dirlo forse
@@ -922,7 +890,7 @@
                                 <lb />appartengono appunto al genere sinfonico.
                             </ab>
 
-                            <ab facs="#p397_p7" xml:id="p397_par7"> 
+                            <ab facs="#p397_p7" xml:id="p397_par7" corresp="#c1_397"> 
                                 <lb />Certo a chi ha sentito le più <distinct type="archaic"><choice><orig>maravigliose</orig><reg>meravigliose</reg></choice></distinct> fra le sin
                                 <lb />fonie di <name type="person" ref="#beethoven">Beethoven</name> pare impossibile che un cervello umano
                                 <lb />abbia potuto creare questi edifìzi monumentali, e trova che
@@ -934,20 +902,18 @@
                                 <lb />sique</quote>.
                             </ab>
 
-                            <ab facs="#p397_p8" xml:id="p397_par8" part="I">
+                            <ab facs="#p397_p8" xml:id="p397_par8" part="I" corresp="#c1_397">
                                 <lb />Questo prova che se da parecchio tempo le opere tea
                                 <lb />trali hanno tenuto nell'ombra i capolavori della musica
                                 <lb />strumentale e corale, tuttavia il pubblico saprebbe gustare
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <ab facs="#p397_p8_cb" xml:id="p397_par8_cb" part="F">
+                            <cb xml:id="c2_397" n="2" corresp="#pb397"/>
+                            <ab facs="#p397_p8_cb" xml:id="p397_par8_cb" part="F" corresp="#c2_397">
                                 <lb />questi ultimi almeno tanto quanto le prime purché gli si
                                 <lb />facessero conoscere.
                             </ab>
 
-                            <ab facs="#p397_p9" xml:id="p397_par9">
+                            <ab facs="#p397_p9" xml:id="p397_par9" corresp="#c2_397">
                                 <lb />Del resto che lo studio dell'arte classica straniera (da
                                 <lb />non confondersi colle spropositate imitazioni del <quote xml:lang="la" source="#epistole" rend="italic">servum
                                 <lb />pecus</quote>) congiunto a quello dell'arte classica italiana possa
@@ -965,7 +931,7 @@
                                 <lb />critica. Pure egli si mantenne italiano.
                             </ab>
 
-                            <ab facs="#p397_p10" xml:id="p397_par10">
+                            <ab facs="#p397_p10" xml:id="p397_par10" corresp="#c2_397">
                                 <lb />Alcuni giovani valenti in questi ultimi anni cominciarono
                                 <lb />a secondare il vigoroso impulso dato dal <name type="person" ref="#bazzini">Bazzini</name>, seguen
                                 <lb />done l'esempio, e ce ne rallegriamo: così l'<name type="place" ref="#it">Italia</name> moderna
@@ -973,7 +939,7 @@
                                 <lb />nel genere strumentale e corale.
                             </ab>
 
-                            <ab facs="#p397_p11" xml:id="p397_par11">
+                            <ab facs="#p397_p11" xml:id="p397_par11" corresp="#c2_397">
                                 <lb />A propagare la conoscenza e lo studio della musica più
                                 <lb />elevata, contribuirono indubbiamente i concerti dell'<name type="person" ref="#andreoli">Andreoli</name>
                                 <lb />a <name type="place" ref="#mi">Milano</name>, dello <name type="person" ref="#sgambati">Sgambati</name> e del <name type="person" ref="#pinelli">Pinelli</name> a <name type="place" ref="#roma">Roma</name>, del <name type="person" ref="#buonamici">Buona
@@ -985,7 +951,7 @@
                                 <lb />saper grado a quei valenti che se ne fecero campioni.
                             </ab>
 
-                            <ab facs="#p397_p12" xml:id="p397_par12">
+                            <ab facs="#p397_p12" xml:id="p397_par12" corresp="#c2_397">
                                 <lb /><distinct type="archaic"><orig>Nonpertanto</orig><reg>Nondimeno</reg></distinct> sarebbe <choice><orig>d'uopo</orig><reg>necessario</reg></choice> che il loro esempio e i loro
                                 <lb />sforzi fossero imitati, e le esecuzioni si propagassero molto
                                 <lb />più: soprattutto bisognerebbe che nelle varie Chiese d'<name type="place" ref="#it">Italia</name>
@@ -997,7 +963,7 @@
                                 <lb />musica in quante città italiane e quanto spesso si ode?
                             </ab>
 
-                            <ab facs="#p397_p13" xml:id="p397_par13">
+                            <ab facs="#p397_p13" xml:id="p397_par13" corresp="#c2_397">
                                 <lb />Dal fin qui detto si comprende come l'influenza germa
                                 <lb />nica (imparzialmente giudicata) ci sia tutt'altro che dan
                                 <lb />nosa, se ci ammaestra a conoscere, ad ammirare le grandi
@@ -1016,17 +982,13 @@
                                 <lb />vanni Gabrieli</name> (<date from="1500" to="1599">secolo XVI</date>) quell'arte che fiorente porta
                                 <lb />rono <distinct type="rare"><orig>dipoi</orig><reg>poi</reg></distinct> in <name type="place" ref="#de">Germania</name>.
                             </ab>
-                        </div>
-                    </div>
                 </div>
 
                 <!--BIBLIOGRAFIA E NOTIZIE-->
                 <div type="bibliografia_notizie" org="uniform" sample="medial">
-                    <div type="page" n="1">
                         <pb n="1" facs="#p403" xml:id="pb403"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
-                            <div type="entrata_bibliografica" n="1" part="I">
+                            <cb xml:id="c1_403" n="1" corresp="#pb403"/>
+                            <div type="entrata_bibliografica" n="1" part="I" corresp="#c1_403">
                                 <head rend="align(center) case(allcaps)" facs="#p403_title" xml:id="pag403_title">
                                     <lb />Scienze Politiche. 
                                 </head>
@@ -1065,7 +1027,7 @@
                                     <lb />rimedio si ricercasse appunto in una più larga libertà di
                                     <lb />azione per le amministrazioni locali.
                                 </ab>
-                                <ab facs="#p403_p2" xml:id="p403_par2" part="I">
+                                <ab facs="#p403_p2" xml:id="p403_par2" part="I"> 
                                     <lb />Il signor <name type="person" ref="#zini">Gaetano Zini</name> prendendo in esame gli accennati
                                     <lb />progetti di riforma insieme colle relazioni che li accom
                                     <lb />pagnano si occupa in special modo di questa questione della
@@ -1076,82 +1038,80 @@
                                     <lb />riforma, i quali tutti si accordano nel concetto della illegit
                                 </ab>
                             </div>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <div type="entrata_bibliografica" n="1" part="F">  
-                            <ab facs="#p403_p2_cb" xml:id="p403_par2_cb" part="F">
-                                <lb />timità del ingerenza dello <name type="org">Stato</name> nelle aziende provinciali
-                                <lb />e comunali.
-                            </ab>
-                            <ab facs="#p403_p3" xml:id="p403_par3">
-                                <lb />L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> premette che il <name type="org">Comune</name> moderno non ha con gli
-                                <lb />antichi Comuni italiani altro punto di somiglianza che il
-                                <lb />nome; il Comune del medioevo era uno Stato indipendente
-                                <lb />mentre il Comune attuale non è che una circoscrizione am
-                                <lb />ministrativa creata dalla legge per provvedere ad alcuni
-                                <lb />servizi pubblici tutti coordinati all'interesse generale della
-                                <lb />nazione. Il Comune adunque non ha neppur diritto ingenito
-                                <lb />ad una determinata somma di libertà giacché <distinct type="rare" space="tuscany"><orig>cotesta</orig><reg>codesta</reg></distinct> deve
-                                <lb />accordarsi con la ragione e con i bisogni dello Stato. Fis
-                                <lb />sati <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> concetti, scende l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> a combattere gli argomenti
-                                <lb />di coloro che invocano la libertà comunale poggiati sulla
-                                <lb />tradizione degli antichi Comuni italiani, ed a condannare
-                                <lb />i progetti di riforma da lui presi in esame in quanto essi
-                                <lb />vogliono sottrarre l'azione dei <name type="org">Municipi</name> alla ingerenza del
-                                <lb /><name type="org">Governo</name> ed in quanto vogliono menomare l'autorità dei
-                                <lb />Prefetti sottoponendone gli atti al controllo delle Deputa
-                                <lb />zioni provinciali ed alla revisione delle Autorità giudiziarie.
-                                <lb />Rileva il signor <name type="person" ref="#zini">Zini</name> come le offerte riforme non siano af
-                                <lb />fatto richieste nè dagli amministratori dei Comuni nè dagli
-                                <lb />amministrati, e come invece sieno frequenti i reclami al
-                                <lb /><name type="org">Governo</name> contro i deliberati dei Consigli comunali. Nè a
-                                <lb />giustificar la opportunità bastano, secondo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice>, i dati sta
-                                <lb />tistici raccolti dal <name type="org">Ministero</name> sulla regolarità della forma
-                                <lb />zione dei bilanci e rendiconti, quando non si ricerca la so
-                                <lb />stanza di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct>, e non si mette in chiaro di quanto le
-                                <lb />spese eccedano il vero bisogno; ed a questo proposito il
-                                <lb />signor <name type="person" ref="#zini">Zini</name> deplora che gli autori di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> progetti si
-                                <lb />preoccupino tanto del pericolo della prepotenza dello <name type="org">Stato</name>
-                                <lb />a carico dei <name type="org">Municipi</name> e non pensino affatto al modo di
-                                <lb />rendere più difficili gli scialacqui e le malversazioni del
-                                <lb />denaro dei contribuenti.
-                            </ab>
-                            <ab facs="#p403_p4" xml:id="p403_par4">
-                                <lb />Quantunque però l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> non concordi nel concetto fonda
-                                <lb />mentale di questi progetti di riforma della legge comunale
-                                <lb />e provinciale, trova però qualche innovazione degna di
-                                <lb />elogio; e così approva la distinzione dei <name type="org">Comuni</name> in varie
-                                <lb />classi, quantunque non approvi i criteri di <distinct type="archaic"><orig>repartizione</orig><reg>ripartizione</reg></distinct>
-                                <lb />adottati nei progetti medesimi. Ed ugualmente approva la
-                                <lb />abbreviazione dei termini per l'esame degli atti comunali,
-                                <lb />l'abolizione delle guarentigie per gli atti dei prefetti e dei
-                                <lb />sindaci, le facilitazioni proposte per gli elettori ammini
-                                <lb />strativi ed altre innovazioni di genere secondario. Muove
-                                <lb />poi speciali lamenti nel vedere che anche col progetto ver
-                                <lb />rebbe rilasciato ai Consigli comunali il compito di far da
-                                <lb />legislatori, compilando speciali regolamenti municipali, e
-                                <lb />mette in evidenza la confusione e gli imbarazzi che pro
-                                <lb />vengono dall'esercizio di <distinct type="rare"><orig>consimili</orig><reg>simili</reg></distinct> facoltà.
-                            </ab>
-                            <ab facs="#p403_p5" xml:id="p403_par5">
-                                <lb />Della innovazione portata dal progetto relativamente al
-                                <lb />modo di elezione del sindaco l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> poco si preoccupa, giac
-                                <lb />ché egli crede che <distinct type="rare" space="tuscany"><orig>cotesto</orig><reg>codesto</reg></distinct> in pratica porterà poca varia
-                                <lb />zione nell'andamento degli affari comunali.
-                            </ab>
-                            <ab facs="#p403_p6" xml:id="p403_par6">
-                                <lb />Senza dilungarci di più sull'esame di questo <ref target="#zini_bibl" resp="#leopasq">libretto</ref>,
-                                <lb />che vorremmo letto con attenzione da coloro che trattano
-                                <lb />con deplorevole leggerezza questa gran questione della li
-                                <lb />bertà comunale, noi ci congratuliamo col suo <choice><abbr>A.</abbr><expan>Autore</expan></choice> per avere
-                                <lb />così schiettamente esposte le sue convinzioni che di tanto
-                                <lb />contraddicono la corrente delle idee che sono di moda in
-                                <lb />questi giorni.
-                            </ab>
+                            <cb xml:id="c2_403" n="2" corresp="#pb403"/>
+                            <div type="entrata_bibliografica" n="1" part="F" corresp="#c2_403">  
+                                <ab facs="#p403_p2_cb" xml:id="p403_par2_cb" part="F">
+                                    <lb />timità del ingerenza dello <name type="org">Stato</name> nelle aziende provinciali
+                                    <lb />e comunali.
+                                </ab>
+                                <ab facs="#p403_p3" xml:id="p403_par3">
+                                    <lb />L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> premette che il <name type="org">Comune</name> moderno non ha con gli
+                                    <lb />antichi Comuni italiani altro punto di somiglianza che il
+                                    <lb />nome; il Comune del medioevo era uno Stato indipendente
+                                    <lb />mentre il Comune attuale non è che una circoscrizione am
+                                    <lb />ministrativa creata dalla legge per provvedere ad alcuni
+                                    <lb />servizi pubblici tutti coordinati all'interesse generale della
+                                    <lb />nazione. Il Comune adunque non ha neppur diritto ingenito
+                                    <lb />ad una determinata somma di libertà giacché <distinct type="rare" space="tuscany"><orig>cotesta</orig><reg>codesta</reg></distinct> deve
+                                    <lb />accordarsi con la ragione e con i bisogni dello Stato. Fis
+                                    <lb />sati <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> concetti, scende l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> a combattere gli argomenti
+                                    <lb />di coloro che invocano la libertà comunale poggiati sulla
+                                    <lb />tradizione degli antichi Comuni italiani, ed a condannare
+                                    <lb />i progetti di riforma da lui presi in esame in quanto essi
+                                    <lb />vogliono sottrarre l'azione dei <name type="org">Municipi</name> alla ingerenza del
+                                    <lb /><name type="org">Governo</name> ed in quanto vogliono menomare l'autorità dei
+                                    <lb />Prefetti sottoponendone gli atti al controllo delle Deputa
+                                    <lb />zioni provinciali ed alla revisione delle Autorità giudiziarie.
+                                    <lb />Rileva il signor <name type="person" ref="#zini">Zini</name> come le offerte riforme non siano af
+                                    <lb />fatto richieste nè dagli amministratori dei Comuni nè dagli
+                                    <lb />amministrati, e come invece sieno frequenti i reclami al
+                                    <lb /><name type="org">Governo</name> contro i deliberati dei Consigli comunali. Nè a
+                                    <lb />giustificar la opportunità bastano, secondo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice>, i dati sta
+                                    <lb />tistici raccolti dal <name type="org">Ministero</name> sulla regolarità della forma
+                                    <lb />zione dei bilanci e rendiconti, quando non si ricerca la so
+                                    <lb />stanza di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct>, e non si mette in chiaro di quanto le
+                                    <lb />spese eccedano il vero bisogno; ed a questo proposito il
+                                    <lb />signor <name type="person" ref="#zini">Zini</name> deplora che gli autori di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> progetti si
+                                    <lb />preoccupino tanto del pericolo della prepotenza dello <name type="org">Stato</name>
+                                    <lb />a carico dei <name type="org">Municipi</name> e non pensino affatto al modo di
+                                    <lb />rendere più difficili gli scialacqui e le malversazioni del
+                                    <lb />denaro dei contribuenti.
+                                </ab>
+                                <ab facs="#p403_p4" xml:id="p403_par4">
+                                    <lb />Quantunque però l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> non concordi nel concetto fonda
+                                    <lb />mentale di questi progetti di riforma della legge comunale
+                                    <lb />e provinciale, trova però qualche innovazione degna di
+                                    <lb />elogio; e così approva la distinzione dei <name type="org">Comuni</name> in varie
+                                    <lb />classi, quantunque non approvi i criteri di <distinct type="archaic"><orig>repartizione</orig><reg>ripartizione</reg></distinct>
+                                    <lb />adottati nei progetti medesimi. Ed ugualmente approva la
+                                    <lb />abbreviazione dei termini per l'esame degli atti comunali,
+                                    <lb />l'abolizione delle guarentigie per gli atti dei prefetti e dei
+                                    <lb />sindaci, le facilitazioni proposte per gli elettori ammini
+                                    <lb />strativi ed altre innovazioni di genere secondario. Muove
+                                    <lb />poi speciali lamenti nel vedere che anche col progetto ver
+                                    <lb />rebbe rilasciato ai Consigli comunali il compito di far da
+                                    <lb />legislatori, compilando speciali regolamenti municipali, e
+                                    <lb />mette in evidenza la confusione e gli imbarazzi che pro
+                                    <lb />vengono dall'esercizio di <distinct type="rare"><orig>consimili</orig><reg>simili</reg></distinct> facoltà.
+                                </ab>
+                                <ab facs="#p403_p5" xml:id="p403_par5">
+                                    <lb />Della innovazione portata dal progetto relativamente al
+                                    <lb />modo di elezione del sindaco l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> poco si preoccupa, giac
+                                    <lb />ché egli crede che <distinct type="rare" space="tuscany"><orig>cotesto</orig><reg>codesto</reg></distinct> in pratica porterà poca varia
+                                    <lb />zione nell'andamento degli affari comunali.
+                                </ab>
+                                <ab facs="#p403_p6" xml:id="p403_par6">
+                                    <lb />Senza dilungarci di più sull'esame di questo <ref target="#zini_bibl" resp="#leopasq">libretto</ref>,
+                                    <lb />che vorremmo letto con attenzione da coloro che trattano
+                                    <lb />con deplorevole leggerezza questa gran questione della li
+                                    <lb />bertà comunale, noi ci congratuliamo col suo <choice><abbr>A.</abbr><expan>Autore</expan></choice> per avere
+                                    <lb />così schiettamente esposte le sue convinzioni che di tanto
+                                    <lb />contraddicono la corrente delle idee che sono di moda in
+                                    <lb />questi giorni.
+                                </ab>
                             </div>
-                            <div type="entrata_bibliografica" n="2" part="I">
-                                <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2">
+                            <div type="entrata_bibliografica" n="2" part="I" corresp="#c2_403">
+                                <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2" >
                                     <lb />Educazione pubblica. 
                                 </head>
                                 <ab facs="#p403_bibl_2" xml:id="pag403_bibl_2">                                    
@@ -1172,20 +1132,16 @@
                                         <date when="1878">1878</date>
                                     </bibl>
                                 </ab>
-                                <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I">
+                                <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I" >
                                     <lb />In questo opuscolo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> si rallegra che la tanto desiderata
                                     <lb />e combattuta legge sull'istruzione obbligatoria sia entrata
                                     <lb />in porto, e pensa che eserciterà una notevole influenza sui
                                     <lb /><name type="org">Municipi</name> più restii a diffondere l'istruzione primaria come
                                 </ab>
                             </div>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
                         <pb n="3" facs="#p404" xml:id="pb404"/>
-                        <div type="column" n="1">
-                            <cb n="1" />
-                            <div type="entrata_bibliografica" n="2" part="F">        
+                            <cb xml:id="c1_404" n="1" corresp="#pb404"/>
+                            <div type="entrata_bibliografica" n="2" part="F" corresp="#c1_404">        
                                 
                                 <ab facs="#p404_p1" xml:id="p404_par1" part="F">
                                     <lb />e quando il bisogno richiede e potrà far rivolgere a questa
@@ -1228,12 +1184,10 @@
                                     <lb />buon esito dipende tutto dalle qualità di chi insegna!
                                 </ab>
                             </div>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <div type="notizie"  org="uniform" sample="initial">
+                            <cb xml:id="c2_404" n="2" corresp="#pb404"/>
+                            <div type="notizie"  org="uniform" sample="initial" corresp="#c2_404"> 
                                 <list rend="simple">
-                                    <head rend="align(center) case(allcaps)" facs="#p404_title" xml:id="pag404_title" >
+                                    <head rend="align(center) case(allcaps)" facs="#p404_title" xml:id="pag404_title">
                                         <lb />NOTIZIE 
                                     </head>
                                     <item facs="#p404_n1" xml:id="p404_nws1">
@@ -1254,9 +1208,7 @@
                                 </list>
                             </div>
                         </div>
-                    </div>
                 </div>    
-        </div>
         </body>
         
         <back>
