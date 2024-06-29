@@ -131,7 +131,7 @@
                                                                 <xsl:variable name="col_id">
                                                                     <xsl:value-of select="@xml:id" />
                                                                 </xsl:variable>
-                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | following-sibling::tei:closer[@corresp=concat('#',$col_id)] | tei:div/tei:ab | tei:div/tei:head">
+                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | following-sibling::tei:closer[@corresp=concat('#',$col_id)] | following-sibling::tei:div[@corresp=concat('#',$col_id)]/tei:ab | following-sibling::tei:div[@corresp=concat('#',$col_id)]/tei:head">
                                                                     <xsl:apply-templates select="." />
                                                                 </xsl:for-each>
                                                             </xsl:for-each>
@@ -143,7 +143,7 @@
                                                                 <xsl:variable name="col_id">
                                                                     <xsl:value-of select="@xml:id" />
                                                                 </xsl:variable>
-                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | tei:div/tei:ab | tei:div/tei:head | tei:div/tei:list">
+                                                                <xsl:for-each select="following-sibling::tei:ab[@corresp=concat('#',$col_id)] | following-sibling::tei:head[@corresp=concat('#',$col_id)] | following-sibling::tei:div[@corresp=concat('#',$col_id)]/tei:ab | following-sibling::tei:div[@corresp=concat('#',$col_id)]/tei:head | following-sibling::tei:div[@corresp=concat('#',$col_id)]/tei:list">
                                                                     <xsl:apply-templates select="." />
                                                                 </xsl:for-each>
                                                             </xsl:for-each>
