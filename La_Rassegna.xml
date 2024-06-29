@@ -238,11 +238,11 @@
                 <!-- ARTICOLO 1 -->
                 <div type="article" n="1" xml:lang="it" source="#ART_1">
                         <pb n="1" facs="#p386" xml:id="pb386" />
-                            <cb n="1"/>
-                            <head rend="align(center) case(allcaps)" facs="#p386_title" xml:id="par386_title">
+                            <cb xml:id="c1_386" n="1" corresp="#pb386"/>
+                            <head rend="align(center) case(allcaps)" facs="#p386_title" xml:id="par386_title" corresp="#c1_386">
                                 <lb />L'Istruzione della Donna
                             </head>
-                            <ab facs="#p386_p1" xml:id="p386_par1">
+                            <ab facs="#p386_p1" xml:id="p386_par1" corresp="#c1_386">
                                 <lb />L' <name type="role"><choice><abbr>on.</abbr><expan>onorevole</expan></choice></name> <name role="politician" type="person" ref="#coppino">Coppino</name>, poco prima di abbandonare il <name type="org" ref="#MPI">Ministero 
                                 <lb />della Pubblica Istruzione</name>, aveva formulato un nuovo di
                                 <lb />segno di legge per le scuole secondarie del <name type="org" ref="#RI"><choice><abbr>Regno</abbr><expan>Regno d'Italia</expan></choice></name>, che si
@@ -262,7 +262,7 @@
                                 <lb />darla, ed in ogni caso è necessario moltiplicar<unclear reason="faded" resp="#matcont #leopasq">l</unclear>e e miglio
                                 <lb />rarle.
                             </ab>
-                            <ab facs="#p386_p2" xml:id="p386_par2">
+                            <ab facs="#p386_p2" xml:id="p386_par2" corresp="#c1_386">
                                 <lb />In generale può dirsi che, mentre noi cerchiamo di dare
                                 <lb />all'uomo una istruzione che ne sviluppi e fortifichi l'intel
                                 <lb />ligenza, ne accresca la cultura, alla donna <choice><expan>vogliam<ex>o</ex></expan></choice> dare
@@ -281,7 +281,7 @@
                                 <lb />rezza non giovano nè alla letterata, nè alla non letterata,
                                 <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
                             </ab>
-                            <ab facs="#p386_p3" xml:id="p386_par3" part="I">
+                            <ab facs="#p386_p3" xml:id="p386_par3" part="I" corresp="#c1_386">
                                 <lb />Ma c'è di peggio ancora. Uno dei guai d'<name type="place" ref="#it">Italia</name> sono i
                                 <lb />nostri convitti. I soli che diano qualche utile <distinct type="rare"><choice><orig>resultato</orig><reg>risultato</reg></choice></distinct> sono
                                 <lb />i convitti militari, perchè in essi è entrato quello spirito di
@@ -302,8 +302,8 @@
                                 <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può
                                 <lb />scrivere alla figlia, nè questa alla madre, senza che la di
                             </ab>
-                            <cb n="2"/>
-                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F">
+                            <cb xml:id="c2_386" n="2" corresp="#pb386"/>
+                            <ab facs="#p386_p3_cb" xml:id="p386_par3_cb" part="F" corresp="#c2_386">
                                 <lb />rettrice apra e legga le lettere. Un fratello non può visi
                                 <lb />tare la sorella nel convitto, per non far nascere scandali.
                                 <lb />La conseguenza naturale di tutto ciò è che in molti con
@@ -329,7 +329,7 @@
                                 <lb />convitti non sono molti; ma da un altro lato le scuole sono
                                 <lb />poche ed insufficenti.
                             </ab>
-                            <ab facs="#p386_p4" xml:id="p386_par4">
+                            <ab facs="#p386_p4" xml:id="p386_par4" corresp="#c2_386">
                                 <lb />Per queste ragioni è molto naturale quella impazienza
                                 <lb />che vediamo crescere ogni giorno, e quelle domande che
                                 <lb />sorgono da ogni lato perchè l'educazione e l'istruzione
@@ -348,7 +348,7 @@
                                 <lb />libri diventano noiosi, aridi, tecnici, e sono scritti troppo
                                 <lb />spesso solamente per gli uomini del mestiere.
                             </ab>
-                            <ab facs="#p386_p5" xml:id="p386_par5">
+                            <ab facs="#p386_p5" xml:id="p386_par5" corresp="#c2_386">
                                 <lb />Per ora il nostro sistema scolastico femminile si riduce
                                 <lb />alle scuole elementari, ed alle scuole normali che formano
                                 <lb />le maestre elementari. Le <num type="cardinal" value="6">sei</num> o forse <num type="cardinal" value="7">sette</num> scuole femmi
@@ -361,7 +361,7 @@
                                 <lb />Nondimeno già sentiamo che si parla di sopprimere quella
                                 <lb />che fu istituita in <name type="place" ref="fi">Firenze</name>.
                             </ab>
-                            <ab facs="#p386_p6" xml:id="p386_par6">
+                            <ab facs="#p386_p6" xml:id="p386_par6" corresp="#c2_386">
                                 <lb />Molto dunque ci sarebbe da fare, se si volesse comin
                                 <lb />ciare veramente a dare un impulso serio alla istruzione
                                 <lb />della donna. Bisognerebbe innanzi tutto ordinare meglio,
@@ -378,11 +378,9 @@
                                 <lb />quentano quelle scuole solamente, che danno loro un di
                                 <lb />ploma il quale sia praticamente utile a qualche cosa.
                             </ab>
-                    <div type="page" n="2">
-                        <pb n="2" facs="#p387" xml:id="pb387"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
-                            <ab facs="#p387_p1" xml:id="p387_par1">
+                        <pb n="2" facs="#p387" xml:id="pb387" />
+                            <cb xml:id="c1_387" n="1" corresp="#pb387"/>
+                            <ab facs="#p387_p1" xml:id="p387_par1" corresp="#c1_387">
                                 <lb />Nello stato presente delle cose i soli istituti femminili
                                 <lb />che cominciano a dare utili <distinct type="rare"><choice><orig>resultati</orig><reg>risultati</reg></choice></distinct> e vanno migliorando
                                 <lb />davvero sono le scuole normali, anzi, può dirsi che siano,
@@ -407,7 +405,7 @@
                                 <lb />non riesce punto inferiore all'uomo.
                             </ab>
 
-                            <ab facs="#p387_p2" xml:id="p387_par2">
+                            <ab facs="#p387_p2" xml:id="p387_par2" corresp="#c1_387">
                                 <lb />Ma c'è una ragione al mondo, per la quale ad essa
                                 <lb />non si debba dare altra istruzione che quella strettamente
                                 <lb />necessaria a farne una buona maestra elementare? È qui
@@ -431,7 +429,7 @@
                                 <lb />mali.
                             </ab>
 
-                            <ab facs="#p387_p3" xml:id="p387_par3">
+                            <ab facs="#p387_p3" xml:id="p387_par3" corresp="#c1_387">
                                 <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se
                                 <lb />la donna è incapace di essere niente di più che una sem
                                 <lb />plice maestra elementare, perchè si chiama dal governo,
@@ -445,7 +443,7 @@
                                 <lb />cessari aiuti?
                             </ab>
 
-                            <ab facs="#p387_p4" xml:id="p387_par4" part="I">
+                            <ab facs="#p387_p4" xml:id="p387_par4" part="I" corresp="#c1_387">
                                 <lb />A noi pare davvero che se la donna cominciasse un'agi
                                 <lb />tazione su questo terreno, la sua posizione legale e la sua
                                 <lb />posizione morale sarebbero innanzi al pubblico, al governo
@@ -460,10 +458,8 @@
                                 <lb />desimi aiuti</said>. Il dovere di rispondere a questa domanda è
                                 <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2" />
-                            <ab facs="#p387_p4_cb" xml:id="p387_par4_cb" part="F">
+                            <cb xml:id="c2_387" n="2" corresp="#pb387"/>
+                            <ab facs="#p387_p4_cb" xml:id="p387_par4_cb" part="F" corresp="#c2_387">
                                 <lb />trovare il modo di dare alla donna, sotto una forma o sotto
                                 <lb />un'altra, un insegnamento superiore di fatto e non di
                                 <lb />nome solamente. Noi crediamo che questo bisogno sia uni
@@ -475,8 +471,6 @@
                                 <lb />secondarie femminili sentirebbero la necessità di rendere i
                                 <lb />loro corsi di studio più seri e meno superficiali.
                             </ab>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- ARTICOLO 2 -->
