@@ -986,12 +986,10 @@
 
                 <!--BIBLIOGRAFIA E NOTIZIE-->
                 <div type="bibliografia_notizie" org="uniform" sample="medial">
-                    <div type="page" n="1">
                         <pb n="1" facs="#p403" xml:id="pb403"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
+                            <cb xml:id="c1_403" n="1" corresp="#pb403"/>
                             <div type="entrata_bibliografica" n="1" part="I">
-                                <head rend="align(center) case(allcaps)" facs="#p403_title" xml:id="pag403_title">
+                                <head rend="align(center) case(allcaps)" facs="#p403_title" xml:id="pag403_title" corresp="#c1_403">
                                     <lb />Scienze Politiche. 
                                 </head>
                                 <ab facs="#p403_bibl" xml:id="pag403_bibl">
@@ -1012,7 +1010,7 @@
                                         <date when="1878">1878</date>
                                     </bibl>
                                 </ab>
-                                <ab facs="#p403_p1" xml:id="p403_par1">
+                                <ab facs="#p403_p1" xml:id="p403_par1" corresp="#c1_403">
                                     <lb />La riforma della legge che regola le amministrazioni
                                     <lb />delle <name type="org">Province</name> e dei <name type="org">Comuni</name>, più volte annunziataci dal
                                     <lb /><name type="org">Governo</name> come uno dei più prossimi lavori parlamentari e
@@ -1029,7 +1027,7 @@
                                     <lb />rimedio si ricercasse appunto in una più larga libertà di
                                     <lb />azione per le amministrazioni locali.
                                 </ab>
-                                <ab facs="#p403_p2" xml:id="p403_par2" part="I">
+                                <ab facs="#p403_p2" xml:id="p403_par2" part="I" corresp="#c1_403"> 
                                     <lb />Il signor <name type="person" ref="#zini">Gaetano Zini</name> prendendo in esame gli accennati
                                     <lb />progetti di riforma insieme colle relazioni che li accom
                                     <lb />pagnano si occupa in special modo di questa questione della
@@ -1040,85 +1038,83 @@
                                     <lb />riforma, i quali tutti si accordano nel concetto della illegit
                                 </ab>
                             </div>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
+                            <cb xml:id="c2_403" n="2" corresp="#pb403"/>
                             <div type="entrata_bibliografica" n="1" part="F">  
-                            <ab facs="#p403_p2_cb" xml:id="p403_par2_cb" part="F">
-                                <lb />timità del ingerenza dello <name type="org">Stato</name> nelle aziende provinciali
-                                <lb />e comunali.
-                            </ab>
-                            <ab facs="#p403_p3" xml:id="p403_par3">
-                                <lb />L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> premette che il <name type="org">Comune</name> moderno non ha con gli
-                                <lb />antichi Comuni italiani altro punto di somiglianza che il
-                                <lb />nome; il Comune del medioevo era uno Stato indipendente
-                                <lb />mentre il Comune attuale non è che una circoscrizione am
-                                <lb />ministrativa creata dalla legge per provvedere ad alcuni
-                                <lb />servizi pubblici tutti coordinati all'interesse generale della
-                                <lb />nazione. Il Comune adunque non ha neppur diritto ingenito
-                                <lb />ad una determinata somma di libertà giacché <distinct type="rare" space="tuscany"><orig>cotesta</orig><reg>codesta</reg></distinct> deve
-                                <lb />accordarsi con la ragione e con i bisogni dello Stato. Fis
-                                <lb />sati <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> concetti, scende l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> a combattere gli argomenti
-                                <lb />di coloro che invocano la libertà comunale poggiati sulla
-                                <lb />tradizione degli antichi Comuni italiani, ed a condannare
-                                <lb />i progetti di riforma da lui presi in esame in quanto essi
-                                <lb />vogliono sottrarre l'azione dei <name type="org">Municipi</name> alla ingerenza del
-                                <lb /><name type="org">Governo</name> ed in quanto vogliono menomare l'autorità dei
-                                <lb />Prefetti sottoponendone gli atti al controllo delle Deputa
-                                <lb />zioni provinciali ed alla revisione delle Autorità giudiziarie.
-                                <lb />Rileva il signor <name type="person" ref="#zini">Zini</name> come le offerte riforme non siano af
-                                <lb />fatto richieste nè dagli amministratori dei Comuni nè dagli
-                                <lb />amministrati, e come invece sieno frequenti i reclami al
-                                <lb /><name type="org">Governo</name> contro i deliberati dei Consigli comunali. Nè a
-                                <lb />giustificar la opportunità bastano, secondo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice>, i dati sta
-                                <lb />tistici raccolti dal <name type="org">Ministero</name> sulla regolarità della forma
-                                <lb />zione dei bilanci e rendiconti, quando non si ricerca la so
-                                <lb />stanza di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct>, e non si mette in chiaro di quanto le
-                                <lb />spese eccedano il vero bisogno; ed a questo proposito il
-                                <lb />signor <name type="person" ref="#zini">Zini</name> deplora che gli autori di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> progetti si
-                                <lb />preoccupino tanto del pericolo della prepotenza dello <name type="org">Stato</name>
-                                <lb />a carico dei <name type="org">Municipi</name> e non pensino affatto al modo di
-                                <lb />rendere più difficili gli scialacqui e le malversazioni del
-                                <lb />denaro dei contribuenti.
-                            </ab>
-                            <ab facs="#p403_p4" xml:id="p403_par4">
-                                <lb />Quantunque però l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> non concordi nel concetto fonda
-                                <lb />mentale di questi progetti di riforma della legge comunale
-                                <lb />e provinciale, trova però qualche innovazione degna di
-                                <lb />elogio; e così approva la distinzione dei <name type="org">Comuni</name> in varie
-                                <lb />classi, quantunque non approvi i criteri di <distinct type="archaic"><orig>repartizione</orig><reg>ripartizione</reg></distinct>
-                                <lb />adottati nei progetti medesimi. Ed ugualmente approva la
-                                <lb />abbreviazione dei termini per l'esame degli atti comunali,
-                                <lb />l'abolizione delle guarentigie per gli atti dei prefetti e dei
-                                <lb />sindaci, le facilitazioni proposte per gli elettori ammini
-                                <lb />strativi ed altre innovazioni di genere secondario. Muove
-                                <lb />poi speciali lamenti nel vedere che anche col progetto ver
-                                <lb />rebbe rilasciato ai Consigli comunali il compito di far da
-                                <lb />legislatori, compilando speciali regolamenti municipali, e
-                                <lb />mette in evidenza la confusione e gli imbarazzi che pro
-                                <lb />vengono dall'esercizio di <distinct type="rare"><orig>consimili</orig><reg>simili</reg></distinct> facoltà.
-                            </ab>
-                            <ab facs="#p403_p5" xml:id="p403_par5">
-                                <lb />Della innovazione portata dal progetto relativamente al
-                                <lb />modo di elezione del sindaco l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> poco si preoccupa, giac
-                                <lb />ché egli crede che <distinct type="rare" space="tuscany"><orig>cotesto</orig><reg>codesto</reg></distinct> in pratica porterà poca varia
-                                <lb />zione nell'andamento degli affari comunali.
-                            </ab>
-                            <ab facs="#p403_p6" xml:id="p403_par6">
-                                <lb />Senza dilungarci di più sull'esame di questo <ref target="#zini_bibl" resp="#leopasq">libretto</ref>,
-                                <lb />che vorremmo letto con attenzione da coloro che trattano
-                                <lb />con deplorevole leggerezza questa gran questione della li
-                                <lb />bertà comunale, noi ci congratuliamo col suo <choice><abbr>A.</abbr><expan>Autore</expan></choice> per avere
-                                <lb />così schiettamente esposte le sue convinzioni che di tanto
-                                <lb />contraddicono la corrente delle idee che sono di moda in
-                                <lb />questi giorni.
-                            </ab>
+                                <ab facs="#p403_p2_cb" xml:id="p403_par2_cb" part="F" corresp="#c2_403">
+                                    <lb />timità del ingerenza dello <name type="org">Stato</name> nelle aziende provinciali
+                                    <lb />e comunali.
+                                </ab>
+                                <ab facs="#p403_p3" xml:id="p403_par3" corresp="#c2_403">
+                                    <lb />L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> premette che il <name type="org">Comune</name> moderno non ha con gli
+                                    <lb />antichi Comuni italiani altro punto di somiglianza che il
+                                    <lb />nome; il Comune del medioevo era uno Stato indipendente
+                                    <lb />mentre il Comune attuale non è che una circoscrizione am
+                                    <lb />ministrativa creata dalla legge per provvedere ad alcuni
+                                    <lb />servizi pubblici tutti coordinati all'interesse generale della
+                                    <lb />nazione. Il Comune adunque non ha neppur diritto ingenito
+                                    <lb />ad una determinata somma di libertà giacché <distinct type="rare" space="tuscany"><orig>cotesta</orig><reg>codesta</reg></distinct> deve
+                                    <lb />accordarsi con la ragione e con i bisogni dello Stato. Fis
+                                    <lb />sati <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> concetti, scende l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> a combattere gli argomenti
+                                    <lb />di coloro che invocano la libertà comunale poggiati sulla
+                                    <lb />tradizione degli antichi Comuni italiani, ed a condannare
+                                    <lb />i progetti di riforma da lui presi in esame in quanto essi
+                                    <lb />vogliono sottrarre l'azione dei <name type="org">Municipi</name> alla ingerenza del
+                                    <lb /><name type="org">Governo</name> ed in quanto vogliono menomare l'autorità dei
+                                    <lb />Prefetti sottoponendone gli atti al controllo delle Deputa
+                                    <lb />zioni provinciali ed alla revisione delle Autorità giudiziarie.
+                                    <lb />Rileva il signor <name type="person" ref="#zini">Zini</name> come le offerte riforme non siano af
+                                    <lb />fatto richieste nè dagli amministratori dei Comuni nè dagli
+                                    <lb />amministrati, e come invece sieno frequenti i reclami al
+                                    <lb /><name type="org">Governo</name> contro i deliberati dei Consigli comunali. Nè a
+                                    <lb />giustificar la opportunità bastano, secondo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice>, i dati sta
+                                    <lb />tistici raccolti dal <name type="org">Ministero</name> sulla regolarità della forma
+                                    <lb />zione dei bilanci e rendiconti, quando non si ricerca la so
+                                    <lb />stanza di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct>, e non si mette in chiaro di quanto le
+                                    <lb />spese eccedano il vero bisogno; ed a questo proposito il
+                                    <lb />signor <name type="person" ref="#zini">Zini</name> deplora che gli autori di <distinct type="rare" space="tuscany"><orig>cotesti</orig><reg>codesti</reg></distinct> progetti si
+                                    <lb />preoccupino tanto del pericolo della prepotenza dello <name type="org">Stato</name>
+                                    <lb />a carico dei <name type="org">Municipi</name> e non pensino affatto al modo di
+                                    <lb />rendere più difficili gli scialacqui e le malversazioni del
+                                    <lb />denaro dei contribuenti.
+                                </ab>
+                                <ab facs="#p403_p4" xml:id="p403_par4" corresp="#c2_403">
+                                    <lb />Quantunque però l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> non concordi nel concetto fonda
+                                    <lb />mentale di questi progetti di riforma della legge comunale
+                                    <lb />e provinciale, trova però qualche innovazione degna di
+                                    <lb />elogio; e così approva la distinzione dei <name type="org">Comuni</name> in varie
+                                    <lb />classi, quantunque non approvi i criteri di <distinct type="archaic"><orig>repartizione</orig><reg>ripartizione</reg></distinct>
+                                    <lb />adottati nei progetti medesimi. Ed ugualmente approva la
+                                    <lb />abbreviazione dei termini per l'esame degli atti comunali,
+                                    <lb />l'abolizione delle guarentigie per gli atti dei prefetti e dei
+                                    <lb />sindaci, le facilitazioni proposte per gli elettori ammini
+                                    <lb />strativi ed altre innovazioni di genere secondario. Muove
+                                    <lb />poi speciali lamenti nel vedere che anche col progetto ver
+                                    <lb />rebbe rilasciato ai Consigli comunali il compito di far da
+                                    <lb />legislatori, compilando speciali regolamenti municipali, e
+                                    <lb />mette in evidenza la confusione e gli imbarazzi che pro
+                                    <lb />vengono dall'esercizio di <distinct type="rare"><orig>consimili</orig><reg>simili</reg></distinct> facoltà.
+                                </ab>
+                                <ab facs="#p403_p5" xml:id="p403_par5" corresp="#c2_403">
+                                    <lb />Della innovazione portata dal progetto relativamente al
+                                    <lb />modo di elezione del sindaco l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> poco si preoccupa, giac
+                                    <lb />ché egli crede che <distinct type="rare" space="tuscany"><orig>cotesto</orig><reg>codesto</reg></distinct> in pratica porterà poca varia
+                                    <lb />zione nell'andamento degli affari comunali.
+                                </ab>
+                                <ab facs="#p403_p6" xml:id="p403_par6" corresp="#c2_403">
+                                    <lb />Senza dilungarci di più sull'esame di questo <ref target="#zini_bibl" resp="#leopasq">libretto</ref>,
+                                    <lb />che vorremmo letto con attenzione da coloro che trattano
+                                    <lb />con deplorevole leggerezza questa gran questione della li
+                                    <lb />bertà comunale, noi ci congratuliamo col suo <choice><abbr>A.</abbr><expan>Autore</expan></choice> per avere
+                                    <lb />così schiettamente esposte le sue convinzioni che di tanto
+                                    <lb />contraddicono la corrente delle idee che sono di moda in
+                                    <lb />questi giorni.
+                                </ab>
                             </div>
                             <div type="entrata_bibliografica" n="2" part="I">
-                                <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2">
+                                <head rend="align(center) case(allcaps)" facs="#p403_title_2" xml:id="pag403_title_2" corresp="#c2_403">
                                     <lb />Educazione pubblica. 
                                 </head>
-                                <ab facs="#p403_bibl_2" xml:id="pag403_bibl_2">                                    
+                                <ab facs="#p403_bibl_2" xml:id="pag403_bibl_2" corresp="#c2_403">                                    
                                     <bibl>
                                         <lb />
                                         <author>
@@ -1136,33 +1132,29 @@
                                         <date when="1878">1878</date>
                                     </bibl>
                                 </ab>
-                                <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I">
+                                <ab facs="#p403_p1_2" xml:id="p403_par1_2" part="I" corresp="#c2_403">
                                     <lb />In questo opuscolo l'<choice><abbr>A.</abbr><expan>Autore</expan></choice> si rallegra che la tanto desiderata
                                     <lb />e combattuta legge sull'istruzione obbligatoria sia entrata
                                     <lb />in porto, e pensa che eserciterà una notevole influenza sui
                                     <lb /><name type="org">Municipi</name> più restii a diffondere l'istruzione primaria come
                                 </ab>
                             </div>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
                         <pb n="3" facs="#p404" xml:id="pb404"/>
-                        <div type="column" n="1">
-                            <cb n="1" />
+                            <cb xml:id="c1_404" n="1" corresp="#pb404"/>
                             <div type="entrata_bibliografica" n="2" part="F">        
                                 
-                                <ab facs="#p404_p1" xml:id="p404_par1" part="F">
+                                <ab facs="#p404_p1" xml:id="p404_par1" part="F" corresp="#c1_404">
                                     <lb />e quando il bisogno richiede e potrà far rivolgere a questa
                                     <lb />i denari che talora si spendono male e inutilmente altrove.
                                 </ab>
-                                <ab facs="#p404_p2" xml:id="p404_par2">
+                                <ab facs="#p404_p2" xml:id="p404_par2" corresp="#c1_404">
                                     <lb />Osserva gli ostacoli che in pratica si opporranno al
                                     <lb />l'istruzione obbligatoria, e mostra che saranno maggiori
                                     <lb />nelle campagne per molte ragioni che sono state più volte
                                     <lb />ripetute, nè si nasconde che, salvo alcune eccezioni, è a te
                                     <lb />mersi la influenza dei parroci.
                                 </ab>
-                                <ab facs="#p404_p3" xml:id="p404_par3">
+                                <ab facs="#p404_p3" xml:id="p404_par3" corresp="#c1_404">
                                     <lb />Crediamo poi che egli abbia ragione di dire che ben
                                     <lb />poco è a sperarsi in un felice risultato, obbligando i fan
                                     <lb />ciulli alla scuola solo dai <num type="cardinal" value="6">6</num> ai <num type="cardinal" value="9">9</num> anni, perchè nelle campa
@@ -1179,7 +1171,7 @@
                                     <lb />altri la voterebbero per la loro famiglia. Così si otterrebbe
                                     <lb />una regolare e costante educazione.
                                 </ab>
-                                <ab facs="#p404_p4" xml:id="p404_par4">
+                                <ab facs="#p404_p4" xml:id="p404_par4" corresp="#c1_404">
                                     <lb />Conveniamo coll'<choice><abbr>A.</abbr><expan>Autore</expan></choice> sulla necessità che l'insegnamento
                                     <lb />sia molto semplice, e conveniamo pure in ciò che egli
                                     <lb />dice sulla miserrima condizione dei maestri. Anzi que
@@ -1192,15 +1184,13 @@
                                     <lb />buon esito dipende tutto dalle qualità di chi insegna!
                                 </ab>
                             </div>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
+                            <cb xml:id="c2_404" n="2" corresp="#pb404"/>
                             <div type="notizie"  org="uniform" sample="initial">
                                 <list rend="simple">
-                                    <head rend="align(center) case(allcaps)" facs="#p404_title" xml:id="pag404_title" >
+                                    <head rend="align(center) case(allcaps)" facs="#p404_title" xml:id="pag404_title" corresp="#c2_404">
                                         <lb />NOTIZIE 
                                     </head>
-                                    <item facs="#p404_n1" xml:id="p404_nws1">
+                                    <item facs="#p404_n1" xml:id="p404_nws1" corresp="#c2_404">
                                         <lb />Nel corso dell'estate prossima si pubblicherà dal <name type="org" ref="#barbera">Barbèra</name> a <name type="place" ref="#fi">Fi
                                         <lb />renze</name> un supplemento all'edizione <name type="org" ref="#lemon">Le Monnier</name> intitolato: <name type="bibl" rend="italic" ref="#app_leop">Appendice
                                         <lb />all'Epistolario ed agli scritti giovanili di Giacomo Leopardi</name>. L'<choice><abbr>A.</abbr><expan>Autore</expan></choice> <name type="person" ref="#viani">Pro
@@ -1208,7 +1198,7 @@
                                         <lb />membri dell' ultima generazione della <name type="persongrp" ref="#fam_leop">famiglia Leopardi</name> affidatagli per
                                         <lb />questo scopo dalla <name type="role">contessa</name><name type="person" ref="#cont_leop">Leopardi</name> vedova del <name type="role">conte</name> <name type="person" ref="#cont_carlo">Carlo</name>.
                                     </item>
-                                    <item facs="#p404_n2" xml:id="p404_nws2">
+                                    <item facs="#p404_n2" xml:id="p404_nws2" corresp="#c2_404">
                                         <lb />Fra poco usciranno presso lo stesso editore : <name type="bibl" rend="italic" ref="#avvocatura">L'Avvocatura</name>, Due
                                         <lb />discorsi di <name type="person" ref="#zanardelli">Giuseppe Zanardelli</name>. — <name type="bibl" rend="italic" ref="#sonetti_rom">Sonetti in dialetto romanesco</name> di <name type="person" ref="#ferretti">Luigi
                                         <lb />Ferretti</name>, scelti e pubblicati da <name type="person" ref="#morandi">Luigi Morandi</name>. — <name type="bibl" ref="#viaggi">I viaggi</name> di <name type="person" ref="#carletti">Francesco
@@ -1218,9 +1208,7 @@
                                 </list>
                             </div>
                         </div>
-                    </div>
                 </div>    
-        </div>
         </body>
         
         <back>
