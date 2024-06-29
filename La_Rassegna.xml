@@ -475,14 +475,12 @@
 
                 <!-- ARTICOLO 2 -->
                 <div type="article" n="2" xml:lang="it" source="#ART_2">
-                    <div type="page" n="1">
                         <pb n="1" facs="#p393" xml:id="pb393"/>
-                        <div type="column" n="2">
-                            <cb n="2"/>
-                            <head rend="align(center) case(allcaps)" facs="#p393_title" xml:id="par393_title">
+                            <cb xml:id="c2_393" n="2" corresp="#pb393"/>
+                            <head rend="align(center) case(allcaps)" facs="#p393_title" xml:id="par393_title" corresp="#c2_393">
                                 <lb />Le Religioni dell'Asia Orientale
                             </head>
-                            <ab facs="#p393_p1" xml:id="p393_par1">
+                            <ab facs="#p393_p1" xml:id="p393_par1" corresp="#c2_393">
                                 <lb />È venuto a luce da non molto un libro che è il <num type="ordinal" value="1">primo</num>
                                 <lb />del suo genere in <name type="place" ref="#it">Italia</name>, e risponde ad un vivo desiderio
                                 <lb />nostro.<ref type="bibliog" target="#puini78" >*</ref> Benché il soggetto, in quanto ha di più speciale,
@@ -515,7 +513,7 @@
                                 <lb />menti storici. Nei vari periodi di evoluzione del suo spirito,
                                 <lb />queste creature sue gli s'impongono sempre, e gli si pre
                             </ab>
-                            <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78">
+                            <ab type="bibliograghy" facs="#p393_bibl" xml:id="puini78" corresp="#c2_393">
                                 <bibl>
                                     <lb />*
                                     <author>
@@ -531,13 +529,9 @@
                                     <date when="1878">1878</date>
                                 </bibl>
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="2">
                         <pb n="2" facs="#p394" xml:id="pb394"/>
-                        <div type="column" n="1">
-                            <cb n="1" />
-                            <ab facs="#p394_p1" xml:id="p394_par1">
+                            <cb xml:id="c1_394" n="1" corresp="#pb394"/>
+                            <ab facs="#p394_p1" xml:id="p394_par1" corresp="#c1_394">
                                 <lb />sentano come problemi che hanno poi per soluzione una
                                 <lb />definizione nuova di una parola antica. Questo è avvenuto
                                 <lb />per molti nomi di gran significato, quali <term type="verbum" rend="italic">Dio</term>, <term type="verbum" rend="italic">anima</term>, <term type="verbum" rend="italic">vita</term>,
@@ -605,14 +599,12 @@
                                 <lb />semplice, chiaro ed onesto stile, fa onore alla lucida sere
                                 <lb />nità dell'ingegno italiano.
                             </ab>
-                            <ab facs="#p394_p2" xml:id="p394_par2" part="I">
+                            <ab facs="#p394_p2" xml:id="p394_par2" part="I" corresp="#c1_394">
                                 <lb />Il <roleName>professor</roleName> <name type="person" ref="#muller">Max Müller</name> ha pensato invero anch'egli a
                             </ab>
-                        </div>
-                        <div type="column" n="2">
-                            <cb n="2"/>
+                            <cb xml:id="c2_394" n="2" corresp="#pb394"/>
 
-                            <ab facs="#p394_p3" xml:id="p394_par3" part="F">
+                            <ab facs="#p394_p3" xml:id="p394_par3" part="F" corresp="#c2_394">
                                 <lb />basare sulla conoscenza dei fatti le idee della gente colta
                                 <lb />circa la religione e le sue forme varie, ed ha creduto che
                                 <lb />per questo di grande utilità riuscirebbe una raccolta dei
@@ -640,7 +632,7 @@
                                 <lb />non i <num type="cardinal">24</num> dei codici sacri; in ogni caso sarebbero una eccel
                                 <lb />lente preparazione per chi poi volesse studiare anche questi.
                             </ab>
-                            <ab facs="#p394_p4" xml:id="p394_par4" part="I">
+                            <ab facs="#p394_p4" xml:id="p394_par4" part="I" corresp="#c2_394">
                                 <lb />Le <num type="cardinal" value="3">tre</num> religioni a cui è principalmente consacrato il li
                                 <lb />bro del <name type="person" ref="#puini">Puini</name> sono del numero di quelle che sogliono di
                                 <lb />stinguersi col nome di positive; cioè fondate sull'autorità
@@ -682,14 +674,10 @@
                                 <lb />Greca. Uno dei segni della potenza dell'ingegno greco è que
                                 <lb />sto che la speculazione quantunque si spingesse fra i greci
                             </ab>
-                        </div>
-                    </div>
-                    <div type="page" n="3">
                         <pb n="3" facs="#p395" xml:id="pb395"/>
-                        <div type="column" n="1">
-                            <cb n="1"/>
+                            <cb xml:id="c1_395" n="1" corresp="#pb395"/>
 
-                            <ab facs="#p395_p4" xml:id="p395_par4" part="F">
+                            <ab facs="#p395_p4" xml:id="p395_par4" part="F" corresp="#c1_395">
                                 <lb />fino all'idea di <name type="god">Dio</name> e la purificasse e arrivasse a un concetto
                                 <lb />monoteistico ben diverso da quello offerto dalla religione
                                 <lb />nazionale, nondimeno rimase pura e razionale e laica sem
@@ -758,13 +746,11 @@
                                 <lb /><roleName type="honorific">prof</roleName> <name type="person" ref="#puini">Puini</name> ci addita alcuna speranza che sia mai per suo
                                 <lb />nare.
                             </ab>
-                            <closer facs="#p395_firm" xml:id="p395_author">
+                            <closer facs="#p395_firm" xml:id="p395_author" corresp="#c1_395">
                                 <signed rend="align(right) case(allcaps)">
                                     <name type="person" ref="#comparetti">Domenico Comparetti</name>
                                 </signed>
                             </closer>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- ARTICOLO 3 -->
